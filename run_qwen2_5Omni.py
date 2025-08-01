@@ -11,7 +11,7 @@ from tqdm import tqdm
 MAX_SAMPLE = -1
 MODEL_PATH = "Qwen/Qwen2.5-Omni-3B"
 model_name_for_file = "qwen2_5Omni_3b"
-SAKURA_DATA_DIR = "/home/u3937558/SAKURA/data"
+SAKURA_DATA_DIR = "/home/andrew99245/SAKURA_Reasoning/data"
 
 def inference(audio_path, prompt):
     messages = [
