@@ -10,7 +10,7 @@ from tqdm import tqdm
 MAX_SAMPLE = -1
 MODEL_PATH = "Qwen/Qwen2-Audio-7B-Instruct"
 model_name_for_file = "qwen2_audio_7b"
-SAKURA_DATA_DIR = "/home/anthony/SAKURA/data"
+SAKURA_DATA_DIR = "/home/andrew99245/SAKURA_Reasoning/data"
 
 def inference(audio_path, prompt):
 
@@ -54,7 +54,7 @@ if __name__ == "__main__":
     os.makedirs("./results", exist_ok=True)
 
     for subset in ["Animal", "Emotion", "Gender", "Language"]:
-        df = pd.read_csv(f"{SAKURA_DATA_DIR}/{subset}/metadata_tw.csv")
+        df = pd.read_csv(f"{SAKURA_DATA_DIR}/{subset}/metadata.csv")
         df.head()
 
         # Initialize the result saving path & object
