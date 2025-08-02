@@ -28,7 +28,7 @@ model = Qwen2AudioSLAForCausalLM.from_pretrained(
 processor = AutoProcessor.from_pretrained(model_name)
 
 # Enable SLA (γ=0.3, last 5 layers). Your SLA implementation runs inside forward/generate.
-model.enable_sla(gamma=0.2, w=4)
+model.enable_sla(gamma=0.0, w=5)
 
 # ---------------------
 # Helpers to build inputs
@@ -97,7 +97,7 @@ with torch.no_grad():
     vsv = vsv.to(model.device)                         # ensure same device as model
 
 # Inject VSV at decoder blocks (post-block residual; norm-preserving)
-lam = 0.0  # <-- tune this
+lam = 0.0  # VSV strength - tune between 0.1-0.17 as per VISTA paper
 add_vsv_layers(model, vsv=vsv, lam=lam, which_stack="decoder")
 
 # ---------------------
