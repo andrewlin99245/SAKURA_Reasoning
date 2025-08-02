@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from typing import List, Tuple
 from transformers import PreTrainedModel
 
-from llm_layers_audio import get_layers
+from llm_layer import get_layers
 
 """
 Audio-Language Model correspondence of steering_vector.py
@@ -30,7 +30,7 @@ class ForwardTracer:
     """
     def __init__(self, model: PreTrainedModel):
         self.model = model
-        self.layers = get_layers(model)  # ModuleList of blocks
+        self.layers = get_layers(model,which_stack='decoder')  # ModuleList of blocks
         self.trace = ForwardTrace(num_layers=len(self.layers))
         self._hooks = []
 

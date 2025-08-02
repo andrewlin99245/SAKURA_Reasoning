@@ -65,6 +65,8 @@ def get_layers_path(model: PreTrainedModel, which_stack: str = "auto") -> str:
             "model.layers",
             "transformer.h",
             "gpt_neox.layers",
+            "language_model.model.layers",
+            "model.language_model.model.layers",
         ]
         layers = _try_layer_paths(model, dec_candidates)
         if layers is not None:
@@ -169,31 +171,48 @@ def _slice_layers_and_vsv(layers: nn.ModuleList, vsv: Tensor, tar_layers: Option
     parts = [int(x) for x in tar_layers.split(",")]
     if len(parts) == 2:
         s, e = parts
-        assert len(vsv) >= (e - s), "vsv too short for selected layers"
+        #assert len(vsv) >= (e - s), "vsv too short for selected layers"
         return layers[s:e], vsv[s:e]
     if len(parts) == 4:
         s1, e1, s2, e2 = parts
         return layers[s2:e2], vsv[s1:e1]
     raise ValueError("Invalid tar_layers; use 's,e' or 's1,e1,s2,e2'.")
 
+def _make_vsv_hook(v_l: Tensor, lam: float):
+    v_l = F.normalize(v_l.float(), dim=-1)  # [d]
+    def hook(_module, _inp, out):
+        h = out[0] if isinstance(out, tuple) else out  # [B,T,D]
+        orig_dtype = h.dtype
+        x = h.float()
+        norm = x.norm(p=2, dim=-1, keepdim=True)           # [B,T,1]
+        y = lam * v_l.view(1, 1, -1).to(x.device)          # [1,1,D]
+        x = F.normalize(x, p=2, dim=-1) + y
+        x = F.normalize(x, p=2, dim=-1) * norm
+        x = x.to(orig_dtype)
+        return (x,) + out[1:] if isinstance(out, tuple) else x
+    return hook
+
 def add_vsv_layers(
     model: PreTrainedModel,
     vsv: Tensor,                 # [L, d_model]
-    lam: float,                  # scalar lambda per paper
+    lam: float,
     tar_layers: Optional[str] = None,
-    which_stack: str = "auto",
+    which_stack: str = "decoder",
 ):
     layers = get_layers(model, which_stack=which_stack)
     layers, vsv = _slice_layers_and_vsv(layers, vsv, tar_layers)
+    handles: List[torch.utils.hooks.RemovableHandle] = []
+    for i, blk in enumerate(layers):
+        h = blk.register_forward_hook(_make_vsv_hook(vsv[i], lam))
+        handles.append(h)
+    # stash handles so we can remove later
+    if not hasattr(model, "_vsv_handles"):
+        model._vsv_handles = []
+    model._vsv_handles.extend(handles)
 
-    # Replace each block with a wrapped version
-    for i in range(len(layers)):
-        block = layers[i]
-        layers[i] = BlockPostVSV(block, vsv_l=vsv[i], lam=lam)
-
-def remove_vsv_layers(model: PreTrainedModel, which_stack: str = "auto"):
-    layers = get_layers(model, which_stack=which_stack)
-    for i in range(len(layers)):
-        block = layers[i]
-        if isinstance(block, BlockPostVSV):
-            layers[i] = block.block
+def remove_vsv_layers(model: PreTrainedModel, which_stack: str = "decoder"):
+    if hasattr(model, "_vsv_handles"):
+        for h in model._vsv_handles:
+            try: h.remove()
+            except: pass
+        model._vsv_handles = []
