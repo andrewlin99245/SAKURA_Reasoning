@@ -123,12 +123,18 @@ class VSVLayer(nn.Module):
             return x
         orig_dtype = x.dtype
         x = x.float()
+        
+        # Store original norm for each token (VISTA Eq. 6)
         original_norm = torch.norm(x, p=2, dim=-1, keepdim=True)  # [B, T, 1]
-        # Normalize both hidden and vsv, then add scaled direction
-        v = torch.nn.functional.normalize(self.vsv_l, dim=-1)     # [d]
-        y = self.lam * v.view(1, 1, -1)                            # [1,1,d] -> broadcast
-        x = torch.nn.functional.normalize(x, p=2, dim=-1) + y      # add direction
-        x = torch.nn.functional.normalize(x, p=2, dim=-1) * original_norm  # restore original norm
+        
+        # VISTA Eq. 5: h_tilde = h + λ * v_steer
+        # Note: vsv_l is NOT pre-normalized, following paper exactly
+        v = self.vsv_l.view(1, 1, -1)                              # [1,1,d] for broadcasting
+        x = x + self.lam * v                                       # [B,T,d] + [1,1,d] -> [B,T,d]
+        
+        # VISTA Eq. 6: normalize to preserve original norm magnitude
+        x = torch.nn.functional.normalize(x, p=2, dim=-1) * original_norm
+        
         return x.to(orig_dtype)
 
 # ---------------------------
@@ -179,15 +185,27 @@ def _slice_layers_and_vsv(layers: nn.ModuleList, vsv: Tensor, tar_layers: Option
     raise ValueError("Invalid tar_layers; use 's,e' or 's1,e1,s2,e2'.")
 
 def _make_vsv_hook(v_l: Tensor, lam: float):
-    v_l = F.normalize(v_l.float(), dim=-1)  # [d]
+    """
+    Creates a hook that implements VISTA Eq. 5-6 correctly:
+    - Eq. 5: h_tilde = h + λ * v_steer  
+    - Eq. 6: normalize to preserve original norm
+    """
     def hook(_module, _inp, out):
         h = out[0] if isinstance(out, tuple) else out  # [B,T,D]
         orig_dtype = h.dtype
         x = h.float()
-        norm = x.norm(p=2, dim=-1, keepdim=True)           # [B,T,1]
-        y = lam * v_l.view(1, 1, -1).to(x.device)          # [1,1,D]
-        x = F.normalize(x, p=2, dim=-1) + y
+        
+        # Store original norm for each token (VISTA Eq. 6 preparation)
+        norm = x.norm(p=2, dim=-1, keepdim=True)       # [B,T,1]
+        
+        # VISTA Eq. 5: h_tilde = h + λ * v_steer
+        # Note: v_l is NOT pre-normalized, as per paper
+        y = lam * v_l.view(1, 1, -1).to(x.device)      # [1,1,D] broadcast to [B,T,D]
+        x = x + y
+        
+        # VISTA Eq. 6: normalize to preserve original norm magnitude
         x = F.normalize(x, p=2, dim=-1) * norm
+        
         x = x.to(orig_dtype)
         return (x,) + out[1:] if isinstance(out, tuple) else x
     return hook
