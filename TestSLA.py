@@ -3,6 +3,9 @@ from transformers import AutoProcessor
 from Qwen2Audio_patch import Qwen2AudioSLAForCausalLM
 from transformers.models.qwen2_audio.configuration_qwen2_audio import Qwen2AudioConfig
 import librosa
+from steering_vector import obtain_vsv
+from llm_layers import add_vsv_layers, remove_vsv_layers
+
 model_name = "Qwen/Qwen2-Audio-7B-Instruct"
 config = Qwen2AudioConfig.from_pretrained(model_name)
 model = Qwen2AudioSLAForCausalLM.from_pretrained(
