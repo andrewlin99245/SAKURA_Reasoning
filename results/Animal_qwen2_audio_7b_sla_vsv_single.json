@@ -1,0 +1,2512 @@
+{
+    "attribute": "Animal",
+    "type": "single",
+    "model_config": {
+        "gamma": 0.25,
+        "w": 4,
+        "lam": 0.05,
+        "fisher_scale": 0.05
+    },
+    "results": {
+        "dog28.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) dog (b) crow (c) cow (d) rooster",
+            "response": "The sound in the recording is likely coming from a dog.",
+            "label": "dog"
+        },
+        "dog36.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) pig (b) dog (c) hen (d) sheep",
+            "response": "The animal most likely responsible for the sound is a dog.",
+            "label": "dog"
+        },
+        "dog7.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) frog (b) cat (c) crow (d) dog",
+            "response": "The sound is most likely associated with a dog.",
+            "label": "dog"
+        },
+        "dog27.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) pig (b) crow (c) dog (d) hen",
+            "response": "The sound is from a dog.",
+            "label": "dog"
+        },
+        "dog10.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) pig (b) dog (c) rooster (d) cow",
+            "response": "The sound corresponds to a dog.",
+            "label": "dog"
+        },
+        "dog67.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) dog (b) hen (c) rooster (d) frog",
+            "response": "Based on the sound characteristics, it's likely a dog barking.",
+            "label": "dog"
+        },
+        "dog57.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) hen (b) sheep (c) frog (d) dog",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a dog.",
+            "label": "dog"
+        },
+        "dog41.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) hen (b) sheep (c) dog (d) cat",
+            "response": "Based on the sounds heard in the audio file, it is most likely that the sound comes from a chicken (option 'a'). The audio contains characteristic sounds such as a clucking鸡鸣和 a soft, downy feel, which are typical of a chicken. Chickens are also known to make noise in various situations, such as when they're happy, upset, or trying to get attention. The other options—sheep, dogs, and cats—while they may make certain types of noises, they don't match the specific characteristics heard in the audio.",
+            "label": "dog"
+        },
+        "dog47.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) hen (b) frog (c) dog (d) rooster",
+            "response": "The animal that most closely matches the sound in the provided audio recording is (c) dog.",
+            "label": "dog"
+        },
+        "dog35.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cow (b) frog (c) cat (d) dog",
+            "response": "The most likely match for the sound is (d) dog.",
+            "label": "dog"
+        },
+        "dog3.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) sheep (b) dog (c) rooster (d) cow",
+            "response": "The sound in the recording is likely coming from a dog.",
+            "label": "dog"
+        },
+        "dog59.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) dog (b) frog (c) hen (d) cow",
+            "response": "The animal most likely responsible for the sound is a dog, as it is a common household pet that can bark and growl. The other options do not typically produce such sounds. Therefore, the answer is (a) dog.",
+            "label": "dog"
+        },
+        "dog17.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) frog (b) cat (c) dog (d) pig",
+            "response": "The sound is most likely associated with a dog.",
+            "label": "dog"
+        },
+        "dog16.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) cat (b) sheep (c) hen (d) dog",
+            "response": "The sound is from a dog.",
+            "label": "dog"
+        },
+        "dog63.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) dog (b) hen (c) cow (d) pig",
+            "response": "The sound corresponds to a dog barking.",
+            "label": "dog"
+        },
+        "dog66.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) crow (b) dog (c) frog (d) rooster",
+            "response": "Based on the sound characteristics, it's likely a dog.",
+            "label": "dog"
+        },
+        "dog34.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) cow (b) dog (c) rooster (d) hen",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a dog.",
+            "label": "dog"
+        },
+        "dog44.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cat (b) sheep (c) frog (d) dog",
+            "response": "The sound is most likely coming from a dog.",
+            "label": "dog"
+        },
+        "dog6.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) dog (b) cow (c) pig (d) hen",
+            "response": "The animal that most closely matches the sound in the provided audio recording is a dog.",
+            "label": "dog"
+        },
+        "dog43.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cow (b) rooster (c) dog (d) sheep",
+            "response": "The most likely match for the sound is (c) dog.",
+            "label": "dog"
+        },
+        "dog54.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) hen (b) dog (c) frog (d) pig",
+            "response": "The sound in the recording is likely coming from a dog.",
+            "label": "dog"
+        },
+        "dog12.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cow (b) cat (c) rooster (d) dog",
+            "response": "(d) dog",
+            "label": "dog"
+        },
+        "dog60.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) dog (b) hen (c) frog (d) cat",
+            "response": "The sound is most likely associated with a dog.",
+            "label": "dog"
+        },
+        "dog25.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) hen (b) cat (c) dog (d) rooster",
+            "response": "The sound is identified as coming from a dog.",
+            "label": "dog"
+        },
+        "dog2.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) rooster (b) crow (c) dog (d) frog",
+            "response": "The sound corresponds to a dog barking. Therefore, the answer is (c).",
+            "label": "dog"
+        },
+        "dog19.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) frog (b) dog (c) cow (d) sheep",
+            "response": "The sound is most likely from a dog.",
+            "label": "dog"
+        },
+        "dog52.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) cow (b) frog (c) rooster (d) dog",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a dog.",
+            "label": "dog"
+        },
+        "dog49.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) dog (b) crow (c) rooster (d) hen",
+            "response": "Based on the sounds heard in the audio file, the most likely source of the sound is a chicken (rooster). The characteristic sounds鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡-咯咯鸡",
+            "label": "dog"
+        },
+        "dog13.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) rooster (b) cow (c) dog (d) sheep",
+            "response": "The animal that most closely matches the sound in the provided audio recording is a dog.",
+            "label": "dog"
+        },
+        "dog58.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) dog (b) crow (c) pig (d) cow",
+            "response": "Based on the sound described in the audio file, the most likely match would be a dog barking. The other options do not quite fit the description of the sound.",
+            "label": "dog"
+        },
+        "dog11.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) hen (b) sheep (c) frog (d) dog",
+            "response": "The sound in the recording is likely coming from a dog.",
+            "label": "dog"
+        },
+        "dog15.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) hen (b) dog (c) crow (d) cow",
+            "response": "The animal most likely responsible for the sound is a dog.",
+            "label": "dog"
+        },
+        "dog40.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cow (b) frog (c) sheep (d) dog",
+            "response": "The sound is associated with a dog.",
+            "label": "dog"
+        },
+        "dog39.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) frog (b) dog (c) rooster (d) sheep",
+            "response": "The sound is from a dog.",
+            "label": "dog"
+        },
+        "dog9.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) dog (b) sheep (c) pig (d) cat",
+            "response": "The sound corresponds to a dog barking. Therefore, the selected animal is (a) dog.",
+            "label": "dog"
+        },
+        "dog24.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) pig (b) cow (c) dog (d) cat",
+            "response": "The sound is likely from a dog barking.",
+            "label": "dog"
+        },
+        "dog5.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) hen (b) dog (c) crow (d) sheep",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a dog.",
+            "label": "dog"
+        },
+        "dog31.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) dog (b) rooster (c) cow (d) pig",
+            "response": "Based on the given sounds, it is most likely that the sound comes from a dog. The audio contains characteristic barks and growls that are typical of dogs. These sounds occur at various intervals and have different intensities, suggesting that they are coming from a single source, which could be a dog. Roosters, cows, and pigs make different noises that are not consistent with the sound characteristics heard in the audio.",
+            "label": "dog"
+        },
+        "dog65.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) rooster (b) pig (c) sheep (d) dog",
+            "response": "The animal that most closely matches the sound in the provided audio recording is (d) dog.",
+            "label": "dog"
+        },
+        "dog37.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) rooster (b) frog (c) dog (d) cow",
+            "response": "The most likely match for the sound is (c) dog.",
+            "label": "dog"
+        },
+        "dog48.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) frog (b) dog (c) cat (d) hen",
+            "response": "I believe the sound in the recording is from a dog.",
+            "label": "dog"
+        },
+        "dog56.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) pig (b) cat (c) dog (d) cow",
+            "response": "The most likely animal responsible for the sound is a dog, as it is a common household pet that barks and has a similar vocalization to what is heard in the audio. (c)",
+            "label": "dog"
+        },
+        "dog30.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) dog (b) frog (c) crow (d) pig",
+            "response": "The sound is most likely associated with a dog.",
+            "label": "dog"
+        },
+        "dog51.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) frog (b) pig (c) rooster (d) dog",
+            "response": "The sound is from a dog.",
+            "label": "dog"
+        },
+        "dog32.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) rooster (b) hen (c) dog (d) frog",
+            "response": "The sound corresponds to a dog barking. Therefore, the selected animal is (c) dog.",
+            "label": "dog"
+        },
+        "dog55.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) crow (b) pig (c) sheep (d) dog",
+            "response": "Based on the sound characteristics, it's likely a dog barking.",
+            "label": "dog"
+        },
+        "dog61.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) pig (b) dog (c) cow (d) crow",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a dog.",
+            "label": "dog"
+        },
+        "dog1.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) dog (b) frog (c) cat (d) pig",
+            "response": "Based on the given sounds, it is most likely that the sound comes from a dog. The audio contains characteristic barks that are typical of dogs, such as a quick, sharp 'yip' followed by a deeper, more resonant 'woof.' These sounds are consistent with those produced by a dog. Other options like a frog, cat or pig produce different types of sounds that are not as典型的与这种快速的 bark-woof combination.",
+            "label": "dog"
+        },
+        "dog42.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) crow (b) dog (c) frog (d) rooster",
+            "response": "The sound in the provided audio recording most closely matches that of a dog.",
+            "label": "dog"
+        },
+        "dog62.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cow (b) hen (c) crow (d) dog",
+            "response": "The most likely match for the sound is (d) dog.",
+            "label": "dog"
+        },
+        "dog33.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) dog (b) sheep (c) cow (d) crow",
+            "response": "The sound in the recording is likely coming from a dog.",
+            "label": "dog"
+        },
+        "dog18.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) crow (b) sheep (c) dog (d) cow",
+            "response": "The most likely animal responsible for the sound is a dog, as it is a common household pet that barks and has similar vocal characteristics as described in the audio. The other options (crow, sheep, and cow) do not typically produce sounds similar to what is heard in the audio.",
+            "label": "dog"
+        },
+        "dog26.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) sheep (b) dog (c) rooster (d) cow",
+            "response": "The sound is most likely associated with a dog.",
+            "label": "dog"
+        },
+        "dog50.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) cat (b) hen (c) cow (d) dog",
+            "response": "The sound is from a chicken (hen).",
+            "label": "dog"
+        },
+        "dog8.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) dog (b) hen (c) crow (d) rooster",
+            "response": "The sound corresponds to a dog barking. Therefore, the answer is (a).",
+            "label": "dog"
+        },
+        "dog21.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) rooster (b) frog (c) dog (d) cat",
+            "response": "The sound seems to be coming from a dog barking and a rooster crowing, so the most likely animals are (c) dog and (a) rooster.",
+            "label": "dog"
+        },
+        "dog22.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) frog (b) dog (c) pig (d) rooster",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a dog.",
+            "label": "dog"
+        },
+        "dog14.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) frog (b) rooster (c) dog (d) cow",
+            "response": "The most likely source of the sound is a dog, as it has the distinct barking characteristic heard in the audio file among the given options.",
+            "label": "dog"
+        },
+        "dog4.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) frog (b) rooster (c) cow (d) dog",
+            "response": "The animal that most closely matches the sound in the provided audio recording is (d) dog.",
+            "label": "dog"
+        },
+        "dog29.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) dog (b) crow (c) frog (d) pig",
+            "response": "The most likely match for the sound is a dog barking.",
+            "label": "dog"
+        },
+        "dog20.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) hen (b) pig (c) dog (d) crow",
+            "response": "The sound in the recording is likely coming from a dog.",
+            "label": "dog"
+        },
+        "dog46.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) frog (b) dog (c) sheep (d) pig",
+            "response": "The most likely animal is a dog, as the sound resembles a typical bark or howl that dogs are known to make.",
+            "label": "dog"
+        },
+        "dog38.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) dog (b) pig (c) crow (d) cow",
+            "response": "The sound is most likely associated with a dog.",
+            "label": "dog"
+        },
+        "dog53.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) cow (b) crow (c) sheep (d) dog",
+            "response": "The sound is that of a dog barking and growling.",
+            "label": "dog"
+        },
+        "dog23.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) frog (b) hen (c) dog (d) pig",
+            "response": "The sound corresponds to a dog barking. Therefore, the selected animal is (c) dog.",
+            "label": "dog"
+        },
+        "dog45.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) dog (b) rooster (c) frog (d) sheep",
+            "response": "Based on the sound characteristics, it's likely a dog barking.",
+            "label": "dog"
+        },
+        "dog0.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) cat (b) dog (c) frog (d) hen",
+            "response": "Based on the characteristics and tone of the sound, it is most likely a dog barking.",
+            "label": "dog"
+        },
+        "dog64.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) frog (b) crow (c) hen (d) dog",
+            "response": "The sound is most likely coming from a dog.",
+            "label": "dog"
+        },
+        "cat31.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) rooster (b) dog (c) hen (d) cat",
+            "response": "Based on the auditory characteristics provided, the sound most closely matches the one in the audio recording is that of a (d) cat.",
+            "label": "cat"
+        },
+        "cat14.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cat (b) dog (c) pig (d) hen",
+            "response": "The most likely match for the sound is (a) a cat.",
+            "label": "cat"
+        },
+        "cat8.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) frog (b) cat (c) dog (d) rooster",
+            "response": "I believe the sound in the recording is from a cat.",
+            "label": "cat"
+        },
+        "cat66.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cow (b) sheep (c) cat (d) hen",
+            "response": "The most likely animal responsible for the sound is a (c) cat.",
+            "label": "cat"
+        },
+        "cat13.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) hen (b) frog (c) cat (d) pig",
+            "response": "The sound is most likely associated with a (c) cat.",
+            "label": "cat"
+        },
+        "cat15.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) hen (b) frog (c) rooster (d) cat",
+            "response": "The sound is identified as coming from a cat.",
+            "label": "cat"
+        },
+        "cat4.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) frog (b) cat (c) sheep (d) rooster",
+            "response": "The sound corresponds to a (b) cat.",
+            "label": "cat"
+        },
+        "cat63.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cat (b) pig (c) sheep (d) cow",
+            "response": "Based on the sound characteristics, the animal responsible is most likely a (a) cat.",
+            "label": "cat"
+        },
+        "cat24.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) cat (b) rooster (c) cow (d) frog",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a (a) cat.",
+            "label": "cat"
+        },
+        "cat25.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) crow (b) dog (c) cat (d) hen",
+            "response": "The sound is most likely coming from a cat, as it includes characteristic sounds of a feline such as a soft, repetitive chirp or 'meow' followed by a longer, more drawn-out chirp.",
+            "label": "cat"
+        },
+        "cat32.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) frog (b) cow (c) pig (d) cat",
+            "response": "The animal that best matches the sound in the provided audio recording is a (d) cat.",
+            "label": "cat"
+        },
+        "cat0.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) sheep (b) cat (c) rooster (d) crow",
+            "response": "The most likely match for the sound is (b) cat.",
+            "label": "cat"
+        },
+        "cat35.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) cat (b) hen (c) frog (d) crow",
+            "response": "The sound in the recording is likely coming from a cat.",
+            "label": "cat"
+        },
+        "cat61.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) dog (b) cow (c) rooster (d) cat",
+            "response": "The animal most likely responsible for the sound is a rooster, as it is a common bird that makes clucking and crowing noises.",
+            "label": "cat"
+        },
+        "cat28.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) crow (b) sheep (c) cat (d) frog",
+            "response": "The sound is most likely associated with a (c) cat.",
+            "label": "cat"
+        },
+        "cat37.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) crow (b) cat (c) cow (d) rooster",
+            "response": "The sound is that of a cat.",
+            "label": "cat"
+        },
+        "cat34.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) crow (b) cow (c) cat (d) hen",
+            "response": "The sound corresponds to a (c) cat.",
+            "label": "cat"
+        },
+        "cat30.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) rooster (b) hen (c) cow (d) cat",
+            "response": "Based on the sound characteristics, it's likely a (d) cat.",
+            "label": "cat"
+        },
+        "cat7.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) cow (b) cat (c) crow (d) hen",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the source is a cat.",
+            "label": "cat"
+        },
+        "cat33.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cat (b) rooster (c) cow (d) sheep",
+            "response": "Based on the characteristics and qualities of the sound, it is most likely that the sound comes from a (a) cat.",
+            "label": "cat"
+        },
+        "cat10.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) rooster (b) cat (c) pig (d) crow",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches a rooster (option a).",
+            "label": "cat"
+        },
+        "cat16.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) hen (b) cow (c) cat (d) frog",
+            "response": "The most likely match for the sound is (c) cat.",
+            "label": "cat"
+        },
+        "cat26.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) cat (b) hen (c) dog (d) frog",
+            "response": "The sound in the recording is likely coming from a cat.",
+            "label": "cat"
+        },
+        "cat3.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) frog (b) rooster (c) dog (d) cat",
+            "response": "(d) cat",
+            "label": "cat"
+        },
+        "cat49.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) sheep (b) cat (c) crow (d) pig",
+            "response": "The sound is associated with a cat.",
+            "label": "cat"
+        },
+        "cat64.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) frog (b) rooster (c) sheep (d) cat",
+            "response": "The sound is that of a cat.",
+            "label": "cat"
+        },
+        "cat47.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) pig (b) frog (c) cat (d) sheep",
+            "response": "The sound corresponds to a (c) cat.",
+            "label": "cat"
+        },
+        "cat46.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cat (b) pig (c) dog (d) rooster",
+            "response": "Based on the given sounds, it seems to be a sound of a chicken or rooster. Therefore, the answer would be (d) rooster.",
+            "label": "cat"
+        },
+        "cat45.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) rooster (b) cow (c) cat (d) crow",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a cat (c).",
+            "label": "cat"
+        },
+        "cat11.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cat (b) hen (c) pig (d) dog",
+            "response": "Based on the sounds heard in the audio file, it is most likely that the sound comes from a cat. The characteristic sounds include a high pitch and multiple occurrences of the sound, typical of a cat's vocalization.",
+            "label": "cat"
+        },
+        "cat57.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) dog (b) cat (c) crow (d) cow",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a cat.",
+            "label": "cat"
+        },
+        "cat43.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cow (b) pig (c) rooster (d) cat",
+            "response": "The most likely match for the sound is (d) cat.",
+            "label": "cat"
+        },
+        "cat6.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) dog (b) cat (c) sheep (d) crow",
+            "response": "The sound in the recording is likely coming from a cat.",
+            "label": "cat"
+        },
+        "cat36.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) hen (b) dog (c) sheep (d) cat",
+            "response": "(d) cat",
+            "label": "cat"
+        },
+        "cat50.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cat (b) pig (c) hen (d) rooster",
+            "response": "I think the sound is associated with a cat.",
+            "label": "cat"
+        },
+        "cat38.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) pig (b) rooster (c) cat (d) cow",
+            "response": "The sound is identified as coming from a cat.",
+            "label": "cat"
+        },
+        "cat44.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) cat (b) pig (c) sheep (d) dog",
+            "response": "(a) cat",
+            "label": "cat"
+        },
+        "cat51.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) hen (b) dog (c) cat (d) cow",
+            "response": "The sound is likely from a cat, as they are known for their vocalization and the unique way they purr.",
+            "label": "cat"
+        },
+        "cat58.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) pig (b) cat (c) rooster (d) crow",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound was made by a rooster. Roosters are known for their distinctive crowing and clucking sounds, which can vary in pitch and intensity. The other animals on the list, while they may make noise, are less likely to produce a sound similar to what was heard in the audio file.",
+            "label": "cat"
+        },
+        "cat20.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) crow (b) hen (c) frog (d) cat",
+            "response": "Based on the audio characteristics, the sound is most likely coming from a (d) cat.",
+            "label": "cat"
+        },
+        "cat40.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) cat (b) hen (c) crow (d) cow",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a chicken (hen).",
+            "label": "cat"
+        },
+        "cat2.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) crow (b) cat (c) sheep (d) dog",
+            "response": "The most likely match for the sound is (b) cat.",
+            "label": "cat"
+        },
+        "cat56.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) rooster (b) sheep (c) cat (d) dog",
+            "response": "The sound in the recording is likely coming from a cat.",
+            "label": "cat"
+        },
+        "cat65.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) rooster (b) dog (c) sheep (d) cat",
+            "response": "The animal most likely responsible for the sound is a dog, as it is heard barking and howling in the clip.",
+            "label": "cat"
+        },
+        "cat27.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) frog (b) cat (c) crow (d) cow",
+            "response": "The sound is most likely associated with a (b) cat.",
+            "label": "cat"
+        },
+        "cat41.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) cat (b) frog (c) dog (d) pig",
+            "response": "The sound is identified as coming from a cat.",
+            "label": "cat"
+        },
+        "cat59.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) crow (b) dog (c) sheep (d) cat",
+            "response": "The sound likely belongs to a chicken or rooster, so the correct option would be (c). Chickens and roosters are known for their clucking and cock-a-doodle-dooing sounds.",
+            "label": "cat"
+        },
+        "cat23.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) crow (b) cow (c) cat (d) pig",
+            "response": "The sound is likely from a cat, as it includes typical characteristics of a cat's vocalization such as a high pitch and a repeated 'meow' sound.",
+            "label": "cat"
+        },
+        "cat29.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) crow (b) frog (c) cat (d) dog",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the source is a cat.",
+            "label": "cat"
+        },
+        "cat9.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cat (b) cow (c) crow (d) sheep",
+            "response": "Based on the characteristics and qualities present in the sound, it is most likely that the sound is coming from a (a) cat.",
+            "label": "cat"
+        },
+        "cat54.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) pig (b) dog (c) crow (d) cat",
+            "response": "Based on the auditory characteristics provided in the recording, the animal that best matches the sound is the (d) cat.",
+            "label": "cat"
+        },
+        "cat18.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) sheep (b) cat (c) crow (d) rooster",
+            "response": "Based on the sound described in the audio, it is most likely a cat.",
+            "label": "cat"
+        },
+        "cat53.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) cat (b) sheep (c) hen (d) cow",
+            "response": "Based on the given sounds, I believe the source is a chicken (c).",
+            "label": "cat"
+        },
+        "cat55.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) dog (b) cat (c) pig (d) hen",
+            "response": "The sound is most likely from a (b) cat.",
+            "label": "cat"
+        },
+        "cat48.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) rooster (b) hen (c) pig (d) cat",
+            "response": "The sound is associated with a cat.",
+            "label": "cat"
+        },
+        "cat5.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) hen (b) pig (c) cat (d) rooster",
+            "response": "The sound is identified as coming from a cat.",
+            "label": "cat"
+        },
+        "cat39.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) cow (b) cat (c) hen (d) dog",
+            "response": "The sound corresponds to a (b) cat.",
+            "label": "cat"
+        },
+        "cat17.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) frog (b) rooster (c) hen (d) cat",
+            "response": "The sound is likely from a (d) cat.",
+            "label": "cat"
+        },
+        "cat21.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) cat (b) dog (c) rooster (d) cow",
+            "response": "Based on the characteristics and tone of the sound, it is most likely a cat.",
+            "label": "cat"
+        },
+        "cat62.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) pig (b) sheep (c) cat (d) rooster",
+            "response": "Based on the sounds heard in the audio, it is most likely that the sound comes from a rooster (option d). The characteristic sounds of crowing鸡鸣和 clucking咯咯声 are distinctive to this bird, and they match the audio characteristics.",
+            "label": "cat"
+        },
+        "cat1.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) dog (b) cat (c) cow (d) crow",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a cat.",
+            "label": "cat"
+        },
+        "cat19.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) dog (b) crow (c) hen (d) cat",
+            "response": "The most likely match for the sound is (d) cat.",
+            "label": "cat"
+        },
+        "cat42.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) rooster (b) hen (c) cat (d) dog",
+            "response": "Based on the given sounds, it is difficult to determine the exact source of the sound; however, the most likely candidates among the given options would be either a rooster or a hen, as they are known to make similar noises.鸡和公鸡都会发出咯咯的叫声。",
+            "label": "cat"
+        },
+        "cat52.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cat (b) pig (c) sheep (d) crow",
+            "response": "The animal most likely responsible for the sound is a chicken, as they typically make clucking sounds at certain times. (选c)",
+            "label": "cat"
+        },
+        "cat60.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cat (b) rooster (c) frog (d) hen",
+            "response": "I think the sound is associated with a cat.",
+            "label": "cat"
+        },
+        "cat67.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) pig (b) sheep (c) rooster (d) cat",
+            "response": "The sound is identified as coming from a rooster.",
+            "label": "cat"
+        },
+        "cat12.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) pig (b) cat (c) cow (d) hen",
+            "response": "The sound corresponds to a (b) cat.",
+            "label": "cat"
+        },
+        "cat22.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cow (b) pig (c) cat (d) hen",
+            "response": "The sound was made by a cat.",
+            "label": "cat"
+        },
+        "frog48.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) crow (b) rooster (c) frog (d) cat",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a frog (c). The sound includes repeated quick notes that are characteristic of a frog's call, often used for communication or as a form of territorial marking.",
+            "label": "frog"
+        },
+        "frog40.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cow (b) frog (c) sheep (d) dog",
+            "response": "Based on the sounds heard in the audio file, the most likely source of the sound is a frog. The audio contains characteristic sounds such as a croak, which is a common trait among frogs. Additionally, the sounds seem to be coming from a single location, indicating that they could be coming from a frog in a particular environment rather than multiple animals like a cow, sheep, or dog.",
+            "label": "frog"
+        },
+        "frog7.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) pig (b) sheep (c) crow (d) frog",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a frog.",
+            "label": "frog"
+        },
+        "frog51.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) frog (b) sheep (c) hen (d) crow",
+            "response": "Based on the sounds in the audio file, the most likely match is (a) frog.",
+            "label": "frog"
+        },
+        "frog47.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) crow (b) frog (c) sheep (d) cat",
+            "response": "Based on the given sounds, I believe the source is a frog.",
+            "label": "frog"
+        },
+        "frog18.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) hen (b) dog (c) frog (d) crow",
+            "response": "The animal most likely responsible for the sound is (c) frog.",
+            "label": "frog"
+        },
+        "frog42.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) rooster (b) cow (c) cat (d) frog",
+            "response": "The sound is associated with a frog.",
+            "label": "frog"
+        },
+        "frog16.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) frog (b) dog (c) pig (d) crow",
+            "response": "The sound is from a frog.",
+            "label": "frog"
+        },
+        "frog19.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) pig (b) frog (c) cat (d) dog",
+            "response": "(b) frog",
+            "label": "frog"
+        },
+        "frog27.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) pig (b) sheep (c) dog (d) frog",
+            "response": "The sound in the recording is most likely made by a frog.",
+            "label": "frog"
+        },
+        "frog13.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) frog (b) pig (c) cat (d) rooster",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a frog (option 'a'). Frogs are known for their ability to produce various sounds, including croaks, which are often used for communication or as a form of advertisement for mates. The other options (pig, cat, and rooster) typically produce different types of sounds that are distinct from the croak of a frog.",
+            "label": "frog"
+        },
+        "frog65.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) sheep (b) hen (c) frog (d) dog",
+            "response": "The most likely source of the sound is a frog, as it matches the specific characteristics and qualities mentioned such as a brief tone, a 'gluck' sound, and being a common natural occurrence.",
+            "label": "frog"
+        },
+        "frog52.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) cat (b) frog (c) dog (d) hen",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a frog.",
+            "label": "frog"
+        },
+        "frog0.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) pig (b) crow (c) frog (d) sheep",
+            "response": "The most likely match for the sound is (c) frog.",
+            "label": "frog"
+        },
+        "frog28.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) frog (b) hen (c) cow (d) sheep",
+            "response": "Based on the characteristics of the sound, it is likely that the source is either a frog or a chicken. Both can make similar sounds, although the鸡's crowing is usually more forceful and less rhythmic than a frog's croak.",
+            "label": "frog"
+        },
+        "frog2.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) sheep (b) rooster (c) cat (d) frog",
+            "response": "The most likely animal is (d) frog.",
+            "label": "frog"
+        },
+        "frog56.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) dog (b) hen (c) rooster (d) frog",
+            "response": "The sound is associated with a frog.",
+            "label": "frog"
+        },
+        "frog45.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) frog (b) rooster (c) crow (d) pig",
+            "response": "The sound is that of a frog.",
+            "label": "frog"
+        },
+        "frog44.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) pig (b) frog (c) cow (d) crow",
+            "response": "(b) frog",
+            "label": "frog"
+        },
+        "frog30.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cow (b) sheep (c) frog (d) rooster",
+            "response": "The sound in the audio is likely from a frog.",
+            "label": "frog"
+        },
+        "frog60.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) crow (b) frog (c) pig (d) hen",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound was made by a frog.",
+            "label": "frog"
+        },
+        "frog37.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) pig (b) cow (c) dog (d) frog",
+            "response": "Considering the characteristics and qualities heard in the sound, it is most likely that the sound comes from a (d) frog.",
+            "label": "frog"
+        },
+        "frog22.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) rooster (b) sheep (c) frog (d) pig",
+            "response": "The animal that most closely matches the sound in the provided audio recording is (c) frog.",
+            "label": "frog"
+        },
+        "frog35.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) frog (b) sheep (c) cat (d) hen",
+            "response": "Based on the sounds in the audio, the most likely match is (a) frog.",
+            "label": "frog"
+        },
+        "frog67.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) pig (b) frog (c) cow (d) hen",
+            "response": "Based on the sound characteristics, I would guess it's either a (c) cow or a (d) hen, but I cannot be certain without seeing the actual sound.",
+            "label": "frog"
+        },
+        "frog33.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cat (b) sheep (c) frog (d) dog",
+            "response": "The most likely animal responsible for the sound is a frog, as it is a common natural sound in many environments and the other options do not typically make such sounds.",
+            "label": "frog"
+        },
+        "frog20.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cat (b) cow (c) rooster (d) frog",
+            "response": "The sound is associated with a frog.",
+            "label": "frog"
+        },
+        "frog23.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) frog (b) cow (c) cat (d) sheep",
+            "response": "The sound is from a frog.",
+            "label": "frog"
+        },
+        "frog24.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) cow (b) hen (c) rooster (d) frog",
+            "response": "The sound corresponds to a frog.",
+            "label": "frog"
+        },
+        "frog59.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) rooster (b) crow (c) frog (d) cat",
+            "response": "Based on the sound characteristics, it's likely a crow or a rooster. Both can make similar sounds, but the crow is more likely because it's a bird and typically found in open areas where this sound could be recorded.",
+            "label": "frog"
+        },
+        "frog6.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) rooster (b) frog (c) pig (d) crow",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a frog (b).",
+            "label": "frog"
+        },
+        "frog8.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) frog (b) hen (c) sheep (d) dog",
+            "response": "Based on the sounds heard in the audio file, the most likely source of the sound is a frog (option 'a'). The audio contains multiple instances of a brief, high-pitched croak characteristic of frogs, occurring at various intervals throughout the first ten seconds. While other animals may make similar sounds, the frequency and pattern of the croaks suggest they are coming from a frog.",
+            "label": "frog"
+        },
+        "frog9.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) frog (b) dog (c) hen (d) rooster",
+            "response": "Based on the auditory characteristics of the sound, it most likely belongs to a (a) frog.",
+            "label": "frog"
+        },
+        "frog61.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) dog (b) frog (c) pig (d) hen",
+            "response": "The most likely match for the sound is (b) frog.",
+            "label": "frog"
+        },
+        "frog36.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) cow (b) hen (c) sheep (d) frog",
+            "response": "The sound in the recording is likely coming from a frog.",
+            "label": "frog"
+        },
+        "frog55.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) dog (b) pig (c) frog (d) cat",
+            "response": "The sound is most likely from a frog.",
+            "label": "frog"
+        },
+        "frog15.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cow (b) frog (c) dog (d) pig",
+            "response": "The sound is most likely associated with a frog.",
+            "label": "frog"
+        },
+        "frog64.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) dog (b) crow (c) frog (d) hen",
+            "response": "The sound is identified as coming from a frog.",
+            "label": "frog"
+        },
+        "frog63.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) frog (b) cat (c) dog (d) cow",
+            "response": "Based on the provided sound description, the动物 that matches is a 'frog.'",
+            "label": "frog"
+        },
+        "frog46.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) dog (b) cat (c) sheep (d) frog",
+            "response": "Based on the sound characteristics, it's likely a frog.",
+            "label": "frog"
+        },
+        "frog39.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) hen (b) dog (c) cow (d) frog",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound was made by a frog.",
+            "label": "frog"
+        },
+        "frog31.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) dog (b) crow (c) frog (d) sheep",
+            "response": "The most likely source of the sound is a frog, as it matches the given characteristics such as being a common voice, early morning or night time, and having a ' croak' sound.",
+            "label": "frog"
+        },
+        "frog14.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) cat (b) frog (c) rooster (d) dog",
+            "response": "The animal that most closely matches the sound in the provided audio recording is (b) frog.",
+            "label": "frog"
+        },
+        "frog34.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) frog (b) hen (c) crow (d) pig",
+            "response": "Based on the sounds heard in the audio, the most likely match is a frog.",
+            "label": "frog"
+        },
+        "frog32.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) cow (b) crow (c) hen (d) frog",
+            "response": "The sound in the recording is likely coming from a frog.",
+            "label": "frog"
+        },
+        "frog49.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cow (b) crow (c) frog (d) dog",
+            "response": "The sound is most likely from a frog.",
+            "label": "frog"
+        },
+        "frog43.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cat (b) frog (c) pig (d) rooster",
+            "response": "The sound is associated with a frog.",
+            "label": "frog"
+        },
+        "frog29.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) frog (b) dog (c) sheep (d) cat",
+            "response": "Frog",
+            "label": "frog"
+        },
+        "frog66.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) sheep (b) pig (c) frog (d) crow",
+            "response": "(c) frog",
+            "label": "frog"
+        },
+        "frog54.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) frog (b) rooster (c) pig (d) crow",
+            "response": "Based on the sound characteristics, it's likely a rooster (b). Roosters are known for their distinctive crowing behavior and the sound they make can vary in intensity and frequency. The other animals in the list are less likely to produce such a distinct, loud, and repetitive crowing sound.",
+            "label": "frog"
+        },
+        "frog17.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) sheep (b) frog (c) pig (d) rooster",
+            "response": "Based on the unique sounds heard in the audio file, it's most likely that the sound comes from a frog. The characteristic croaking of a frog aligns well with the audio's properties.",
+            "label": "frog"
+        },
+        "frog26.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cat (b) sheep (c) pig (d) frog",
+            "response": "The most likely source of the sound is (d) frog.",
+            "label": "frog"
+        },
+        "frog57.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) frog (b) rooster (c) hen (d) pig",
+            "response": "Based on the auditory characteristics of the sound, it most likely belongs to a鸡 (rooster).鸡 has a distinct crowing sound that is different from other birds.",
+            "label": "frog"
+        },
+        "frog21.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cat (b) hen (c) cow (d) frog",
+            "response": "The most likely match for the sound is (d) frog.",
+            "label": "frog"
+        },
+        "frog1.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) hen (b) rooster (c) frog (d) sheep",
+            "response": "The sound in the recording is likely coming from a frog.",
+            "label": "frog"
+        },
+        "frog4.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cow (b) frog (c) cat (d) sheep",
+            "response": "(b) frog",
+            "label": "frog"
+        },
+        "frog50.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) rooster (b) sheep (c) frog (d) pig",
+            "response": "Sheep.",
+            "label": "frog"
+        },
+        "frog12.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) rooster (b) frog (c) cat (d) pig",
+            "response": "The sound is that of a frog.",
+            "label": "frog"
+        },
+        "frog3.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) frog (b) pig (c) cat (d) sheep",
+            "response": "(a) frog",
+            "label": "frog"
+        },
+        "frog5.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) crow (b) cow (c) dog (d) frog",
+            "response": "The sound in the recording is most likely from a frog.",
+            "label": "frog"
+        },
+        "frog53.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) rooster (b) hen (c) cow (d) frog",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound was made by a rooster (option 'a'). Roosters are known for their distinctive crowing behavior and the sound they make can vary in pitch and intensity. The other options, while they may make noise, do not typically produce a sound that matches the loud, clear crowing typical of a rooster.",
+            "label": "frog"
+        },
+        "frog38.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) frog (b) pig (c) dog (d) hen",
+            "response": "Based on the sounds heard in the audio file, the most likely source of the sound is a frog (option 'a'). The audio contains characteristic sounds such as a croaking or crocking voice at various intervals, which aligns with the typical vocalization of frogs. These sounds are often used for communication within the frog species, including calls for mates or warning others of potential dangers. Other sounds present in the audio, like the cluck of a chicken (option 'd'), do not match the specific characteristics of the sound being discussed.",
+            "label": "frog"
+        },
+        "frog62.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) sheep (b) crow (c) frog (d) cat",
+            "response": "Based on the auditory characteristics of the sound, it most likely belongs to a crow. Therefore, the answer is (b).",
+            "label": "frog"
+        },
+        "frog41.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cow (b) frog (c) hen (d) dog",
+            "response": "The most likely match for the sound is (b) frog.",
+            "label": "frog"
+        },
+        "frog58.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) pig (b) sheep (c) frog (d) hen",
+            "response": "The sound in the recording is likely coming from a frog.",
+            "label": "frog"
+        },
+        "frog10.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) rooster (b) frog (c) hen (d) sheep",
+            "response": "(b) frog",
+            "label": "frog"
+        },
+        "frog25.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cow (b) pig (c) crow (d) frog",
+            "response": "The sound is associated with a frog.",
+            "label": "frog"
+        },
+        "frog11.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) frog (b) dog (c) cow (d) crow",
+            "response": "The sound is that of a frog.",
+            "label": "frog"
+        },
+        "cow41.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) cat (b) crow (c) cow (d) sheep",
+            "response": "The sound is most likely from a (c) cow.",
+            "label": "cow"
+        },
+        "cow57.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) hen (b) cow (c) rooster (d) crow",
+            "response": "Based on the sounds heard in the recording, it is likely that the sound was made by a chicken or rooster.鸡和公鸡通常会发出咯咯的啼鸣声。",
+            "label": "cow"
+        },
+        "cow62.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) hen (b) frog (c) dog (d) cow",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a cow.",
+            "label": "cow"
+        },
+        "cow14.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cow (b) cat (c) rooster (d) sheep",
+            "response": "Based on the audio characteristics, the sound is most likely coming from a farm where different animals are present. The sounds that stand out are those of a large number of birds and a couple of distinct rooster clucks, which indicates the presence of chickens or roosters. Also, there are low, continuous noises typical of a group of cattle or farm working animals. Therefore, the answer would be (a) - a cow, (c) - a rooster, and (d) - farm working animals like a chicken or a rooster.",
+            "label": "cow"
+        },
+        "cow47.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) sheep (b) pig (c) dog (d) cow",
+            "response": "Based on the auditory characteristics of the sound, it most likely belongs to a (c) dog.",
+            "label": "cow"
+        },
+        "cow45.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) pig (b) rooster (c) cow (d) sheep",
+            "response": "The most likely match for the sound is a rooster, as the given sound resembles a rooster crowing.",
+            "label": "cow"
+        },
+        "cow0.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) cow (b) sheep (c) crow (d) rooster",
+            "response": "Based on the context provided, it is most likely that the sound comes from a (c) crow.",
+            "label": "cow"
+        },
+        "cow56.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) crow (b) cow (c) pig (d) hen",
+            "response": "The sound is most likely from a (b) cow.",
+            "label": "cow"
+        },
+        "cow32.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cat (b) sheep (c) hen (d) cow",
+            "response": "The sound is associated with a farm, and among the given options, only cows are typically found on farms. Therefore, the answer is (d) cow.",
+            "label": "cow"
+        },
+        "cow31.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) cow (b) dog (c) pig (d) hen",
+            "response": "The sound is from a farm, and it is a working day; therefore, we can infer that the animal is a chicken (c).",
+            "label": "cow"
+        },
+        "cow53.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) cat (b) cow (c) hen (d) rooster",
+            "response": "The sound corresponds to a (b) cow.",
+            "label": "cow"
+        },
+        "cow66.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) hen (b) pig (c) cow (d) dog",
+            "response": "The sound is from a farm, and it's either a chicken or a rooster crowing. So the correct answer would be (a)鸡 - rooster.",
+            "label": "cow"
+        },
+        "cow61.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) cow (b) rooster (c) sheep (d) pig",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a (c) sheep.",
+            "label": "cow"
+        },
+        "cow49.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) frog (b) dog (c) cow (d) sheep",
+            "response": "The most likely source of the sound is a cow, as it has the characteristic low, rumbling tone often associated with farm animals, and the sounds get progressively louder as the animal gets more agitated or excited.",
+            "label": "cow"
+        },
+        "cow10.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) frog (b) pig (c) hen (d) cow",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a (d) cow.",
+            "label": "cow"
+        },
+        "cow60.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) frog (b) cow (c) pig (d) dog",
+            "response": "The most likely match for the sound is (c) pig.",
+            "label": "cow"
+        },
+        "cow7.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) sheep (b) hen (c) crow (d) cow",
+            "response": "Based on the characteristics of the sound, it is most likely coming from a (c) crow.",
+            "label": "cow"
+        },
+        "cow63.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cow (b) hen (c) dog (d) rooster",
+            "response": "Based on the sound characteristics, the animal most likely responsible is a (c) dog.",
+            "label": "cow"
+        },
+        "cow39.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) pig (b) crow (c) cow (d) sheep",
+            "response": "The sound is most likely associated with a (c) cow.",
+            "label": "cow"
+        },
+        "cow25.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) dog (b) cow (c) pig (d) rooster",
+            "response": "The sound is identified as coming from a pig.",
+            "label": "cow"
+        },
+        "cow3.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) sheep (b) hen (c) cow (d) cat",
+            "response": "The sound corresponds to a cow.",
+            "label": "cow"
+        },
+        "cow64.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) crow (b) hen (c) pig (d) cow",
+            "response": "Based on the context provided by the sounds and their descriptions, the most likely answer is (c) pig. The recording includes a sound followed by another similar sound, both described as 'oink,' which is characteristic of a pig. The other animals given do not produce sounds that match the context of the recording.",
+            "label": "cow"
+        },
+        "cow44.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) cow (b) rooster (c) cat (d) sheep",
+            "response": "Based on the characteristics and tone of the sound, it is most likely a cow that is the source of the sound.",
+            "label": "cow"
+        },
+        "cow27.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) dog (b) cow (c) crow (d) rooster",
+            "response": "Based on the characteristics and qualities present in the sound, it is most likely that the sound comes from a (b) cow.",
+            "label": "cow"
+        },
+        "cow34.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) frog (b) rooster (c) cat (d) cow",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a (d) cow.",
+            "label": "cow"
+        },
+        "cow38.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cow (b) crow (c) frog (d) sheep",
+            "response": "Based on the provided sound, I would choose (a) cow as the most likely match. The sound resembles a typical bleating noise from a cow.",
+            "label": "cow"
+        },
+        "cow65.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) crow (b) cow (c) rooster (d) pig",
+            "response": "The sound in the recording is likely coming from a farm or a place where animals are kept, so it could be a chicken, a rooster, a cow, or a pig. Among these, a rooster is particularly known for its crowing behavior and distinctive voice; however, other birds like鸡 (chicken) or公鸡 (rooster) could also make such sounds. Since the recording includes other noises like a alarm clock, it's possible that the sound is coming from a place where multiple birds are kept. Therefore, the most probable answer would be (c) rooster, but it could also be any other鸡-鸡 (chicken, rooster) or公鸡 (rooster).",
+            "label": "cow"
+        },
+        "cow28.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) crow (b) rooster (c) cow (d) cat",
+            "response": "The animal most likely responsible for the sound is a (c) cow.",
+            "label": "cow"
+        },
+        "cow37.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) frog (b) cow (c) sheep (d) crow",
+            "response": "The sound is most likely associated with a (b) cow.",
+            "label": "cow"
+        },
+        "cow16.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) pig (b) cat (c) dog (d) cow",
+            "response": "The sound is identified as coming from a cow.",
+            "label": "cow"
+        },
+        "cow55.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) frog (b) dog (c) cow (d) sheep",
+            "response": "The sound is most likely from a (c) cow.",
+            "label": "cow"
+        },
+        "cow6.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cow (b) rooster (c) crow (d) hen",
+            "response": "Based on the provided information, the sound is most likely from a farm setting, where animals such as cows and chickens are present. Among these, a cow is more likely to make the kind of noise heard in the recording, so the answer would be (a).",
+            "label": "cow"
+        },
+        "cow59.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) hen (b) frog (c) cow (d) rooster",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a (c) cow.",
+            "label": "cow"
+        },
+        "cow23.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cow (b) sheep (c) cat (d) pig",
+            "response": "Based on the provided information, the sound is most likely from a cow. The characteristics such as a low pitched voice, a long release time, and a percussive nature are typical of a cow's vocalization.",
+            "label": "cow"
+        },
+        "cow29.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) hen (b) cow (c) sheep (d) rooster",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches a rooster (d).",
+            "label": "cow"
+        },
+        "cow2.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) crow (b) rooster (c) pig (d) cow",
+            "response": "Based on the sound described in the audio, it is most likely a rooster.",
+            "label": "cow"
+        },
+        "cow67.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) cow (b) sheep (c) rooster (d) hen",
+            "response": "Based on the characteristics of the sound, it is most likely a cow making the noise.",
+            "label": "cow"
+        },
+        "cow13.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) sheep (b) hen (c) crow (d) cow",
+            "response": "The animal most likely responsible for the sound is a (d) cow.",
+            "label": "cow"
+        },
+        "cow30.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) dog (b) rooster (c) cow (d) hen",
+            "response": "The sound is most likely associated with a (c) cow.",
+            "label": "cow"
+        },
+        "cow9.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) dog (b) cow (c) cat (d) sheep",
+            "response": "The sound is from a cow.",
+            "label": "cow"
+        },
+        "cow42.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) cow (b) crow (c) dog (d) hen",
+            "response": "The sound is most likely from a (c) dog, specifically a barking or growling dog.",
+            "label": "cow"
+        },
+        "cow35.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cat (b) rooster (c) cow (d) pig",
+            "response": "The sound is most likely from a cow.",
+            "label": "cow"
+        },
+        "cow5.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) dog (b) cow (c) pig (d) rooster",
+            "response": "Based on the characteristics and tone of the sound, it is most likely a cow.",
+            "label": "cow"
+        },
+        "cow40.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) hen (b) cat (c) dog (d) cow",
+            "response": "The most likely source of the sound is a (d) cow, as it matches the description of a low pitched mooing sound that occurs at the beginning of the audio and has a characteristic that sounds like it's getting louder before getting softer.",
+            "label": "cow"
+        },
+        "cow17.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) pig (b) cat (c) sheep (d) cow",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches a cow.",
+            "label": "cow"
+        },
+        "cow48.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) sheep (b) cow (c) rooster (d) hen",
+            "response": "Based on the sound, I would choose (c) rooster. The sound is quite distinctive and similar to what a rooster would make.",
+            "label": "cow"
+        },
+        "cow21.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) pig (b) hen (c) cow (d) frog",
+            "response": "The sound in the recording is likely coming from a cow.",
+            "label": "cow"
+        },
+        "cow50.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cow (b) hen (c) cat (d) pig",
+            "response": "The animal is a (c) cow.",
+            "label": "cow"
+        },
+        "cow58.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) hen (b) crow (c) frog (d) cow",
+            "response": "The sound is associated with a chicken or rooster, so the answer is (a).",
+            "label": "cow"
+        },
+        "cow43.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) sheep (b) cow (c) crow (d) hen",
+            "response": "The sound is that of a cow.",
+            "label": "cow"
+        },
+        "cow15.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) dog (b) cat (c) cow (d) rooster",
+            "response": "The sound corresponds to a cow.",
+            "label": "cow"
+        },
+        "cow1.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cow (b) rooster (c) dog (d) sheep",
+            "response": "Based on the context and characteristics of the sound, it is most likely a cow making the noise.",
+            "label": "cow"
+        },
+        "cow54.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) cat (b) crow (c) cow (d) pig",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a cow.",
+            "label": "cow"
+        },
+        "cow46.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cow (b) pig (c) sheep (d) frog",
+            "response": "Based on the information provided in the audio file, it is most likely that the sound comes from a (c) sheep. The sounds include a low pitched bleating characteristic of sheep.",
+            "label": "cow"
+        },
+        "cow24.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) rooster (b) crow (c) frog (d) cow",
+            "response": "Based on the auditory characteristics provided, the sound most closely matches that of a [c] frog.",
+            "label": "cow"
+        },
+        "cow18.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cat (b) cow (c) frog (d) hen",
+            "response": "The most likely match for the sound is (b) cow.",
+            "label": "cow"
+        },
+        "cow22.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) sheep (b) rooster (c) cow (d) frog",
+            "response": "Based on the provided information, the sound is most likely coming from a live chicken or rooster.",
+            "label": "cow"
+        },
+        "cow8.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) frog (b) rooster (c) hen (d) cow",
+            "response": "The animal most likely responsible for the sound is a (d) cow.",
+            "label": "cow"
+        },
+        "cow51.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) pig (b) cow (c) cat (d) dog",
+            "response": "The sound is most likely associated with a (b) cow.",
+            "label": "cow"
+        },
+        "cow26.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) cow (b) frog (c) rooster (d) cat",
+            "response": "The sound is identified as a cow.",
+            "label": "cow"
+        },
+        "cow33.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) cat (b) crow (c) cow (d) pig",
+            "response": "The sound corresponds to a cow.",
+            "label": "cow"
+        },
+        "cow12.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) hen (b) dog (c) pig (d) cow",
+            "response": "Based on the given sounds, the animal responsible could be a (c) pig.",
+            "label": "cow"
+        },
+        "cow11.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) rooster (b) cow (c) sheep (d) frog",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a rooster.",
+            "label": "cow"
+        },
+        "cow19.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cow (b) cat (c) crow (d) hen",
+            "response": "Based on the characteristics and qualities present in the sound, it is most likely that the sound comes from a (c) crow.",
+            "label": "cow"
+        },
+        "cow20.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) cow (b) hen (c) rooster (d) crow",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches a rooster.",
+            "label": "cow"
+        },
+        "cow36.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) crow (b) frog (c) hen (d) cow",
+            "response": "The most likely match for the sound is (d) cow.",
+            "label": "cow"
+        },
+        "cow4.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) rooster (b) crow (c) cow (d) pig",
+            "response": "The sound in the recording is likely coming from a cow.",
+            "label": "cow"
+        },
+        "cow52.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) pig (b) cow (c) crow (d) hen",
+            "response": "The sound is most likely from a (b) cow.",
+            "label": "cow"
+        },
+        "pig8.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) rooster (b) pig (c) dog (d) frog",
+            "response": "The sound is most likely from a (b) pig.",
+            "label": "pig"
+        },
+        "pig18.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) cat (b) hen (c) dog (d) pig",
+            "response": "The sound is from a pig.",
+            "label": "pig"
+        },
+        "pig10.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) pig (b) dog (c) rooster (d) hen",
+            "response": "(a) pig",
+            "label": "pig"
+        },
+        "pig27.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) rooster (b) cow (c) pig (d) cat",
+            "response": "The sound is most likely from a pig, as it includes elements such as oinking and clucking, which are characteristic sounds of pigs.",
+            "label": "pig"
+        },
+        "pig29.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) pig (b) rooster (c) frog (d) cat",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the source is a (c) frog.",
+            "label": "pig"
+        },
+        "pig4.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) sheep (b) cat (c) dog (d) pig",
+            "response": "Based on the sounds heard in the audio file, the most likely source of the sound is a pig. The sounds include oinking and other characteristic noises of a pig.",
+            "label": "pig"
+        },
+        "pig35.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) dog (b) crow (c) pig (d) frog",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a frog.",
+            "label": "pig"
+        },
+        "pig30.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) crow (b) pig (c) cat (d) sheep",
+            "response": "The most likely match for the sound is (b) pig.",
+            "label": "pig"
+        },
+        "pig16.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) crow (b) pig (c) rooster (d) frog",
+            "response": "Based on the given sounds, I believe the source is a (c) rooster.",
+            "label": "pig"
+        },
+        "pig0.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) crow (b) sheep (c) pig (d) cow",
+            "response": "The sound is most likely from a pig.",
+            "label": "pig"
+        },
+        "pig14.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) pig (b) cat (c) rooster (d) cow",
+            "response": "The sound is most likely associated with a pig, as it is a common sound among farm animals and resembles the oinking noise of a pig.",
+            "label": "pig"
+        },
+        "pig7.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) hen (b) sheep (c) cat (d) pig",
+            "response": "The sound is from a pig.",
+            "label": "pig"
+        },
+        "pig38.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) crow (b) pig (c) cat (d) sheep",
+            "response": "The sound is most likely from a (b) pig.",
+            "label": "pig"
+        },
+        "pig3.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) pig (b) frog (c) sheep (d) dog",
+            "response": "Based on the sound characteristics, it's a pig.",
+            "label": "pig"
+        },
+        "pig28.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) cat (b) dog (c) sheep (d) pig",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the source is a pig.",
+            "label": "pig"
+        },
+        "pig24.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) hen (b) sheep (c) pig (d) cat",
+            "response": "Based on the sounds heard in the audio file, the most likely source of the sound is a pig. The sounds include oinking and other typical pig behaviors and characteristics.",
+            "label": "pig"
+        },
+        "pig34.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) rooster (b) pig (c) dog (d) crow",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches a pig.",
+            "label": "pig"
+        },
+        "pig39.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cat (b) hen (c) rooster (d) pig",
+            "response": "The most likely match for the sound is (d) pig.",
+            "label": "pig"
+        },
+        "pig6.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) pig (b) hen (c) rooster (d) sheep",
+            "response": "The sound in the recording is likely coming from a pig.",
+            "label": "pig"
+        },
+        "pig33.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) sheep (b) cat (c) pig (d) hen",
+            "response": "(c) pig",
+            "label": "pig"
+        },
+        "pig17.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) hen (b) pig (c) crow (d) sheep",
+            "response": "The sound is most likely associated with a pig.",
+            "label": "pig"
+        },
+        "pig2.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) dog (b) crow (c) hen (d) pig",
+            "response": "The sound is from a pig.",
+            "label": "pig"
+        },
+        "pig20.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) pig (b) dog (c) cow (d) sheep",
+            "response": "(a) pig",
+            "label": "pig"
+        },
+        "pig37.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cow (b) dog (c) pig (d) crow",
+            "response": "Based on the given sounds, the animal responsible could be either a pig or a crow. Both can make similar noises.",
+            "label": "pig"
+        },
+        "pig26.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) pig (b) rooster (c) sheep (d) dog",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a pig. Pigs are known for making noise such as oinking and can be heard in various settings like farms or markets. The other options, like a rooster, sheep, or a dog, may make different types of noises but they are not typically as loud or distinctive as a pig's oink.",
+            "label": "pig"
+        },
+        "pig9.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) hen (b) pig (c) cat (d) rooster",
+            "response": "Based on the given sounds, it is most likely that the sound comes from a (b) pig. The sounds include oinking and other vocalizations typical of pigs.",
+            "label": "pig"
+        },
+        "pig32.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) sheep (b) cat (c) pig (d) cow",
+            "response": "The sound in the provided audio recording most closely matches that of a pig.",
+            "label": "pig"
+        },
+        "pig5.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cat (b) sheep (c) frog (d) pig",
+            "response": "The most likely match for the sound is (d) pig.",
+            "label": "pig"
+        },
+        "pig21.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) dog (b) pig (c) rooster (d) crow",
+            "response": "Based on the given sounds, it is likely that the sound comes from a (b) pig.",
+            "label": "pig"
+        },
+        "pig13.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) pig (b) cat (c) sheep (d) dog",
+            "response": "(a) pig",
+            "label": "pig"
+        },
+        "pig36.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) dog (b) cow (c) cat (d) pig",
+            "response": "The sound is most likely from a (d) pig.",
+            "label": "pig"
+        },
+        "pig15.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) cat (b) cow (c) pig (d) rooster",
+            "response": "The sound is from a pig.",
+            "label": "pig"
+        },
+        "pig11.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) dog (b) cat (c) pig (d) sheep",
+            "response": "The sound corresponds to a pig, so the answer is (c).",
+            "label": "pig"
+        },
+        "pig1.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) pig (b) crow (c) cow (d) hen",
+            "response": "Based on the provided information, the sound seems to be coming from a live animal, and it's either a pig or a chicken. Pigs are known for making noise, so it's more likely that (a) is the correct answer. However, without seeing or hearing the actual recording, it's impossible to determine the exact animal responsible for the sound with complete certainty.",
+            "label": "pig"
+        },
+        "pig19.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) hen (b) frog (c) crow (d) pig",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a pig.",
+            "label": "pig"
+        },
+        "pig22.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) frog (b) pig (c) cat (d) sheep",
+            "response": "Based on the sounds I heard, it seems like a pig is the source of the sound. The sounds include oinking and other typical pig behaviors.",
+            "label": "pig"
+        },
+        "pig31.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) rooster (b) pig (c) dog (d) hen",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches a pig.",
+            "label": "pig"
+        },
+        "pig23.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cat (b) crow (c) cow (d) pig",
+            "response": "The most likely match for the sound is (c) cow.",
+            "label": "pig"
+        },
+        "pig12.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) pig (b) dog (c) frog (d) cow",
+            "response": "The sound in the recording is likely from a pig.",
+            "label": "pig"
+        },
+        "pig25.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) rooster (b) frog (c) pig (d) sheep",
+            "response": "The animal most likely responsible for the sound is a (c) pig.",
+            "label": "pig"
+        },
+        "sheep40.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) sheep (b) cat (c) crow (d) rooster",
+            "response": "Sheep",
+            "label": "sheep"
+        },
+        "sheep37.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) frog (b) cow (c) cat (d) sheep",
+            "response": "The sound is that of a flock of birds.",
+            "label": "sheep"
+        },
+        "sheep61.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) hen (b) frog (c) sheep (d) cat",
+            "response": "The sound corresponds to a sheep.",
+            "label": "sheep"
+        },
+        "sheep57.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) hen (b) sheep (c) rooster (d) dog",
+            "response": "Based on the sound characteristics, it's likely a chicken or rooster.鸡和公鸡都常发出这种声音。",
+            "label": "sheep"
+        },
+        "sheep53.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) sheep (b) dog (c) cat (d) cow",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the source is a sheep.",
+            "label": "sheep"
+        },
+        "sheep41.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) hen (b) frog (c) sheep (d) cow",
+            "response": "Based on the audio characteristics, the sound is most likely coming from a sheep.",
+            "label": "sheep"
+        },
+        "sheep46.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) dog (b) sheep (c) frog (d) cat",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a (b) sheep.",
+            "label": "sheep"
+        },
+        "sheep18.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cow (b) hen (c) rooster (d) sheep",
+            "response": "The most likely match for the sound is (d) sheep.",
+            "label": "sheep"
+        },
+        "sheep3.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) crow (b) sheep (c) rooster (d) hen",
+            "response": "The sound in the recording is likely coming from a flock of birds, specifically chickens or roosters.",
+            "label": "sheep"
+        },
+        "sheep15.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cat (b) cow (c) sheep (d) rooster",
+            "response": "The animal most likely responsible for the sound is a sheep.",
+            "label": "sheep"
+        },
+        "sheep39.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) sheep (b) crow (c) rooster (d) hen",
+            "response": "The sound is associated with a sheep.",
+            "label": "sheep"
+        },
+        "sheep14.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) cat (b) crow (c) frog (d) sheep",
+            "response": "The sound is that of a flock of birds; specifically, a chicken or rooster.",
+            "label": "sheep"
+        },
+        "sheep0.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) cow (b) crow (c) cat (d) sheep",
+            "response": "The sound corresponds to a farm setting, where animals are present. Among the given options, only (d) sheep could be found on a farm. Therefore, the correct answer is (d).",
+            "label": "sheep"
+        },
+        "sheep9.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) rooster (b) cat (c) sheep (d) hen",
+            "response": "The sound is most likely from a flock of birds, specifically chickens or roosters.",
+            "label": "sheep"
+        },
+        "sheep47.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) cow (b) sheep (c) cat (d) dog",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the source is either a chicken or a sheep. Both have the distinctive crowing or bleating sounds that can be heard in the audio file.",
+            "label": "sheep"
+        },
+        "sheep63.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) sheep (b) crow (c) rooster (d) cow",
+            "response": "Based on the sound's characteristics and qualities, I would most likely choose (a) sheep as the source of the sound. The sound has a distinctive bleating quality that is often associated with sheep.",
+            "label": "sheep"
+        },
+        "sheep13.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) sheep (b) cow (c) cat (d) hen",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a sheep.",
+            "label": "sheep"
+        },
+        "sheep17.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) rooster (b) crow (c) sheep (d) pig",
+            "response": "The most likely match for the sound is (c) sheep.",
+            "label": "sheep"
+        },
+        "sheep66.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) dog (b) sheep (c) pig (d) cat",
+            "response": "Sheep",
+            "label": "sheep"
+        },
+        "sheep25.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) rooster (b) dog (c) frog (d) sheep",
+            "response": "(d) sheep",
+            "label": "sheep"
+        },
+        "sheep28.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) pig (b) dog (c) frog (d) sheep",
+            "response": "The sound is associated with a flock of birds, so the answer would be (d) sheep.",
+            "label": "sheep"
+        },
+        "sheep23.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) rooster (b) sheep (c) hen (d) crow",
+            "response": "The sound is from a flock of birds, primarily chickens or roosters.",
+            "label": "sheep"
+        },
+        "sheep49.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) sheep (b) cat (c) frog (d) cow",
+            "response": "Sheep.",
+            "label": "sheep"
+        },
+        "sheep22.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cow (b) cat (c) sheep (d) rooster",
+            "response": "The sound is most likely from a flock of birds, so the answer would be (c) -鸡 or (d) -公鸡.",
+            "label": "sheep"
+        },
+        "sheep55.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) sheep (b) rooster (c) pig (d) frog",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a rooster.",
+            "label": "sheep"
+        },
+        "sheep45.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cat (b) sheep (c) hen (d) pig",
+            "response": "Based on the provided information, the sound is most likely from a sheep. The characteristic bleating sound aligns well with the description given.",
+            "label": "sheep"
+        },
+        "sheep29.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) dog (b) cow (c) sheep (d) rooster",
+            "response": "The sound in the provided audio recording most closely matches the sound of a sheep.",
+            "label": "sheep"
+        },
+        "sheep26.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cow (b) cat (c) crow (d) sheep",
+            "response": "The most likely match for the sound is (d) sheep.",
+            "label": "sheep"
+        },
+        "sheep24.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) cat (b) dog (c) sheep (d) frog",
+            "response": "The sound in the recording is likely coming from a sheep.",
+            "label": "sheep"
+        },
+        "sheep5.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) rooster (b) cow (c) crow (d) sheep",
+            "response": "The sound is most likely from a flock of birds, specifically chickens or roosters. Therefore, the correct answer would be (a) rooster or (b) chicken.",
+            "label": "sheep"
+        },
+        "sheep27.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) hen (b) sheep (c) crow (d) frog",
+            "response": "The sound is associated with a flock of birds and a sheep. The bird sounds are from a chicken or rooster, and the sheep is bleating.",
+            "label": "sheep"
+        },
+        "sheep12.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) sheep (b) pig (c) frog (d) cow",
+            "response": "Sheep",
+            "label": "sheep"
+        },
+        "sheep35.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) sheep (b) cow (c) crow (d) pig",
+            "response": "Sheep.",
+            "label": "sheep"
+        },
+        "sheep36.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) dog (b) cow (c) sheep (d) rooster",
+            "response": "The sound is most likely from a flock of birds, specifically chickens or roosters.",
+            "label": "sheep"
+        },
+        "sheep59.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) dog (b) hen (c) cow (d) sheep",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the source is a chicken or a rooster, as they typically make similar sounds.",
+            "label": "sheep"
+        },
+        "sheep58.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cow (b) sheep (c) frog (d) crow",
+            "response": "Based on the provided information, the sound is most likely from a sheep. The characteristic bleating sound aligns well with the description given.",
+            "label": "sheep"
+        },
+        "sheep32.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) frog (b) rooster (c) pig (d) sheep",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a (d) sheep.",
+            "label": "sheep"
+        },
+        "sheep54.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) hen (b) crow (c) sheep (d) rooster",
+            "response": "The most likely match for the sound is (c) sheep.",
+            "label": "sheep"
+        },
+        "sheep21.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) pig (b) sheep (c) crow (d) rooster",
+            "response": "The sound in the recording is likely coming from a flock of birds or a group of farm animals such as chickens or sheep. Therefore, the correct answer would be either (b) sheep or (c) crow, although the latter is less likely given the context of the recording.",
+            "label": "sheep"
+        },
+        "sheep67.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) sheep (b) hen (c) pig (d) rooster",
+            "response": "(a) sheep",
+            "label": "sheep"
+        },
+        "sheep42.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) sheep (b) rooster (c) crow (d) hen",
+            "response": "The sound is associated with a chicken or rooster, so the answer would be either (b) rooster or (d) hen.",
+            "label": "sheep"
+        },
+        "sheep60.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) rooster (b) cat (c) cow (d) sheep",
+            "response": "The sound is from a rooster.",
+            "label": "sheep"
+        },
+        "sheep65.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) hen (b) sheep (c) dog (d) crow",
+            "response": "The sound is that of a sheep.",
+            "label": "sheep"
+        },
+        "sheep33.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) hen (b) rooster (c) sheep (d) cat",
+            "response": "The sound is most likely from a flock of birds and a sheep.",
+            "label": "sheep"
+        },
+        "sheep30.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) hen (b) cat (c) sheep (d) frog",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the source is a group of sheep.",
+            "label": "sheep"
+        },
+        "sheep10.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) dog (b) sheep (c) crow (d) rooster",
+            "response": "Based on the given sounds, it is most likely that the sound comes from a sheep. The characteristic bleating sound is a unique trait among these animals, and the low pitch and repetitive nature of the sound match the description provided.",
+            "label": "sheep"
+        },
+        "sheep51.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) sheep (b) dog (c) hen (d) frog",
+            "response": "Based on the auditory characteristics of the sound, it most likely belongs to a (c) Hen.",
+            "label": "sheep"
+        },
+        "sheep6.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) dog (b) cow (c) hen (d) sheep",
+            "response": "The most likely match for the sound is (d) sheep.",
+            "label": "sheep"
+        },
+        "sheep52.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) pig (b) cow (c) dog (d) sheep",
+            "response": "The sound in the recording is likely from a sheep.",
+            "label": "sheep"
+        },
+        "sheep31.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) sheep (b) rooster (c) pig (d) crow",
+            "response": "(a) sheep",
+            "label": "sheep"
+        },
+        "sheep34.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cow (b) rooster (c) sheep (d) dog",
+            "response": "The sound is most likely associated with (c) sheep.",
+            "label": "sheep"
+        },
+        "sheep19.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) hen (b) sheep (c) frog (d) cat",
+            "response": "The sound is from a flock of birds.",
+            "label": "sheep"
+        },
+        "sheep43.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) sheep (b) frog (c) hen (d) dog",
+            "response": "Sheep.",
+            "label": "sheep"
+        },
+        "sheep11.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) dog (b) cat (c) pig (d) sheep",
+            "response": "The sound is most likely from a flock of birds, specifically chickens or rooster, and a few sheep.",
+            "label": "sheep"
+        },
+        "sheep16.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) crow (b) sheep (c) hen (d) rooster",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the source is either a flock of birds or a group of farm animals, such as chickens or roosters. The sound resembles that made by a large number of birds or farm animals communicating or interacting with each other. Among the given options, (b) sheep and (c) hen are both likely sources of such sounds since they are common farm animals that can make similar noises in groups.",
+            "label": "sheep"
+        },
+        "sheep56.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) pig (b) rooster (c) sheep (d) cow",
+            "response": "Based on the sound characteristics and qualities, I would say the most likely source of the sound is a sheep. The sound has a distinct bleating quality typical of sheep, along with a low pitch and a resonant tone. These traits align well with the description given for the sound.",
+            "label": "sheep"
+        },
+        "sheep64.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) sheep (b) dog (c) cow (d) crow",
+            "response": "Based on the auditory characteristics of the sound, it most likely belongs to a sheep.",
+            "label": "sheep"
+        },
+        "sheep20.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) rooster (b) sheep (c) dog (d) pig",
+            "response": "The most likely match for the sound is (b) sheep.",
+            "label": "sheep"
+        },
+        "sheep2.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) hen (b) cow (c) sheep (d) dog",
+            "response": "The sound in the recording is likely coming from a flock of birds or farm animals such as chickens, cows, or sheep. Among these options, the most likely source would be either (c) sheep or (d) a small group of farm chickens. Both can make similar clucking noises under certain conditions.",
+            "label": "sheep"
+        },
+        "sheep44.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cat (b) frog (c) dog (d) sheep",
+            "response": "The most likely animal responsible for the sound is a (c) dog.",
+            "label": "sheep"
+        },
+        "sheep1.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) hen (b) frog (c) sheep (d) cow",
+            "response": "The sound is associated with a sheep.",
+            "label": "sheep"
+        },
+        "sheep50.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) sheep (b) rooster (c) cow (d) cat",
+            "response": "The sound is from a sheep.",
+            "label": "sheep"
+        },
+        "sheep7.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) crow (b) dog (c) cat (d) sheep",
+            "response": "The sound corresponds to a sheep.",
+            "label": "sheep"
+        },
+        "sheep38.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) hen (b) sheep (c) cow (d) frog",
+            "response": "The sound is most likely from a flock of birds or several sheep.",
+            "label": "sheep"
+        },
+        "sheep4.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) dog (b) sheep (c) hen (d) crow",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the source is either (b) sheep or (c) chicken. Both these birds are known for their vocalizing nature and the sound produced matches the given description.",
+            "label": "sheep"
+        },
+        "sheep48.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) frog (b) pig (c) rooster (d) sheep",
+            "response": "Based on the sounds heard in the audio file, the most likely source of the sound is a rooster, as it has the characteristic voice and the sound corresponds to a typical call or crowing of a rooster.",
+            "label": "sheep"
+        },
+        "sheep8.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) sheep (b) pig (c) cat (d) dog",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a sheep.",
+            "label": "sheep"
+        },
+        "sheep62.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) crow (b) frog (c) sheep (d) hen",
+            "response": "The most likely match for the sound is (c) sheep.",
+            "label": "sheep"
+        },
+        "hen8.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) cow (b) rooster (c) hen (d) frog",
+            "response": "The sound in the recording is likely from a rooster.",
+            "label": "hen"
+        },
+        "hen4.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cow (b) hen (c) frog (d) crow",
+            "response": "The sound is most likely from a chicken, so the answer is (b).",
+            "label": "hen"
+        },
+        "hen11.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cat (b) rooster (c) frog (d) hen",
+            "response": "The sound is associated with a rooster.",
+            "label": "hen"
+        },
+        "hen37.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) hen (b) cow (c) sheep (d) rooster",
+            "response": "The sound is from a hen.",
+            "label": "hen"
+        },
+        "hen25.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) rooster (b) hen (c) sheep (d) frog",
+            "response": "The sound is most likely from a (b) hen, as it involves a chicken clucking and other typical chicken sounds.",
+            "label": "hen"
+        },
+        "hen32.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) dog (b) cat (c) hen (d) sheep",
+            "response": "The sound is most likely from a chicken (c).",
+            "label": "hen"
+        },
+        "hen22.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) hen (b) sheep (c) frog (d) dog",
+            "response": "Based on the sounds heard in the audio file, it is most likely that the sound comes from a chicken (hen).鸡通常会发出咯咯的啼鸣声，尤其是在清晨或它们感到兴奋时。此外,公鸡也会在鸡舍里发出啼鸣声，声音较为尖锐和高亢。",
+            "label": "hen"
+        },
+        "hen0.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cow (b) cat (c) dog (d) hen",
+            "response": "The most likely source of the sound is a chicken (d), as it has the characteristic sounds of a rooster cl鸡ing and a chicken's cluck.",
+            "label": "hen"
+        },
+        "hen24.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) dog (b) hen (c) sheep (d) rooster",
+            "response": "Based on the auditory characteristics of the sound, it most likely belongs to a (d) rooster.",
+            "label": "hen"
+        },
+        "hen18.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cat (b) dog (c) hen (d) pig",
+            "response": "The most likely match for the sound is (c) hen.",
+            "label": "hen"
+        },
+        "hen33.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) frog (b) cow (c) crow (d) hen",
+            "response": "The sound in the recording is likely from a chicken (hen).",
+            "label": "hen"
+        },
+        "hen29.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) hen (b) cow (c) rooster (d) sheep",
+            "response": "The sound is most likely from a chicken or rooster, so the answer would be either (a) or (c). Chickens and roosters are known to make clucking and crowing sounds.",
+            "label": "hen"
+        },
+        "hen7.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) frog (b) sheep (c) hen (d) cat",
+            "response": "The sound is associated with a chicken or rooster.鸡 (c) is the correct answer.",
+            "label": "hen"
+        },
+        "hen20.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) cow (b) rooster (c) dog (d) hen",
+            "response": "The sound is from a chicken or rooster.",
+            "label": "hen"
+        },
+        "hen3.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) dog (b) hen (c) frog (d) sheep",
+            "response": "The sound is most likely from a (b) hen.",
+            "label": "hen"
+        },
+        "hen36.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) hen (b) cat (c) pig (d) frog",
+            "response": "Based on the given sounds, the animal responsible is likely a chicken or a rooster, as they make similar clucking and crowing noises. The other animals in the list do not typically produce such sounds. Therefore, the answer is (a) hen or (c) pig.",
+            "label": "hen"
+        },
+        "hen38.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) hen (b) cow (c) sheep (d) dog",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a chicken (hen). Chickens are known for their clucking behavior, which often sounds similar to what was recorded.",
+            "label": "hen"
+        },
+        "hen10.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) crow (b) hen (c) dog (d) sheep",
+            "response": "Based on the sounds heard in the audio file, the most likely source of the sound is a hen, as it has the characteristic clucking sound often associated with鸡 (hen). The other animals mentioned may make similar noises, but they are less commonly linked to the specific clucking sound observed in the audio.",
+            "label": "hen"
+        },
+        "hen14.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) frog (b) pig (c) sheep (d) hen",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a chicken (hen).",
+            "label": "hen"
+        },
+        "hen6.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cow (b) crow (c) hen (d) dog",
+            "response": "The most likely match for the sound is a chicken (c).",
+            "label": "hen"
+        },
+        "hen23.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) dog (b) rooster (c) pig (d) hen",
+            "response": "Based on the given sounds, the most likely source is a rooster.鸡是鸡的学名，而公鸡（rooster）最有特征性的声音就是咯咯咯的啼鸣。录音中首先听到的是鸡的啼鸣声，随后有鸡的咯咯声和小鸡的叫声。这些声音表明鸡在活动或相互交流。因此，录音中的动物很可能是鸡，包括公鸡和母鸡以及它们的小鸡。",
+            "label": "hen"
+        },
+        "hen2.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) hen (b) cow (c) cat (d) rooster",
+            "response": "(d) rooster",
+            "label": "hen"
+        },
+        "hen39.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cat (b) hen (c) frog (d) crow",
+            "response": "The sound is associated with a hen.",
+            "label": "hen"
+        },
+        "hen27.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) rooster (b) dog (c) hen (d) frog",
+            "response": "The sound is from a rooster.",
+            "label": "hen"
+        },
+        "hen30.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) cow (b) dog (c) cat (d) hen",
+            "response": "The sound is most likely from a (d) hen.",
+            "label": "hen"
+        },
+        "hen9.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) hen (b) dog (c) cow (d) crow",
+            "response": "Based on the given sounds, the animal responsible is likely a chicken or a rooster, as they make similar clucking and crowing noises. The other animals typically make different types of sounds that are not present in this scenario. Therefore, the answer is (a) hen or (c) crow.",
+            "label": "hen"
+        },
+        "hen31.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) cat (b) frog (c) hen (d) rooster",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a chicken or a rooster.鸡和公鸡都有咯咯的啼鸣声，且声音相对较清脆。音频中所记录的声音与这些鸡品种的啼鸣相匹配。",
+            "label": "hen"
+        },
+        "hen34.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) dog (b) hen (c) frog (d) crow",
+            "response": "Based on the sounds heard in the audio file, the most likely source of the sound is a chicken (hen). The audio contains characteristic sounds such as clucking, which is a common behavior among chickens. Also, the sound appears to be coming from a live bird, which rules out other选项 like a crow or a frog that are not typically kept as live birds. Although it's not a definitive proof, the audio traits align well with a鸡.",
+            "label": "hen"
+        },
+        "hen35.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) sheep (b) hen (c) dog (d) rooster",
+            "response": "Based on the auditory characteristics of the sound, it most likely belongs to a (d) rooster.",
+            "label": "hen"
+        },
+        "hen17.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) crow (b) rooster (c) cow (d) hen",
+            "response": "The most likely match for the sound is (b) rooster.",
+            "label": "hen"
+        },
+        "hen26.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) frog (b) sheep (c) hen (d) crow",
+            "response": "The sound in the recording is likely from a hen, given the characteristic cluck and other sounds associated with鸡.",
+            "label": "hen"
+        },
+        "hen5.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) hen (b) crow (c) dog (d) cat",
+            "response": "(a) Hen",
+            "label": "hen"
+        },
+        "hen21.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) hen (b) frog (c) sheep (d) pig",
+            "response": "The sound is associated with a chicken or rooster.鸡 (chicken or rooster) is a common farm bird that can be heard clucking and cock-a-doodle-dooing.",
+            "label": "hen"
+        },
+        "hen13.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) rooster (b) frog (c) hen (d) cat",
+            "response": "The sound is that of a rooster.",
+            "label": "hen"
+        },
+        "hen12.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) dog (b) hen (c) cat (d) sheep",
+            "response": "The sound corresponds to a hen, which is (b).",
+            "label": "hen"
+        },
+        "hen15.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) frog (b) cat (c) crow (d) hen",
+            "response": "The sound is most likely from a hen, given its characteristic cluck and the context of a farm setting.",
+            "label": "hen"
+        },
+        "hen19.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) frog (b) hen (c) rooster (d) sheep",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a rooster. Roosters are known for their crowing behavior, which often involves a cock-a-doodle-doo type of call. The other animals in the list do not typically produce sounds that match the音调 and volume of the audio file.",
+            "label": "hen"
+        },
+        "hen1.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) pig (b) frog (c) sheep (d) hen",
+            "response": "Based on the given sounds, the most likely source is a鸡 (chicken). The sound includes a rooster crowing 'cock-a-doodle-doo,' which is a characteristic sound of a rooster. Additionally, the other options do not typically make such distinct noises: a pig usually makes noise by oinking or grunting, a frog mainly croaks, and a sheep primarily bleats.",
+            "label": "hen"
+        },
+        "hen28.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) frog (b) sheep (c) hen (d) cow",
+            "response": "The sound most closely matches the provided audio recording is that of a chicken (c).",
+            "label": "hen"
+        },
+        "hen16.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) hen (b) cow (c) pig (d) cat",
+            "response": "Based on the sound, the most likely match is a chicken or a rooster, so the correct answer would be (a) hen.",
+            "label": "hen"
+        },
+        "rooster20.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) rooster (b) crow (c) hen (d) pig",
+            "response": "Based on the context and frequency of the sound, it is likely a rooster (Option A). Roosters typically make cocking sounds early in the morning or when they are disturbed.",
+            "label": "rooster"
+        },
+        "rooster24.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cat (b) pig (c) dog (d) rooster",
+            "response": "(d) rooster",
+            "label": "rooster"
+        },
+        "rooster35.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cow (b) rooster (c) sheep (d) dog",
+            "response": "The sound is associated with a rooster, as it is the crowing of a rooster.",
+            "label": "rooster"
+        },
+        "rooster38.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) hen (b) sheep (c) rooster (d) dog",
+            "response": "The sound is that of a rooster.",
+            "label": "rooster"
+        },
+        "rooster29.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) frog (b) rooster (c) crow (d) sheep",
+            "response": "The sound is that of a rooster, which is鸡 in Chinese.鸡啼常用于报晓，因此它有鸡鸣鸡叫的别称。",
+            "label": "rooster"
+        },
+        "rooster5.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cat (b) cow (c) rooster (d) sheep",
+            "response": "The sound seems to be coming from a rooster, as it is a familiar cock-a-doodle-doo sound.",
+            "label": "rooster"
+        },
+        "rooster27.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) sheep (b) pig (c) cat (d) rooster",
+            "response": "Based on the distinctive 'cock-a-doodle-doo' tone, the sound is most likely coming from a rooster.",
+            "label": "rooster"
+        },
+        "rooster34.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) rooster (b) cat (c) dog (d) pig",
+            "response": "Based on the given sounds, the most likely source is a rooster. The sound includes characteristic cock-a-doodle-doo crowing, which is unique to roosters.",
+            "label": "rooster"
+        },
+        "rooster3.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) pig (b) crow (c) rooster (d) dog",
+            "response": "The sound in the provided audio recording most closely matches the sound of a rooster.",
+            "label": "rooster"
+        },
+        "rooster15.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) rooster (b) pig (c) cat (d) crow",
+            "response": "Based on the sound described in the audio file, the most likely match would be (a) rooster.",
+            "label": "rooster"
+        },
+        "rooster26.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) cat (b) pig (c) hen (d) rooster",
+            "response": "Based on the given sounds, the animal that is most likely to be the source of the sound is a鸡 (c). The sounds include a rooster crowing and a chicken clucking, both of which are characteristic sounds of chickens.",
+            "label": "rooster"
+        },
+        "rooster16.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) dog (b) rooster (c) pig (d) cow",
+            "response": "The sound is most likely from a rooster, as it is a distinctive crowing sound.",
+            "label": "rooster"
+        },
+        "rooster0.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cow (b) rooster (c) dog (d) hen",
+            "response": "The sound is associated with a rooster.",
+            "label": "rooster"
+        },
+        "rooster23.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) rooster (b) sheep (c) frog (d) pig",
+            "response": "The sound is that of a rooster.",
+            "label": "rooster"
+        },
+        "rooster7.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) cow (b) frog (c) rooster (d) sheep",
+            "response": "The sound corresponds to a rooster, which is鸡 in Chinese.",
+            "label": "rooster"
+        },
+        "rooster25.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cat (b) cow (c) sheep (d) rooster",
+            "response": "The sound is likely from a rooster, as it is a characteristic sound of a rooster crowing.",
+            "label": "rooster"
+        },
+        "rooster28.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) dog (b) sheep (c) rooster (d) frog",
+            "response": "Based on the unique 'cock-a-doodle-doo' sound, it's very likely that the source is a rooster.",
+            "label": "rooster"
+        },
+        "rooster31.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) hen (b) frog (c) sheep (d) rooster",
+            "response": "Based on the given sounds, the most likely source is a rooster (option d). The sound includes characteristic cock-a-doodle-doo crowing and a unique 'cluck' that鸡 (rooster) often makes. The other options do not match the audio's characteristics as well as a rooster does.",
+            "label": "rooster"
+        },
+        "rooster13.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) pig (b) rooster (c) hen (d) sheep",
+            "response": "Based on the auditory characteristics of the sound, it most likely belongs to a鸡 (rooster).",
+            "label": "rooster"
+        },
+        "rooster6.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) rooster (b) hen (c) sheep (d) frog",
+            "response": "Based on the given sounds, the most likely match is (a) rooster.",
+            "label": "rooster"
+        },
+        "rooster11.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) cow (b) crow (c) pig (d) rooster",
+            "response": "The sound in the recording is likely from a rooster.",
+            "label": "rooster"
+        },
+        "rooster39.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) frog (b) crow (c) rooster (d) sheep",
+            "response": "The sound is most likely from a rooster,鸡.",
+            "label": "rooster"
+        },
+        "rooster10.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) rooster (b) cow (c) sheep (d) crow",
+            "response": "The sound is associated with a rooster.",
+            "label": "rooster"
+        },
+        "rooster37.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) sheep (b) rooster (c) pig (d) cow",
+            "response": "The sound is that of a rooster.",
+            "label": "rooster"
+        },
+        "rooster22.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) dog (b) frog (c) cat (d) rooster",
+            "response": "The sound is characteristic of a rooster, so the answer is (d).",
+            "label": "rooster"
+        },
+        "rooster1.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cow (b) rooster (c) sheep (d) dog",
+            "response": "Based on the given sounds, the most likely animal responsible is a rooster, as鸡（rooster）有鸡鸣的特征。",
+            "label": "rooster"
+        },
+        "rooster12.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) rooster (b) hen (c) cat (d) pig",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a rooster. Roosters are known for their crowing behavior and the distinctive cock-a-doodle-doo sound they make.",
+            "label": "rooster"
+        },
+        "rooster8.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cat (b) frog (c) rooster (d) pig",
+            "response": "Based on the given sounds, the most likely source is a rooster (Option c). The sound includes characteristic cock-a-doodle-doo crowing, which is unique to roosters. Other options do not match the audio's quality or context as well.",
+            "label": "rooster"
+        },
+        "rooster36.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) sheep (b) frog (c) rooster (d) crow",
+            "response": "The sound in the provided audio recording most closely matches the sound of a rooster.",
+            "label": "rooster"
+        },
+        "rooster33.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) rooster (b) cat (c) dog (d) hen",
+            "response": "Based on the sound characteristics, the most likely match is (a) rooster.",
+            "label": "rooster"
+        },
+        "rooster9.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) crow (b) rooster (c) sheep (d) frog",
+            "response": "The sound in the recording is likely from a rooster.",
+            "label": "rooster"
+        },
+        "rooster17.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) hen (b) sheep (c) crow (d) rooster",
+            "response": "(d) rooster",
+            "label": "rooster"
+        },
+        "rooster19.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) rooster (b) hen (c) cow (d) frog",
+            "response": "The sound is associated with a rooster.",
+            "label": "rooster"
+        },
+        "rooster18.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) cow (b) dog (c) rooster (d) sheep",
+            "response": "The sound is that of a rooster,鸡.",
+            "label": "rooster"
+        },
+        "rooster2.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) cow (b) frog (c) pig (d) rooster",
+            "response": "(d) rooster",
+            "label": "rooster"
+        },
+        "rooster32.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) frog (b) rooster (c) dog (d) pig",
+            "response": "The sound is likely from a rooster, as it is a common sound among chickens and roosters.",
+            "label": "rooster"
+        },
+        "rooster14.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) sheep (b) rooster (c) frog (d) cat",
+            "response": "Based on the distinctive crowing sound, it is most likely that the sound comes from a rooster (option b).",
+            "label": "rooster"
+        },
+        "rooster30.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) rooster (b) dog (c) hen (d) sheep",
+            "response": "Based on the given sounds, the most likely source is a rooster (option A). The sound includes characteristic cock-a-doodle-doo crowing, which is unique to roosters.鸡鸣的声音和其他选项相比较具有更明显的鸡啼特点。",
+            "label": "rooster"
+        },
+        "rooster21.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) cat (b) frog (c) pig (d) rooster",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a rooster (d).",
+            "label": "rooster"
+        },
+        "rooster4.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cat (b) dog (c) rooster (d) sheep",
+            "response": "The most likely match for the sound is (c) rooster.",
+            "label": "rooster"
+        },
+        "crow30.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) pig (b) dog (c) crow (d) cow",
+            "response": "The sound in the recording is likely coming from a crow.",
+            "label": "crow"
+        },
+        "crow32.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) cow (b) crow (c) sheep (d) rooster",
+            "response": "The animal most likely responsible for the sound is a crow, as it is known for its loud cawing and the context of the sound being outdoor suggests an open environment where such birds would be commonly found.",
+            "label": "crow"
+        },
+        "crow15.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) crow (b) hen (c) cat (d) frog",
+            "response": "The sound is associated with a crow.",
+            "label": "crow"
+        },
+        "crow4.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) hen (b) sheep (c) dog (d) crow",
+            "response": "The sound is from a crow.",
+            "label": "crow"
+        },
+        "crow31.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) dog (b) pig (c) crow (d) sheep",
+            "response": "The sound corresponds to a crow.",
+            "label": "crow"
+        },
+        "crow10.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) crow (b) sheep (c) dog (d) cat",
+            "response": "Based on the given sounds, the animal responsible is likely a crow.",
+            "label": "crow"
+        },
+        "crow13.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) frog (b) crow (c) rooster (d) hen",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound was made by a crow. Crow cawing often has a distinctive loud, deep tone and can be heard from a distance.",
+            "label": "crow"
+        },
+        "crow29.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) pig (b) hen (c) rooster (d) crow",
+            "response": "The sound is most likely from a rooster, as it has the characteristic of a鸡啼 - a cock-a-doodle-doo sound, which is often associated with roosters. The other options do not match the sound's quality and characteristics as well.",
+            "label": "crow"
+        },
+        "crow0.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) crow (b) frog (c) pig (d) sheep",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the sound of a crow.",
+            "label": "crow"
+        },
+        "crow35.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) hen (b) crow (c) dog (d) cat",
+            "response": "The most likely match for the sound is (b) crow.",
+            "label": "crow"
+        },
+        "crow7.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) cat (b) pig (c) crow (d) cow",
+            "response": "The sound in the recording is likely coming from a crow.",
+            "label": "crow"
+        },
+        "crow11.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) pig (b) cow (c) frog (d) crow",
+            "response": "The animal most likely responsible for the sound is a crow, as it is known to caw loudly. The other options do not typically make such loud noise. Therefore, the answer is (d) crow.",
+            "label": "crow"
+        },
+        "crow9.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cow (b) dog (c) sheep (d) crow",
+            "response": "The sound is associated with a crow.",
+            "label": "crow"
+        },
+        "crow14.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) crow (b) cat (c) rooster (d) hen",
+            "response": "The sound is from a crow.",
+            "label": "crow"
+        },
+        "crow21.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) sheep (b) crow (c) cow (d) hen",
+            "response": "The sound corresponds to a crow.",
+            "label": "crow"
+        },
+        "crow36.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cow (b) sheep (c) crow (d) frog",
+            "response": "The sound was made by a crow.",
+            "label": "crow"
+        },
+        "crow24.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) rooster (b) crow (c) cat (d) frog",
+            "response": "Based on the given sounds, it is most likely that the sound comes from a crow (option b). The characteristic crowing sound is well-known for its loud, distinctive crowing at dawn or cockcrow time, which fits the description of the sound in the audio file. Crow crows are also commonly found in the鸡啼晨鸣的场景, which could explain the setting of the audio.",
+            "label": "crow"
+        },
+        "crow12.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) rooster (b) cow (c) dog (d) crow",
+            "response": "Based on the unique combination of sounds like cawing, clucking, and a brief crow, the bird species most likely responsible for these sounds is the鸡 (rooster). These birds are known for their vocal nature and ability to produce various sounds. The clucking often heard could be from a rooster or a chicken, while the crowing is characteristic of a rooster. Therefore, the correct answer would be (a) rooster.",
+            "label": "crow"
+        },
+        "crow8.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) crow (b) hen (c) frog (d) pig",
+            "response": "Based on the auditory characteristics of the sound, it most likely belongs to a crow (option A).",
+            "label": "crow"
+        },
+        "crow17.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) cow (b) sheep (c) crow (d) hen",
+            "response": "The most likely match for the sound is (c) crow.",
+            "label": "crow"
+        },
+        "crow33.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) crow (b) dog (c) cow (d) pig",
+            "response": "The sound in the recording is likely coming from a crow.",
+            "label": "crow"
+        },
+        "crow2.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) frog (b) hen (c) crow (d) cat",
+            "response": "The animal most likely responsible for the sound is a crow, as it is known to make loud cawing noises.",
+            "label": "crow"
+        },
+        "crow28.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) hen (b) crow (c) cat (d) rooster",
+            "response": "The sound is associated with a crow.",
+            "label": "crow"
+        },
+        "crow20.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) dog (b) sheep (c) rooster (d) crow",
+            "response": "The sound is from a crow.",
+            "label": "crow"
+        },
+        "crow39.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) crow (b) hen (c) pig (d) frog",
+            "response": "The sound matches a crow.",
+            "label": "crow"
+        },
+        "crow19.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cow (b) pig (c) hen (d) crow",
+            "response": "The sound was made by a鸡 (chicken).",
+            "label": "crow"
+        },
+        "crow25.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) frog (b) hen (c) crow (d) cat",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound was made by a crow. Crow crows typically have a loud, distinctive call that can be heard from a distance, and the sound in the audio file matches this description.",
+            "label": "crow"
+        },
+        "crow3.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) sheep (b) crow (c) frog (d) pig",
+            "response": "Based on the given sounds, the most likely source is a crow. The characteristic loud cawing and the unique 'ick' sound at the end suggest it's a bird, and among the options, only a crow matches these descriptors.",
+            "label": "crow"
+        },
+        "crow38.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) frog (b) cow (c) hen (d) crow",
+            "response": "The animal that most closely matches the sound in the provided audio recording is a crow.",
+            "label": "crow"
+        },
+        "crow1.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) rooster (b) crow (c) cow (d) cat",
+            "response": "The most likely match for the sound is (b) crow.",
+            "label": "crow"
+        },
+        "crow16.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) crow (b) hen (c) cow (d) cat",
+            "response": "Based on the given sounds, the most likely source is a crow.",
+            "label": "crow"
+        },
+        "crow27.wav": {
+            "instruction": "Identify the animal most likely responsible for the sound in this audio clip and choose the most likely one from the options. (a) frog (b) pig (c) crow (d) sheep",
+            "response": "The animal most likely responsible for the sound is a crow, as they are known to caw loudly.",
+            "label": "crow"
+        },
+        "crow37.wav": {
+            "instruction": "Based on the options, which animal do you think is associated with the sound you hear? (a) cow (b) pig (c) frog (d) crow",
+            "response": "The sound is associated with a crow.",
+            "label": "crow"
+        },
+        "crow18.wav": {
+            "instruction": "From the audio file, which animal from the provided list do you identify as the source of the sound? (a) crow (b) dog (c) rooster (d) pig",
+            "response": "The sound is from a crow.",
+            "label": "crow"
+        },
+        "crow34.wav": {
+            "instruction": "Can you select the animal from the provided options that matches the sound? (a) cow (b) crow (c) rooster (d) cat",
+            "response": "The sound is most likely from a crow, as they are known for their loud cawing and other vocalizations.",
+            "label": "crow"
+        },
+        "crow5.wav": {
+            "instruction": "Out of the provided options, which animal do you think is responsible for the sound captured in the provided audio recording? (a) cat (b) frog (c) crow (d) sheep",
+            "response": "The sound is likely from a crow, as they have a distinctive call that is used for various purposes such as communication with other birds or marking their territory.",
+            "label": "crow"
+        },
+        "crow26.wav": {
+            "instruction": "From the following list of animals, which one do you think is most likely to be the source of the sound captured in the provided audio file, based on the characteristics and tone of the sound you hear? (a) pig (b) crow (c) cow (d) rooster",
+            "response": "Based on the characteristics and tone of the sound, it is most likely that the sound comes from a crow (b).",
+            "label": "crow"
+        },
+        "crow23.wav": {
+            "instruction": "Using the provided options and the audio file you’ve listened to, which animal do you think is most likely the source of the sound, considering all the characteristics and qualities you can identify in the sound? (a) cow (b) sheep (c) frog (d) crow",
+            "response": "Based on the sounds heard in the audio file, the most likely source of the sound is a crow (option d). The characteristic sounds include a brief tone or crowing, a continuous background noise that could be associated with a bird, and a unique voice quality that sets it apart from other birds. These traits align well with the characteristics of a crow.",
+            "label": "crow"
+        },
+        "crow6.wav": {
+            "instruction": "Out of the animals listed below, can you identify the one that most closely matches the sound in the provided audio recording based on its auditory characteristics? (a) sheep (b) cat (c) crow (d) cow",
+            "response": "Based on the auditory characteristics of the sound, it most closely matches the crow (c).",
+            "label": "crow"
+        },
+        "crow22.wav": {
+            "instruction": "Given the audio file you’ve listened to and the list of options provided, which animal do you think is the most likely match for the sound? (a) crow (b) rooster (c) hen (d) cat",
+            "response": "Based on the given sound, the most likely match is (a) crow.",
+            "label": "crow"
+        }
+    }
+}

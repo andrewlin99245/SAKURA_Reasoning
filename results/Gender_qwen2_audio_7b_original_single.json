@@ -1,0 +1,2512 @@
+{
+    "attribute": "Gender",
+    "type": "single",
+    "model_config": {
+        "gamma": 0.0,
+        "w": 4,
+        "lam": 0.0,
+        "fisher_scale": 0.0
+    },
+    "results": {
+        "en_test_0_common_voice_en_22335218.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37976442.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31266588.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_36016278.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19954794.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18395139.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "(b)Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39645706.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19489627.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19704669.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "(b) Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18854899.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_36016276.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_106966.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19935427.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19935040.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_627541.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17473365.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39990821.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38849850.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_25619619.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19696555.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17960994.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31671570.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19524811.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31693756.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "(a)Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18979306.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19735675.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "(b)Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_21730660.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17840464.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_35437451.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39747514.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19984720.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39022785.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19937271.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17426004.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20586173.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31770143.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "(b) Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18707945.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37585170.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "(b)Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19937101.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31769647.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19854772.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17396116.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17902082.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17350425.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31684476.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39750688.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_35400503.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_21481329.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "(b)Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37344367.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31534152.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17895168.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37318569.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_498245.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31734340.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37976915.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19412457.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18211602.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17935705.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_21367754.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19596930.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19941683.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19708695.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17912300.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17391184.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39734854.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31770144.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17266327.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31822774.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "(b)Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37429748.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31667123.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17859625.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_22338655.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_25722369.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18309496.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19706318.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_21372560.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "(b) Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31638031.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39663913.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_25884084.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20688736.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_35854111.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39990785.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38713736.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17979998.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is male.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19951114.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38243824.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17391190.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_28872024.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_27654279.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19485661.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38427570.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19708700.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_26523110.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_26790804.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37698584.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "(b)Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_36305046.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19941476.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18303530.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_33290227.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_5688714.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17503256.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_30951482.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_25716466.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_514622.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_125399.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17980000.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "(b)Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_30406494.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20586174.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39015262.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_21321829.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20296863.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38123782.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39548774.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_623389.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is male.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38213328.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18979305.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_21374777.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17285889.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "(b)Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_551373.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_265829.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38518231.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38785822.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_23863783.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37016755.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is male.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18758347.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19766383.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19708707.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_28458841.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31679243.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19936967.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31649071.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_36937896.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17271034.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19984718.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_534327.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_28197048.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17746709.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_21349470.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_32123928.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18317544.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19715449.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39965220.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37536210.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_29434734.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39043506.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37728197.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20172863.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18392203.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37732910.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20848164.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_35473863.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39999866.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18733382.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37318570.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20289.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_28458839.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19625477.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37585175.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_36326712.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18425394.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19685105.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18758345.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37797910.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19948140.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31070493.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31667122.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17562717.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17839501.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17895301.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38427553.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19635121.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37536220.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_561897.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31696187.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_32941672.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_25076998.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20936410.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18304023.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18257271.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_25722368.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20282120.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38707113.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39018431.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37486763.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_26408640.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38077625.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_32377446.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18165461.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18758926.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17285930.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_36520201.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19609644.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18151607.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19985202.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19412461.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_36765761.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19532961.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_23896967.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37486765.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_17813315.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37318416.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18122652.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_36544758.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19627215.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19736952.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19480238.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19625460.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20800498.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39915957.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38707391.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_35400504.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_25659718.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31716424.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_22469604.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19715450.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "(a)Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20296862.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18093355.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39016117.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20972098.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_623388.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39764879.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_66713.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18395045.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31611581.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38420003.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "The speaker is male.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_28872022.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_1035565.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37185966.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_550726.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19988809.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18758956.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19635120.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "The speaker is male.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_25021926.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_641105.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_21367755.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39015721.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_20644765.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_37428938.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19941211.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39094658.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19480240.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_21730661.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "The speaker is female.",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_36435650.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_514623.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19988815.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_31716416.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_38189490.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_19058131.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_39082174.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_21568053.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Female",
+            "label": "female"
+        },
+        "en_test_0_common_voice_en_18375213.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_34481119.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_25126314.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18556.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17864432.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_25898322.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_24472733.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19938518.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19729843.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39908937.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18361080.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_33366310.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19562559.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17823851.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "The speaker is male.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_35905111.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20343661.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_34082125.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_38348269.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19808301.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23817815.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_26209043.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_31893853.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18267223.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17880588.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23846478.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39979187.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_32222394.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17435140.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18216835.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18236093.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18848277.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_21883920.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23935849.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17492946.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37250088.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23817814.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18383407.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_31705666.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18177045.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17561641.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37360775.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_31513437.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23686301.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19451953.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19940196.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17865779.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37547581.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19941145.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_520490.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19213280.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18372287.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20911760.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18983327.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_22758330.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37069473.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20937833.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_64837.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18948012.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37478968.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20451079.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18198513.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37471267.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_32701722.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_70723.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_28889779.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19531689.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17902330.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17269872.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39604073.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39765220.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_596853.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_21401014.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_22717228.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_184547.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20047839.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23408793.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39018435.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_27070191.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19748962.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20688746.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_21265383.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20907101.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18277778.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17911377.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_16030401.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_27485511.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18340487.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18343224.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17902458.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_26966176.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_40020391.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_150709.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18085008.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18228659.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39946995.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17747097.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_38576099.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17787575.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39942522.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18198327.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20678930.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19031181.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_36354767.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_22435265.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_22615640.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17801699.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20258571.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19611933.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39827261.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_27385248.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_508297.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "The speaker is male.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_24230076.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_670563.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19666442.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19686599.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20976961.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_22346515.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17795814.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Male (b) Female",
+            "response": "(b) Female",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23628350.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18377579.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39807154.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17685610.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Male (b) Female",
+            "response": "The speaker is male.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_38321996.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19935618.wav": {
+            "instruction": "Identify the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_31720201.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Male (b) Female",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17666102.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17298946.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23964610.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37176567.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19382249.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20987285.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18370465.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is male.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18064977.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_25707899.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23835356.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39578635.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "(b)Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20466244.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_27709921.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17315099.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18062241.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18661022.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "(b) Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_24014466.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_21307080.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Female",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37875407.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39062500.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is male.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_21069613.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17782101.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_21567727.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37232168.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_170661.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20890437.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_31876544.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_38267254.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23424398.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39640101.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is male.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18935482.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18234239.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18852391.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_38053248.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_195779.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_678749.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19212949.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is male.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_33211536.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18485414.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_31582705.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_31699299.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19941502.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17910343.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_34693.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17879821.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19707483.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_60682.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19213279.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_187059.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18221655.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23583679.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_31536559.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18669344.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37804275.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Female",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17405244.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19112583.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_31433767.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is male.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37436422.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20262304.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18730818.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_21230886.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20304586.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_21261870.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "(b)Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17326646.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19547898.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_24740861.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_22730454.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_21568217.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18593746.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is female.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_672261.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18188256.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37670157.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18710312.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20405322.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39582224.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_24261278.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_25585756.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39588352.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20262803.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23853901.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39828605.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "(b) Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_934751.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17353713.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19935865.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39562047.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18127884.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "The speaker is male.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_31694143.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_38161833.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18489187.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_28001452.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17864433.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39490494.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17839579.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19939176.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37478967.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_38412238.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19692388.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_137653.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37870005.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17845943.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_205394.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17452908.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17315098.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_22575527.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_20027504.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18058237.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "The speaker is male.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17882305.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "The speaker is male.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_23956394.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_31433769.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19539213.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_207025.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37527521.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18390994.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "(b)Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_31609927.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_27535749.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_24205067.wav": {
+            "instruction": "Please identify the gender of the speaker. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_22709017.wav": {
+            "instruction": "What is the speaker's gender in this audio? (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_37255991.wav": {
+            "instruction": "Classify the speaker's voice into one of the following gender categories. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_17852657.wav": {
+            "instruction": "Identify the speaker's gender. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19015151.wav": {
+            "instruction": "From the provided audio recording, recognize the speaker's gender. (a) Female (b) Male",
+            "response": "The speaker is male.",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_19676008.wav": {
+            "instruction": "Listen carefully to the provided audio clip and identify the gender of the speaker. Select the option that best represents the speaker’s gender based on your perception. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39760639.wav": {
+            "instruction": "Determine the speaker’s gender in this audio recording. Pay attention to vocal characteristics that might help in categorizing the speaker into one of these two options. Select your choice from the following options. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_25941300.wav": {
+            "instruction": "The following task requires you to classify the gender of the speaker in the provided audio clip. Analyze the speaker’s vocal traits and select the option that aligns with your judgment. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_18342344.wav": {
+            "instruction": "Your task is to determine the gender of the speaker in the audio clip provided. Please identify the speaker's gender and select the option that you believe is most accurate. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        },
+        "en_test_0_common_voice_en_39765214.wav": {
+            "instruction": "In this task, you will listen to a short audio clip and identify the speaker's gender. Select the option that best fits your opinion. (a) Female (b) Male",
+            "response": "Male",
+            "label": "male"
+        }
+    }
+}
