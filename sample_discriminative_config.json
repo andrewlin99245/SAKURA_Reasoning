@@ -1,0 +1,100 @@
+{
+  "configurations": [
+    {
+      "name": "baseline_no_modifications",
+      "description": "Baseline model without any SLA or VSV modifications",
+      "gamma": 0.0,
+      "w": 4,
+      "lam": 0.0,
+      "fisher_scale": 0.0
+    },
+    {
+      "name": "light_sla_only",
+      "description": "Light SLA configuration without VSV",
+      "gamma": 0.1,
+      "w": 2,
+      "lam": 0.0,
+      "fisher_scale": 0.0
+    },
+    {
+      "name": "medium_sla_only",
+      "description": "Medium SLA configuration without VSV",
+      "gamma": 0.25,
+      "w": 4,
+      "lam": 0.0,
+      "fisher_scale": 0.0
+    },
+    {
+      "name": "strong_sla_only",
+      "description": "Strong SLA configuration without VSV",
+      "gamma": 0.5,
+      "w": 8,
+      "lam": 0.0,
+      "fisher_scale": 0.0
+    },
+    {
+      "name": "light_vsv_only",
+      "description": "Light VSV configuration without SLA",
+      "gamma": 0.0,
+      "w": 4,
+      "lam": 0.01,
+      "fisher_scale": 0.25
+    },
+    {
+      "name": "medium_vsv_only",
+      "description": "Medium VSV configuration without SLA",
+      "gamma": 0.0,
+      "w": 4,
+      "lam": 0.05,
+      "fisher_scale": 0.5
+    },
+    {
+      "name": "strong_vsv_only",
+      "description": "Strong VSV configuration without SLA",
+      "gamma": 0.0,
+      "w": 4,
+      "lam": 0.1,
+      "fisher_scale": 1.0
+    },
+    {
+      "name": "balanced_sla_vsv",
+      "description": "Balanced combination of SLA and VSV",
+      "gamma": 0.25,
+      "w": 4,
+      "lam": 0.05,
+      "fisher_scale": 0.5
+    },
+    {
+      "name": "conservative_combined",
+      "description": "Conservative combination of SLA and VSV for stable performance",
+      "gamma": 0.1,
+      "w": 2,
+      "lam": 0.01,
+      "fisher_scale": 0.25
+    },
+    {
+      "name": "aggressive_combined",
+      "description": "Aggressive combination for maximum hallucination reduction",
+      "gamma": 0.5,
+      "w": 8,
+      "lam": 0.1,
+      "fisher_scale": 1.0
+    },
+    {
+      "name": "paper_replication",
+      "description": "Configuration matching the original paper's best results",
+      "gamma": 0.25,
+      "w": 4,
+      "lam": 0.05,
+      "fisher_scale": 0.5
+    },
+    {
+      "name": "high_gamma_experiment",
+      "description": "Experiment with higher gamma value",
+      "gamma": 0.75,
+      "w": 4,
+      "lam": 0.05,
+      "fisher_scale": 0.5
+    }
+  ]
+}
