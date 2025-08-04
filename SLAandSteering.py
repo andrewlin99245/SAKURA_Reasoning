@@ -28,7 +28,7 @@ model = Qwen2AudioSLAForCausalLM.from_pretrained(
 processor = AutoProcessor.from_pretrained(model_name)
 
 # Enable SLA (γ=0.3, last 5 layers). Your SLA implementation runs inside forward/generate.
-model.enable_sla(gamma=0.0, w=5)
+model.enable_sla(gamma=0.0, w=4)
 
 # ---------------------
 # Helpers to build inputs
@@ -41,15 +41,15 @@ def build_messages(include_audio: bool, wav_path: str):
         base.append({
             "role": "user",
             "content": [
-                {"type": "text", "text": "Describe the audio. "},
                 {"type": "audio", "audio_url": wav_path},
+                {"type": "text", "text": "Is there a sound of a dog barking in the audio? "},
             ],
         })
     else:
         base.append({
             "role": "user",
             "content": [
-                {"type": "text", "text": "Describe the audio. "},
+                {"type": "text", "text": "Is there a sound of a dog barking in the audio? "},
                 # No audio content here (this is the 'neg' case)
             ],
         })
@@ -78,7 +78,7 @@ def build_inputs(messages, audio=None, sr=16000):
 # ---------------------
 # Prepare one (neg,pos) pair for VSV
 # ---------------------
-wav_path = "/home/andrew99245/SAKURA_Reasoning/data/Animal/audio/frog51.wav"
+wav_path = "/home/andrew99245/SAKURA_Reasoning/data/Animal/audio/rooster39.wav"
 audio, _ = librosa.load(wav_path, sr=16000)
 
 messages_pos = build_messages(include_audio=True,  wav_path=wav_path)
@@ -97,7 +97,7 @@ with torch.no_grad():
     vsv = vsv.to(model.device)                         # ensure same device as model
 
 # Inject VSV at decoder blocks (post-block residual; norm-preserving)
-lam = 0.0  # VSV strength - tune between 0.1-0.17 as per VISTA paper
+lam = 0.075  # VSV strength - tune between 0.1-0.17 as per VISTA paper
 add_vsv_layers(model, vsv=vsv, lam=lam, which_stack="decoder")
 
 # ---------------------
@@ -109,7 +109,7 @@ for i in range(10):
             **pos_inputs,       # use the positive (with-audio) inputs for decoding
             max_new_tokens=128,
             do_sample=True,
-            temperature=1,
+            temperature=1.5,
             top_p=0.9,
         )
     text = processor.batch_decode(out, skip_special_tokens=True)[0]
