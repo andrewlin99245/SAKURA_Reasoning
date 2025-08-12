@@ -2,15 +2,15 @@
     "attribute": "Language",
     "type": "single",
     "model_config": {
-        "gamma": 0.25,
-        "w": 4,
+        "gamma": 0.15,
+        "w": 3,
         "lam": 0.05,
-        "fisher_scale": 0.05
+        "fisher_scale": 0.25
     },
     "results": {
         "de_test_0_common_voice_de_29193823.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Chinese (b) Korean (c) Spanish (d) German",
-            "response": "The language spoken is (c) Spanish.",
+            "response": "The language spoken is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_19651907.wav": {
@@ -20,17 +20,17 @@
         },
         "de_test_0_common_voice_de_17868906.wav": {
             "instruction": "Determine the language of the provided speech. (a) English (b) Spanish (c) Italian (d) German",
-            "response": "a) English",
+            "response": "The language is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_39805524.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Spanish (b) French (c) Korean (d) German",
-            "response": "The language spoken in the recording is best matched by (d) German.",
+            "response": "The language spoken in the recording is best matched by German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_19777557.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Korean (b) Chinese (c) German (d) Japanese",
-            "response": "The language spoken is: c) German",
+            "response": "The language in the speech is German. The correct answer is (c).",
             "label": "German"
         },
         "de_test_0_common_voice_de_20231703.wav": {
@@ -45,22 +45,22 @@
         },
         "de_test_0_common_voice_de_17499321.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) German (b) Spanish (c) Korean (d) English",
-            "response": "(d) English",
+            "response": "The language spoken in the audio is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_18595341.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) German (b) Japanese (c) Korean (d) Italian",
-            "response": "The speaker is using German in the provided audio segment.",
+            "response": "German",
             "label": "German"
         },
         "de_test_0_common_voice_de_34297867.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Spanish (b) German (c) French (d) Italian",
-            "response": "The language spoken is (b) German.",
+            "response": "German",
             "label": "German"
         },
         "de_test_0_common_voice_de_20232034.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Chinese (b) Spanish (c) German (d) Japanese",
-            "response": "The language spoken in the audio is German.",
+            "response": "The speech in the audio is in German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_24978922.wav": {
@@ -70,27 +70,27 @@
         },
         "de_test_0_common_voice_de_25326727.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) German (b) Japanese (c) Spanish (d) Chinese",
-            "response": "The language spoken in the recording is best matched by (a) German.",
+            "response": "The language spoken in the recording is German, hence the answer is (a).",
             "label": "German"
         },
         "de_test_0_common_voice_de_19128473.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) French (b) Chinese (c) Korean (d) German",
-            "response": "The language spoken is German.",
+            "response": "The language in the speech is German. The correct answer is (d).",
             "label": "German"
         },
         "de_test_0_common_voice_de_20197325.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) German (b) Spanish (c) English (d) Chinese",
-            "response": "The speaker is using German.",
+            "response": "The speaker is using the German language.",
             "label": "German"
         },
         "de_test_0_common_voice_de_20283829.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Chinese (b) Spanish (c) German (d) English",
-            "response": "The speaker is using the German language.",
+            "response": "The speaker is using German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_37501179.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) English (b) German (c) Italian (d) Spanish",
-            "response": "German",
+            "response": "The language spoken in the audio is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_19765382.wav": {
@@ -105,7 +105,7 @@
         },
         "de_test_0_common_voice_de_39904493.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) English (b) German (c) Chinese (d) Japanese",
-            "response": "The language spoken in the audio is German.",
+            "response": "The speech in the audio is in German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_37016766.wav": {
@@ -115,12 +115,12 @@
         },
         "de_test_0_common_voice_de_20231708.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) French (b) Italian (c) German (d) Japanese",
-            "response": "The language spoken in the recording is best matched by (c) German.",
+            "response": "The language spoken in the recording is best matched by German: 'Die Hauptstadt des Departamentos San Salvador de Jujuy ist gleichzeitig Provinzhauptstadt.'",
             "label": "German"
         },
         "de_test_0_common_voice_de_39904490.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) German (b) English (c) Korean (d) Japanese",
-            "response": "The language spoken is (b) English.",
+            "response": "The language in the speech is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_26820347.wav": {
@@ -130,7 +130,7 @@
         },
         "de_test_0_common_voice_de_18201555.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Japanese (b) Italian (c) Korean (d) German",
-            "response": "The speaker is using the German language.",
+            "response": "The speaker is speaking in German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_37560092.wav": {
@@ -145,7 +145,7 @@
         },
         "de_test_0_common_voice_de_34261989.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Italian (b) German (c) Korean (d) English",
-            "response": "The language spoken is (d) English.",
+            "response": "The language in the speech segment is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_18354244.wav": {
@@ -160,17 +160,17 @@
         },
         "de_test_0_common_voice_de_17868905.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Italian (b) English (c) German (d) Chinese",
-            "response": "The language spoken in the recording is best matched by (c) German.",
+            "response": "The language spoken in the recording is best matched by German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_39792483.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) English (b) German (c) Chinese (d) Korean",
-            "response": "The language spoken is (c) Chinese.",
+            "response": "The language spoken in the audio is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_19740814.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) Italian (b) Japanese (c) Spanish (d) German",
-            "response": "The speaker is using German.",
+            "response": "German",
             "label": "German"
         },
         "de_test_0_common_voice_de_24874063.wav": {
@@ -180,12 +180,12 @@
         },
         "de_test_0_common_voice_de_34232271.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Spanish (b) German (c) Italian (d) French",
-            "response": "The language spoken in the audio is German.",
+            "response": "German",
             "label": "German"
         },
         "de_test_0_common_voice_de_33974641.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Italian (b) German (c) Spanish (d) Chinese",
-            "response": "The speaker is using German in the provided audio segment.",
+            "response": "German",
             "label": "German"
         },
         "de_test_0_common_voice_de_19167601.wav": {
@@ -195,7 +195,7 @@
         },
         "de_test_0_common_voice_de_17300767.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) English (b) Japanese (c) French (d) German",
-            "response": "The spoken language in the audio is German.",
+            "response": "The language spoken in the speech is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_19009341.wav": {
@@ -205,12 +205,12 @@
         },
         "de_test_0_common_voice_de_19421035.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) English (b) German (c) Spanish (d) Italian",
-            "response": "The language spoken in the recording is best matched by (b) German.",
+            "response": "The language spoken in the recording is best matched by German: 'Einsatz abgelöst.'",
             "label": "German"
         },
         "de_test_0_common_voice_de_23830842.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Spanish (b) Italian (c) Chinese (d) German",
-            "response": "The language spoken is German.",
+            "response": "The language in the speech is German. The correct answer is (d).",
             "label": "German"
         },
         "de_test_0_common_voice_de_18220231.wav": {
@@ -225,7 +225,7 @@
         },
         "de_test_0_common_voice_de_19937217.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Korean (b) Japanese (c) German (d) Chinese",
-            "response": "The language spoken in the audio is German.",
+            "response": "The original content of this audio is:'Der Stil ist realistisch, die Bilder ähnelten oft einer photographischen Abbildung.'",
             "label": "German"
         },
         "de_test_0_common_voice_de_38232955.wav": {
@@ -235,12 +235,12 @@
         },
         "de_test_0_common_voice_de_22885447.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Spanish (b) English (c) Japanese (d) German",
-            "response": "The language spoken is (b) English.",
+            "response": "The language spoken is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_19561153.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Italian (b) French (c) German (d) Japanese",
-            "response": "The spoken language in the audio is German.",
+            "response": "The speech in the audio is in German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_20279928.wav": {
@@ -250,12 +250,12 @@
         },
         "de_test_0_common_voice_de_39183455.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) German (b) Spanish (c) English (d) French",
-            "response": "The language spoken in the recording is best matched by (c) English.",
+            "response": "The language spoken in the recording is best matched by English (c).",
             "label": "German"
         },
         "de_test_0_common_voice_de_20397921.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Korean (b) Chinese (c) Spanish (d) German",
-            "response": "The language spoken is German.",
+            "response": "The language in the speech is German. The translation of the speech is 'Thus, Lams secured his fifth dubel.'",
             "label": "German"
         },
         "de_test_0_common_voice_de_17843259.wav": {
@@ -270,7 +270,7 @@
         },
         "de_test_0_common_voice_de_25949640.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) German (b) Spanish (c) Chinese (d) Korean",
-            "response": "The language spoken in the audio is German.",
+            "response": "The language in the speech is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_27315844.wav": {
@@ -280,12 +280,12 @@
         },
         "de_test_0_common_voice_de_17902872.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) English (b) Korean (c) Chinese (d) German",
-            "response": "The speaker is speaking in German.",
+            "response": "The language spoken is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_18934633.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Spanish (b) Chinese (c) Italian (d) German",
-            "response": "The spoken language in the audio is German.",
+            "response": "The language spoken in the speech is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_20255382.wav": {
@@ -295,12 +295,12 @@
         },
         "de_test_0_common_voice_de_20561354.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) English (b) German (c) Korean (d) Chinese",
-            "response": "The language spoken in the recording is best matched by (a) English.",
+            "response": "The language spoken in the recording is best matched by German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_18206573.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) German (b) Korean (c) Japanese (d) French",
-            "response": "The language spoken is German.",
+            "response": "The language in the speech is German. The correct answer is (a).",
             "label": "German"
         },
         "de_test_0_common_voice_de_32524714.wav": {
@@ -315,22 +315,22 @@
         },
         "de_test_0_common_voice_de_17301827.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) English (b) Italian (c) German (d) Spanish",
-            "response": "The speaker is speaking in: A) English.",
+            "response": "The language spoken in the audio is German.",
             "label": "German"
         },
         "de_test_0_common_voice_de_19043449.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Japanese (b) Korean (c) German (d) Spanish",
-            "response": "The speaker is using German in the provided audio segment.",
+            "response": "German",
             "label": "German"
         },
         "de_test_0_common_voice_de_18493314.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) French (b) Chinese (c) Italian (d) German",
-            "response": "The language spoken is German.",
+            "response": "The speaker is speaking in German.",
             "label": "German"
         },
         "en_test_0_common_voice_en_22335218.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Korean (b) German (c) Spanish (d) English",
-            "response": "The language spoken in the audio is English.",
+            "response": "The language spoken in the audio is d) English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_37976442.wav": {
@@ -340,12 +340,12 @@
         },
         "en_test_0_common_voice_en_31266588.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) French (b) German (c) Japanese (d) English",
-            "response": "The language spoken in the recording is best matched by (d) English.",
+            "response": "The language spoken in the recording is best matched by English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_36016278.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) German (b) French (c) Spanish (d) English",
-            "response": "The language spoken is (d) English.",
+            "response": "The language in the speech is English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_19954794.wav": {
@@ -360,7 +360,7 @@
         },
         "en_test_0_common_voice_en_39645706.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Chinese (b) German (c) English (d) Japanese",
-            "response": "The speaker is speaking in English.",
+            "response": "The speech in the audio is in English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_19489627.wav": {
@@ -370,12 +370,12 @@
         },
         "en_test_0_common_voice_en_19704669.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) English (b) German (c) Spanish (d) French",
-            "response": "The language spoken is English.",
+            "response": "The speaker is speaking in English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_18854899.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Spanish (b) Italian (c) English (d) Japanese",
-            "response": "The spoken language in the audio is (c) English.",
+            "response": "The language spoken in the speech is English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_36016276.wav": {
@@ -385,12 +385,12 @@
         },
         "en_test_0_common_voice_en_106966.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Spanish (b) Korean (c) Chinese (d) English",
-            "response": "The language spoken in the recording most likely matches the English language.",
+            "response": "The language spoken in the recording most likely matches English, as indicated by the content and style of the speech.",
             "label": "English"
         },
         "en_test_0_common_voice_en_19935427.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Japanese (b) Korean (c) Spanish (d) English",
-            "response": "The language spoken is (d) English.",
+            "response": "The language in the speech is (d) English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_19935040.wav": {
@@ -420,7 +420,7 @@
         },
         "en_test_0_common_voice_en_25619619.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Japanese (b) Korean (c) Spanish (d) English",
-            "response": "The language spoken in the audio is (d) English.",
+            "response": "The language spoken in the speech is English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_19696555.wav": {
@@ -430,12 +430,12 @@
         },
         "en_test_0_common_voice_en_17960994.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Japanese (b) English (c) Korean (d) German",
-            "response": "The language spoken in the recording is best matched by (b) English.",
+            "response": "The language spoken in the recording is best matched by English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_31671570.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Japanese (b) English (c) Italian (d) Spanish",
-            "response": "The language spoken in the audio is (b) English.",
+            "response": "The language in the speech is (b) English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_19524811.wav": {
@@ -445,7 +445,7 @@
         },
         "en_test_0_common_voice_en_31693756.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) German (b) Italian (c) Japanese (d) English",
-            "response": "The speaker is using the English language.",
+            "response": "The speaker is using English in the speech.",
             "label": "English"
         },
         "en_test_0_common_voice_en_18979306.wav": {
@@ -460,7 +460,7 @@
         },
         "en_test_0_common_voice_en_21730660.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) German (b) English (c) Korean (d) French",
-            "response": "(b) English",
+            "response": "The speaker is speaking in English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_17840464.wav": {
@@ -470,17 +470,17 @@
         },
         "en_test_0_common_voice_en_35437451.wav": {
             "instruction": "Determine the language of the provided speech. (a) Italian (b) Spanish (c) English (d) Japanese",
-            "response": "The language is English.",
+            "response": "The speech is in English; the content is 'Meanwhile, the Val Lemis and his group of scientists escape from the prototype star.'",
             "label": "English"
         },
         "en_test_0_common_voice_en_39747514.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) English (b) Chinese (c) Italian (d) German",
-            "response": "The language spoken in the recording is best matched by (a) English.",
+            "response": "The language spoken in the recording best matches English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_19984720.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Chinese (b) Korean (c) Italian (d) English",
-            "response": "The language spoken is (d) English.",
+            "response": "The language in the speech is English. The correct answer is (d).",
             "label": "English"
         },
         "en_test_0_common_voice_en_39022785.wav": {
@@ -495,7 +495,7 @@
         },
         "en_test_0_common_voice_en_34481119.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) German (b) Japanese (c) English (d) Chinese",
-            "response": "The speaker is speaking in English.",
+            "response": "The speaker is speaking in English, so the answer is (c).",
             "label": "English"
         },
         "en_test_0_common_voice_en_25126314.wav": {
@@ -515,17 +515,17 @@
         },
         "en_test_0_common_voice_en_25898322.wav": {
             "instruction": "Determine the language of the provided speech. (a) French (b) German (c) English (d) Korean",
-            "response": "The language is English.",
+            "response": "The speech is in English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_24472733.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Spanish (b) English (c) French (d) Italian",
-            "response": "The language spoken in the recording is best matched by (b) English.",
+            "response": "The language spoken in the recording is best matched by English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_19938518.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Chinese (b) Korean (c) French (d) English",
-            "response": "The language spoken is (d) English.",
+            "response": "The language in the speech is (d) English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_19729843.wav": {
@@ -540,7 +540,7 @@
         },
         "en_test_0_common_voice_en_18361080.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) French (b) Korean (c) English (d) Italian",
-            "response": "The speaker is speaking in English.",
+            "response": "The speaker is speaking in English, so the answer is (c).",
             "label": "English"
         },
         "en_test_0_common_voice_en_33366310.wav": {
@@ -555,22 +555,22 @@
         },
         "en_test_0_common_voice_en_17823851.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) French (b) English (c) Spanish (d) Chinese",
-            "response": "The spoken language in the audio is English.",
+            "response": "The language spoken in the speech is English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_35905111.wav": {
             "instruction": "Determine the language of the provided speech. (a) English (b) Spanish (c) Japanese (d) Italian",
-            "response": "(a) English",
+            "response": "The speech is in English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_20343661.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Japanese (b) English (c) Korean (d) German",
-            "response": "The language spoken in the recording is best matched by (b) English.",
+            "response": "The language spoken in the recording is best matched by English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_34082125.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Chinese (b) English (c) Italian (d) German",
-            "response": "The language spoken in the audio is German.",
+            "response": "The language in the speech is German. The correct answer is (d).",
             "label": "English"
         },
         "en_test_0_common_voice_en_38348269.wav": {
@@ -580,7 +580,7 @@
         },
         "en_test_0_common_voice_en_19808301.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Italian (b) English (c) French (d) German",
-            "response": "The speaker is using the English language.",
+            "response": "The speaker is using English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_23817815.wav": {
@@ -610,12 +610,12 @@
         },
         "en_test_0_common_voice_en_23846478.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Japanese (b) Italian (c) Chinese (d) English",
-            "response": "The language spoken in the recording is best matched by (d) English.",
+            "response": "The language in the recording is best matched by English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_39979187.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) English (b) Spanish (c) Korean (d) Chinese",
-            "response": "The language spoken is (a) English.",
+            "response": "The language in the speech is English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_32222394.wav": {
@@ -630,7 +630,7 @@
         },
         "en_test_0_common_voice_en_18216835.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Italian (b) Japanese (c) English (d) Spanish",
-            "response": "The language spoken in the audio is (c) English.",
+            "response": "The speaker is speaking in English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_18236093.wav": {
@@ -640,12 +640,12 @@
         },
         "en_test_0_common_voice_en_18848277.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Spanish (b) Chinese (c) Korean (d) English",
-            "response": "The language spoken is (d) English.",
+            "response": "The speaker is speaking in English.",
             "label": "English"
         },
         "en_test_0_common_voice_en_21883920.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Chinese (b) German (c) English (d) French",
-            "response": "The language spoken in the audio is English.",
+            "response": "The speech in the audio is in English.",
             "label": "English"
         },
         "es_test_0_common_voice_es_29112499.wav": {
@@ -655,12 +655,12 @@
         },
         "es_test_0_common_voice_es_23395164.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Korean (b) German (c) Spanish (d) Italian",
-            "response": "The language spoken in the recording is best matched by (c) Spanish.",
+            "response": "The language spoken in the recording is best matched by Spanish: 'La catedral será uno de los edificios más altos de Pristina cuando sea completada.'",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_19683623.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Spanish (b) Italian (c) French (d) English",
-            "response": "The language spoken is (d) English.",
+            "response": "The language in the speech is Spanish; therefore, the correct answer is (a).",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_19665262.wav": {
@@ -680,7 +680,7 @@
         },
         "es_test_0_common_voice_es_31296355.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) German (b) Italian (c) English (d) Spanish",
-            "response": "The speaker is using the Spanish language.",
+            "response": "The speaker is using the Spanish language in the provided audio segment.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_19960885.wav": {
@@ -700,7 +700,7 @@
         },
         "es_test_0_common_voice_es_34525519.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Italian (b) English (c) Spanish (d) Korean",
-            "response": "The language spoken in the recording is best matched by (a) Italian.",
+            "response": "The language spoken in the recording is Italian, so the answer is (a).",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_19668121.wav": {
@@ -710,7 +710,7 @@
         },
         "es_test_0_common_voice_es_20286753.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) Italian (b) Spanish (c) French (d) Japanese",
-            "response": "The speaker is using Spanish.",
+            "response": "The speaker is speaking in Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_19602665.wav": {
@@ -720,22 +720,22 @@
         },
         "es_test_0_common_voice_es_34366658.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Chinese (b) Spanish (c) English (d) French",
-            "response": "The language spoken in the audio is: (c) English",
+            "response": "The language in the audio is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_33274982.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Chinese (b) Italian (c) Spanish (d) Korean",
-            "response": "The speaker is using (c) Spanish.",
+            "response": "The speaker is using the Spanish language in the provided audio segment.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_20061372.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) German (b) Korean (c) Spanish (d) Chinese",
-            "response": "The language spoken is (c) Spanish.",
+            "response": "The language spoken is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_23818648.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Spanish (b) Japanese (c) English (d) German",
-            "response": "The language spoken in the audio is (c) English.",
+            "response": "The language spoken in the audio is English.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_19618280.wav": {
@@ -745,12 +745,12 @@
         },
         "es_test_0_common_voice_es_32233399.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Spanish (b) Chinese (c) English (d) Italian",
-            "response": "The language spoken in the recording is best matched by (c) English.",
+            "response": "The language spoken in the recording is best matched by Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_19609911.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) German (b) Spanish (c) English (d) French",
-            "response": "The language spoken is (c) English.",
+            "response": "The language in the speech is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_20301927.wav": {
@@ -765,12 +765,12 @@
         },
         "es_test_0_common_voice_es_30784891.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) German (b) French (c) English (d) Spanish",
-            "response": "The language spoken in the audio is (c) English.",
+            "response": "The speaker is speaking in Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_32232742.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Chinese (b) Japanese (c) Spanish (d) English",
-            "response": "The speaker is using Spanish in the provided audio segment.",
+            "response": "The speaker is using the Spanish language in the provided audio segment.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_39764888.wav": {
@@ -785,22 +785,22 @@
         },
         "es_test_0_common_voice_es_19635567.wav": {
             "instruction": "Determine the language of the provided speech. (a) Chinese (b) Italian (c) Spanish (d) Korean",
-            "response": "The language is (c) Spanish.",
+            "response": "The language is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_22140040.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Japanese (b) English (c) Spanish (d) German",
-            "response": "The language spoken in the recording is best matched by (b) English.",
+            "response": "The language spoken in the recording is best matched by Spanish: 'Muchos de ellos volvieron a la isla casados con rusas.'",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_25268035.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) German (b) Spanish (c) English (d) Japanese",
-            "response": "The language spoken is (c) English.",
+            "response": "The language in the speech is (c) English.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_26185995.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) Italian (b) Spanish (c) French (d) English",
-            "response": "The speaker is using the language: d) English.",
+            "response": "The speaker is using the Spanish language.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_25566581.wav": {
@@ -825,22 +825,22 @@
         },
         "es_test_0_common_voice_es_19604622.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Spanish (b) Italian (c) French (d) English",
-            "response": "The language spoken in the audio is (d) English.",
+            "response": "The language spoken in the speech is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_22208388.wav": {
             "instruction": "Determine the language of the provided speech. (a) French (b) Spanish (c) Chinese (d) Japanese",
-            "response": "b) Spanish",
+            "response": "The language is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_29444210.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) English (b) German (c) Spanish (d) Japanese",
-            "response": "The language spoken in the recording is best matched by Spanish: 'Permaneció en el Ayrich las dos siguientes temporadas.'",
+            "response": "The language spoken in the recording is best matched by Spanish: 'Se mantuvo en el Ayrich las dos temporadas siguientes.'",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_28537332.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Japanese (b) French (c) Spanish (d) Italian",
-            "response": "The language spoken is (c) Spanish.",
+            "response": "The language in the speech is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_19695678.wav": {
@@ -855,7 +855,7 @@
         },
         "es_test_0_common_voice_es_21744907.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Italian (b) French (c) Spanish (d) Chinese",
-            "response": "The language spoken in the audio is (c) Spanish.",
+            "response": "The language spoken in the audio is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_19598602.wav": {
@@ -865,12 +865,12 @@
         },
         "es_test_0_common_voice_es_26991582.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) French (b) Spanish (c) Japanese (d) Korean",
-            "response": "The speaker is speaking in Spanish.",
+            "response": "The language in the speech segment is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_22053528.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Spanish (b) Chinese (c) Korean (d) Italian",
-            "response": "The language spoken in the audio is Spanish.",
+            "response": "The language spoken in the speech is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_34369130.wav": {
@@ -880,12 +880,12 @@
         },
         "es_test_0_common_voice_es_19609731.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) German (b) Spanish (c) Italian (d) English",
-            "response": "The language spoken in the recording is best matched by (d) English.",
+            "response": "The language spoken in the recording is best matched by Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_19950997.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Italian (b) Spanish (c) French (d) English",
-            "response": "The language spoken is: (d) English",
+            "response": "The language in the speech is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_19994105.wav": {
@@ -900,7 +900,7 @@
         },
         "es_test_0_common_voice_es_20959681.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Spanish (b) French (c) German (d) Japanese",
-            "response": "The speaker is speaking in Spanish.",
+            "response": "Spanish",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_24544456.wav": {
@@ -910,7 +910,7 @@
         },
         "es_test_0_common_voice_es_19954818.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Japanese (b) French (c) Spanish (d) Italian",
-            "response": "The language spoken is (c) Spanish.",
+            "response": "The language spoken is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_19952288.wav": {
@@ -930,7 +930,7 @@
         },
         "es_test_0_common_voice_es_19401736.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) French (b) Japanese (c) German (d) Spanish",
-            "response": "The language spoken is (d) Spanish.",
+            "response": "The language in the speech is (d) Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_23797334.wav": {
@@ -940,42 +940,42 @@
         },
         "es_test_0_common_voice_es_29077208.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Spanish (b) Chinese (c) Japanese (d) Korean",
-            "response": "The speaker is using the Spanish language.",
+            "response": "The speaker is using Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_30945781.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Japanese (b) Spanish (c) Korean (d) Italian",
-            "response": "(b) Spanish",
+            "response": "Spanish",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_22137909.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Spanish (b) Italian (c) French (d) German",
-            "response": "The speaker is using the Spanish language.",
+            "response": "The speaker is using the Spanish language in the provided audio segment.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_32156457.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) German (b) Italian (c) Korean (d) Spanish",
-            "response": "The language spoken is (d) Spanish.",
+            "response": "The language spoken is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_32233476.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Korean (b) Italian (c) Spanish (d) English",
-            "response": "The spoken language in the audio is (d) English.",
+            "response": "The spoken language in the audio is Spanish.",
             "label": "Spanish"
         },
         "es_test_0_common_voice_es_20289312.wav": {
             "instruction": "Determine the language of the provided speech. (a) French (b) English (c) Italian (d) Spanish",
-            "response": "b) English",
+            "response": "The language is Spanish.",
             "label": "Spanish"
         },
         "fr_test_0_common_voice_fr_19646429.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Chinese (b) English (c) German (d) French",
-            "response": "The language spoken in the recording is best matched by (b) English.",
+            "response": "The language spoken in the recording is best matched by French: 'Son apparence y est différente de celle qu'elle prendra dans sa propre série.'",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_17323684.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Korean (b) German (c) Japanese (d) French",
-            "response": "The language spoken is (d) French.",
+            "response": "The language spoken in the audio is French. The correct answer is (d).",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19720135.wav": {
@@ -985,12 +985,12 @@
         },
         "fr_test_0_common_voice_fr_17963677.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Korean (b) English (c) Chinese (d) French",
-            "response": "The speaker is using the French language.",
+            "response": "The speaker is speaking in French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19965749.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Korean (b) English (c) Japanese (d) French",
-            "response": "(b) English",
+            "response": "The language spoken in the audio is French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19998169.wav": {
@@ -1005,22 +1005,22 @@
         },
         "fr_test_0_common_voice_fr_17623671.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Spanish (b) Korean (c) English (d) French",
-            "response": "The language spoken in the audio is (c) English.",
+            "response": "The language spoken in the audio is French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_20311057.wav": {
             "instruction": "Determine the language of the provided speech. (a) English (b) Chinese (c) French (d) German",
-            "response": "The language is (a) English.",
+            "response": "The language is French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19008192.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Spanish (b) Italian (c) English (d) French",
-            "response": "The language spoken in the recording is best matched by (c) English.",
+            "response": "The language spoken in the recording is best matched by French: 'Il a pour but de récompenser les meilleurs jeunes artistes.'",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_18099777.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) French (b) German (c) Spanish (d) English",
-            "response": "The language spoken is (d) English.",
+            "response": "The language in the speech is French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_21782932.wav": {
@@ -1030,22 +1030,22 @@
         },
         "fr_test_0_common_voice_fr_19631305.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) English (b) Spanish (c) Korean (d) French",
-            "response": "The speaker is using the French language.",
+            "response": "The speaker is using French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_37471152.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) French (b) English (c) Italian (d) Japanese",
-            "response": "The language spoken in the audio is (b) English.",
+            "response": "The language spoken in the audio is French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_25023194.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) French (b) Chinese (c) Japanese (d) Spanish",
-            "response": "The speaker is using French in the provided audio segment.",
+            "response": "French",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_30199980.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) English (b) Spanish (c) Italian (d) French",
-            "response": "The language spoken is (a) English.",
+            "response": "The speaker is speaking in French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19600338.wav": {
@@ -1060,12 +1060,12 @@
         },
         "fr_test_0_common_voice_fr_19816364.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) French (b) Korean (c) Japanese (d) Chinese",
-            "response": "The language spoken in the recording is best matched by (d) Chinese.",
+            "response": "The language spoken in the recording is best matched by the French language.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_39999164.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) French (b) Korean (c) German (d) Chinese",
-            "response": "The language spoken is (a) French.",
+            "response": "The language in the speech is French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_24547869.wav": {
@@ -1075,7 +1075,7 @@
         },
         "fr_test_0_common_voice_fr_19193512.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Japanese (b) Italian (c) French (d) English",
-            "response": "The speaker is using the French language.",
+            "response": "The speaker is speaking in French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_18641317.wav": {
@@ -1090,27 +1090,27 @@
         },
         "fr_test_0_common_voice_fr_22740885.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) English (b) Japanese (c) French (d) Italian",
-            "response": "The language spoken is (c) French.",
+            "response": "The speaker is speaking in French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19705581.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Spanish (b) Japanese (c) French (d) Korean",
-            "response": "The language spoken in the audio is (c) French.",
+            "response": "The language spoken in the audio is French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_28536843.wav": {
             "instruction": "Determine the language of the provided speech. (a) Japanese (b) French (c) Chinese (d) German",
-            "response": "The language is French.",
+            "response": "d) German",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_39510238.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Korean (b) German (c) English (d) French",
-            "response": "The language spoken in the recording is best matched by (c) English.",
+            "response": "The language spoken in the recording most closely resembles French, hence the answer is (d).",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_22740887.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Spanish (b) Italian (c) French (d) Chinese",
-            "response": "The language spoken is (c) French.",
+            "response": "The language in the speech is French. The correct answer is (c).",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19780756.wav": {
@@ -1125,7 +1125,7 @@
         },
         "fr_test_0_common_voice_fr_25035483.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Spanish (b) French (c) German (d) Italian",
-            "response": "The language spoken in the audio is (c) German.",
+            "response": "The speaker is speaking in French: 'Cette espèce est nommée en référence au lieu de sa découverte, Théna.'",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19754387.wav": {
@@ -1135,7 +1135,7 @@
         },
         "fr_test_0_common_voice_fr_18910744.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Japanese (b) Korean (c) French (d) Italian",
-            "response": "The language spoken is (c) French.",
+            "response": "The speaker is speaking in French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19615229.wav": {
@@ -1145,17 +1145,17 @@
         },
         "fr_test_0_common_voice_fr_39564535.wav": {
             "instruction": "Determine the language of the provided speech. (a) French (b) Chinese (c) Spanish (d) Korean",
-            "response": "The language is (a) French.",
+            "response": "The language is French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_25608680.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Italian (b) Chinese (c) French (d) English",
-            "response": "The language spoken in the recording is best matched by (c) French.",
+            "response": "The language spoken in the recording is French, hence the answer is (c).",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_20111427.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Korean (b) Spanish (c) German (d) French",
-            "response": "The language spoken is (d) French.",
+            "response": "The language in the speech is French. The sentence translates to 'Captain Paxton has his own affairs.'",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19632011.wav": {
@@ -1165,7 +1165,7 @@
         },
         "fr_test_0_common_voice_fr_24533969.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) English (b) Spanish (c) German (d) French",
-            "response": "The speaker is using the French language.",
+            "response": "The speaker is using French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_37230166.wav": {
@@ -1180,12 +1180,12 @@
         },
         "fr_test_0_common_voice_fr_25885201.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) English (b) Spanish (c) Italian (d) French",
-            "response": "The speaker is speaking in French.",
+            "response": "The speaker is speaking in French: 'Cependant la manipulation soviétique est découverte.'",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_38206114.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Korean (b) Spanish (c) Chinese (d) French",
-            "response": "The spoken language in the audio is French.",
+            "response": "The language spoken in the speech is French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_24085763.wav": {
@@ -1195,22 +1195,22 @@
         },
         "fr_test_0_common_voice_fr_23232071.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) English (b) Chinese (c) Korean (d) French",
-            "response": "The language spoken in the recording is best matched by (a) English.",
+            "response": "The language spoken in the recording is best matched by French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19740504.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Chinese (b) French (c) Spanish (d) English",
-            "response": "The language spoken is (d) English.",
+            "response": "The language in the speech is (d) English.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_17763510.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) French (b) Japanese (c) Spanish (d) Korean",
-            "response": "The speaker is using French.",
+            "response": "The speaker is speaking French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_17316307.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Japanese (b) Spanish (c) German (d) French",
-            "response": "The speaker is using French.",
+            "response": "The speaker is speaking French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_21340005.wav": {
@@ -1225,42 +1225,42 @@
         },
         "fr_test_0_common_voice_fr_18297347.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) French (b) Japanese (c) Spanish (d) Korean",
-            "response": "The speaker is speaking in French.",
+            "response": "French",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_17897349.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Spanish (b) Korean (c) French (d) Italian",
-            "response": "The spoken language in the audio is (c) French.",
+            "response": "The spoken language in the audio is French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_18605005.wav": {
             "instruction": "Determine the language of the provided speech. (a) Chinese (b) French (c) English (d) Spanish",
-            "response": "The language is French.",
+            "response": "The speech is in French: 'Gouvernement d'assassins tu vas tomber sous les cataclysmes.'",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_20894915.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Korean (b) French (c) Italian (d) Spanish",
-            "response": "The language spoken in the recording is best matched by (b) French.",
+            "response": "The language spoken in the recording is best matched by French: 'Mais cette chartre似乎表明 Berengier était déjà mort à cette date.'",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_20723077.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Chinese (b) German (c) Italian (d) French",
-            "response": "The language spoken is (d) French.",
+            "response": "The language in the speech is French. The translation of the speech is: 'Finally, she pointed out the deforestation of several hundred acres of forested land.'",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_20275008.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) Chinese (b) Japanese (c) English (d) French",
-            "response": "The speaker is using the French language.",
+            "response": "The speaker is using French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_23976662.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Chinese (b) French (c) German (d) Italian",
-            "response": "The speaker is using the French language.",
+            "response": "The speaker is speaking in French: 'Cachalot et baleine.'",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_17320904.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) German (b) Spanish (c) French (d) Korean",
-            "response": "The language spoken in the audio is French.",
+            "response": "The speaker is speaking in French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_36972690.wav": {
@@ -1270,12 +1270,12 @@
         },
         "fr_test_0_common_voice_fr_19001824.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Chinese (b) French (c) English (d) Korean",
-            "response": "The language spoken is (c) English.",
+            "response": "The speaker is speaking in French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19726647.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Japanese (b) Italian (c) English (d) French",
-            "response": "The language spoken in the audio is French.",
+            "response": "The language spoken in the speech is French.",
             "label": "French"
         },
         "fr_test_0_common_voice_fr_19140964.wav": {
@@ -1285,12 +1285,12 @@
         },
         "fr_test_0_common_voice_fr_19612819.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) English (b) Chinese (c) Japanese (d) French",
-            "response": "The language spoken in the recording is best matched by (a) English.",
+            "response": "The language in the recording is best matched by French.",
             "label": "French"
         },
         "it_test_0_common_voice_it_19174858.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Japanese (b) Chinese (c) Italian (d) French",
-            "response": "The language spoken is: (c) Italian",
+            "response": "The language in the speech is Italian. The sentence translates to 'It was eight when they arrived in front of the cathedral.'",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_19984741.wav": {
@@ -1310,12 +1310,12 @@
         },
         "it_test_0_common_voice_it_20083382.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Chinese (b) Spanish (c) French (d) Italian",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is using the Italian language in the provided audio segment.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20066531.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Spanish (b) Italian (c) German (d) Japanese",
-            "response": "The language spoken is (b) Italian.",
+            "response": "The language is Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20083381.wav": {
@@ -1330,7 +1330,7 @@
         },
         "it_test_0_common_voice_it_19128804.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Korean (b) Italian (c) German (d) Japanese",
-            "response": "The language spoken in the recording is best matched by (b) Italian.",
+            "response": "The language spoken in the recording is best matched by Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_19079254.wav": {
@@ -1340,17 +1340,17 @@
         },
         "it_test_0_common_voice_it_20009909.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) German (b) Chinese (c) Italian (d) Korean",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is using Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_19979142.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) German (b) Chinese (c) Italian (d) Spanish",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is speaking in Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_19993046.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Korean (b) Japanese (c) Italian (d) English",
-            "response": "The language spoken in the audio is Italian.",
+            "response": "The speaker is speaking in Italian, so the answer is (c).",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_39278374.wav": {
@@ -1360,32 +1360,32 @@
         },
         "it_test_0_common_voice_it_19079255.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Korean (b) Italian (c) Japanese (d) French",
-            "response": "The speaker is speaking in Italian.",
+            "response": "The language spoken is (b) Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_19996794.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Spanish (b) Italian (c) Chinese (d) Japanese",
-            "response": "The language spoken in the audio is (b) Italian.",
+            "response": "The language spoken in the speech is Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_19174856.wav": {
             "instruction": "Determine the language of the provided speech. (a) Italian (b) Korean (c) French (d) German",
-            "response": "The language is (a) Italian.",
+            "response": "The language is Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20073165.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) German (b) Japanese (c) Italian (d) Spanish",
-            "response": "The language spoken in the recording is best matched by (c) Italian.",
+            "response": "The language spoken in the recording most closely resembles Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_30761056.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Japanese (b) Italian (c) German (d) Spanish",
-            "response": "The language spoken is: (c) German",
+            "response": "The language in the speech is Spanish.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20023816.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) English (b) Italian (c) Japanese (d) German",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is using Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20253547.wav": {
@@ -1395,22 +1395,22 @@
         },
         "it_test_0_common_voice_it_20263438.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) French (b) Japanese (c) Italian (d) English",
-            "response": "The speaker is speaking in意大利语.",
+            "response": "The language spoken in the audio is Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20029967.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Japanese (b) Korean (c) Spanish (d) Italian",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is using Italian in the provided audio segment.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20002088.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Italian (b) Korean (c) German (d) English",
-            "response": "The language spoken is (d) English.",
+            "response": "(d) English",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_19984742.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Italian (b) Spanish (c) French (d) Japanese",
-            "response": "The language spoken in the audio is (a) Italian.",
+            "response": "The language spoken in the speech is Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_18392126.wav": {
@@ -1420,12 +1420,12 @@
         },
         "it_test_0_common_voice_it_19996788.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) English (b) Japanese (c) Korean (d) Italian",
-            "response": "The language spoken in the recording is best matched by (a) English.",
+            "response": "The language spoken in the recording is Italian, so the correct answer is (d).",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_17767726.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Korean (b) Italian (c) German (d) Japanese",
-            "response": "The language spoken is (b) Italian.",
+            "response": "The language in the speech is (b) Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20066529.wav": {
@@ -1435,17 +1435,17 @@
         },
         "it_test_0_common_voice_it_19992410.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) German (b) French (c) Italian (d) Spanish",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is speaking in Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20387084.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Korean (b) Spanish (c) Italian (d) French",
-            "response": "The speaker is speaking in Italian.",
+            "response": "Italian",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20038890.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Chinese (b) Italian (c) Korean (d) Spanish",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is using Italian in the provided audio segment.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_19999159.wav": {
@@ -1455,22 +1455,22 @@
         },
         "it_test_0_common_voice_it_17700748.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Italian (b) Chinese (c) English (d) Korean",
-            "response": "The spoken language in the audio is (c) English.",
+            "response": "The speech in the audio is in Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_29267781.wav": {
             "instruction": "Determine the language of the provided speech. (a) Japanese (b) French (c) Korean (d) Italian",
-            "response": "d) Italian",
+            "response": "The language is d) Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20360020.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Italian (b) Spanish (c) Korean (d) English",
-            "response": "The language spoken in the recording is best matched by (d) English.",
+            "response": "The language spoken in the recording is Italian, which corresponds to the 'Italian' option in the list.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_23781489.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Italian (b) Korean (c) German (d) French",
-            "response": "The language spoken is (a) Italian.",
+            "response": "The language in the speech is Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_17443191.wav": {
@@ -1480,62 +1480,62 @@
         },
         "it_test_0_common_voice_it_18330913.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) English (b) Italian (c) French (d) Japanese",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is speaking in Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20017854.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Italian (b) Japanese (c) Korean (d) German",
-            "response": "The speaker is speaking in Italian.",
+            "response": "Italian",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20001248.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Chinese (b) Korean (c) Spanish (d) Italian",
-            "response": "The speaker is using the Italian language.",
+            "response": "Italian",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20328248.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Italian (b) Japanese (c) Korean (d) German",
-            "response": "The language spoken is (a) Italian.",
+            "response": "(a) Italian",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20233128.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) German (b) French (c) Italian (d) Spanish",
-            "response": "The spoken language in the audio is Italian.",
+            "response": "Italian",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20067687.wav": {
             "instruction": "Determine the language of the provided speech. (a) Spanish (b) French (c) German (d) Italian",
-            "response": "The language is (d) Italian.",
+            "response": "The language is Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_22941730.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Italian (b) German (c) Chinese (d) Japanese",
-            "response": "The language spoken in the recording is best matched by (a) Italian.",
+            "response": "The language spoken in the recording is best matched by Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_21348419.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Spanish (b) Italian (c) Japanese (d) Korean",
-            "response": "The language spoken is (c) Japanese.",
+            "response": "The language in the speech is (d) Korean.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_25009291.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) Italian (b) Chinese (c) Spanish (d) French",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is speaking in Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_21260627.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Chinese (b) Japanese (c) Korean (d) Italian",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is speaking in Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_19974574.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Chinese (b) Italian (c) French (d) Japanese",
-            "response": "The speaker is speaking in意大利语.",
+            "response": "Italian",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20003243.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Chinese (b) Korean (c) Spanish (d) Italian",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is using Italian in the provided audio segment.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20019278.wav": {
@@ -1545,7 +1545,7 @@
         },
         "it_test_0_common_voice_it_21279649.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) German (b) Italian (c) Spanish (d) English",
-            "response": "The speech is in意大利语.",
+            "response": "The speech is in Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_18244253.wav": {
@@ -1560,12 +1560,12 @@
         },
         "it_test_0_common_voice_it_20021881.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Chinese (b) Italian (c) Korean (d) German",
-            "response": "The language spoken is (b) Italian.",
+            "response": "The language in the speech is Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_23856387.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) English (b) Chinese (c) Japanese (d) Italian",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is using Italian.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_20021166.wav": {
@@ -1580,7 +1580,7 @@
         },
         "it_test_0_common_voice_it_23834479.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Spanish (b) Italian (c) French (d) Korean",
-            "response": "The speaker is using the Italian language.",
+            "response": "The speaker is using the Italian language in the provided audio segment.",
             "label": "Italian"
         },
         "it_test_0_common_voice_it_17848535.wav": {
@@ -1590,32 +1590,32 @@
         },
         "it_test_0_common_voice_it_19983261.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) French (b) Chinese (c) Italian (d) German",
-            "response": "The spoken language in the audio is Italian.",
+            "response": "The speech in the audio is in Italian.",
             "label": "Italian"
         },
         "ja_test_0_common_voice_ja_39110084.wav": {
             "instruction": "Determine the language of the provided speech. (a) French (b) Korean (c) Japanese (d) Chinese",
-            "response": "The language is (d) Chinese.",
+            "response": "The language is Japanese.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39056773.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Korean (b) Spanish (c) Japanese (d) French",
-            "response": "The language spoken in the recording is most likely (c) Japanese, as the transcription indicates that the speaker is using the Japanese language.",
+            "response": "The language spoken in the recording is best matched by (c) Japanese.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39248549.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Japanese (b) English (c) German (d) Korean",
-            "response": "The language spoken is (b) English.",
+            "response": "The language in the speech is Japanese. The correct answer is (a).",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_38968647.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) Chinese (b) French (c) Japanese (d) Italian",
-            "response": "The speaker is using (c) Japanese.",
+            "response": "The speaker is using Japanese.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39043620.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Japanese (b) Italian (c) Korean (d) German",
-            "response": "The speaker is using (a) Japanese.",
+            "response": "The speaker is using the Japanese language.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39031116.wav": {
@@ -1625,7 +1625,7 @@
         },
         "ja_test_0_common_voice_ja_38922072.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Spanish (b) Japanese (c) German (d) English",
-            "response": "The speaker is using the language: (d) English.",
+            "response": "The speaker is using the Japanese language in the provided audio segment.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39046833.wav": {
@@ -1640,7 +1640,7 @@
         },
         "ja_test_0_common_voice_ja_38951448.wav": {
             "instruction": "Determine the language of the provided speech. (a) French (b) Italian (c) Japanese (d) Korean",
-            "response": "The language is (c) Japanese.",
+            "response": "The language spoken is (c) Japanese.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_30205543.wav": {
@@ -1650,12 +1650,12 @@
         },
         "ja_test_0_common_voice_ja_38967989.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Japanese (b) French (c) Korean (d) Italian",
-            "response": "The language spoken is (a) Japanese.",
+            "response": "The language spoken in the audio is (a) Japanese.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_38897171.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) Korean (b) Italian (c) French (d) Japanese",
-            "response": "The speaker is using (a) Korean.",
+            "response": "The speaker is using the Japanese language.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_37385994.wav": {
@@ -1670,7 +1670,7 @@
         },
         "ja_test_0_common_voice_ja_39394285.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) French (b) Italian (c) Korean (d) Japanese",
-            "response": "The speaker is using (d) Japanese.",
+            "response": "The speaker is using the Japanese language in the provided audio segment.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_25539757.wav": {
@@ -1685,7 +1685,7 @@
         },
         "ja_test_0_common_voice_ja_39003889.wav": {
             "instruction": "Determine the language of the provided speech. (a) Japanese (b) English (c) Italian (d) Chinese",
-            "response": "The language is (b) English.",
+            "response": "The language is Japanese.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_36343946.wav": {
@@ -1695,7 +1695,7 @@
         },
         "ja_test_0_common_voice_ja_39050095.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Japanese (b) Italian (c) Spanish (d) Chinese",
-            "response": "The language spoken is (a) Japanese.",
+            "response": "The language in the speech is Japanese. The correct answer is (a).",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_25539755.wav": {
@@ -1705,22 +1705,22 @@
         },
         "ja_test_0_common_voice_ja_39035933.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Japanese (b) English (c) German (d) Korean",
-            "response": "The speaker is using (b) English.",
+            "response": "The speaker is using the Japanese language.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_38902665.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) French (b) Korean (c) Japanese (d) German",
-            "response": "The language spoken in the audio is (c) Japanese.",
+            "response": "The original content of this audio is in Japanese.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39425246.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) German (b) French (c) Spanish (d) Japanese",
-            "response": "The speaker is using (c) Spanish.",
+            "response": "The speaker is using the Japanese language in the provided audio segment.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39134788.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Italian (b) Japanese (c) German (d) Spanish",
-            "response": "b) Japanese",
+            "response": "The speaker is speaking in Japanese.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_38956384.wav": {
@@ -1745,12 +1745,12 @@
         },
         "ja_test_0_common_voice_ja_39237891.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) English (b) Japanese (c) Spanish (d) Korean",
-            "response": "The speaker is using the language: (a) English.",
+            "response": "The speaker is using the Japanese language.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_22054568.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Spanish (b) French (c) English (d) Japanese",
-            "response": "The speaker is using (c) English.",
+            "response": "The speaker is using the Japanese language.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39108683.wav": {
@@ -1760,12 +1760,12 @@
         },
         "ja_test_0_common_voice_ja_39127844.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Spanish (b) Chinese (c) Korean (d) Japanese",
-            "response": "The speaker is using (c) Korean.",
+            "response": "The speaker is using the Japanese language in the provided audio segment.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_38948901.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Spanish (b) Korean (c) Japanese (d) English",
-            "response": "The language spoken is (d) English.",
+            "response": "The language spoken is d) English.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39021954.wav": {
@@ -1775,7 +1775,7 @@
         },
         "ja_test_0_common_voice_ja_27696698.wav": {
             "instruction": "Determine the language of the provided speech. (a) Spanish (b) German (c) Chinese (d) Japanese",
-            "response": "d) Japanese",
+            "response": "The language is Japanese.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39012813.wav": {
@@ -1785,7 +1785,7 @@
         },
         "ja_test_0_common_voice_ja_38973252.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Spanish (b) Korean (c) German (d) Japanese",
-            "response": "The language spoken is (d) Japanese.",
+            "response": "The language spoken in the audio is Japanese, so the correct answer is (d).",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39320520.wav": {
@@ -1795,22 +1795,22 @@
         },
         "ja_test_0_common_voice_ja_38954212.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Italian (b) Japanese (c) German (d) Chinese",
-            "response": "The speaker is using (d) Chinese.",
+            "response": "The speaker is using the Japanese language.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_36478532.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) English (b) Spanish (c) Japanese (d) Chinese",
-            "response": "The speaker is speaking in: [a] English.",
+            "response": "The speaker is speaking in Japanese. The phrase translates to '总而言之，这是为了获取氨基酸而准备的菜肴。'",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_38991429.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Korean (b) Japanese (c) English (d) Chinese",
-            "response": "The speaker is using (b) Japanese.",
+            "response": "The speaker is using Japanese in the provided audio segment.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39878320.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Spanish (b) French (c) Japanese (d) Italian",
-            "response": "The speaker is speaking in Spanish.",
+            "response": "The speaker is speaking in French.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_38974017.wav": {
@@ -1820,7 +1820,7 @@
         },
         "ja_test_0_common_voice_ja_38986196.wav": {
             "instruction": "Determine the language of the provided speech. (a) German (b) Italian (c) Japanese (d) Chinese",
-            "response": "d) Chinese",
+            "response": "The language is Japanese.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_36356854.wav": {
@@ -1830,12 +1830,12 @@
         },
         "ja_test_0_common_voice_ja_36341161.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Japanese (b) Korean (c) Italian (d) Chinese",
-            "response": "The language spoken is (a) Japanese.",
+            "response": "The language spoken in the audio is Japanese. The correct answer is (a).",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_38852948.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) Italian (b) Chinese (c) Japanese (d) Spanish",
-            "response": "The speaker is using (c) Japanese.",
+            "response": "The speaker is using the Japanese language.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_38901648.wav": {
@@ -1845,27 +1845,27 @@
         },
         "ja_test_0_common_voice_ja_36317751.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) German (b) Spanish (c) English (d) Japanese",
-            "response": "The language spoken in the audio is (c) English.",
+            "response": "The language spoken in the audio is English.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_24983165.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) English (b) Japanese (c) Chinese (d) Italian",
-            "response": "The speaker is using (b) Japanese.",
+            "response": "The speaker is using Japanese in the provided audio segment.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39084450.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) German (b) Japanese (c) Italian (d) French",
-            "response": "The speaker is speaking in: (a) German",
+            "response": "The speaker is speaking in German.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_21593940.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Japanese (b) Chinese (c) English (d) French",
-            "response": "The spoken language in the audio is (c) English.",
+            "response": "The spoken language in the audio is Japanese.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_38940287.wav": {
             "instruction": "Determine the language of the provided speech. (a) Italian (b) English (c) Japanese (d) German",
-            "response": "The speech is in Japanese.",
+            "response": "The language is Japanese.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_38985102.wav": {
@@ -1885,17 +1885,17 @@
         },
         "ja_test_0_common_voice_ja_39022955.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Italian (b) German (c) French (d) Japanese",
-            "response": "The speaker is using (c) French.",
+            "response": "The speaker is speaking in French: 'Oui.'",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39025242.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Spanish (b) Korean (c) Japanese (d) Chinese",
-            "response": "The language spoken in the audio is: (c) Japanese.",
+            "response": "The language spoken in the audio is Spanish.",
             "label": "Japanese"
         },
         "ja_test_0_common_voice_ja_39077427.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Spanish (b) Italian (c) French (d) Japanese",
-            "response": "The speaker is using (a) Spanish.",
+            "response": "The speaker is using the Japanese language in the provided audio segment.",
             "label": "Japanese"
         },
         "ko_test_0_common_voice_ko_36314559.wav": {
@@ -1910,7 +1910,7 @@
         },
         "ko_test_0_common_voice_ko_39037996.wav": {
             "instruction": "Determine the language of the provided speech. (a) Korean (b) Spanish (c) Chinese (d) English",
-            "response": "The language is (d) English.",
+            "response": "The language is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36331017.wav": {
@@ -1920,7 +1920,7 @@
         },
         "ko_test_0_common_voice_ko_36314702.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Chinese (b) English (c) Italian (d) Korean",
-            "response": "The language spoken is: (a) Chinese",
+            "response": "The language in the speech is Korean. The phrase is '대한민국 대표'.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36314677.wav": {
@@ -1940,7 +1940,7 @@
         },
         "ko_test_0_common_voice_ko_36314613.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) German (b) Korean (c) Italian (d) Chinese",
-            "response": "The speaker is using (b) Korean.",
+            "response": "The speaker is using the Korean language in the provided audio segment.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_39082311.wav": {
@@ -1950,57 +1950,57 @@
         },
         "ko_test_0_common_voice_ko_36314693.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Japanese (b) Spanish (c) Korean (d) English",
-            "response": "The spoken language in the audio is (d) English.",
+            "response": "The spoken language in the audio is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36314629.wav": {
             "instruction": "Determine the language of the provided speech. (a) German (b) Korean (c) Spanish (d) English",
-            "response": "The language is (d) English.",
+            "response": "The language is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_39476345.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Spanish (b) Chinese (c) Korean (d) Italian",
-            "response": "The language spoken in the recording is best matched by (c) Korean.",
+            "response": "The language spoken in the recording is best matched by the Korean language (c).",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36331016.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Chinese (b) Korean (c) French (d) Spanish",
-            "response": "The language spoken in the audio is (a) Chinese.",
+            "response": "The language in the speech is (a) Chinese.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36314701.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) English (b) Chinese (c) Korean (d) Italian",
-            "response": "The speaker is using (c) Korean.",
+            "response": "The speaker is using the Korean language.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36314561.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Korean (b) Spanish (c) Chinese (d) Italian",
-            "response": "The speaker is using (c) Chinese.",
+            "response": "The speaker is using the Korean language.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36314560.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) English (b) French (c) German (d) Korean",
-            "response": "The language spoken in the audio is: (a) English",
+            "response": "The language spoken in the audio is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_39476353.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) English (b) Italian (c) Korean (d) Chinese",
-            "response": "The speaker is using (c) Korean.",
+            "response": "The speaker is using Korean in the provided audio segment.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_38998784.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Japanese (b) Korean (c) French (d) Spanish",
-            "response": "The language spoken is (a) Japanese.",
+            "response": "The language spoken is (b) Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_39476318.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Japanese (b) Korean (c) French (d) English",
-            "response": "The language spoken in the audio is (d) English.",
+            "response": "The speech in the audio is in Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_38998743.wav": {
             "instruction": "Determine the language of the provided speech. (a) English (b) Korean (c) Italian (d) Japanese",
-            "response": "The language is (b) Korean.",
+            "response": "The language is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_39476327.wav": {
@@ -2010,7 +2010,7 @@
         },
         "ko_test_0_common_voice_ko_39082018.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Korean (b) English (c) Japanese (d) Spanish",
-            "response": "The language spoken is (a) Korean.",
+            "response": "The language in the speech is (a) Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36314612.wav": {
@@ -2020,7 +2020,7 @@
         },
         "ko_test_0_common_voice_ko_39038071.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Japanese (b) Korean (c) English (d) Chinese",
-            "response": "The speaker is using the language: (c) English.",
+            "response": "The speaker is using the Korean language.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36314686.wav": {
@@ -2030,32 +2030,32 @@
         },
         "ko_test_0_common_voice_ko_36314699.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Korean (b) Japanese (c) Spanish (d) French",
-            "response": "The speaker is using (a) Korean.",
+            "response": "The speaker is using the Korean language in the provided audio segment.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36314601.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Korean (b) Japanese (c) Italian (d) Chinese",
-            "response": "The language spoken is (a) Korean.",
+            "response": "The language spoken is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_39082021.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) Chinese (b) English (c) Korean (d) Spanish",
-            "response": "The spoken language in the audio is (c) Korean.",
+            "response": "The spoken language in the audio is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_39476326.wav": {
             "instruction": "Determine the language of the provided speech. (a) Japanese (b) Italian (c) Spanish (d) Korean",
-            "response": "The language is (a) Japanese.",
+            "response": "The language is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_37211958.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Chinese (b) Korean (c) English (d) Italian",
-            "response": "The language spoken in the recording is best matched by (c) English.",
+            "response": "The language spoken in the recording best matches the Korean language.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_37212000.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) German (b) French (c) Korean (d) English",
-            "response": "The language spoken in the audio is (d) English.",
+            "response": "The language in the speech is Korean. The sentence translates to 'At that moment, Shin Cha's foot on the water surface shudders, and his leg slowly passes through.'",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36890295.wav": {
@@ -2065,17 +2065,17 @@
         },
         "ko_test_0_common_voice_ko_36655273.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Korean (b) Italian (c) Spanish (d) German",
-            "response": "The speaker is using (a) Korean.",
+            "response": "The speaker is using the Korean language.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36800754.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Japanese (b) French (c) Korean (d) Chinese",
-            "response": "The speaker is speaking in韩语 (Korean).",
+            "response": "The speaker is speaking in Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36800748.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Japanese (b) Korean (c) Chinese (d) Italian",
-            "response": "The speaker is using (a) Japanese.",
+            "response": "The speaker is using the Korean language in the provided audio segment.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_37159821.wav": {
@@ -2085,27 +2085,27 @@
         },
         "ko_test_0_common_voice_ko_37159818.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) French (b) Italian (c) English (d) Korean",
-            "response": "The spoken language in the audio is (c) English.",
+            "response": "The spoken language in the audio is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_35972100.wav": {
             "instruction": "Determine the language of the provided speech. (a) Spanish (b) Japanese (c) Korean (d) Italian",
-            "response": "The language is (c) Korean.",
+            "response": "The language is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_37195197.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Japanese (b) Korean (c) English (d) Italian",
-            "response": "The language spoken in the recording is best matched by (c) English.",
+            "response": "The language spoken in the recording is best matched by the Korean language, hence the answer is (b).",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_35905264.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Korean (b) French (c) Spanish (d) German",
-            "response": "The language spoken is (a) Korean.",
+            "response": "The language in the speech is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_37159817.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) English (b) German (c) Spanish (d) Korean",
-            "response": "The speaker is using the Korean language.",
+            "response": "The speaker is using the Japanese language, which is represented by the script '日本語'. The speech content is 'くまの五世。'",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36800752.wav": {
@@ -2115,17 +2115,17 @@
         },
         "ko_test_0_common_voice_ko_37159812.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) French (b) Italian (c) Korean (d) Chinese",
-            "response": "The language spoken in the audio is: (c) Korean",
+            "response": "The speaker is speaking in Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_35904871.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) English (b) Spanish (c) German (d) Korean",
-            "response": "The speaker is using the Korean language.",
+            "response": "The speaker is using the Korean language in the provided audio segment.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_37597013.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) German (b) Korean (c) English (d) Italian",
-            "response": "The spoken language is (c) English.",
+            "response": "The speaker is speaking in Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36438714.wav": {
@@ -2135,17 +2135,17 @@
         },
         "ko_test_0_common_voice_ko_37159833.wav": {
             "instruction": "Determine the language of the provided speech. (a) Korean (b) English (c) Chinese (d) Italian",
-            "response": "The language is (a) Korean.",
+            "response": "The language spoken is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_37195156.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Chinese (b) Spanish (c) English (d) Korean",
-            "response": "The language spoken in the recording is most likely (c) English, as it is a common language used for global communication and has a direct translation to the words in the speech.",
+            "response": "The language spoken in the recording most closely resembles (c) English.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_37211926.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) English (b) Japanese (c) Korean (d) French",
-            "response": "The language spoken in the audio is (c) Korean.",
+            "response": "The language in the speech is (b) Japanese.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_37211945.wav": {
@@ -2160,17 +2160,17 @@
         },
         "ko_test_0_common_voice_ko_38383607.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Spanish (b) Italian (c) Chinese (d) Korean",
-            "response": "The speaker is speaking in: (b) Italian",
+            "response": "The speaker is speaking in Italian.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36455842.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Korean (b) Japanese (c) Spanish (d) Italian",
-            "response": "The speaker is using (a) Korean.",
+            "response": "The speaker is using the Korean language in the provided audio segment.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36438716.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) English (b) Korean (c) Chinese (d) Italian",
-            "response": "The speaker is speaking in Korean.",
+            "response": "The language in the speech segment is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36800753.wav": {
@@ -2180,7 +2180,7 @@
         },
         "ko_test_0_common_voice_ko_35905905.wav": {
             "instruction": "Determine the language of the provided speech. (a) Japanese (b) French (c) Korean (d) Spanish",
-            "response": "The language is (c) Korean.",
+            "response": "The language is Korean.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_36890766.wav": {
@@ -2190,7 +2190,7 @@
         },
         "ko_test_0_common_voice_ko_36438717.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Japanese (b) Chinese (c) Italian (d) Korean",
-            "response": "The language spoken in the audio is (c) Italian.",
+            "response": "The language in the speech is (c) Italian.",
             "label": "Korean"
         },
         "ko_test_0_common_voice_ko_35905908.wav": {
@@ -2200,17 +2200,17 @@
         },
         "ko_test_0_common_voice_ko_35972097.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Korean (b) English (c) French (d) German",
-            "response": "The speaker is using (a) Korean.",
+            "response": "The speaker is using the Korean language.",
             "label": "Korean"
         },
         "zh-CN_test_0_common_voice_zh-CN_21852004.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) English (b) Chinese (c) Italian (d) German",
-            "response": "The language spoken in the audio is: (b) Chinese.",
+            "response": "The language spoken in the audio is: (b) Chinese",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_21309817.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Chinese (b) English (c) French (d) Spanish",
-            "response": "The speaker is using (b) English.",
+            "response": "The speaker is using Mandarin in the provided audio segment.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22074020.wav": {
@@ -2220,7 +2220,7 @@
         },
         "zh-CN_test_0_common_voice_zh-CN_22111686.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) French (b) Chinese (c) German (d) Japanese",
-            "response": "The language spoken in the audio is Chinese.",
+            "response": "The language spoken in the audio is Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22110601.wav": {
@@ -2235,22 +2235,22 @@
         },
         "zh-CN_test_0_common_voice_zh-CN_22145032.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Chinese (b) Japanese (c) German (d) Italian",
-            "response": "The language spoken is: (a) Chinese",
+            "response": "The language in the speech is Chinese. The phrase translates to 'The year was called the year of the Ram in Chinese.'",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22061338.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) English (b) French (c) Chinese (d) German",
-            "response": "The speaker is using the Chinese language.",
+            "response": "The speaker is using Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_21309814.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) English (b) Chinese (c) Japanese (d) Korean",
-            "response": "The speaker is using (b) Chinese.",
+            "response": "The speaker is using the Chinese language.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22119424.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Italian (b) German (c) Chinese (d) English",
-            "response": "The speaker is speaking in Chinese.",
+            "response": "The speaker is speaking in Mandarin. The phrase translates to 'Master degree from the School of Party Central Committee.'",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22110899.wav": {
@@ -2260,27 +2260,27 @@
         },
         "zh-CN_test_0_common_voice_zh-CN_22108819.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) German (b) Chinese (c) French (d) Japanese",
-            "response": "The language spoken is (b) Chinese.",
+            "response": "The language spoken is Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22103885.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) English (b) Chinese (c) Italian (d) Korean",
-            "response": "The language spoken in the audio is (b) Chinese.",
+            "response": "The language spoken in the audio is Mandarin. The transcription of the speech is '票务成本由此进而降低'.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_19004605.wav": {
             "instruction": "Determine the language of the provided speech. (a) Chinese (b) German (c) English (d) Spanish",
-            "response": "The language is (c) English.",
+            "response": "The language is Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22154724.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Spanish (b) Chinese (c) English (d) Japanese",
-            "response": "The language spoken in the recording is best matched by (c) English.",
+            "response": "The language spoken in the recording is best matched by English.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22145037.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) German (b) Chinese (c) Korean (d) French",
-            "response": "The language spoken is (b) Chinese.",
+            "response": "The language in the speech is Mandarin, so the correct answer is (b).",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22185786.wav": {
@@ -2290,7 +2290,7 @@
         },
         "zh-CN_test_0_common_voice_zh-CN_18996472.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) German (b) Korean (c) Chinese (d) English",
-            "response": "The speaker is using the Chinese language.",
+            "response": "The speaker is using the Chinese language. The correct answer is (c).",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_18992590.wav": {
@@ -2300,12 +2300,12 @@
         },
         "zh-CN_test_0_common_voice_zh-CN_22105325.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) French (b) Chinese (c) German (d) English",
-            "response": "The speaker is using the Chinese language in the provided audio segment.",
+            "response": "The speaker is using Mandarin in the provided audio segment.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22117086.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Spanish (b) Chinese (c) Japanese (d) German",
-            "response": "The language spoken is (a) Spanish.",
+            "response": "The language spoken is (b) Chinese.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22054810.wav": {
@@ -2315,87 +2315,87 @@
         },
         "zh-CN_test_0_common_voice_zh-CN_19004592.wav": {
             "instruction": "Determine the language of the provided speech. (a) English (b) Japanese (c) Chinese (d) French",
-            "response": "The language is Chinese.",
+            "response": "The language is Mandarin Chinese.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22053539.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Chinese (b) English (c) Italian (d) Spanish",
-            "response": "The language spoken in the recording is best matched by (b) English.",
+            "response": "The language spoken in the recording is best matched by Mandarin (Chinese).",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22055858.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) French (b) German (c) Chinese (d) English",
-            "response": "The language spoken is (d) English.",
+            "response": "The language in the speech is (d) English.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22053551.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) Chinese (b) French (c) Korean (d) German",
-            "response": "The speaker is using (a) Chinese.",
+            "response": "The speaker is using the Chinese language.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_20173805.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Japanese (b) English (c) Chinese (d) Italian",
-            "response": "The speaker is using (b) English.",
+            "response": "The speaker is using the Chinese language.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_18990885.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Chinese (b) Korean (c) French (d) Japanese",
-            "response": "The language spoken in the audio is: (c) French",
+            "response": "The speaker is speaking in Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22145101.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Japanese (b) French (c) Korean (d) Chinese",
-            "response": "The speaker is using (d) Chinese.",
+            "response": "The speaker is using Mandarin in the provided audio segment.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_23608833.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Chinese (b) Japanese (c) English (d) Spanish",
-            "response": "The speaker is speaking in Chinese.",
+            "response": "The speaker is speaking in Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22145416.wav": {
             "instruction": "From the audio provided, which language is spoken? (a) English (b) Chinese (c) Italian (d) Korean",
-            "response": "The language spoken in the audio is Chinese.",
+            "response": "The language spoken in the audio is Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22109330.wav": {
             "instruction": "Determine the language of the provided speech. (a) French (b) Italian (c) German (d) Chinese",
-            "response": "The language is d) Chinese.",
+            "response": "The language is Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22118442.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) English (b) Chinese (c) Italian (d) Spanish",
-            "response": "The language spoken in the recording is best matched by (b) Chinese.",
+            "response": "The language spoken in the recording is best matched by Chinese.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22629791.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Korean (b) German (c) Chinese (d) Italian",
-            "response": "The language spoken is (c) Chinese.",
+            "response": "The language in the speech is (c) Chinese.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22077262.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) Italian (b) Chinese (c) Spanish (d) German",
-            "response": "The speaker is using (b) Chinese.",
+            "response": "The speaker is using Mandarin Chinese.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22109328.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) English (b) French (c) Italian (d) Chinese",
-            "response": "The speaker is using the Chinese language.",
+            "response": "The speaker is using the Chinese language. The phrase spoken is '毛色呈灰色。'",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22219290.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Chinese (b) English (c) Spanish (d) Korean",
-            "response": "The spoken language in the audio is: (b) English.",
+            "response": "The speaker is speaking in Mandarin. The phrase translates to 'A sequence of rock cliffs is a集合体板状岩浆侵入体厚度比较稳定的近直立的.'",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22059480.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) English (b) Chinese (c) French (d) Spanish",
-            "response": "The speaker is using (b) Chinese.",
+            "response": "The speaker is using Mandarin in the provided audio segment.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_18598176.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) French (b) Chinese (c) Japanese (d) Korean",
-            "response": "The language spoken is (b) Chinese.",
+            "response": "The speaker is speaking in Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_19011272.wav": {
@@ -2405,17 +2405,17 @@
         },
         "zh-CN_test_0_common_voice_zh-CN_20453532.wav": {
             "instruction": "Determine the language of the provided speech. (a) Japanese (b) English (c) Chinese (d) French",
-            "response": "(b) English",
+            "response": "The language is Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_19641070.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Chinese (b) English (c) Italian (d) German",
-            "response": "The language spoken in the recording is best matched by (a) Chinese.",
+            "response": "(a) Chinese",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_18983483.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Spanish (b) Chinese (c) English (d) Korean",
-            "response": "The language spoken is (c) English.",
+            "response": "The language in the speech is (c) English.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_18662477.wav": {
@@ -2425,22 +2425,22 @@
         },
         "zh-CN_test_0_common_voice_zh-CN_18598179.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Italian (b) Chinese (c) Japanese (d) Korean",
-            "response": "The speaker is using (c) Japanese.",
+            "response": "The speaker is using the Italian language.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_18979331.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) Korean (b) Chinese (c) French (d) English",
-            "response": "The speaker is speaking in: (d) English.",
+            "response": "The speaker is speaking in d) English.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_19530042.wav": {
             "instruction": "Listen to the audio segment provided and identify the language being spoken by the individual. Choose the language from the list below that best fits your perception of the speech.Which of the following languages is the speaker using in the provided audio segment? (a) Chinese (b) English (c) Italian (d) Korean",
-            "response": "The speaker is using (b) English.",
+            "response": "The speaker is using Mandarin in the provided audio segment.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_18968782.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Spanish (b) Japanese (c) Chinese (d) Korean",
-            "response": "The language spoken is (c) Chinese.",
+            "response": "The language spoken is Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_18979594.wav": {
@@ -2460,22 +2460,22 @@
         },
         "zh-CN_test_0_common_voice_zh-CN_22152913.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) Japanese (b) English (c) Chinese (d) Italian",
-            "response": "The language spoken is (c) Chinese.",
+            "response": "The language spoken is: (b) English",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_19578743.wav": {
             "instruction": "The audio contains a short speech segment spoken in a specific language. Your task is to analyze the audio and determine which of the following languages the speaker is using. (a) Japanese (b) English (c) Chinese (d) French",
-            "response": "The speaker is using the language: (b) English.",
+            "response": "The speaker is using the Chinese language.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_18983118.wav": {
             "instruction": "Listen to the audio carefully, focusing on the speech. Based on your analysis, select the language that the speaker is using from the options provided (a) Spanish (b) English (c) Korean (d) Chinese",
-            "response": "The speaker is using the Chinese language.",
+            "response": "The speaker is using Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_18661529.wav": {
             "instruction": "Please listen to the provided audio clip and select the language spoken by the speaker from the options below. Your task is simply to choose the language that you think matches the speech. (a) French (b) English (c) German (d) Chinese",
-            "response": "The language spoken in the audio is: (b) English.",
+            "response": "The speaker is speaking in English.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_18584015.wav": {
@@ -2485,7 +2485,7 @@
         },
         "zh-CN_test_0_common_voice_zh-CN_18979308.wav": {
             "instruction": "Listen to the speech segment, and choose the language spoken by the speaker. (a) Chinese (b) French (c) Japanese (d) English",
-            "response": "The speaker is speaking in Chinese.",
+            "response": "The speaker is speaking in Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_18595321.wav": {
@@ -2495,17 +2495,17 @@
         },
         "zh-CN_test_0_common_voice_zh-CN_18983115.wav": {
             "instruction": "Determine the language of the provided speech. (a) Chinese (b) French (c) English (d) German",
-            "response": "The language is (c) English.",
+            "response": "The speech is in Mandarin.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_20234073.wav": {
             "instruction": "Listen to the audio provided. Which of the following languages best matches the language spoken in the recording? (a) Chinese (b) Japanese (c) German (d) French",
-            "response": "The language spoken in the recording is most likely (a) Chinese, as the phrase '请参照遥远时空' is a reference to a Chinese expression.",
+            "response": "The language spoken in the recording is most likely (c) German.",
             "label": "Chinese"
         },
         "zh-CN_test_0_common_voice_zh-CN_22059320.wav": {
             "instruction": "Carefully listen to the provided speech clip and evaluate the language spoken by the individual. Select the answer that best represents the language used in the audio. (a) German (b) French (c) Italian (d) Chinese",
-            "response": "The language spoken is (d) Chinese.",
+            "response": "The language spoken is: d) Chinese",
             "label": "Chinese"
         }
     }
