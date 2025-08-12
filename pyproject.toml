@@ -8,9 +8,14 @@ dependencies = [
     "accelerate>=1.7.0",
     "pandas>=2.2.3",
     "qwen-omni-utils[decord]>=0.0.4",
+    "torch>=2.5.0",
     "torchvision>=0.22.0",
+    "torchaudio",
     "transformers",
 ]
 
 [tool.uv.sources]
 transformers = { git = "https://github.com/huggingface/transformers", rev = "v4.51.3-Qwen2.5-Omni-preview" }
+torch = { index = "https://download.pytorch.org/whl/cu121" }
+torchvision = { index = "https://download.pytorch.org/whl/cu121" }
+torchaudio = { index = "https://download.pytorch.org/whl/cu121" }

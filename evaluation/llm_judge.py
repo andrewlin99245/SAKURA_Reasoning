@@ -6,6 +6,14 @@ import argparse
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 import glob
+import sys
+
+# Add path to cache config
+sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__)), 'src', 'utils'))
+from cache_config import set_hf_cache_env
+
+# Configure shared cache
+set_hf_cache_env()
 
 def get_args_parser():
     parser = argparse.ArgumentParser()
