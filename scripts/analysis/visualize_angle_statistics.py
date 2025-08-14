@@ -10,11 +10,12 @@ import librosa
 import pandas as pd
 from tqdm import tqdm
 from transformers import AutoProcessor
-from Qwen2Audio_patch import Qwen2AudioSLAForCausalLM
-from transformers.models.qwen2_audio.configuration_qwen2_audio import Qwen2AudioConfig
 
 # Add path to cache config
 project_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))  # Go up 3 levels from scripts/analysis/
+sys.path.append(os.path.join(project_root, 'src', 'utils'))
+from Qwen2Audio_patch import Qwen2AudioSLAForCausalLM
+from transformers.models.qwen2_audio.configuration_qwen2_audio import Qwen2AudioConfig
 sys.path.append(os.path.join(project_root, 'src', 'utils'))
 from cache_config import set_hf_cache_env
 
@@ -22,9 +23,9 @@ from cache_config import set_hf_cache_env
 set_hf_cache_env()
 
 # Import orthogonal layer functions
-sys.path.insert(0, os.path.abspath("."))
-from steering_vector import obtain_vsv
-from llm_layer_orthogonal import (
+sys.path.insert(0, project_root)
+from src.models.steering_vector import obtain_vsv
+from src.layers.variants.llm_layer_orthogonal import (
     add_vsv_layers, remove_vsv_layers, clear_angle_storage, 
     get_angle_statistics, get_layer_by_layer_statistics
 )
@@ -84,9 +85,8 @@ def run_sample_with_angle_collection(model, processor, audio_path, prompt, lam=0
     audio, sr = librosa.load(audio_path, sr=16000)
     
     # Build positive and negative inputs for VSV computation
-    vsv_prompt = "Describe the audio in detail."
-    messages_pos = build_messages(include_audio=True,  wav_path=audio_path, prompt=vsv_prompt)
-    messages_neg = build_messages(include_audio=False, wav_path=audio_path, prompt=vsv_prompt)
+    messages_pos = build_messages(include_audio=True,  wav_path=audio_path, prompt=prompt)
+    messages_neg = build_messages(include_audio=False, wav_path=audio_path, prompt=prompt)
     
     pos_inputs = build_inputs(messages_pos, processor, model, audio=audio, sr=16000)
     neg_inputs = build_inputs(messages_neg, processor, model, audio=None, sr=16000)
@@ -186,19 +186,12 @@ def visualize_angle_statistics(layer_stats, overall_stats, save_path="angle_anal
         plt.xticks(range(1, len(layers)+1, max(1, len(layers)//10)))
     plt.grid(True, alpha=0.3)
     
-    # 5. Cumulative angle progression
+    # 5. Standard deviation of angles per layer
     plt.subplot(2, 3, 5)
-    cumulative_angles = []
-    for i, layer in enumerate(layers):
-        if i == 0:
-            cumulative_angles.append(layer_means[i])
-        else:
-            cumulative_angles.append(cumulative_angles[-1] + layer_means[i])
-    
-    plt.plot(layers, cumulative_angles, 'bo-')
+    plt.plot(layers, layer_stds, 'go-', marker='s')
     plt.xlabel('Layer Index')
-    plt.ylabel('Cumulative Angle (degrees)')
-    plt.title('Cumulative Angle Progression')
+    plt.ylabel('Standard Deviation (degrees)')
+    plt.title('Standard Deviation of Angles per Layer')
     plt.grid(True, alpha=0.3)
     plt.xticks(layers[::max(1, len(layers)//10)])
     

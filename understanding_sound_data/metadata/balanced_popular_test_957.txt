@@ -1,0 +1,962 @@
+# Balanced Popular Sampling - Test Split (957 samples)
+# Total samples: 957
+# Columns: ['entry_id', 'audio_index', 'prompt_text', 'object', 'attribute', 'label', 'sampling', 'question_format']
+
+entry_id	audio_index	prompt_text	object	attribute	label	sampling	question_format
+0	Y7fmOlUlwoNg	Is there a sound of speech in the audio?	speech	positive	Yes	popular	Format1
+51	Y6BJ455B1aAs	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+77	YGOD8Bt5LfDE	Does the audio contain the sound of train wagon?	train wagon	positive	Yes	popular	Format2
+121	YYQSuFyFm3Lc	Is there a sound of domestic animals in the audio?	domestic animals	negative	No	popular	Format1
+151	YVjSEIRnLAh8	Is there a sound of frying (food) in the audio?	frying (food)	positive	Yes	popular	Format1
+178	YDlWd7Wmdi1E	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+219	YYNDKuNINDOY	Is there a sound of fire truck (siren) in the audio?	fire truck (siren)	positive	Yes	popular	Format1
+274	YfsBR7e_X_0Y	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+327	YtjCNwdOUiGc	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+356	YyL3gKa6YLoM	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+388	YLbken4JCr94	Can you detect the sound of a kid speaking in the audio?	kid speaking	positive	Yes	popular	Format5
+403	Y_xylo5_IiaM	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+455	YsVYTOURVsQ0	Can you detect the sound of a child speech in the audio?	child speech	positive	Yes	popular	Format5
+462	YSmdj6JFB9MQ	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+512	Yu84FiZ_omhA	Can you hear the sound of train horn in the audio?	train horn	positive	Yes	popular	Format4
+537	Ykx6Rj4MDIAw	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+551	YPLHXGDnig4M	Does the audio contain the sound of burst?	burst	positive	Yes	popular	Format2
+576	YZ0IrCa4MvOA	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+636	Y14ekd4nkpwc	Can you hear the sound of explosion in the audio?	explosion	positive	Yes	popular	Format4
+670	YyfYNPWs7mWY	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+705	YuhSDBwVrEdo	Can you detect the sound of a sewing machine in the audio?	sewing machine	positive	Yes	popular	Format5
+715	YYQGW5AwDOIo	Is there a sound of car in the audio?	car	negative	No	popular	Format1
+787	YMe4npKmtchA	Can you detect the sound of a railroad car in the audio?	railroad car	positive	Yes	popular	Format5
+820	YgbtcDoh0q3c	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+867	Y9HVgYs8OOLc	Can you detect the sound of a train horn in the audio?	train horn	positive	Yes	popular	Format5
+906	YOpiWMltpj44	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+927	Y9ZZHvwaH-CU	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+934	YK_Vre_-4KqU	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+966	YqeSl7YZAfs4	Does the audio contain the sound of train horn?	train horn	positive	Yes	popular	Format2
+1003	Y4IeDBwyQ9ZQ	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+1035	YArHiac57pVk	Is there a sound of speech in the audio?	speech	positive	Yes	popular	Format1
+1076	YqZEIs6tS5vk	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+1098	Ypaf0nyjg1Js	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+1134	YBZCEDkx37rI	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+1162	YFR7BDRhMATo	Does the audio contain the sound of child speech?	child speech	positive	Yes	popular	Format2
+1189	YXJba7pTbpD0	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+1237	YCeRoaEcqUgM	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+1255	Yzq00Oe1ecpE	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+1300	YztSjcZNUY7A	Can you hear the sound of child speech in the audio?	child speech	positive	Yes	popular	Format4
+1343	YglAeihz0NAM	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+1363	YCM49C3RkzV8	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+1389	YH-vTZh81qAU	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+1422	Yup2PpjTzyyc	Have you noticed the sound of rail transport in the audio?	rail transport	positive	Yes	popular	Format3
+1465	YdlsiellSFf0	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+1495	Y0jGH7A_hpBM	Does the audio contain the sound of frying (food)?	frying (food)	positive	Yes	popular	Format2
+1543	YCefFMA3klxk	Does the audio contain the sound of pets?	pets	negative	No	popular	Format2
+1603	YKnXNy5Q6YS4	Can you hear the sound of rail transport in the audio?	rail transport	positive	Yes	popular	Format4
+1650	YcPiSd5nJLrI	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+1671	YrJVXE6Axtrg	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+1694	YFA11v4SmdBc	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+1742	Y3iLGu2Omgrw	Can you detect the sound of a frying (food) in the audio?	frying (food)	positive	Yes	popular	Format5
+1797	YQvATUKXYFBs	Can you detect the sound of a car in the audio?	car	negative	No	popular	Format5
+1817	Y_ezm-TpKj1w	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+1843	Yq46VXJ6JN9M	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+1856	YYEYeQ0lIkBQ	Is there a sound of bird in the audio?	bird	positive	Yes	popular	Format1
+1895	Y31WGUPOYS5g	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+1938	YKtTLsveexOg	Does the audio contain the sound of public space?	public space	positive	Yes	popular	Format2
+1983	Y5QZ0NtdoKJ8	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+2011	Y_AcJVyToQUQ	Can you hear the sound of burst in the audio?	burst	positive	Yes	popular	Format4
+2052	YkEP-BwMarf8	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+2098	YyVVLq4ao1Ck	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+2123	YS0YE96w0YRk	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+2125	Ylh801oHGtD4	Is there a sound of speech in the audio?	speech	positive	Yes	popular	Format1
+2157	YPb6MqpdX5Jw	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+2182	Y9U8COLzEegs	Have you noticed the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format3
+2205	Ydxow2DcTrwk	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+2218	Ya0yXS7PmVR0	Is there a sound of spray in the audio?	spray	positive	Yes	popular	Format1
+2267	Y0a9wVat2PWk	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+2289	Ybgbnu5YKTDg	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+2313	YCO6-i8NLbeo	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+2356	YpI_kPedctoo	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+2367	YEYTz1LPDHsc	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+2392	YD9tinq3RMpU	Does the audio contain the sound of bird?	bird	positive	Yes	popular	Format2
+2449	YEzWEO2WD_MM	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+2464	YtfOIhQpYYe8	Can you hear the sound of explosion in the audio?	explosion	positive	Yes	popular	Format4
+2475	Y_w2pA1VeB40	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+2518	YJnSwRonB9wI	Have you noticed the sound of fire truck (siren) in the audio?	fire truck (siren)	positive	Yes	popular	Format3
+2551	YRNBoH2LHQEM	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+2587	YpaetCbEqp2w	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+2595	YLs1zyPjs3k8	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+2616	YK03ydb1uaoQ	Is there a sound of snoring in the audio?	snoring	positive	Yes	popular	Format1
+2639	Yific_gRalg0	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+2671	YBlbGXalLNVU	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+2695	Y1nUOGZgSzZo	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+2748	Yc0V_HAul7rI	Can you detect the sound of a rail transport in the audio?	rail transport	positive	Yes	popular	Format5
+2761	YPtW0cZVprJQ	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+2794	YAbplcXwXnvE	Have you noticed the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format3
+2844	Yd1tL-9BILy8	Have you noticed the sound of car in the audio?	car	negative	No	popular	Format3
+2885	YonBZOH88OYs	Can you detect the sound of a sewing machine in the audio?	sewing machine	positive	Yes	popular	Format5
+2889	Y3wV3ST-c4PE	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+2912	Yy93cZqNCtks	Does the audio contain the sound of train?	train	positive	Yes	popular	Format2
+2952	YL2dyilgQ8iM	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+2980	YWWkhzcmx3VE	Can you detect the sound of a public space in the audio?	public space	positive	Yes	popular	Format5
+2989	Yu9px4Lwv9XI	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+3007	Yhrv6fwnmBkY	Is there a sound of pets in the audio?	pets	positive	Yes	popular	Format1
+3082	YzEaGx6an4es	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+3104	YE6FH_xp3I54	Is there a sound of chirp in the audio?	chirp	positive	Yes	popular	Format1
+3165	YDt53UZgyznE	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+3210	YOMGHnJV0l2U	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+3247	Y-NsC63dA01g	Have you noticed the sound of pets in the audio?	pets	negative	No	popular	Format3
+3282	YfGGYeXR_LS8	Can you hear the sound of explosion in the audio?	explosion	positive	Yes	popular	Format4
+3323	YhJtOGmN_KVw	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+3358	YUmNrhFKpWIY	Can you detect the sound of a frying (food) in the audio?	frying (food)	positive	Yes	popular	Format5
+3375	YxBZnvfniA1c	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+3422	YEQVWhHmT_cE	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+3437	YUCy1BEx8jBE	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+3465	YF7QtqKtllK0	Can you hear the sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format4
+3497	YalaxBd_EEUc	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+3518	YGSHcgY6ATkQ	Can you hear the sound of public space in the audio?	public space	positive	Yes	popular	Format4
+3526	YxYwpABpZed4	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+3549	YlfO471Rn61k	Is there a sound of hiss in the audio?	hiss	positive	Yes	popular	Format1
+3589	YHZ9O6sc7cLA	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+3613	Y41D0yXSBqfI	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+3645	YJ0yeFeKvIt8	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+3667	YKvrcRMfFzOE	Does the audio contain the sound of kid speaking?	kid speaking	positive	Yes	popular	Format2
+3703	Y7cHRSfbp7tc	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+3773	YNeWW30WZjPc	Can you hear the sound of vehicle in the audio?	vehicle	positive	Yes	popular	Format4
+3816	YdYvL6uEMl6E	Is there a sound of monologue in the audio?	monologue	negative	No	popular	Format1
+3909	YjjHIINDfE1c	Can you detect the sound of a railroad car in the audio?	railroad car	positive	Yes	popular	Format5
+3927	YsqsI2UyrcBQ	Is there a sound of domestic animals in the audio?	domestic animals	negative	No	popular	Format1
+3956	YjOYvIISk--4	Is there a sound of sink (filling or washing) in the audio?	sink (filling or washing)	positive	Yes	popular	Format1
+4013	Y3MoF8myFs8Y	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+4061	YPMMkPq5jJXY	Can you hear the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format4
+4096	YAtkD-3GjXMw	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+4132	Y6Nvu6EcpdE8	Can you hear the sound of railroad car in the audio?	railroad car	positive	Yes	popular	Format4
+4155	YzoxFl3pddMg	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+4168	YVQnmlf2OsUg	Is there a sound of helicopter in the audio?	helicopter	positive	Yes	popular	Format1
+4215	YB4SZwi9Ce3o	Have you noticed the sound of car in the audio?	car	negative	No	popular	Format3
+4254	Y9ucb5HYO8ps	Have you noticed the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format3
+4323	YNJEPbGVBJIQ	Can you detect the sound of a pets in the audio?	pets	negative	No	popular	Format5
+4345	YZYWCwfCkBp4	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+4363	Y9XqkKuTqEOM	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+4382	Y3IguMJkqpl4	Does the audio contain the sound of train?	train	positive	Yes	popular	Format2
+4443	YUhCzD6EBJBU	Can you detect the sound of a animal in the audio?	animal	negative	No	popular	Format5
+4458	YTQr9v-PQOc4	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+4488	Y0NGSrwioYjA	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+4517	Y6Pywt0f_NFY	Is there a sound of water in the audio?	water	positive	Yes	popular	Format1
+4591	Yh5_1pnkl_SY	Can you detect the sound of a animal in the audio?	animal	negative	No	popular	Format5
+4598	Yfx4r_KuW6No	Does the audio contain the sound of train?	train	positive	Yes	popular	Format2
+4657	Y9F3sutgYTvo	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+4668	Y7P6lcyeDKNI	Does the audio contain the sound of railroad car?	railroad car	positive	Yes	popular	Format2
+4726	YQHfyKaOHSz4	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+4733	YSE_3nszEw7o	Does the audio contain the sound of burst?	burst	positive	Yes	popular	Format2
+4753	Y_iUX8CibElk	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+4797	Y2JutOgAnqWA	Can you detect the sound of a train in the audio?	train	positive	Yes	popular	Format5
+4837	YbX2vDaHL26U	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+4858	YXf5LjaE_JQ0	Can you hear the sound of pop in the audio?	pop	positive	Yes	popular	Format4
+4908	YCh0LMmhBUg4	Can you detect the sound of a animal in the audio?	animal	negative	No	popular	Format5
+4916	Yl5KdHAWwJCw	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+4945	YVE6Ku0-ucUM	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+4969	YYIqpIjjee00	Have you noticed the sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format3
+4992	YItS07xtdi4s	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+5024	YHeEa1GZpUGI	Have you noticed the sound of burst in the audio?	burst	positive	Yes	popular	Format3
+5050	YjjfUaMQaG1A	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+5065	Y79XDcI6xZm0	Is there a sound of man speaking in the audio?	man speaking	positive	Yes	popular	Format1
+5133	Y52IxrdTxGs4	Can you detect the sound of a animal in the audio?	animal	negative	No	popular	Format5
+5134	YlJayhiVzl_E	Is there a sound of boat in the audio?	boat	positive	Yes	popular	Format1
+5227	YgQMTOKsCIyk	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+5245	YLs2vrr9TamU	Can you detect the sound of a sewing machine in the audio?	sewing machine	positive	Yes	popular	Format5
+5263	Y4SZ7JXDCNps	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+5292	YzIgGMlZENTs	Is there a sound of quack in the audio?	quack	positive	Yes	popular	Format1
+5350	Y1GgEpRZDWN0	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+5381	YqF72bT878gw	Does the audio contain the sound of frying (food)?	frying (food)	positive	Yes	popular	Format2
+5431	YrgrmLLhxoCQ	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+5459	YVeCSHwtkBZU	Can you detect the sound of a train in the audio?	train	positive	Yes	popular	Format5
+5483	YZ1Cyj4N05lk	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+5484	YXplKBvZaHXA	Is there a sound of motorcycle in the audio?	motorcycle	positive	Yes	popular	Format1
+5540	Yhzn_wGlzGpU	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+5567	Y0yxEvdnimGg	Is there a sound of animal in the audio?	animal	positive	Yes	popular	Format1
+5648	YLKhokVsJhN0	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+5662	YRp4Ct_TQvAM	Have you noticed the sound of burst in the audio?	burst	positive	Yes	popular	Format3
+5710	YYqYCDis3EUA	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+5740	YXL8JV9qXGLE	Have you noticed the sound of fire truck (siren) in the audio?	fire truck (siren)	positive	Yes	popular	Format3
+5785	Y9BGLAUSF0sk	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+5813	Y_duNX6Vyd6g	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+5837	Y7QN3lwOzfdg	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+5864	YOUUckswAaNI	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+5877	YAgaiowyYt88	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+5904	YTdl9SmBbRnA	Does the audio contain the sound of train horn?	train horn	positive	Yes	popular	Format2
+5946	Y6OlHuvJR_Dk	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+6012	YbygBWUkpaC8	Can you detect the sound of a siren in the audio?	siren	positive	Yes	popular	Format5
+6051	YFfUqv0Vv3ME	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+6054	Ypgq2KPX5_SA	Is there a sound of crumpling in the audio?	crumpling	positive	Yes	popular	Format1
+6083	YH7rd9bZtbgc	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+6113	YO90Qy2xG6oA	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+6147	YGuizRlAQ8qQ	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+6153	YoOMtaqvQ3_M	Is there a sound of helicopter in the audio?	helicopter	positive	Yes	popular	Format1
+6208	Y2ymiXjImwGs	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+6239	YWmDe2xbnSY4	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+6259	Y-DmjkgWa-rw	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+6293	YKtinboYbmHQ	Have you noticed the sound of train in the audio?	train	positive	Yes	popular	Format3
+6333	YrUq4w4EUSWA	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+6349	YHUwXtfYRFwk	Does the audio contain the sound of train wagon?	train wagon	positive	Yes	popular	Format2
+6395	Y0rSETXszQM0	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+6418	YfwhkCnOeyC0	Is there a sound of applause in the audio?	applause	positive	Yes	popular	Format1
+6460	YEbpOXac13yo	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+6484	Y_YS5uKWoB6g	Does the audio contain the sound of child speech?	child speech	positive	Yes	popular	Format2
+6522	YyhDw7PZje3g	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+6544	Yjlwe9jtu5Gw	Is there a sound of whistling in the audio?	whistling	positive	Yes	popular	Format1
+6566	Y4KObP7cREWw	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+6606	Y35b9BSmN5JM	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+6659	YSGaIvgwwWSE	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+6686	Y11SEBDuoqSk	Have you noticed the sound of train wagon in the audio?	train wagon	positive	Yes	popular	Format3
+6722	Yjid4t-FzUn0	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+6749	Y4Ujigme2IxY	Does the audio contain the sound of sewing machine?	sewing machine	positive	Yes	popular	Format2
+6785	Ybpv_LneHmfU	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+6803	Y0Rpjl1AO-P0	Is there a sound of car in the audio?	car	positive	Yes	popular	Format1
+6849	YFKaJsvcyHTk	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+6892	YJon_DEFqsfM	Can you detect the sound of a frying (food) in the audio?	frying (food)	positive	Yes	popular	Format5
+6902	YxUWSHYoslPQ	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+6956	Yg5l3Bz6lWnc	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+7018	YqWYncqPSy9A	Can you detect the sound of a animal in the audio?	animal	negative	No	popular	Format5
+7020	YXIooZl1QdM4	Is there a sound of burping in the audio?	burping	positive	Yes	popular	Format1
+7076	Yu8bQf0SnCVI	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+7086	YQARuiRtfy-k	Have you noticed the sound of public space in the audio?	public space	positive	Yes	popular	Format3
+7109	YbUTOsLXYyxg	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+7159	Y6eX6bJOFftA	Can you detect the sound of a train in the audio?	train	positive	Yes	popular	Format5
+7165	Y2ErfX6ZT5pM	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+7210	YFDwK7T1JO_0	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+7225	YXrJcmftCY04	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+7254	Ya_Rjlu50TfA	Can you hear the sound of train in the audio?	train	positive	Yes	popular	Format4
+7318	Y1DKLyH3FixM	Can you detect the sound of a domestic animals in the audio?	domestic animals	negative	No	popular	Format5
+7325	Y6NBPiArs2-w	Does the audio contain the sound of burst?	burst	positive	Yes	popular	Format2
+7368	YuJzAf4PaExI	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+7389	YJQz40TkjymY	Have you noticed the sound of pop in the audio?	pop	positive	Yes	popular	Format3
+7421	Ykdflh3akyH8	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+7438	YlmPMhs-9IYE	Is there a sound of car in the audio?	car	positive	Yes	popular	Format1
+7497	YhGWarNR6xmg	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+7509	YZsf2YvJfCKw	Can you hear the sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format4
+7534	Ynq0BF9zGkzg	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+7568	Yvigslb0kClE	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+7579	Y2t82STv2GR8	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+7616	YzoctgurhvHE	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+7653	YRdC8cviN6Bs	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+7684	YB8rdur4aams	Can you hear the sound of train in the audio?	train	positive	Yes	popular	Format4
+7701	Y3wrdPAeqjVI	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+7748	Y6cS0FsUM-cQ	Have you noticed the sound of fire truck (siren) in the audio?	fire truck (siren)	positive	Yes	popular	Format3
+7813	YOmmPaIAXN0s	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+7847	YbmEF-c-M174	Can you hear the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format4
+7885	Y59VP93Tzjmg	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+7934	Y3VHpLxtd498	Can you detect the sound of a rail transport in the audio?	rail transport	positive	Yes	popular	Format5
+7953	YOTLtzk0W4zg	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+8002	YRtenf2XSXRc	Have you noticed the sound of frying (food) in the audio?	frying (food)	positive	Yes	popular	Format3
+8025	YD9GHUPGWsV0	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+8062	YT32kii824pA	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+8087	YJBWJQCS4SvA	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+8112	Yjf4iyQPJSvk	Is there a sound of trickle in the audio?	trickle	positive	Yes	popular	Format1
+8164	Yjs4dr5JusdM	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+8199	Y5eSRL3PRHzo	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+8229	Y-EQByFLFqig	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+8257	YHVz-FJBf_iM	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+8301	YBXxlqaDvdaA	Can you hear the sound of car in the audio?	car	negative	No	popular	Format4
+8324	Y1PvMtRIlZNI	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+8344	YPMMdAKZxI_I	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+8366	Yj0KvrVE_Oww	Is there a sound of vehicle horn in the audio?	vehicle horn	positive	Yes	popular	Format1
+8423	YhuMLK0oA3L8	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+8440	YilspW7JRjAg	Does the audio contain the sound of train?	train	positive	Yes	popular	Format2
+8498	YEvZ3jOMYWxk	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+8529	YL_CNz9Vrtkw	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+8542	YBL8ksJ0sTXk	Is there a sound of car in the audio?	car	negative	No	popular	Format1
+8589	Y4xrL4TSgHwU	Does the audio contain the sound of child speech?	child speech	positive	Yes	popular	Format2
+8682	YITlqMkR5alY	Can you detect the sound of a domestic animals in the audio?	domestic animals	negative	No	popular	Format5
+8704	YIvg_q4t-3w0	Can you detect the sound of a burst in the audio?	burst	positive	Yes	popular	Format5
+8734	YwNiYSYJXssA	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+8780	YzBXoaQ1GVlc	Can you detect the sound of a rail transport in the audio?	rail transport	positive	Yes	popular	Format5
+8809	Yf2fSxfvmkZQ	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+8819	YU90e2P9jy30	Does the audio contain the sound of kid speaking?	kid speaking	positive	Yes	popular	Format2
+8869	YzEM94PH29VQ	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+8886	YMPLZUg89y5U	Does the audio contain the sound of child speech?	child speech	positive	Yes	popular	Format2
+8971	YelztUCeNQvQ	Can you detect the sound of a monologue in the audio?	monologue	negative	No	popular	Format5
+8977	YAizmnCDlXos	Does the audio contain the sound of burst?	burst	positive	Yes	popular	Format2
+9009	YZBtgrP4vU_w	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+9032	Y3qrVku794u0	Have you noticed the sound of train wagon in the audio?	train wagon	positive	Yes	popular	Format3
+9071	Yktc_tJxw8sc	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+9104	YdP5DbAzTl5M	Have you noticed the sound of bird in the audio?	bird	positive	Yes	popular	Format3
+9139	YLWng-4PDzPM	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+9167	YIvfaKPDWC00	Does the audio contain the sound of animal?	animal	positive	Yes	popular	Format2
+9211	Ycr0GiZr0TNY	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+9229	Y-nQHwrRLfc0	Is there a sound of idling in the audio?	idling	positive	Yes	popular	Format1
+9295	Y1e98HeU9Vrg	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+9356	Y1slvoNgzBLE	Can you detect the sound of a child speech in the audio?	child speech	positive	Yes	popular	Format5
+9379	YfrOqlk0Wm5Y	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+9395	YJZloTOdIY_c	Does the audio contain the sound of frying (food)?	frying (food)	positive	Yes	popular	Format2
+9448	YIJ6pm5Kns8A	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+9458	Yh0M4RS8p_mo	Is there a sound of sobbing in the audio?	sobbing	positive	Yes	popular	Format1
+9515	Yz4MeV9IGVo0	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+9525	Y63KW_EQ72yU	Is there a sound of burst in the audio?	burst	positive	Yes	popular	Format1
+9576	YJfaj4P3us9M	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+9608	Y-NrFeH-kBSM	Can you hear the sound of pop in the audio?	pop	positive	Yes	popular	Format4
+9657	YnlC4UI4hZ60	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+9674	YE3D_z0aoUEg	Can you hear the sound of explosion in the audio?	explosion	positive	Yes	popular	Format4
+9697	YE3Q1jfTeuWs	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+9734	YwoadpeAGHUQ	Can you hear the sound of railroad car in the audio?	railroad car	positive	Yes	popular	Format4
+9777	YxIztYnMIWUA	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+9798	Y3ghVB-KaU_E	Can you hear the sound of public space in the audio?	public space	positive	Yes	popular	Format4
+9815	Y2ItTq2JShdU	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+9850	YawxrHOpt-sE	Does the audio contain the sound of bird?	bird	positive	Yes	popular	Format2
+9903	Yy3-M1sonh3M	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+9911	Yir1XTdyt4IY	Is there a sound of speech in the audio?	speech	positive	Yes	popular	Format1
+9960	YWU3qB7gf6ao	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+9984	YD1Sy7kRoaR8	Does the audio contain the sound of railroad car?	railroad car	positive	Yes	popular	Format2
+10045	YWq4OD3olO2w	Have you noticed the sound of car in the audio?	car	negative	No	popular	Format3
+10073	YARFFw0e_jig	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+10126	Y3RultJjvTWI	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+10160	YfK4QBQZ6i7w	Have you noticed the sound of rail transport in the audio?	rail transport	positive	Yes	popular	Format3
+10202	YA61Mry8zBwE	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+10227	Y7-HCqJFwHoI	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+10255	Yd6gu2w19YQo	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+10274	YAagLJkfrFMk	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+10290	YA2mcp0N__7U	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+10302	YrjUrB1WUpcI	Is there a sound of gurgling in the audio?	gurgling	positive	Yes	popular	Format1
+10322	Y9BukzlPNqC8	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+10346	Y8OTd45_6cvY	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+10384	YPg2cWEnEEvc	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+10393	YbIiiIo20PsY	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+10446	YNDaVSIJaXVs	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+10486	Ygr5Zss89yLQ	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+10533	Y6ZFU4PqXmoI	Can you hear the sound of pets in the audio?	pets	negative	No	popular	Format4
+10554	Y3IScngdQA4I	Have you noticed the sound of burst in the audio?	burst	positive	Yes	popular	Format3
+10590	Y0fMXnvD38zI	Does the audio contain the sound of domestic animals?	domestic animals	negative	No	popular	Format2
+10642	YXZTt1xdK8uQ	Can you detect the sound of a public space in the audio?	public space	positive	Yes	popular	Format5
+10647	YWOywdRmySs0	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+10684	YYk274Wr5iIE	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+10713	YQ3vkJMVMbC8	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+10730	Yo_3MDLl_aH0	Have you noticed the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format3
+10774	YErxgH5g3Kx0	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+10792	Ye4ph6bIC5zc	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+10842	Ydkiwn2FdDVw	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+10846	Y4s2rRnu2PZo	Is there a sound of swish in the audio?	swish	positive	Yes	popular	Format1
+10887	YAMQei29haCw	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+10923	YAKHZMg9ba30	Can you detect the sound of a train in the audio?	train	positive	Yes	popular	Format5
+10939	YTwR8BA6buMI	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+10957	YLxu-3_h4kc4	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+10989	YOr7umk40TZA	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+10991	YV4PLSw_WzVw	Is there a sound of skidding in the audio?	skidding	positive	Yes	popular	Format1
+11048	YjXkLS_QzUrI	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+11073	YAJtNitYMa1I	Can you hear the sound of burst in the audio?	burst	positive	Yes	popular	Format4
+11123	YR4fXcbWFhJg	Can you hear the sound of pets in the audio?	pets	negative	No	popular	Format4
+11143	YYflmW68gL4E	Does the audio contain the sound of kid speaking?	kid speaking	positive	Yes	popular	Format2
+11199	YxQDq3A4Zfbo	Does the audio contain the sound of bird?	bird	negative	No	popular	Format2
+11258	YinSvboaSRwA	Have you noticed the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format3
+11294	Yn74IYuCe_ms	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+11320	YszkiW0GXEOI	Can you detect the sound of a burst in the audio?	burst	positive	Yes	popular	Format5
+11341	Y2RjqBRzmxaM	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+11359	YdmUOSyPXkUw	Is there a sound of hiss in the audio?	hiss	positive	Yes	popular	Format1
+11409	YeUecAF626A8	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+11443	Yhmd6pa2e_rs	Can you hear the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format4
+11471	YMTIF_l_8d4Q	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+11499	YMTaLknnq4wc	Can you hear the sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format4
+11532	Y2KR0C5ysO8o	Does the audio contain the sound of monologue?	monologue	negative	No	popular	Format2
+11576	YKel-hfZ_9h8	Does the audio contain the sound of train horn?	train horn	positive	Yes	popular	Format2
+11645	YyVjivgsU2aA	Have you noticed the sound of pets in the audio?	pets	negative	No	popular	Format3
+11685	YfYTZVxQ8LJk	Have you noticed the sound of child speech in the audio?	child speech	positive	Yes	popular	Format3
+11726	YPuLuZ_TXv-0	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+11747	Y3xDZ-kdGE3o	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+11753	YRfGapDlAYoQ	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+11793	YQKHpSAAjakY	Can you hear the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format4
+11835	Yi1u_2eZYYlE	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+11854	YUE3XnVFodMI	Can you hear the sound of pop in the audio?	pop	positive	Yes	popular	Format4
+11875	Yy1a8PntuXYw	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+11880	YkgjNIDmO8a8	Is there a sound of fire engine in the audio?	fire engine	positive	Yes	popular	Format1
+11944	Y473wBEwC35M	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+11978	YWHRnyGXcdy8	Can you hear the sound of pop in the audio?	pop	positive	Yes	popular	Format4
+11994	Y5ye0X5saadg	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+12047	Yr2djvq1vc68	Can you detect the sound of a train horn in the audio?	train horn	positive	Yes	popular	Format5
+12067	YL8dA-2Lu2hY	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+12094	YsTMKled6Q1M	Can you hear the sound of child speech in the audio?	child speech	positive	Yes	popular	Format4
+12131	YvEWmHtiznF8	Have you noticed the sound of car in the audio?	car	negative	No	popular	Format3
+12157	Ytpm5IOD5d4o	Have you noticed the sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format3
+12195	Y9xoYx3lTJ9I	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+12221	YzFzPOsOKog4	Is there a sound of wasp in the audio?	wasp	positive	Yes	popular	Format1
+12284	YtaYKM1OSTwE	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+12331	Y5iTRKJqUIw8	Can you detect the sound of a pop in the audio?	pop	positive	Yes	popular	Format5
+12339	YrvDcg9DoNKA	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+12361	YnU-AI3Cmc3M	Does the audio contain the sound of kid speaking?	kid speaking	positive	Yes	popular	Format2
+12417	Y_GI7meqlYZk	Have you noticed the sound of pets in the audio?	pets	negative	No	popular	Format3
+12467	Yh3UhoHIMfpw	Can you detect the sound of a child speech in the audio?	child speech	positive	Yes	popular	Format5
+12474	YLB6CZ0x-kns	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+12505	YcFHFVGOtp6g	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+12532	YCYUlLTKoa1Y	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+12557	YP4qd8uodw_M	Have you noticed the sound of train in the audio?	train	positive	Yes	popular	Format3
+12595	YMj_BO-iK1G4	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+12618	YptIksg9KEac	Have you noticed the sound of bird in the audio?	bird	positive	Yes	popular	Format3
+12657	YCchRf2jq6fc	Is there a sound of domestic animals in the audio?	domestic animals	negative	No	popular	Format1
+12697	YFL8KTgMGrN4	Have you noticed the sound of pop in the audio?	pop	positive	Yes	popular	Format3
+12722	YqPYwp1K4sZE	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+12768	Yo7-X8DAToGc	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+12791	Y7XXSOzDQ2z0	Is there a sound of domestic animals in the audio?	domestic animals	negative	No	popular	Format1
+12827	YTtRtURWVYBE	Have you noticed the sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format3
+12856	YPkmpxrsidZM	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+12868	YlHh0SwUhP8U	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+12887	YU3CAjsm1sec	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+12932	YdZDgJzGtLLU	Can you hear the sound of explosion in the audio?	explosion	positive	Yes	popular	Format4
+12946	Y8b9z7N25DmU	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+12990	YUQtBt6CQpwg	Can you hear the sound of explosion in the audio?	explosion	positive	Yes	popular	Format4
+13033	YhV4bDCBDCy0	Can you detect the sound of a animal in the audio?	animal	negative	No	popular	Format5
+13035	Y6TO9PEGpZcQ	Is there a sound of fire engine in the audio?	fire engine	positive	Yes	popular	Format1
+13084	YbAqgL5dCQOE	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+13123	YbJMMp6PLKqM	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+13151	YNeZerAPXR-A	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+13206	Y6cyKp3EDm-0	Can you detect the sound of a rail transport in the audio?	rail transport	positive	Yes	popular	Format5
+13229	Y1N_DtRpdAp8	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+13250	Yv7BaYF0kagM	Can you detect the sound of a burst in the audio?	burst	positive	Yes	popular	Format5
+13279	YrN2rpLV3brs	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+13304	Yt1hj7se76wQ	Have you noticed the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format3
+13331	Y8BPTQO_cx7E	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+13361	Y3n05BjV7r7M	Can you detect the sound of a pop in the audio?	pop	positive	Yes	popular	Format5
+13367	YB-gTt3_rceQ	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+13401	Y8DLcBdC5UrE	Does the audio contain the sound of sewing machine?	sewing machine	positive	Yes	popular	Format2
+13419	Y_C2HinL8VlM	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+13452	YAWGnTI0e2Fs	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+13490	YrPkCYq4Zjwk	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+13496	YCfxWJ1Qoufg	Does the audio contain the sound of explosion?	explosion	positive	Yes	popular	Format2
+13545	YBA-lFjpzad4	Can you hear the sound of car in the audio?	car	negative	No	popular	Format4
+13586	YC8kR19NvynA	Can you detect the sound of a frying (food) in the audio?	frying (food)	positive	Yes	popular	Format5
+13604	YtIM-H2rdq8U	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+13624	YBvw2gv1fcZw	Does the audio contain the sound of child speech?	child speech	positive	Yes	popular	Format2
+13675	YlYhwCRX2wNc	Have you noticed the sound of car in the audio?	car	negative	No	popular	Format3
+13695	YMdlEswBfZMQ	Is there a sound of chortle in the audio?	chortle	positive	Yes	popular	Format1
+13763	YMBP4RcnwGZw	Have you noticed the sound of pets in the audio?	pets	negative	No	popular	Format3
+13815	YpPLisQ_QXxw	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+13846	Y4_DjmCg8Ra8	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+13892	YNX0gR9Eebp0	Can you detect the sound of a train wagon in the audio?	train wagon	positive	Yes	popular	Format5
+13911	Yb1PXsfgQw5w	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+13948	YN_s9F4CI_98	Does the audio contain the sound of fire engine?	fire engine	positive	Yes	popular	Format2
+13994	YWqXFAY4k79s	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+14037	Y13CBvjHZhOA	Have you noticed the sound of train in the audio?	train	positive	Yes	popular	Format3
+14083	YXPebkNzsnRI	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+14094	Ye9MWXS34o48	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+14120	YNi3dIj90Oa4	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+14148	YPYP-r0nvbFk	Can you hear the sound of child speech in the audio?	child speech	positive	Yes	popular	Format4
+14177	YCxaPpRJRkn0	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+14192	YgwQMkQmBITE	Can you hear the sound of explosion in the audio?	explosion	positive	Yes	popular	Format4
+14235	YwrQDkX0NbTA	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+14262	YC_ga5m6nOhI	Can you hear the sound of child speech in the audio?	child speech	positive	Yes	popular	Format4
+14322	Y3kBlVLkN0zo	Can you detect the sound of a animal in the audio?	animal	negative	No	popular	Format5
+14326	YGkb4f6yodPE	Is there a sound of sawing in the audio?	sawing	positive	Yes	popular	Format1
+14376	YtxeXrpoMST4	Does the audio contain the sound of domestic animals?	domestic animals	negative	No	popular	Format2
+14425	YQOmV7O9mFwg	Can you detect the sound of a train in the audio?	train	positive	Yes	popular	Format5
+14451	YZsTZ7jqbd9M	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+14467	YPVvi2SDOjVc	Is there a sound of vehicle horn in the audio?	vehicle horn	positive	Yes	popular	Format1
+14538	YkVYNXZd0MMY	Can you hear the sound of car in the audio?	car	negative	No	popular	Format4
+14557	YK2kIOBeCfuo	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+14615	Yos_2U4xqTqw	Can you detect the sound of a car in the audio?	car	negative	No	popular	Format5
+14636	YeNG6fEiAE8c	Can you hear the sound of train in the audio?	train	positive	Yes	popular	Format4
+14675	YMjSegUnQXr4	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+14712	YC5kmOK_l4jc	Can you hear the sound of train horn in the audio?	train horn	positive	Yes	popular	Format4
+14737	Yq4YFJA5pFXc	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+14760	YSNIaYhri76w	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+14827	Y1OyEgzXCkYE	Can you hear the sound of car in the audio?	car	negative	No	popular	Format4
+14847	Y86dNVnTwH6U	Have you noticed the sound of pop in the audio?	pop	positive	Yes	popular	Format3
+14890	Y-aYumc8KoXg	Can you hear the sound of domestic animals in the audio?	domestic animals	negative	No	popular	Format4
+14899	YhxbmDeNSO6Q	Is there a sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format1
+14923	YJp64Whpr3BA	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+14958	Y3fomsZXG3aM	Have you noticed the sound of frying (food) in the audio?	frying (food)	positive	Yes	popular	Format3
+14982	YrtgVoZCcBw8	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+15054	YVOXl8iR-HnI	Can you detect the sound of a bird in the audio?	bird	positive	Yes	popular	Format5
+15096	Y4pf-PIymDhU	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+15108	YsJrFyjfrL-g	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+15124	YCvNAwby6Xos	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+15170	Y4_Cak7gvly4	Can you detect the sound of a kid speaking in the audio?	kid speaking	positive	Yes	popular	Format5
+15187	Y1j5NMuq1X30	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+15197	YdJYO3RbBabE	Does the audio contain the sound of burst?	burst	positive	Yes	popular	Format2
+15263	YIPfaRF76gVU	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+15278	YriM7b5bJ9KQ	Have you noticed the sound of burst in the audio?	burst	positive	Yes	popular	Format3
+15309	YaMhu5eMQAsI	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+15321	YHqnSyliKTKA	Is there a sound of animal in the audio?	animal	positive	Yes	popular	Format1
+15409	YhpDltmawxIM	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+15420	Yazh_-OkQ-uI	Does the audio contain the sound of child speech?	child speech	positive	Yes	popular	Format2
+15477	Y0ury8KHQdL4	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+15495	YBLMWD6fxhpo	Can you detect the sound of a sewing machine in the audio?	sewing machine	positive	Yes	popular	Format5
+15500	YUV1kdjwpy6U	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+15523	YIhvXtS9-IxM	Is there a sound of helicopter in the audio?	helicopter	positive	Yes	popular	Format1
+15552	Yrp3CQsWxVgE	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+15596	Y1Uh74_rZ72k	Can you hear the sound of public space in the audio?	public space	positive	Yes	popular	Format4
+15625	YKSHpYhuTotY	Have you noticed the sound of domestic animals in the audio?	domestic animals	negative	No	popular	Format3
+15647	YLCwSUVuTyvg	Have you noticed the sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format3
+15676	YvruDH_YLaPI	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+15691	YlTfNLKEy1RU	Does the audio contain the sound of kid speaking?	kid speaking	positive	Yes	popular	Format2
+15757	YLVvS3s9dFKw	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+15804	Y0_ogYGDGDco	Can you hear the sound of snoring in the audio?	snoring	positive	Yes	popular	Format4
+15878	Y2EsxcKe1A4w	Can you detect the sound of a domestic animals in the audio?	domestic animals	negative	No	popular	Format5
+15882	Y5rh5-MCjqq8	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+15923	YDzKjogSVOLM	Have you noticed the sound of car in the audio?	car	negative	No	popular	Format3
+15966	YGIOApFAWDOc	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+15997	Y5G6b_QWL3nY	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+16036	Y-oy0BkpMGAk	Have you noticed the sound of frying (food) in the audio?	frying (food)	positive	Yes	popular	Format3
+16071	Yoklu5ZJD_2U	Does the audio contain the sound of car?	car	negative	No	popular	Format2
+16109	YinQOrxc_oZo	Can you detect the sound of a sewing machine in the audio?	sewing machine	positive	Yes	popular	Format5
+16133	YECw5Yf7QoMo	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+16171	Y4abZbau8tZo	Can you detect the sound of a pop in the audio?	pop	positive	Yes	popular	Format5
+16199	YpuZL08fzpXk	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+16222	Yx5AH2gW_8S4	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+16250	YpCQEWAFGEjc	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+16277	YZNEZLlDVgrE	Does the audio contain the sound of frying (food)?	frying (food)	positive	Yes	popular	Format2
+16312	YGMP8m09j5vk	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+16368	Y4fz0-Kx2oNs	Can you hear the sound of public space in the audio?	public space	positive	Yes	popular	Format4
+16392	YVZLZ08k3YeA	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+16403	YJTHMXLC9YRs	Does the audio contain the sound of burst?	burst	positive	Yes	popular	Format2
+16425	YnD1K1Zo0qrM	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+16495	YpWQeV08kYR0	Can you detect the sound of a train in the audio?	train	positive	Yes	popular	Format5
+16509	YhDMHIDJdfDA	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+16532	YQv1HXaT-28U	Can you hear the sound of explosion in the audio?	explosion	positive	Yes	popular	Format4
+16591	YC4JwGJQ2dUA	Can you detect the sound of a car in the audio?	car	negative	No	popular	Format5
+16594	YfWvWhLJ5Fow	Is there a sound of spray in the audio?	spray	positive	Yes	popular	Format1
+16629	YBzHTqyX69pI	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+16636	YljrL7Cb-jr8	Is there a sound of spray in the audio?	spray	positive	Yes	popular	Format1
+16675	YrBUCIK8JRLg	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+16730	YTSnq6n8tElo	Can you detect the sound of a rail transport in the audio?	rail transport	positive	Yes	popular	Format5
+16740	YPO8Nu3F8mkA	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+16800	YemGPabOePzA	Can you detect the sound of a kid speaking in the audio?	kid speaking	positive	Yes	popular	Format5
+16829	YPTyFYxXdut4	Have you noticed the sound of car in the audio?	car	negative	No	popular	Format3
+16867	Y_oKXrY5Ff0g	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+16905	YKOBkbROPv4c	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+16921	Y32565FEuksc	Does the audio contain the sound of frying (food)?	frying (food)	positive	Yes	popular	Format2
+16971	YI_vN_BFUr0Y	Does the audio contain the sound of pets?	pets	negative	No	popular	Format2
+17007	YwBs02amFGXs	Is there a sound of pigeon in the audio?	pigeon	positive	Yes	popular	Format1
+17053	YwVi5w_NU6CM	Is there a sound of narration in the audio?	narration	negative	No	popular	Format1
+17101	Y7WkB6pflr6o	Is there a sound of woman speaking in the audio?	woman speaking	positive	Yes	popular	Format1
+17148	YrE6BJ0Bo4w4	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+17183	YbA5zPFSFZAA	Have you noticed the sound of train in the audio?	train	positive	Yes	popular	Format3
+17208	Y8F-ndyrEWJ8	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+17240	YBa92IrXFvJo	Is there a sound of motorboat in the audio?	motorboat	positive	Yes	popular	Format1
+17300	YFhimNYClv40	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+17330	YIFRmbxWK8u0	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+17354	Yi2yhbckq3p0	Does the audio contain the sound of car?	car	negative	No	popular	Format2
+17430	YkHIe4CfaccQ	Can you detect the sound of a fire truck (siren) in the audio?	fire truck (siren)	positive	Yes	popular	Format5
+17445	YlTJLvSvjUZk	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+17460	YlfAFQ0-wDJU	Is there a sound of wind in the audio?	wind	positive	Yes	popular	Format1
+17524	Y2JV3emH50XU	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+17548	YmlnUJH4BQnk	Can you hear the sound of public space in the audio?	public space	positive	Yes	popular	Format4
+17559	YNwoBDrTlbTI	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+17606	Yq3SEOW2m4WY	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+17657	Y2UNuMbxz9ds	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+17669	YdYZSKX7vuRI	Is there a sound of speech in the audio?	speech	positive	Yes	popular	Format1
+17726	Yek9Fsmm3xqk	Have you noticed the sound of pets in the audio?	pets	negative	No	popular	Format3
+17769	YQ87LBiwJjTE	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+17782	YBGEMgl1xjac	Is there a sound of car in the audio?	car	negative	No	popular	Format1
+17820	Yg6CY7qvu81k	Have you noticed the sound of public space in the audio?	public space	positive	Yes	popular	Format3
+17849	YAR8-MVl_Mf8	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+17889	Y2a6GNu6uCDE	Can you hear the sound of frying (food) in the audio?	frying (food)	positive	Yes	popular	Format4
+17920	Yc0IggDOisOo	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+17931	YbIV3bJZpkgA	Does the audio contain the sound of burst?	burst	positive	Yes	popular	Format2
+17974	YynHdcJ9Oqaw	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+17993	YajheseWZmmU	Does the audio contain the sound of kid speaking?	kid speaking	positive	Yes	popular	Format2
+18035	YzF3xXn6NTyU	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+18065	YUXGzbBGbqAA	Can you detect the sound of a child speech in the audio?	child speech	positive	Yes	popular	Format5
+18087	YvfNKduToki4	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+18138	YKVbmN9ZRg5Q	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+18161	YGPj8h-WcjWs	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+18197	Y3ue0gJM0THk	Is there a sound of medium engine (mid frequency) in the audio?	medium engine (mid frequency)	positive	Yes	popular	Format1
+18267	Y5xC4hkAWiao	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+18313	YeRU-rABp8nk	Can you detect the sound of a child speech in the audio?	child speech	positive	Yes	popular	Format5
+18323	YTd2EEDdFlRY	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+18365	YrbO727iF03I	Can you detect the sound of a child speech in the audio?	child speech	positive	Yes	popular	Format5
+18375	YZY4aGEniU_E	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+18390	YKVAIaRPry24	Is there a sound of insect in the audio?	insect	positive	Yes	popular	Format1
+18439	YRrmBGjJqlEo	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+18473	Yj1AiqT5oHZc	Can you detect the sound of a child speech in the audio?	child speech	positive	Yes	popular	Format5
+18496	YZ_smJ66Tb3c	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+18543	YDc2WEiRk0rA	Have you noticed the sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format3
+18591	YNlKlRKz8OKI	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+18610	YlVr-PxhZo8s	Does the audio contain the sound of explosion?	explosion	positive	Yes	popular	Format2
+18665	YzwoqJY03yHE	Can you detect the sound of a animal in the audio?	animal	negative	No	popular	Format5
+18697	Y1_z6NcidGzM	Can you detect the sound of a child speech in the audio?	child speech	positive	Yes	popular	Format5
+18713	YatmDP_fmK_8	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+18751	Ye6jSpvTvfJ0	Can you hear the sound of burst in the audio?	burst	positive	Yes	popular	Format4
+18772	Ygf6H_MWCqjw	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+18804	YwnqUgK_-fo4	Can you hear the sound of train in the audio?	train	positive	Yes	popular	Format4
+18823	YbQNX7vDalQw	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+18852	YSePTNAN7s-w	Can you hear the sound of pop in the audio?	pop	positive	Yes	popular	Format4
+18872	YY3lNEe-ZGF0	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+18894	YeJCaRgf1M20	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+18921	Y-AheI8Epim4	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+18939	YtmLAXm1WlnE	Is there a sound of fly in the audio?	fly	positive	Yes	popular	Format1
+18983	YXamQAY_WXRY	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+19022	YZ-SIyOChVh8	Can you detect the sound of a kid speaking in the audio?	kid speaking	positive	Yes	popular	Format5
+19038	YwSHzVxdMiTo	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+19055	YWCYfCfW9NA0	Does the audio contain the sound of burst?	burst	positive	Yes	popular	Format2
+19083	Y-EaZ7EJJUl0	Is there a sound of domestic animals in the audio?	domestic animals	negative	No	popular	Format1
+19141	YZ3wDry8nnJs	Can you detect the sound of a child speech in the audio?	child speech	positive	Yes	popular	Format5
+19163	YwOFBldBFRNk	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+19167	YnLZeG9LaLgw	Is there a sound of auto racing in the audio?	auto racing	positive	Yes	popular	Format1
+19221	Y_z-bidQYVao	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+19233	Y1QNLMF-Kl_s	Is there a sound of monologue in the audio?	monologue	positive	Yes	popular	Format1
+19273	Y7XUt6sQS7nM	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+19314	Ycz0FSQDVBMw	Have you noticed the sound of burst in the audio?	burst	positive	Yes	popular	Format3
+19332	YS_3aeOvniZc	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+19384	YSZ6CcXINiiE	Does the audio contain the sound of train?	train	positive	Yes	popular	Format2
+19421	YfBYDJWChe5c	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+19449	YJC2ZrXzCX4Y	Can you hear the sound of burst in the audio?	burst	positive	Yes	popular	Format4
+19475	Yvsy1IpYmrSY	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+19497	YTgxst7Ft9js	Can you detect the sound of a pop in the audio?	pop	positive	Yes	popular	Format5
+19511	Y5YzNSjmZ3Wg	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+19540	YD2Xc_jZllDY	Is there a sound of animal in the audio?	animal	positive	Yes	popular	Format1
+19610	YOxUVcZmeiyI	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+19638	YkXjzsroVTtw	Have you noticed the sound of bird in the audio?	bird	positive	Yes	popular	Format3
+19685	Y14izd_i3ryE	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+19713	Y4YodC6RnplI	Can you hear the sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format4
+19731	YIsUG5SKWNZA	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+19755	YSL3wB5sDcdw	Is there a sound of vacuum cleaner in the audio?	vacuum cleaner	positive	Yes	popular	Format1
+19820	YfmEft49sPfE	Can you detect the sound of a animal in the audio?	animal	negative	No	popular	Format5
+19823	YwFiCblfZ-vg	Is there a sound of dribble in the audio?	dribble	positive	Yes	popular	Format1
+19868	YsbW7XwwUtSU	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+19881	YmYQrjcYNrW0	Is there a sound of toot in the audio?	toot	positive	Yes	popular	Format1
+19925	YkagkXkAVPNo	Is there a sound of pets in the audio?	pets	negative	No	popular	Format1
+19972	Y8VOibo9Q_Dc	Does the audio contain the sound of train?	train	positive	Yes	popular	Format2
+20008	YW7OJevEgq7w	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+20061	YpO8kbg9IJnc	Does the audio contain the sound of train wagon?	train wagon	positive	Yes	popular	Format2
+20113	Y3XcIVh40pTI	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+20116	YnLtNjMimLE0	Is there a sound of water in the audio?	water	positive	Yes	popular	Format1
+20155	YESjMIqrvRj4	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+20175	Y5t6tSW0yT40	Does the audio contain the sound of sewing machine?	sewing machine	positive	Yes	popular	Format2
+20197	YmUGmCSNETcg	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+20232	Y096oTVzc5Gs	Have you noticed the sound of train wagon in the audio?	train wagon	positive	Yes	popular	Format3
+20273	YAUmY0YRAFQE	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+20308	Y8Zo30kV5aiI	Does the audio contain the sound of train?	train	positive	Yes	popular	Format2
+20343	YPvWI4p74UOs	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+20390	YH7-orYrKBeo	Is there a sound of sobbing in the audio?	sobbing	positive	Yes	popular	Format1
+20438	YPZBUdlKwX04	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+20466	YTaQKhIRwii4	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+20486	YAgh2EKINlSw	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+20502	Yk4XyfaWVLEY	Is there a sound of bus in the audio?	bus	positive	Yes	popular	Format1
+20549	YROootH-mtEI	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+20555	YAxd__X2rixk	Is there a sound of clip-clop in the audio?	clip-clop	positive	Yes	popular	Format1
+20613	YnaPgJvWTIY4	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+20649	YBMayJId0X1s	Can you detect the sound of a train in the audio?	train	positive	Yes	popular	Format5
+20673	Y5I8lmN8rwDM	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+20694	YhVUmQfBIYe8	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+20733	YP12nvSpKXcs	Can you detect the sound of a animal in the audio?	animal	negative	No	popular	Format5
+20752	YxpZna_FwDhI	Can you hear the sound of pop in the audio?	pop	positive	Yes	popular	Format4
+20762	Y9dLLsZVRSZI	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+20795	YKJKHDKKW3XU	Can you hear the sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format4
+20828	YEBCH7TPgiPc	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+20852	YSCow4mpBsGY	Can you hear the sound of public space in the audio?	public space	positive	Yes	popular	Format4
+20871	Y-BUWGM7qeUM	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+20877	YhFCmq9pCBbM	Is there a sound of crumpling in the audio?	crumpling	positive	Yes	popular	Format1
+20941	Y9b6RqajfAmw	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+20944	YD4s5aHrsBgs	Is there a sound of whistling in the audio?	whistling	positive	Yes	popular	Format1
+20981	Y404cD3bVXDc	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+21017	YI4HpYGMMsz4	Can you detect the sound of a pop in the audio?	pop	positive	Yes	popular	Format5
+21045	Y83j4GgHXTLE	Have you noticed the sound of car in the audio?	car	negative	No	popular	Format3
+21085	YuY4fe5DT1gI	Can you detect the sound of a pop in the audio?	pop	positive	Yes	popular	Format5
+21110	Y-CcGuq0yoKo	Have you noticed the sound of car in the audio?	car	negative	No	popular	Format3
+21158	YWUyeFOyKIg0	Can you detect the sound of a frying (food) in the audio?	frying (food)	positive	Yes	popular	Format5
+21165	YQt0_xTadAT0	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+21210	Y9zstu_IfAm4	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+21234	YaZAXO2WZn84	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+21255	Y466ucPGoNSQ	Does the audio contain the sound of animal?	animal	positive	Yes	popular	Format2
+21305	YFf8bCCJfVX4	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+21345	YUAmDLPjNyMg	Can you hear the sound of rail transport in the audio?	rail transport	positive	Yes	popular	Format4
+21366	Y0qbHT34qTZE	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+21426	YwAZrOPvul4Y	Can you hear the sound of child speech in the audio?	child speech	positive	Yes	popular	Format4
+21451	Yt4prXmPwthg	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+21468	Y-R69Fa-mCaY	Does the audio contain the sound of pop?	pop	positive	Yes	popular	Format2
+21522	Y3XuyGJqaXv8	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+21538	Ym_U506sf9p4	Is there a sound of sizzle in the audio?	sizzle	positive	Yes	popular	Format1
+21580	YC9NC7wJ7C3w	Is there a sound of car in the audio?	car	negative	No	popular	Format1
+21612	YT9_ep-3BZDY	Is there a sound of crinkling in the audio?	crinkling	positive	Yes	popular	Format1
+21664	Y7_smJ8VbfSU	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+21701	YFXdoNvmrYxo	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+21729	YhiJB_95IWiE	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+21733	Ya3GzZKxUTy8	Is there a sound of animal in the audio?	animal	positive	Yes	popular	Format1
+21799	Y2bq2lc3DLwM	Have you noticed the sound of car in the audio?	car	negative	No	popular	Format3
+21820	Y6CDl4CqOgMg	Is there a sound of dog in the audio?	dog	positive	Yes	popular	Format1
+21879	YmWqH2xwjkYA	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+21897	Y8IdCiapDYCU	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+21940	YDn3buZWMzwY	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+21951	YyLu4b01t53k	Does the audio contain the sound of kid speaking?	kid speaking	positive	Yes	popular	Format2
+21989	Y2sZhC_mKeic	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+22028	YtTB0BK39JI8	Have you noticed the sound of public space in the audio?	public space	positive	Yes	popular	Format3
+22057	YsqWyxUObwkw	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+22090	YYH4qi8Ul6v0	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+22127	YHqndxoujCYI	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+22150	YL6rnV0oNIII	Can you detect the sound of a public space in the audio?	public space	positive	Yes	popular	Format5
+22164	YsI7_ycEYzAY	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+22184	YAFgGoY8Ihhg	Does the audio contain the sound of child speech?	child speech	positive	Yes	popular	Format2
+22228	Y1L_OyngNZMA	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+22253	YU5ij0M7T-hk	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+22293	YCbe2B6ohBpw	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+22380	YFlk-X0gwjF4	Can you detect the sound of a rail transport in the audio?	rail transport	positive	Yes	popular	Format5
+22392	Y-mb4Fw4Z0xg	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+22424	Ym_NCf-q4Gn0	Is there a sound of motorcycle in the audio?	motorcycle	positive	Yes	popular	Format1
+22499	Y6aWnK1GyeJY	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+22527	Y2ceUOv8A3FE	Can you hear the sound of frying (food) in the audio?	frying (food)	positive	Yes	popular	Format4
+22558	YRk-ujWKzPuc	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+22572	YoiIi6H83Y38	Does the audio contain the sound of child speech?	child speech	positive	Yes	popular	Format2
+22607	Y5ORpSk5CIWc	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+22632	Yf8WPf5F22xI	Can you detect the sound of a public space in the audio?	public space	positive	Yes	popular	Format5
+22635	Y1ed87LLY97k	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+22659	YFeHndzYAUkg	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+22719	Yne2DpKCIr4Y	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+22726	YAj_VMUSNjNM	Is there a sound of revving in the audio?	revving	positive	Yes	popular	Format1
+22810	Y-SkjbQVgJ0M	Can you hear the sound of car in the audio?	car	negative	No	popular	Format4
+22855	Y1a2XWJ8NA_Q	Can you hear the sound of animal in the audio?	animal	positive	Yes	popular	Format4
+22885	YVMsbrcHPBfk	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+22900	YoZaEHkfh5Eg	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+22946	YZ7yDwpdGelM	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+22964	YkF1KWybdRpM	Is there a sound of fixed-wing aircraft in the audio?	fixed-wing aircraft	positive	Yes	popular	Format1
+23043	YCMNlIW6Lkwc	Can you detect the sound of a car in the audio?	car	negative	No	popular	Format5
+23093	Y0yETgW44MZU	Can you detect the sound of a emergency vehicle in the audio?	emergency vehicle	positive	Yes	popular	Format5
+23104	Y67BsqRkh-dU	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+23142	Y1HCuBnPLMqQ	Can you hear the sound of pop in the audio?	pop	positive	Yes	popular	Format4
+23152	YLBe33dw9ezg	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+23182	Y0Dt-pH0pW-Y	Does the audio contain the sound of child speech?	child speech	positive	Yes	popular	Format2
+23213	YGE1aZSnPr2Q	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+23236	YTOaQMYc79Mw	Have you noticed the sound of burst in the audio?	burst	positive	Yes	popular	Format3
+23259	YKJhGuhNHToA	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+23269	YKnsKf9KoNds	Is there a sound of speech in the audio?	speech	positive	Yes	popular	Format1
+23316	Y9E8BmPZ9mWc	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+23329	YmJ6ZO3xEcgw	Does the audio contain the sound of sewing machine?	sewing machine	positive	Yes	popular	Format2
+23366	YVkbp8VmL3pM	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+23412	YCBwXKOpJY_o	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+23428	Y8ipe6b1LwHQ	Is there a sound of car in the audio?	car	negative	No	popular	Format1
+23459	Yyrxa6_P2I80	Is there a sound of pigeon in the audio?	pigeon	positive	Yes	popular	Format1
+23495	YA0E_UiD-fR4	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+23518	Y0G7rb74R-2A	Is there a sound of male speech in the audio?	male speech	positive	Yes	popular	Format1
+23590	YLvhvAA11oxE	Can you detect the sound of a car in the audio?	car	negative	No	popular	Format5
+23612	YCMUuelJFJ7Q	Can you detect the sound of a burst in the audio?	burst	positive	Yes	popular	Format5
+23641	YNmmbNqmsPaY	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+23651	YjinJkonlrWc	Is there a sound of speech in the audio?	speech	positive	Yes	popular	Format1
+23681	YR_g4RpU9mO0	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+23718	Y1wW0YJQ-Xa0	Does the audio contain the sound of pop?	pop	positive	Yes	popular	Format2
+23769	YBOB65Nd0pXo	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+23780	YxbLW9Wt1Jsg	Is there a sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format1
+23805	Y3ndid3jni7M	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+23862	YtJhVH3VIrnE	Can you hear the sound of public space in the audio?	public space	positive	Yes	popular	Format4
+23885	YyRoKi7rhSRo	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+23907	Y2msevPMQB4M	Can you hear the sound of burst in the audio?	burst	positive	Yes	popular	Format4
+23925	Y7MLERaOgK_Y	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+23951	YnuZEAuAl8hQ	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+23977	YOVQMFBeCHq0	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+24006	YXz56Q2Q5j5c	Is there a sound of tools in the audio?	tools	positive	Yes	popular	Format1
+24039	Y9z2OwpftxUE	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+24052	Yn4VktYihtJU	Does the audio contain the sound of explosion?	explosion	positive	Yes	popular	Format2
+24078	Y0_K6OKtoBBU	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+24119	Y9hxFqltp3xw	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+24139	YLvMA1Wcgu3w	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+24152	YW4GEwnXc9tQ	Is there a sound of frog in the audio?	frog	positive	Yes	popular	Format1
+24209	YHxZADVzNIqs	Can you hear the sound of car in the audio?	car	negative	No	popular	Format4
+24252	Y9vZDsGjyh5M	Can you detect the sound of a kid speaking in the audio?	kid speaking	positive	Yes	popular	Format5
+24312	Y9MgGaTbmc6g	Can you detect the sound of a pets in the audio?	pets	negative	No	popular	Format5
+24363	YlX3k5p2I_g0	Can you detect the sound of a emergency vehicle in the audio?	emergency vehicle	positive	Yes	popular	Format5
+24389	Yeu5bq0A3XVQ	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+24432	YjYPU6aSDo88	Can you hear the sound of railroad car in the audio?	railroad car	positive	Yes	popular	Format4
+24475	YEcihYbSlyck	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+24503	YFJkvAMLmejY	Have you noticed the sound of train horn in the audio?	train horn	positive	Yes	popular	Format3
+24559	YmVjub3o_IxE	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+24570	YQRtuOWWya30	Have you noticed the sound of public space in the audio?	public space	positive	Yes	popular	Format3
+24587	YBn4lc01q9vE	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+24641	YoNHCc_izsDE	Can you hear the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format4
+24653	Y4pv3w--cRrA	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+24694	Y3ejndVEAcmQ	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+24727	Y22L_3pBa1AI	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+24758	YIdBDl9Wr51A	Is there a sound of swish in the audio?	swish	positive	Yes	popular	Format1
+24813	Y-FW109cbv0g	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+24838	Y8DQfjqPCTI8	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+24865	YHdxfbpnd2-8	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+24886	Yk1QxQ4jJaEQ	Have you noticed the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format3
+24935	YS8k47ME-YT4	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+24938	YSNy_axSCoyw	Is there a sound of tick-tock in the audio?	tick-tock	positive	Yes	popular	Format1
+24964	Y3Sml1wHcuxo	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+25008	YG3YO2unWz7k	Is there a sound of motorcycle in the audio?	motorcycle	positive	Yes	popular	Format1
+25033	Yram-QPKSQYc	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+25065	YMOxddxW5PXs	Can you hear the sound of burst in the audio?	burst	positive	Yes	popular	Format4
+25091	Y8nUqSYC66mI	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+25107	Ye2rScj9UyMs	Have you noticed the sound of child speech in the audio?	child speech	positive	Yes	popular	Format3
+25144	YgkWd1HugK2w	Have you noticed the sound of vehicle in the audio?	vehicle	negative	No	popular	Format3
+25182	YDNtF_mGzQes	Can you hear the sound of child speech in the audio?	child speech	positive	Yes	popular	Format4
+25211	YEp72tyiL3as	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+25221	YpTJKJxaheI8	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+25248	YSoO1HhaEc9Q	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+25305	YMvHpNzDpC6Q	Can you detect the sound of a animal in the audio?	animal	positive	Yes	popular	Format5
+25321	Yyau2WIRkxb8	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+25349	Y6ZwYgzcN6Is	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+25373	Y0On6-JiVwRs	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+25423	Y3rna9zo5ZOs	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+25458	Y27HIamF8pKo	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+25506	Yy-RSojxgkDo	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+25542	Y_9mgOkzm-xg	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+25565	Y1Og2TJ3bXW0	Have you noticed the sound of train in the audio?	train	positive	Yes	popular	Format3
+25601	YWUpeplQr3A4	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+25612	Yg_P29ucKj78	Does the audio contain the sound of train?	train	positive	Yes	popular	Format2
+25666	YQoEal_hKz4Q	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+25696	YBDpU2Qh77NE	Have you noticed the sound of bird in the audio?	bird	positive	Yes	popular	Format3
+25735	Y7RMpCCkQks0	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+25746	Y4eyY1w2QyM0	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+25791	YFi4-IqJo2xQ	Have you noticed the sound of car in the audio?	car	negative	No	popular	Format3
+25816	YIKnx3hJv1bs	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+25842	Yr2KhpX_QgXA	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+25867	YLP_DzNUkAKY	Is there a sound of hiss in the audio?	hiss	positive	Yes	popular	Format1
+25900	Y7JWHbs3gu1w	Is there a sound of domestic animals in the audio?	domestic animals	negative	No	popular	Format1
+25973	YBwnGxJD9xh8	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+26010	YiOCpICiu4LA	Have you noticed the sound of domestic animals in the audio?	domestic animals	negative	No	popular	Format3
+26036	YENTi8Sn4vdM	Does the audio contain the sound of public space?	public space	positive	Yes	popular	Format2
+26067	YPRUfwpmYwJ8	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+26081	YObWjGBJF_94	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+26130	YNtQiduPRiRg	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+26152	Y8GHLfJ6y6zA	Can you hear the sound of train in the audio?	train	positive	Yes	popular	Format4
+26179	Yn-JyOqYSLQM	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+26189	YmaVYiednkSg	Does the audio contain the sound of burst?	burst	positive	Yes	popular	Format2
+26225	YZUmZgPL0ges	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+26250	YMSziND26UTA	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+26281	YDrCm-HpX67k	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+26302	YEUZaxaWqhwg	Have you noticed the sound of rail transport in the audio?	rail transport	positive	Yes	popular	Format3
+26337	YhqPBcvex1VU	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+26375	Yj_NSuPnx5LA	Can you detect the sound of a sewing machine in the audio?	sewing machine	positive	Yes	popular	Format5
+26403	YEfk5kdn9lR8	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+26424	YfPqj3nnwQOI	Can you hear the sound of public space in the audio?	public space	positive	Yes	popular	Format4
+26466	YZTYAQBnU4GM	Can you detect the sound of a car in the audio?	car	negative	No	popular	Format5
+26472	YFc9pG54DDJM	Does the audio contain the sound of explosion?	explosion	positive	Yes	popular	Format2
+26526	YpHNMcX-9FDs	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+26543	YR91bUbtKrRs	Have you noticed the sound of train in the audio?	train	positive	Yes	popular	Format3
+26602	Ym8wV38lf2jg	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+26643	YcNARVD02-tw	Can you detect the sound of a train in the audio?	train	positive	Yes	popular	Format5
+26672	Yq1ivQ_2fddk	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+26691	YqakN0JNbpcU	Have you noticed the sound of railroad car in the audio?	railroad car	positive	Yes	popular	Format3
+26729	YWLzzpzOKtnY	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+26776	Y4YMXgLFcR94	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+26807	YHdPSebdDxe4	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+26819	Y_z6pymOet7g	Does the audio contain the sound of burst?	burst	positive	Yes	popular	Format2
+26850	YnmLMLgWPmFM	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+26882	YtB8TiiXwKmA	Can you hear the sound of train in the audio?	train	positive	Yes	popular	Format4
+26914	YpHYkWkZ4guE	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+26931	Ygbi6MxPf3hA	Does the audio contain the sound of frying (food)?	frying (food)	positive	Yes	popular	Format2
+26962	YtdpiXW68adA	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+27004	Yi6MQCm58zlY	Does the audio contain the sound of bird?	bird	positive	Yes	popular	Format2
+27066	YMkbP_8zJwXU	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+27105	YBrPFQDr99Gg	Have you noticed the sound of speech in the audio?	speech	positive	Yes	popular	Format3
+27136	YcK2kSVR1d2o	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+27170	Y8ZH_PoK0clI	Have you noticed the sound of burst in the audio?	burst	positive	Yes	popular	Format3
+27196	Yy_OyLW9lBXU	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+27241	Yp9qRTh4BmSE	Can you hear the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format4
+27274	Y3qTL7QRk-tg	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+27276	Ysl_Pxpc7beo	Is there a sound of vehicle in the audio?	vehicle	positive	Yes	popular	Format1
+27332	YB3O476LeuXY	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+27350	YG0IsabU5hn4	Does the audio contain the sound of pop?	pop	positive	Yes	popular	Format2
+27391	Yw_Utn3CwAXE	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+27393	YrvtA7c1I4xo	Is there a sound of swoosh in the audio?	swoosh	positive	Yes	popular	Format1
+27431	YI_8KqxP5xOA	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+27444	Yorgwzt45ojE	Is there a sound of bird in the audio?	bird	positive	Yes	popular	Format1
+27499	YtwFypUcdgRc	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+27567	Y6pssFJ0m-kU	Can you detect the sound of a animal in the audio?	animal	positive	Yes	popular	Format5
+27579	Y54eRRbCtPn8	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+27624	Yp_BB_rJaF7Q	Can you hear the sound of public space in the audio?	public space	positive	Yes	popular	Format4
+27663	Y350OCezayrk	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+27696	YK8-b0VtNOqA	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+27720	Y8ycflE3dIHw	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+27786	YBUAPM4D3-h8	Can you hear the sound of bird in the audio?	bird	positive	Yes	popular	Format4
+27829	Y1IoHRTUp86c	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+27836	YXQxIXaX_7M0	Does the audio contain the sound of pop?	pop	positive	Yes	popular	Format2
+27867	Y4ftDFi4684Y	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+27874	YeYbFtxZmKL4	Is there a sound of animal in the audio?	animal	positive	Yes	popular	Format1
+27915	Yv59uHr-B1no	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+27945	YBz9Y5nZK3eo	Can you detect the sound of a pop in the audio?	pop	positive	Yes	popular	Format5
+27965	Yc6YJgZ3qzOw	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+27977	Y3hzy-FL24no	Can you hear the sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format4
+27985	YwbPmnxCLoRQ	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+28009	Ys_EWjoiVfzo	Have you noticed the sound of sewing machine in the audio?	sewing machine	positive	Yes	popular	Format3
+28023	YmSF_FqBtRPs	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+28046	Y5OM3tJh51pE	Is there a sound of female speech in the audio?	female speech	positive	Yes	popular	Format1
+28094	Y_BSmz3SEW1w	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+28121	YOt0bN_hz2ec	Is there a sound of train horn in the audio?	train horn	positive	Yes	popular	Format1
+28200	YHkbCUN4V3TU	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+28245	YTSdAJWJ-tW0	Have you noticed the sound of train in the audio?	train	positive	Yes	popular	Format3
+28307	Y4sb9jN0SgTM	Have you noticed the sound of animal in the audio?	animal	negative	No	popular	Format3
+28367	YDjKGzOe_COc	Can you hear the sound of frying (food) in the audio?	frying (food)	positive	Yes	popular	Format4
+28385	YMtK8L8gXRrI	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+28400	Y1FNJbN-eHY4	Is there a sound of speech in the audio?	speech	positive	Yes	popular	Format1
+28445	YtNxfdAd14qE	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+28459	YlgwpIImXCWA	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+28485	YXi6V0LGvqoo	Is there a sound of car in the audio?	car	negative	No	popular	Format1
+28536	YK-7Y8yhcUiw	Is there a sound of pets in the audio?	pets	positive	Yes	popular	Format1
+28581	Y0AsXkZkqelg	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+28620	Y6ukYSXzfEgQ	Can you detect the sound of a kid speaking in the audio?	kid speaking	positive	Yes	popular	Format5
+28646	YBoe3MeEpn_c	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+28676	Y1WTSW96XP6E	Does the audio contain the sound of child speech?	child speech	positive	Yes	popular	Format2
+28724	YAI1OweEW8C0	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+28773	YcFoXRmGgIME	Have you noticed the sound of emergency vehicle in the audio?	emergency vehicle	positive	Yes	popular	Format3
+28811	Y4CAMv5nlr-0	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+28867	YcN-oYKd-M4E	Can you hear the sound of frying (food) in the audio?	frying (food)	positive	Yes	popular	Format4
+28905	YHg6HxylRGDo	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+28923	YggN4-K5AgoM	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+28979	YV8A0VRGdgwM	Can you hear the sound of pets in the audio?	pets	negative	No	popular	Format4
+29005	YxnVqvc7N7Po	Can you hear the sound of burst in the audio?	burst	positive	Yes	popular	Format4
+29056	Y2KEfkDO6hlA	Can you detect the sound of a animal in the audio?	animal	negative	No	popular	Format5
+29061	Yt3VFlDiEKgY	Is there a sound of housefly in the audio?	housefly	positive	Yes	popular	Format1
+29109	Y-mhFGevxLUg	Is there a sound of car in the audio?	car	negative	No	popular	Format1
+29165	YmW1EpJYcy_E	Can you detect the sound of a explosion in the audio?	explosion	positive	Yes	popular	Format5
+29202	YR8bHTHnF8j4	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+29213	YDAN1t9ukkg0	Have you noticed the sound of explosion in the audio?	explosion	positive	Yes	popular	Format3
+29236	YJHhEjsAkZoc	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+29295	Y9PN4gyxpH2M	Have you noticed the sound of child speech in the audio?	child speech	positive	Yes	popular	Format3
+29340	Y7bO0AJI-ihs	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+29362	Y4bUL_ttiOdw	Can you hear the sound of explosion in the audio?	explosion	positive	Yes	popular	Format4
+29405	YLF6x7B0Ppvo	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+29430	Yz1ax0QPpd14	Can you hear the sound of explosion in the audio?	explosion	positive	Yes	popular	Format4
+29449	YUjje3lSabsg	Have you noticed the sound of speech in the audio?	speech	negative	No	popular	Format3
+29471	Y5K1mISHwggI	Have you noticed the sound of train in the audio?	train	positive	Yes	popular	Format3
+29495	YJdFmMw0zyKA	Is there a sound of vehicle in the audio?	vehicle	negative	No	popular	Format1
+29540	YD96OO7nYYsg	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+29557	YvaujJ7msKfc	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+29602	YlrKGCtSsAkA	Can you detect the sound of a speech in the audio?	speech	positive	Yes	popular	Format5
+29618	YEY4p0_NJVQs	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+29648	YxqtrbqDlz28	Does the audio contain the sound of public space?	public space	positive	Yes	popular	Format2
+29708	Yc3nlaAkv9bA	Can you hear the sound of pets in the audio?	pets	negative	No	popular	Format4
+29749	Y9_YfTz8cnFY	Can you detect the sound of a train in the audio?	train	positive	Yes	popular	Format5
+29768	Y--0w1YA1Hm4	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+29822	Y1vCYiVvZ7VE	Can you detect the sound of a frying (food) in the audio?	frying (food)	positive	Yes	popular	Format5
+29846	YAf4a-9rcnP0	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+29856	Yjj2RyNDj7no	Is there a sound of housefly in the audio?	housefly	positive	Yes	popular	Format1
+29902	Y6dLkgq9EKPE	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+29947	YGGgQR7aIofY	Can you hear the sound of kid speaking in the audio?	kid speaking	positive	Yes	popular	Format4
+29971	YS0SQyFXbqF8	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+29980	YbLZFtoWXYTA	Does the audio contain the sound of explosion?	explosion	positive	Yes	popular	Format2
+30005	YndxkSQKxaak	Is there a sound of animal in the audio?	animal	negative	No	popular	Format1
+30037	Yii3Geza3hAU	Does the audio contain the sound of sewing machine?	sewing machine	positive	Yes	popular	Format2
+30069	YniwgMbB6tpQ	Can you detect the sound of a speech in the audio?	speech	negative	No	popular	Format5
+30095	YAUJPx81qKtY	Can you hear the sound of frying (food) in the audio?	frying (food)	positive	Yes	popular	Format4
+30149	Y6i5eQOpFk_U	Can you detect the sound of a vehicle in the audio?	vehicle	negative	No	popular	Format5
+30167	YXWw7ZM1c_QA	Can you hear the sound of burst in the audio?	burst	positive	Yes	popular	Format4
+30194	YSQHYl2Kp5ww	Can you hear the sound of vehicle in the audio?	vehicle	negative	No	popular	Format4
+30200	Y4UPOUGVMlEs	Is there a sound of oink in the audio?	oink	positive	Yes	popular	Format1
+30222	Yo3mZR8OvPko	Is there a sound of speech in the audio?	speech	negative	No	popular	Format1
+30289	YMVGhC-xB79s	Can you hear the sound of train wagon in the audio?	train wagon	positive	Yes	popular	Format4
+30332	YQ0anPAIkfBE	Can you hear the sound of speech in the audio?	speech	negative	No	popular	Format4
+30366	YeqcdsdLz954	Can you hear the sound of child speech in the audio?	child speech	positive	Yes	popular	Format4
+30386	YQTSKjweEWew	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+30423	YrINmxSXMR-s	Can you hear the sound of speech in the audio?	speech	positive	Yes	popular	Format4
+30447	YmGa2JgAiKV8	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+30474	YkLYCjD6vWI4	Does the audio contain the sound of explosion?	explosion	positive	Yes	popular	Format2
+30499	YCwxgQS3SXic	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+30517	YE9zN3-C64KE	Does the audio contain the sound of burst?	burst	positive	Yes	popular	Format2
+30550	Y8o-Y4QP8LWs	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+30599	YOFVzrakJhbw	Can you hear the sound of frying (food) in the audio?	frying (food)	positive	Yes	popular	Format4
+30617	YTWOgvDaDqlU	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+30640	YBQ-r9mEHssU	Does the audio contain the sound of train horn?	train horn	positive	Yes	popular	Format2
+30715	Y7upINC4seBw	Can you hear the sound of pets in the audio?	pets	negative	No	popular	Format4
+30751	YETb9EIQOMAA	Can you hear the sound of frying (food) in the audio?	frying (food)	positive	Yes	popular	Format4
+30790	YF-47fRplQEc	Can you hear the sound of animal in the audio?	animal	negative	No	popular	Format4
+30808	Yo7jW6Suyfbs	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+30843	Ylq9RvAA4mqY	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+30871	Y9z8XIRyUq9Q	Does the audio contain the sound of frying (food)?	frying (food)	positive	Yes	popular	Format2
+30915	Y7P0N61TVOxE	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+30957	Y2ABngPM3raQ	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+31000	YJhGp7HmRQxg	Does the audio contain the sound of domestic animals?	domestic animals	negative	No	popular	Format2
+31026	YPWjEfOkb6ro	Does the audio contain the sound of explosion?	explosion	positive	Yes	popular	Format2
+31057	YgW7s3YAthpI	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+31087	Y77nElZGi5NU	Does the audio contain the sound of speech?	speech	positive	Yes	popular	Format2
+31128	YJmWaRt8-u0s	Does the audio contain the sound of vehicle?	vehicle	negative	No	popular	Format2
+31166	Y-JP1GqPEKtw	Does the audio contain the sound of child speech?	child speech	positive	Yes	popular	Format2
+31207	YoN0IcZaHD_8	Does the audio contain the sound of animal?	animal	negative	No	popular	Format2
+31242	Y30D1tqNFHMc	Does the audio contain the sound of pop?	pop	positive	Yes	popular	Format2
+31267	Y-Sz4z0QwEuM	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+31290	YeXj9OAik5cc	Does the audio contain the sound of pop?	pop	positive	Yes	popular	Format2
+31315	YbhlhcGONisM	Does the audio contain the sound of speech?	speech	negative	No	popular	Format2
+31341	YJsoBpL86R5U	Does the audio contain the sound of train wagon?	train wagon	positive	Yes	popular	Format2

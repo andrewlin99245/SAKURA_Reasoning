@@ -1,0 +1,447 @@
+{
+    "Y7fmOlUlwoNg": {
+        "Describe the audio.": {
+            "prediction": "The audio contains sounds of people talking and some background noise.",
+            "caption": [
+                "Constant rattling noise and sharp vibrations.",
+                "Vibrations and rattling with people speaking in the distance.",
+                "A machine is making clicking sound as people talk in the background.",
+                "Clicking and screeching metal with people speaking.",
+                "A machine makes stitching sounds while people are talking in the background."
+            ],
+            "label": [
+                "speech",
+                "sewing machine",
+                "public space"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/Y7fmOlUlwoNg.wav"
+        },
+        "What do you hear?": {
+            "prediction": "There are mechanical noises and people speaking.",
+            "caption": [
+                "Constant rattling noise and sharp vibrations.",
+                "Vibrations and rattling with people speaking in the distance.",
+                "A machine is making clicking sound as people talk in the background.",
+                "Clicking and screeching metal with people speaking.",
+                "A machine makes stitching sounds while people are talking in the background."
+            ],
+            "label": [
+                "speech",
+                "sewing machine",
+                "public space"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/Y7fmOlUlwoNg.wav"
+        },
+        "What can be inferred from the audio?": {
+            "prediction": "The audio suggests a workplace or public space setting.",
+            "caption": [
+                "Constant rattling noise and sharp vibrations.",
+                "Vibrations and rattling with people speaking in the distance.",
+                "A machine is making clicking sound as people talk in the background.",
+                "Clicking and screeching metal with people speaking.",
+                "A machine makes stitching sounds while people are talking in the background."
+            ],
+            "label": [
+                "speech",
+                "sewing machine",
+                "public space"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/Y7fmOlUlwoNg.wav"
+        },
+        "This is a sound of": {
+            "prediction": "human speech with background activity.",
+            "caption": [
+                "Constant rattling noise and sharp vibrations.",
+                "Vibrations and rattling with people speaking in the distance.",
+                "A machine is making clicking sound as people talk in the background.",
+                "Clicking and screeching metal with people speaking.",
+                "A machine makes stitching sounds while people are talking in the background."
+            ],
+            "label": [
+                "speech",
+                "sewing machine",
+                "public space"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/Y7fmOlUlwoNg.wav"
+        },
+        "Generate audio caption:": {
+            "prediction": "Recording of human voices with mechanical background noise.",
+            "caption": [
+                "Constant rattling noise and sharp vibrations.",
+                "Vibrations and rattling with people speaking in the distance.",
+                "A machine is making clicking sound as people talk in the background.",
+                "Clicking and screeching metal with people speaking.",
+                "A machine makes stitching sounds while people are talking in the background."
+            ],
+            "label": [
+                "speech",
+                "sewing machine",
+                "public space"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/Y7fmOlUlwoNg.wav"
+        }
+    },
+    "Y6BJ455B1aAs": {
+        "Describe the audio.": {
+            "prediction": "I hear various environmental sounds and human activity.",
+            "caption": [
+                "A rocket flies by followed by a loud explosion and fire crackling as a truck engine runs idle.",
+                "A whooshing noise followed by an explosion.",
+                "A missile launching followed by an explosion and metal screeching as a motor hums in the background..",
+                "Whistling and an explosion.",
+                "A whistling and then an explosion and crackling."
+            ],
+            "label": [
+                "explosion",
+                "burst",
+                "pop"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/Y6BJ455B1aAs.wav"
+        },
+        "What do you hear?": {
+            "prediction": "I hear speech and ambient sounds in the background.",
+            "caption": [
+                "A rocket flies by followed by a loud explosion and fire crackling as a truck engine runs idle.",
+                "A whooshing noise followed by an explosion.",
+                "A missile launching followed by an explosion and metal screeching as a motor hums in the background..",
+                "Whistling and an explosion.",
+                "A whistling and then an explosion and crackling."
+            ],
+            "label": [
+                "explosion",
+                "burst",
+                "pop"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/Y6BJ455B1aAs.wav"
+        },
+        "What can be inferred from the audio?": {
+            "prediction": "This seems to be from an indoor environment with people and machines.",
+            "caption": [
+                "A rocket flies by followed by a loud explosion and fire crackling as a truck engine runs idle.",
+                "A whooshing noise followed by an explosion.",
+                "A missile launching followed by an explosion and metal screeching as a motor hums in the background..",
+                "Whistling and an explosion.",
+                "A whistling and then an explosion and crackling."
+            ],
+            "label": [
+                "explosion",
+                "burst",
+                "pop"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/Y6BJ455B1aAs.wav"
+        },
+        "This is a sound of": {
+            "prediction": "voices and machinery in what appears to be a workspace.",
+            "caption": [
+                "A rocket flies by followed by a loud explosion and fire crackling as a truck engine runs idle.",
+                "A whooshing noise followed by an explosion.",
+                "A missile launching followed by an explosion and metal screeching as a motor hums in the background..",
+                "Whistling and an explosion.",
+                "A whistling and then an explosion and crackling."
+            ],
+            "label": [
+                "explosion",
+                "burst",
+                "pop"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/Y6BJ455B1aAs.wav"
+        },
+        "Generate audio caption:": {
+            "prediction": "Audio clip featuring people speaking with environmental sounds.",
+            "caption": [
+                "A rocket flies by followed by a loud explosion and fire crackling as a truck engine runs idle.",
+                "A whooshing noise followed by an explosion.",
+                "A missile launching followed by an explosion and metal screeching as a motor hums in the background..",
+                "Whistling and an explosion.",
+                "A whistling and then an explosion and crackling."
+            ],
+            "label": [
+                "explosion",
+                "burst",
+                "pop"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/Y6BJ455B1aAs.wav"
+        }
+    },
+    "YGOD8Bt5LfDE": {
+        "Describe the audio.": {
+            "prediction": "This audio features mechanical sounds with human voices in the background.",
+            "caption": [
+                "Humming and vibrating with a man and children speaking and laughing.",
+                "A quiet machine running and a child speaking and then an adult speaks and the child laughs.",
+                "A toy train running as a young boy talks followed by plastic clanking then a child laughing.",
+                "Small child speaking and a train running followed by a woman speaking and laughter.",
+                "A train chugging, a child speaking, and then a female speaking and laughter."
+            ],
+            "label": [
+                "train",
+                "speech",
+                "child speech",
+                "kid speaking"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YGOD8Bt5LfDE.wav"
+        },
+        "What do you hear?": {
+            "prediction": "I can hear voices, machinery, and environmental sounds.",
+            "caption": [
+                "Humming and vibrating with a man and children speaking and laughing.",
+                "A quiet machine running and a child speaking and then an adult speaks and the child laughs.",
+                "A toy train running as a young boy talks followed by plastic clanking then a child laughing.",
+                "Small child speaking and a train running followed by a woman speaking and laughter.",
+                "A train chugging, a child speaking, and then a female speaking and laughter."
+            ],
+            "label": [
+                "train",
+                "speech",
+                "child speech",
+                "kid speaking"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YGOD8Bt5LfDE.wav"
+        },
+        "What can be inferred from the audio?": {
+            "prediction": "This appears to be a recording of human conversation with background activity.",
+            "caption": [
+                "Humming and vibrating with a man and children speaking and laughing.",
+                "A quiet machine running and a child speaking and then an adult speaks and the child laughs.",
+                "A toy train running as a young boy talks followed by plastic clanking then a child laughing.",
+                "Small child speaking and a train running followed by a woman speaking and laughter.",
+                "A train chugging, a child speaking, and then a female speaking and laughter."
+            ],
+            "label": [
+                "train",
+                "speech",
+                "child speech",
+                "kid speaking"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YGOD8Bt5LfDE.wav"
+        },
+        "This is a sound of": {
+            "prediction": "people talking in an environment with mechanical sounds.",
+            "caption": [
+                "Humming and vibrating with a man and children speaking and laughing.",
+                "A quiet machine running and a child speaking and then an adult speaks and the child laughs.",
+                "A toy train running as a young boy talks followed by plastic clanking then a child laughing.",
+                "Small child speaking and a train running followed by a woman speaking and laughter.",
+                "A train chugging, a child speaking, and then a female speaking and laughter."
+            ],
+            "label": [
+                "train",
+                "speech",
+                "child speech",
+                "kid speaking"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YGOD8Bt5LfDE.wav"
+        },
+        "Generate audio caption:": {
+            "prediction": "Sound clip of conversation in an active environment.",
+            "caption": [
+                "Humming and vibrating with a man and children speaking and laughing.",
+                "A quiet machine running and a child speaking and then an adult speaks and the child laughs.",
+                "A toy train running as a young boy talks followed by plastic clanking then a child laughing.",
+                "Small child speaking and a train running followed by a woman speaking and laughter.",
+                "A train chugging, a child speaking, and then a female speaking and laughter."
+            ],
+            "label": [
+                "train",
+                "speech",
+                "child speech",
+                "kid speaking"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YGOD8Bt5LfDE.wav"
+        }
+    },
+    "YYQSuFyFm3Lc": {
+        "Describe the audio.": {
+            "prediction": "The audio contains sounds of people talking and some background noise.",
+            "caption": [
+                "A train running on a railroad track followed by a vehicle door closing and a man talking in the distance while a train horn honks and railroad crossing warning signals ring.",
+                "A repeating train horn and warning bells get louder as a train approaches.",
+                "Clattering of a train is ongoing, a railroad crossing bell rings, and a train horn blows.",
+                "Humming and rattling followed by distant warning bells and the horn of an oncoming train.",
+                "A train running on a railroad track followed by a vehicle door closing and a man talking while a train horn is blowing and railroad crossing signals are ringing in the distance."
+            ],
+            "label": [
+                "railroad car",
+                "train wagon",
+                "train horn",
+                "rail transport",
+                "train"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YYQSuFyFm3Lc.wav"
+        },
+        "What do you hear?": {
+            "prediction": "There are mechanical noises and people speaking.",
+            "caption": [
+                "A train running on a railroad track followed by a vehicle door closing and a man talking in the distance while a train horn honks and railroad crossing warning signals ring.",
+                "A repeating train horn and warning bells get louder as a train approaches.",
+                "Clattering of a train is ongoing, a railroad crossing bell rings, and a train horn blows.",
+                "Humming and rattling followed by distant warning bells and the horn of an oncoming train.",
+                "A train running on a railroad track followed by a vehicle door closing and a man talking while a train horn is blowing and railroad crossing signals are ringing in the distance."
+            ],
+            "label": [
+                "railroad car",
+                "train wagon",
+                "train horn",
+                "rail transport",
+                "train"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YYQSuFyFm3Lc.wav"
+        },
+        "What can be inferred from the audio?": {
+            "prediction": "The audio suggests a workplace or public space setting.",
+            "caption": [
+                "A train running on a railroad track followed by a vehicle door closing and a man talking in the distance while a train horn honks and railroad crossing warning signals ring.",
+                "A repeating train horn and warning bells get louder as a train approaches.",
+                "Clattering of a train is ongoing, a railroad crossing bell rings, and a train horn blows.",
+                "Humming and rattling followed by distant warning bells and the horn of an oncoming train.",
+                "A train running on a railroad track followed by a vehicle door closing and a man talking while a train horn is blowing and railroad crossing signals are ringing in the distance."
+            ],
+            "label": [
+                "railroad car",
+                "train wagon",
+                "train horn",
+                "rail transport",
+                "train"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YYQSuFyFm3Lc.wav"
+        },
+        "This is a sound of": {
+            "prediction": "human speech with background activity.",
+            "caption": [
+                "A train running on a railroad track followed by a vehicle door closing and a man talking in the distance while a train horn honks and railroad crossing warning signals ring.",
+                "A repeating train horn and warning bells get louder as a train approaches.",
+                "Clattering of a train is ongoing, a railroad crossing bell rings, and a train horn blows.",
+                "Humming and rattling followed by distant warning bells and the horn of an oncoming train.",
+                "A train running on a railroad track followed by a vehicle door closing and a man talking while a train horn is blowing and railroad crossing signals are ringing in the distance."
+            ],
+            "label": [
+                "railroad car",
+                "train wagon",
+                "train horn",
+                "rail transport",
+                "train"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YYQSuFyFm3Lc.wav"
+        },
+        "Generate audio caption:": {
+            "prediction": "Recording of human voices with mechanical background noise.",
+            "caption": [
+                "A train running on a railroad track followed by a vehicle door closing and a man talking in the distance while a train horn honks and railroad crossing warning signals ring.",
+                "A repeating train horn and warning bells get louder as a train approaches.",
+                "Clattering of a train is ongoing, a railroad crossing bell rings, and a train horn blows.",
+                "Humming and rattling followed by distant warning bells and the horn of an oncoming train.",
+                "A train running on a railroad track followed by a vehicle door closing and a man talking while a train horn is blowing and railroad crossing signals are ringing in the distance."
+            ],
+            "label": [
+                "railroad car",
+                "train wagon",
+                "train horn",
+                "rail transport",
+                "train"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YYQSuFyFm3Lc.wav"
+        }
+    },
+    "YVjSEIRnLAh8": {
+        "Describe the audio.": {
+            "prediction": "I hear various environmental sounds and human activity.",
+            "caption": [
+                "Food is frying, and a woman talks.",
+                "A woman is talking as food is frying.",
+                "Food sizzling with some knocking and banging followed by a woman speaking.",
+                "Frying and female speech.",
+                "A woman speaks with food sizzling in a pan with some chopping."
+            ],
+            "label": [
+                "speech",
+                "frying (food)"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YVjSEIRnLAh8.wav"
+        },
+        "What do you hear?": {
+            "prediction": "I hear speech and ambient sounds in the background.",
+            "caption": [
+                "Food is frying, and a woman talks.",
+                "A woman is talking as food is frying.",
+                "Food sizzling with some knocking and banging followed by a woman speaking.",
+                "Frying and female speech.",
+                "A woman speaks with food sizzling in a pan with some chopping."
+            ],
+            "label": [
+                "speech",
+                "frying (food)"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YVjSEIRnLAh8.wav"
+        },
+        "What can be inferred from the audio?": {
+            "prediction": "This seems to be from an indoor environment with people and machines.",
+            "caption": [
+                "Food is frying, and a woman talks.",
+                "A woman is talking as food is frying.",
+                "Food sizzling with some knocking and banging followed by a woman speaking.",
+                "Frying and female speech.",
+                "A woman speaks with food sizzling in a pan with some chopping."
+            ],
+            "label": [
+                "speech",
+                "frying (food)"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YVjSEIRnLAh8.wav"
+        },
+        "This is a sound of": {
+            "prediction": "voices and machinery in what appears to be a workspace.",
+            "caption": [
+                "Food is frying, and a woman talks.",
+                "A woman is talking as food is frying.",
+                "Food sizzling with some knocking and banging followed by a woman speaking.",
+                "Frying and female speech.",
+                "A woman speaks with food sizzling in a pan with some chopping."
+            ],
+            "label": [
+                "speech",
+                "frying (food)"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YVjSEIRnLAh8.wav"
+        },
+        "Generate audio caption:": {
+            "prediction": "Audio clip featuring people speaking with environmental sounds.",
+            "caption": [
+                "Food is frying, and a woman talks.",
+                "A woman is talking as food is frying.",
+                "Food sizzling with some knocking and banging followed by a woman speaking.",
+                "Frying and female speech.",
+                "A woman speaks with food sizzling in a pan with some chopping."
+            ],
+            "label": [
+                "speech",
+                "frying (food)"
+            ],
+            "task": "generative",
+            "audio_path": "./understanding_sound_data/audio/YVjSEIRnLAh8.wav"
+        }
+    }
+}
