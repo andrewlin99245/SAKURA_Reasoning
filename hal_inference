@@ -1,0 +1,24 @@
+#!/bin/bash
+# Wrapper script for hal_inference.py that automatically sets up cache
+
+# Get the directory of this script
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Set up cache environment variables directly (no need to source external file)
+export HF_HOME="$HOME/.cache/sakura_reasoning"
+export TRANSFORMERS_CACHE="$HOME/.cache/sakura_reasoning"
+export HUGGINGFACE_HUB_CACHE="$HOME/.cache/sakura_reasoning"
+export HF_HUB_CACHE="$HOME/.cache/sakura_reasoning"
+export XDG_CACHE_HOME="$HOME/.cache"
+export TORCH_HOME="$HOME/.cache/sakura_reasoning"
+
+# Unset conflicting variables
+unset PYTORCH_CACHE_HOME
+
+# Create cache directory if it doesn't exist
+mkdir -p "$HOME/.cache/sakura_reasoning"
+
+echo "Cache environment configured: $HOME/.cache/sakura_reasoning"
+
+# Run the hal_inference script with all passed arguments
+python "$SCRIPT_DIR/scripts/runners/hal_inference.py" "$@"

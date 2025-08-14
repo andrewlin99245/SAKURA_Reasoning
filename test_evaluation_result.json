@@ -1,0 +1,64 @@
+{
+    "Y7fmOlUlwoNg": {
+        "Describe the audio.": {
+            "prediction": "The audio contains sounds of people talking and some background noise.",
+            "caption": [
+                "Test caption 1",
+                "Test caption 2"
+            ],
+            "label": [
+                "speech",
+                "machine"
+            ],
+            "task": "generative"
+        },
+        "What do you hear?": {
+            "prediction": "I hear speech and ambient sounds in the background.",
+            "caption": [
+                "Test caption 1",
+                "Test caption 2"
+            ],
+            "label": [
+                "speech",
+                "machine"
+            ],
+            "task": "generative"
+        },
+        "What can be inferred from the audio?": {
+            "prediction": "This appears to be a recording of human conversation.",
+            "caption": [
+                "Test caption 1",
+                "Test caption 2"
+            ],
+            "label": [
+                "speech",
+                "machine"
+            ],
+            "task": "generative"
+        },
+        "This is a sound of": {
+            "prediction": "human speech with background activity.",
+            "caption": [
+                "Test caption 1",
+                "Test caption 2"
+            ],
+            "label": [
+                "speech",
+                "machine"
+            ],
+            "task": "generative"
+        },
+        "Generate audio caption:": {
+            "prediction": "Audio clip featuring people speaking with environmental sounds.",
+            "caption": [
+                "Test caption 1",
+                "Test caption 2"
+            ],
+            "label": [
+                "speech",
+                "machine"
+            ],
+            "task": "generative"
+        }
+    }
+}
