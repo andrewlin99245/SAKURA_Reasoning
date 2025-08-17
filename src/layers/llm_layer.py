@@ -231,11 +231,11 @@ def _make_vsv_hook(v_l: Tensor, lam: float, layer_idx: int = -1):
         
         # Store original norm for each token (VISTA Eq. 6 preparation)
         norm = x.norm(p=2, dim=-1, keepdim=True)       # [B,T,1]
-        if layer_idx == 30 or layer_idx==31:
+        #if layer_idx == 30 or layer_idx==31:
             #norm = norm * (1-(cos_sim[0]/5))
             #print(f"Layer {layer_idx}: Adjusted norm = {1-(cos_sim[0]/5)}")
             #print(cos_sim)
-            pass  # Placeholder - all code is commented out
+        #    pass  # Placeholder - all code is commented out
         # VISTA Eq. 5: h_tilde = h + λ * v_steer
         # Note: v_l is NOT pre-normalized, as per paper
         y = lam * v_l.view(1, 1, -1).to(x.device)      # [1,1,D] broadcast to [B,T,D]

@@ -3,6 +3,7 @@ from torch import nn, Tensor
 from torch.nn import functional as F
 from transformers import PreTrainedModel
 from typing import Optional, Tuple, List
+import statistics
 
 """
 Qwen2.5Omni correspondence of llm_layers.py
@@ -101,6 +102,9 @@ def get_layers(model: PreTrainedModel, which_stack: str = "auto") -> nn.ModuleLi
     path = get_layers_path(model, which_stack=which_stack)
     return get_nested_attr(model, path)
 
+# Global storage for angle measurements
+_angle_storage = []
+
 # ---------------------------
 # VSV layer (per paper, single vector per layer, norm-preserving)
 # ---------------------------
@@ -189,15 +193,49 @@ def _make_vsv_hook(v_l: Tensor, lam: float, layer_idx: int = -1):
     Creates a hook that implements VISTA Eq. 5-6 correctly:
     - Eq. 5: h_tilde = h + λ * v_steer  
     - Eq. 6: normalize to preserve original norm
+    - Also measures angles between steering vector and hidden states before steering
     """
     def hook(_module, _inp, out):
+        global _angle_storage
         h = out[0] if isinstance(out, tuple) else out  # [B,T,D]
         orig_dtype = h.dtype
         x = h.float()
         
+        # Calculate angle between steering vector and hidden states (before steering)
+        # Use per-token cosine similarity then average (Approach 2)
+        # This gives equal weight to all tokens regardless of magnitude
+        
+        # Normalize hidden states per token: [B, T, D]
+        x_normalized = F.normalize(x, p=2, dim=-1)  # [B, T, D]
+        
+        # Normalize steering vector: [D] -> [1, 1, D] for broadcasting
+        v = v_l.view(1, 1, -1).to(x.device)  # [1, 1, D]
+        v_normalized = F.normalize(v, p=2, dim=-1)  # [1, 1, D]
+        
+        # Compute per-token cosine similarity: [B, T]
+        per_token_cos_sim = torch.sum(x_normalized * v_normalized, dim=-1)  # [B, T]
+        
+        # Average cosine similarity across tokens: [B]
+        cos_sim = per_token_cos_sim.mean(dim=1)  # [B]
+        
+        # Convert to angle
+        angle_rad = torch.acos(torch.clamp(cos_sim, -1.0, 1.0))  # [B]
+        angle_deg = angle_rad * 180.0 / torch.pi  # [B]
+        
+        # Store angles for later analysis (using first batch item)
+        if layer_idx >= 0:  # Only store if layer_idx is valid
+            _angle_storage.append({
+                'layer_idx': layer_idx,
+                'angle': angle_deg[0].item()
+            })
+        
         # Store original norm for each token (VISTA Eq. 6 preparation)
         norm = x.norm(p=2, dim=-1, keepdim=True)       # [B,T,1]
-        
+        #if layer_idx == 30 or layer_idx==31:
+            #norm = norm * (1-(cos_sim[0]/5))
+            #print(f"Layer {layer_idx}: Adjusted norm = {1-(cos_sim[0]/5)}")
+            #print(cos_sim)
+        #    pass  # Placeholder - all code is commented out
         # VISTA Eq. 5: h_tilde = h + λ * v_steer
         # Note: v_l is NOT pre-normalized, as per paper
         y = lam * v_l.view(1, 1, -1).to(x.device)      # [1,1,D] broadcast to [B,T,D]
@@ -234,3 +272,129 @@ def remove_vsv_layers(model: PreTrainedModel, which_stack: str = "decoder"):
             try: h.remove()
             except: pass
         model._vsv_handles = []
+
+def clear_angle_storage():
+    """
+    Clear the global angle storage.
+    Call this before starting a new generation to reset measurements.
+    """
+    global _angle_storage
+    _angle_storage = []
+
+def print_angle_statistics():
+    """
+    Compute and print average angle and standard deviation from collected measurements.
+    Call this after generation is complete.
+    """
+    global _angle_storage
+    
+    if not _angle_storage:
+        print("No angle measurements collected.")
+        return
+    
+    # Extract all angles
+    all_angles = [entry['angle'] for entry in _angle_storage]
+    
+    # Compute statistics
+    avg_angle = statistics.mean(all_angles)
+    
+    if len(all_angles) > 1:
+        std_angle = statistics.stdev(all_angles)
+    else:
+        std_angle = 0.0
+    
+    # Print results
+    print(f"\n=== Angle Statistics ====")
+    print(f"Total measurements: {len(all_angles)}")
+    print(f"Average angle: {avg_angle:.2f}°")
+    print(f"Standard deviation: {std_angle:.2f}°")
+    print(f"Min angle: {min(all_angles):.2f}°")
+    print(f"Max angle: {max(all_angles):.2f}°")
+    print(f"========================\n")
+
+def get_angle_statistics():
+    """
+    Return angle statistics as a dictionary instead of printing.
+    """
+    global _angle_storage
+    
+    if not _angle_storage:
+        return None
+    
+    # Extract all angles
+    all_angles = [entry['angle'] for entry in _angle_storage]
+    
+    # Compute statistics
+    avg_angle = statistics.mean(all_angles)
+    
+    if len(all_angles) > 1:
+        std_angle = statistics.stdev(all_angles)
+    else:
+        std_angle = 0.0
+    
+    return {
+        'count': len(all_angles),
+        'mean': avg_angle,
+        'std': std_angle,
+        'min': min(all_angles),
+        'max': max(all_angles),
+        'all_angles': all_angles
+    }
+
+def get_layer_by_layer_statistics():
+    """
+    Return layer-by-layer angle statistics as a dictionary.
+    """
+    global _angle_storage
+    
+    if not _angle_storage:
+        return None
+    
+    # Group angles by layer
+    layer_angles = {}
+    for entry in _angle_storage:
+        layer_idx = entry['layer_idx']
+        angle = entry['angle']
+        
+        if layer_idx not in layer_angles:
+            layer_angles[layer_idx] = []
+        layer_angles[layer_idx].append(angle)
+    
+    # Compute statistics for each layer
+    layer_stats = {}
+    for layer_idx, angles in layer_angles.items():
+        if len(angles) > 1:
+            std_angle = statistics.stdev(angles)
+        else:
+            std_angle = 0.0
+            
+        layer_stats[layer_idx] = {
+            'count': len(angles),
+            'mean': statistics.mean(angles),
+            'std': std_angle,
+            'min': min(angles),
+            'max': max(angles),
+            'angles': angles
+        }
+    
+    return layer_stats
+
+def print_layer_by_layer_statistics():
+    """
+    Print layer-by-layer angle statistics in a formatted table.
+    """
+    layer_stats = get_layer_by_layer_statistics()
+    
+    if not layer_stats:
+        print("No layer-by-layer measurements collected.")
+        return
+    
+    print("\n=== Layer-by-Layer Angle Statistics ===")
+    print(f"{'Layer':<6} {'Count':<6} {'Mean':<8} {'Std':<8} {'Min':<8} {'Max':<8}")
+    print("-" * 50)
+    
+    for layer_idx in sorted(layer_stats.keys()):
+        stats = layer_stats[layer_idx]
+        print(f"{layer_idx:<6} {stats['count']:<6} {stats['mean']:<8.2f} {stats['std']:<8.2f} {stats['min']:<8.2f} {stats['max']:<8.2f}")
+    
+    print("=" * 50 + "\n")
