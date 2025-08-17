@@ -54,7 +54,9 @@ class Qwen2AudioSLAForCausalLM(Qwen2AudioForConditionalGeneration):
                 **kwargs,
             ),
         )
-        model_inputs = parent_fn(**parent_inputs)
+        # Remove input_ids from parent_inputs to avoid duplicate argument
+        input_ids_arg = parent_inputs.pop('input_ids', input_ids)
+        model_inputs = parent_fn(input_ids_arg, **parent_inputs)
 
         # ensure audio-related tensors survive the 1st step (if present)
         for k in ["input_features", "feature_attention_mask",

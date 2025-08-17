@@ -170,7 +170,7 @@ def compute_reverse_linear_lambdas(num_layers, base_lambda):
     return reverse_linear_lambdas
 
 def compute_vsv_for_audio(audio_path, prompt):
-    """Compute VSV for a specific audio file using the provided prompt"""
+    """Compute VSV for a specific audio file using the data_prompt as input for positive and negative instances"""
     global model, processor, verbose_progress
     
     if verbose_progress:
@@ -179,15 +179,18 @@ def compute_vsv_for_audio(audio_path, prompt):
     # Load audio
     audio, sr = librosa.load(audio_path, sr=16000)
     
-    # Append instruction to answer only yes or no
-    modified_prompt = f"{prompt} Answer just yes or no."
+    # Create soundless audio with same length as original for negative instance
+    soundless_audio = np.zeros_like(audio)
     
-    # Build positive and negative inputs for VSV computation using the modified prompt
-    messages_pos = build_messages(include_audio=True,  wav_path=audio_path, prompt=modified_prompt)
-    messages_neg = build_messages(include_audio=False, wav_path=audio_path, prompt=modified_prompt)
+    # Use the data_prompt (prompt parameter) for VSV computation
+    vsv_prompt = f"{prompt} Answer just yes or no."
+    
+    # Build positive and negative inputs for VSV computation using the data_prompt
+    messages_pos = build_messages(include_audio=True,  wav_path=audio_path, prompt=vsv_prompt)
+    messages_neg = build_messages(include_audio=True,  wav_path=audio_path, prompt=vsv_prompt)  # Changed to True to include audio
     
     pos_inputs = build_inputs(messages_pos, audio=audio, sr=16000)
-    neg_inputs = build_inputs(messages_neg, audio=None,  sr=16000)
+    neg_inputs = build_inputs(messages_neg, audio=soundless_audio, sr=16000)  # Use soundless audio instead of None
     
     # Compute VSV specific to this input
     with torch.no_grad():
@@ -504,14 +507,14 @@ if __name__ == "__main__":
     
     # Dataset options
     parser.add_argument("--dataset_name", type=str, help="Hugging face dataset name.", default="kuanhuggingface/AudioHallucination_AudioCaps-Random-v2")
-    parser.add_argument("--dataset_file", type=str, help="Path to local dataset TSV file (alternative to --dataset_name)", default="./understanding_sound_data/metadata/balanced_subset_1500_test.txt")
+    parser.add_argument("--dataset_file", type=str, help="Path to local dataset TSV file (alternative to --dataset_name)", default="./understanding_sound_data/metadata/balanced_merged_test_2871.txt")
     parser.add_argument("--audio_root_dir", type=str, help="Audio root directory", default="./understanding_sound_data/audio")
-    parser.add_argument("--output_path", type=str, help="Output path of csv file.", default="./reverse_linear_evaluation_result.csv")
+    parser.add_argument("--output_path", type=str, help="Output path of csv file.", default="./reverse_data_prompt_evaluation_result.csv")
     parser.add_argument("--verbose", "-v", action="store_true", help="Enable verbose progress output for individual inference steps")
     
     # Vector steering options
     parser.add_argument("--enable_vsv", action="store_true", help="Enable reverse linear vector steering for audio hallucination mitigation")
-    parser.add_argument("--vsv_lambda", type=float, default=0.075, help="Base vector steering strength (lambda). First layer will use 2x this value. Default: 0.075")
+    parser.add_argument("--vsv_lambda", type=float, default=0.05, help="Base vector steering strength (lambda). First layer will use 2x this value. Default: 0.05")
     
     # Testing options
     parser.add_argument("--max_samples", type=int, default=None, help="Maximum number of samples to process (for testing)")

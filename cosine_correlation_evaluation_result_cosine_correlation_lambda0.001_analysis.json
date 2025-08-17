@@ -1,0 +1,32 @@
+{
+  "experiment_config": {
+    "num_samples": 2871,
+    "vsv_lambda": 0.001,
+    "dataset_file": "./understanding_sound_data/metadata/balanced_merged_test_2871.txt",
+    "audio_root_dir": "./understanding_sound_data/audio"
+  },
+  "layer_wise_analysis": {
+    "0": {
+      "correct_predictions": {
+        "count": 4143,
+        "mean_cosine": 0.00860404233094606,
+        "std_cosine": 0.011592585223229406,
+        "median_cosine": 0.00948333740234375,
+        "min_cosine": -0.050994873046875,
+        "max_cosine": 0.056060791015625
+      },
+      "incorrect_predictions": {
+        "count": 3514,
+        "mean_cosine": 0.00873957032430016,
+        "std_cosine": 0.011822883558146723,
+        "median_cosine": 0.0097808837890625,
+        "min_cosine": -0.06060791015625,
+        "max_cosine": 0.0576171875
+      },
+      "comparison": {
+        "mean_difference": -0.00013552799335410023,
+        "median_difference": -0.00029754638671875,
+        "cohens_d": -0.01158474206909179,
+        "t_statistic": -0.504261728647864,
+        "p_value": 0.6140924745755638,
+        "significant": 

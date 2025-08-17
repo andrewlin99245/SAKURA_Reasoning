@@ -1,0 +1,6 @@
+entry_id,audio_index,label,response,sampling_method,vsv_enabled,vsv_lambda,cosine_gamma,cosine_w
+23754,Y22L_3pBa1AI,No,Yes,random,True,0.05,0.5,3
+21693,Y1ed87LLY97k,No,Yes,random,True,0.05,0.5,3
+20629,YSCow4mpBsGY,Yes,No,adversarial,True,0.05,0.5,3
+2198,YpI_kPedctoo,Yes,Yes,random,True,0.05,0.5,3
+9984,YD1Sy7kRoaR8,Yes,Yes,popular,True,0.05,0.5,3

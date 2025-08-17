@@ -134,7 +134,7 @@ def build_inputs(messages, audio=None, sr=16000):
     else:
         inputs = processor(
             text=prompt,
-            audios=[audio],
+            audio=[audio],
             sampling_rate=sr,
             return_tensors="pt",
             padding=True,
@@ -157,7 +157,7 @@ def compute_vsv_for_audio(audio_path):
     soundless_audio = np.zeros_like(audio)
     
     # Use fixed prompt for VSV computation
-    vsv_prompt = "Describe the audio in detail."
+    vsv_prompt = "Describe the audio content in detail."
     
     # Build positive and negative inputs for VSV computation using the fixed prompt
     messages_pos = build_messages(include_audio=True,  wav_path=audio_path, prompt=vsv_prompt)
@@ -239,7 +239,7 @@ def inference(audio_path, prompt_text):
         if verbose_progress:
             print("    🔧 Preparing model inputs...")
         # Prepare inputs
-        inputs = processor(text=text, audios=audios, sampling_rate=16000, return_tensors="pt", padding=True)
+        inputs = processor(text=text, audio=audios, sampling_rate=16000, return_tensors="pt", padding=True)
         inputs = inputs.to(model.device).to(model.dtype)
 
         if verbose_progress:
