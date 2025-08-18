@@ -1,14 +1,10 @@
-
 import inspect
 from typing import Optional, List, Union, Any, Tuple
 
 import torch
 import torch.nn.functional as F
 from transformers.modeling_outputs import CausalLMOutputWithPast
-from transformers.models.qwen2_audio.configuration_qwen2_audio import Qwen2AudioConfig
-from transformers.models.qwen2_audio.modeling_qwen2_audio import (
-    Qwen2AudioForConditionalGeneration,
-)
+from transformers import Qwen2_5OmniForConditionalGeneration
 
 
 def _filter_kwargs_for_fn(fn, kwargs: dict):
@@ -17,7 +13,7 @@ def _filter_kwargs_for_fn(fn, kwargs: dict):
     return {k: v for k, v in kwargs.items() if (k in allowed and v is not None)}
 
 
-class Qwen2AudioCosineSLAForCausalLM(Qwen2AudioForConditionalGeneration):
+class Qwen2_5OmniCosineSLAForCausalLM(Qwen2_5OmniForConditionalGeneration):
     """
     Drop-in replacement with cosine-SLA gating:
       - Only blend *preceding* layers' logits when their cosine similarity
@@ -26,7 +22,7 @@ class Qwen2AudioCosineSLAForCausalLM(Qwen2AudioForConditionalGeneration):
       - Projects only the last position to save compute/memory.
       - Uses safe, non-negative weights and (optionally) renormalizes them.
     """
-    def __init__(self, config: Qwen2AudioConfig):
+    def __init__(self, config):
         super().__init__(config)
         # Cosine SLA knobs
         self.sla_enable = False
@@ -36,8 +32,8 @@ class Qwen2AudioCosineSLAForCausalLM(Qwen2AudioForConditionalGeneration):
         self.sla_debug = False    # set True to print debug once per forward
         self.sla_lambda = 0.05    # steering strength for cosine similarity measurement
 
-        # Head for logits
-        self._lm_head = self.get_output_embeddings()
+        # Head for logits - access through thinker component
+        self._lm_head = self.thinker.get_output_embeddings()
 
         # Steering vectors
         self.steering_vectors = None          # [w_eff, H]  for preceding layers (excludes final)
@@ -101,9 +97,6 @@ class Qwen2AudioCosineSLAForCausalLM(Qwen2AudioForConditionalGeneration):
         self.final_steering_vector = steering_vectors[L - 1].contiguous().clone()          # [H]
         self._steering_vector_ready = True
 
-        #if self.sla_debug:
-        #    print(f"✅ Steering vectors set for layers {start}..{L-2} (count={w_eff}) + final {L-1}")
-
     def is_steering_ready(self) -> bool:
         """Check if steering vectors are ready for cosine SLA."""
         return self._steering_vector_ready and (self.final_steering_vector is not None)
@@ -133,9 +126,9 @@ class Qwen2AudioCosineSLAForCausalLM(Qwen2AudioForConditionalGeneration):
         input_ids_arg = parent_inputs.pop('input_ids', input_ids)
         model_inputs = parent_fn(input_ids_arg, **parent_inputs)
 
-        # ensure audio-related tensors survive the 1st step (if present)
-        for k in ["input_features", "feature_attention_mask",
-                  "audio_values", "audio_attention_mask"]:
+        # ensure multimodal-related tensors survive the 1st step (if present)
+        for k in ["audio_values", "audio_attention_mask", "image_grid_thw", 
+                  "video_grid_thw", "image_values", "video_values"]:
             if k in kwargs and k not in model_inputs:
                 model_inputs[k] = kwargs[k]
 
@@ -152,12 +145,13 @@ class Qwen2AudioCosineSLAForCausalLM(Qwen2AudioForConditionalGeneration):
         output_attentions: Optional[bool] = None,
         output_hidden_states: Optional[bool] = None,
         return_dict: Optional[bool] = None,
-        # Declare the common audio kwargs. If your version doesn't have them,
-        # _filter_kwargs_for_fn will just drop them.
-        input_features: Optional[torch.FloatTensor] = None,
-        feature_attention_mask: Optional[torch.LongTensor] = None,
+        # Declare the common multimodal kwargs
         audio_values: Optional[torch.FloatTensor] = None,
         audio_attention_mask: Optional[torch.LongTensor] = None,
+        image_grid_thw: Optional[torch.LongTensor] = None,
+        video_grid_thw: Optional[torch.LongTensor] = None,
+        image_values: Optional[torch.FloatTensor] = None,
+        video_values: Optional[torch.FloatTensor] = None,
         **kwargs: Any,
     ) -> Union[Tuple, CausalLMOutputWithPast]:
 
@@ -166,10 +160,9 @@ class Qwen2AudioCosineSLAForCausalLM(Qwen2AudioForConditionalGeneration):
         if need_hidden and output_hidden_states is None:
             output_hidden_states = True
 
-        # forward to parent with only the args it supports
-        parent_fn = super().forward
-        parent_kwargs = _filter_kwargs_for_fn(
-            parent_fn,
+        # Filter arguments for the thinker component
+        thinker_kwargs = _filter_kwargs_for_fn(
+            self.thinker.forward,
             dict(
                 input_ids=input_ids,
                 attention_mask=attention_mask,
@@ -180,14 +173,17 @@ class Qwen2AudioCosineSLAForCausalLM(Qwen2AudioForConditionalGeneration):
                 output_attentions=output_attentions,
                 output_hidden_states=output_hidden_states,
                 return_dict=return_dict,
-                input_features=input_features,
-                feature_attention_mask=feature_attention_mask,
                 audio_values=audio_values,
                 audio_attention_mask=audio_attention_mask,
-                **kwargs,
+                image_grid_thw=image_grid_thw,
+                video_grid_thw=video_grid_thw,
+                image_values=image_values,
+                video_values=video_values,
             ),
         )
-        outputs = parent_fn(**parent_kwargs)
+        
+        # Delegate to the thinker component which has the actual implementation
+        outputs = self.thinker(**thinker_kwargs)
 
         # no SLA? just return
         if not need_hidden or outputs.hidden_states is None:
@@ -255,7 +251,6 @@ class Qwen2AudioCosineSLAForCausalLM(Qwen2AudioForConditionalGeneration):
             
             # Average across tokens: [B]
             cos_sim = per_token_cos_sim.mean(dim=1)                      # [B]
-            #print(cos_sim)
             
             # Hard gating: layer activated when cosine similarity > 0.2 OR negative
             mask_bool = (cos_sim > 0.2)  # [B] bool
