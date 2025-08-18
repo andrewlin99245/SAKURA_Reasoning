@@ -1,0 +1,526 @@
+file,attribute_label,single_instruction,single_answer,multi_instruction,multi_answer
+de_test_0_common_voice_de_29193823.wav,German,請聆聽該段演說，並選出講者所使用的語言。 (a) 中文 (b) 韓文 (c) 西班牙文 (d) 德文,(d) 德文,在所提供的 ISO 語言代碼中，哪一個最符合音檔中所使用的語言？ (a) zh (b) ko (c) es (d) de,(d) de
+de_test_0_common_voice_de_19651907.wav,German,根據所提供的音訊，請問所使用的語言是？(a) 法語 (b) 義大利語 (c) 德語 (d) 西班牙語,(c) 德語,在所列出的國家中，哪一個國家的官方語言是此音訊所用的語言？(a) 法國 (b) 義大利 (c) 德國 (d) 墨西哥,(c) 德國
+de_test_0_common_voice_de_17868906.wav,German,"判斷所提供語音的語言為何。
+(a) 英語 (b) 西班牙語 (c) 義大利語 (d) 德語",(d) 德語,"在所提供的城市中，哪一個最有可能位於以該語音語言為官方語言的國家？
+(a) 倫敦 (b) 奇瓦瓦市 (c) 佛羅倫斯 (d) 柏林",(d) 柏林
+de_test_0_common_voice_de_39805524.wav,German,請聆聽提供的音頻。下列哪一種語言最符合錄音中所說的語言？(a) 西班牙語 (b) 法語 (c) 韓語 (d) 德語,(d) 德語,在所提供的人物中，誰最有可能來自一個官方承認該音頻語言的國家？(a) Eva Perón (b) Léopold Sédar Senghor (c) Kim Gu (d) Hermann Hesse,(d) Hermann Hesse
+de_test_0_common_voice_de_19777557.wav,German,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選擇最能代表語音中所用語言的答案。(a) 韓語 (b) 中文 (c) 德語 (d) 日語,(c) 德語,若要證明你對該語音語言的能力，應該參加哪一項測驗？(a) TOPIK (b) TOCFL (c) Goethe-Zertifikat (d) BJT,(c) Goethe-Zertifikat
+de_test_0_common_voice_de_20231703.wav,German,音訊中包含了一段以特定語言講述的短演講。請分析這段音訊，判斷說話者使用的是下列哪一種語言？ (a) 德語 (b) 韓語 (c) 英語 (d) 法語,(a) 德語,在所列選項中，哪一個語系包含了音訊所用的語言？ (a) 印歐語系 (b) 韓語語系 (c) 日語語系 (d) 漢藏語系,(a) 印歐語系
+de_test_0_common_voice_de_38148421.wav,German,請仔細聆聽音頻，專注於講話內容。根據你的分析，從以下選項中選擇講者所使用的語言：(a) 韓語 (b) 德語 (c) 法語 (d) 日語,(b) 德語,在以下選項中，哪一本書的原始作本是用你在此音頻中聽到的語言創作的？(a)《素食者》 (b)《少年維特的煩惱》 (c)《紅與黑》 (d)《雪國》,(b)《少年維特的煩惱》
+de_test_0_common_voice_de_17499321.wav,German,請聆聽所提供的音訊片段，並從下列選項中選擇講者所使用的語言。您的任務是選出您認為與語音相符的語言。（a）德語 （b）西班牙語 （c）韓語 （d）英語,（a）德語,在以下列出的料理中，哪一道是與音訊所屬語言的國家有關的？（a）椒鹽卷餅（Pretzel） （b）西班牙海鮮飯（Paella） （c）泡菜（Kimchi） （d）康沃爾餡餅（Cornish Pasty）,（a）椒鹽卷餅（Pretzel）
+de_test_0_common_voice_de_18595341.wav,German,請聆聽所提供的音訊片段，並辨識該名人士所說的語言。請從下列選項中選出你認為最符合該語音的語言。下列哪一種語言是該音訊片段中的說話者所使用的？(a) 德語 (b) 日語 (c) 韓語 (d) 義大利語,(a) 德語,以下哪一個詞正確地翻譯了“prosperity（繁榮）”為該音訊所使用的語言？(a) Prosperität (b) prosperidad (c) Armut (d) pobreza,(a) Prosperität
+de_test_0_common_voice_de_34297867.wav,German,請聆聽這段語音，並選出講者所使用的語言。 (a) 西班牙語 (b) 德語 (c) 法語 (d) 義大利語,(b) 德語,從下列提供的 ISO 語言代碼中，哪一個正確代表本音檔所使用的語言？ (a) es (b) de (c) fr (d) it,(b) de
+de_test_0_common_voice_de_20232034.wav,German,根據提供的音訊，所講的語言是什麼？(a) 中文 (b) 西班牙文 (c) 德文 (d) 日文,(c) 德文,在以下選項中，哪一個國家將音訊中所講的語言列為官方語言之一？(a) 中國 (b) 哥倫比亞 (c) 列支敦斯登 (d) 日本,(c) 列支敦斯登
+de_test_0_common_voice_de_24978922.wav,German,判斷所提供語音的語言是什麼？ (a) 德語 (b) 西班牙語 (c) 義大利語 (d) 韓語,(a) 德語,在所提供的城市中，哪一個位於官方承認該語音所使用語言的國家？ (a) 華杜茲 (b) 塞維利亞 (c) 羅馬 (d) 釜山,(a) 華杜茲
+de_test_0_common_voice_de_25326727.wav,German,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 德語 (b) 日語 (c) 西班牙語 (d) 中文,(a) 德語,在選項中的哪一位歷史人物來自於以該音訊語言為官方語言的國家？(a) Ludwig van Beethoven (b) Emperor Meiji (c) Simón Bolívar (d) Du Fu,(a) Ludwig van Beethoven
+de_test_0_common_voice_de_19128473.wav,German,請仔細聆聽所提供的語音片段，並判斷說話者所使用的語言。請選出最能代表音檔所使用語言的答案。(a) 法語 (b) 中文 (c) 韓語 (d) 德語,(d) 德語,如果你打算出國留學，以下哪一個測驗是評量此音檔所使用語言的考試？(a) DALF (b) HSK (c) KLAT (d) DSH,(d) DSH
+de_test_0_common_voice_de_20197325.wav,German,音訊中包含一段由特定語言所說的簡短演講。你的任務是分析這段音訊並判斷講者使用下列哪一種語言？(a) 德語 (b) 西班牙語 (c) 英語 (d) 中文,(a) 德語,音訊中所聽到的語言屬於下列哪一個語系？(a) 印歐語系 (b) 韓國語系 (c) 漢藏語系 (d) 日琉語系,(a) 印歐語系
+de_test_0_common_voice_de_20283829.wav,German,請仔細聆聽音訊，特別注意說話內容。根據你的分析，請從下列選項中選出講者所使用的語言：(a) 中文 (b) 西班牙文 (c) 德文 (d) 英文,(c) 德文,哪一部文學經典最初是以音訊片段中所聽到的語言創作的？(a) 圍城 (b) 阿爾特米奧·克魯斯之死 (c) 荒原狼 (d) 麥田捕手,(c) 荒原狼
+de_test_0_common_voice_de_37501179.wav,German,請聆聽所提供的音訊片段，並從下列選項中選出講者所使用的語言。你的任務是選出你認為與語音相符的語言。（a）英語 （b）德語 （c）義大利語 （d）西班牙語,（b）德語,以下哪一道菜來自於音訊中所用語言為主要語言的國家？（a）康沃爾餡餅 （b）酸菜 （c）燴飯 （d）涼菜湯,（b）酸菜
+de_test_0_common_voice_de_19765382.wav,German,請聆聽所提供的音訊片段，並辨認該人所說的語言。請從下列選項中選出最符合你對該語音片段認知的語言。下列哪一種語言是講者在音訊片段中所使用的？ (a) 法語 (b) 日語 (c) 德語 (d) 中文,(c) 德語,下列哪一個翻譯正確表達了該語言中『繁榮』的意思？(a) stagnazione (b) prosperità (c) Prosperität (d) Stillstand,(c) Prosperität
+de_test_0_common_voice_de_37725629.wav,German,請聆聽這段演講，並選出說話者所使用的語言。（a）日語 （b）韓語 （c）德語 （d）中文,（c）德語,根據所列出的選項，哪一個 ISO 代碼正確代表此音檔中的語言？（a）ja （b）ko （c）de （d）zh,（c）de
+de_test_0_common_voice_de_39904493.wav,German,從所提供的音訊中，所說的是哪一種語言？(a) 英語 (b) 德語 (c) 中文 (d) 日語,(b) 德語,以下哪一個國家正式使用音訊中所說的語言？(a) 印度 (b) 奧地利 (c) 中國 (d) 日本,(b) 奧地利
+de_test_0_common_voice_de_37016766.wav,German,判斷所提供語音的語言是什麼？(a) 日語 (b) 德語 (c) 中文 (d) 韓語,(b) 德語,從以下選項中，哪一個城市最有可能位於該語音語言為官方語言的國家？(a) 京都 (b) 因斯布魯克 (c) 北京 (d) 仁川,(b) 因斯布魯克
+de_test_0_common_voice_de_20231708.wav,German,請聆聽提供的音檔。下列哪一種語言最符合錄音中所講的語言？(a) 法語 (b) 義大利語 (c) 德語 (d) 日語,(c) 德語,下列哪一位歷史人物最有可能來自正式承認音檔中所說語言的國家？(a) Napoleon Bonaparte (b) Michelangelo Buonarroti (c) Johann Wolfgang von Goethe (d) Emperor Meiji,(c) Johann Wolfgang von Goethe
+de_test_0_common_voice_de_39904490.wav,German,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。選擇最能代表音檔語言的答案。(a) 德語 (b) 英語 (c) 韓語 (d) 日語,(a) 德語,在以下選項中，哪一項標準化測驗是評量音檔所使用語言的考試？(a) 歌德語檢定 (Goethe-Zertifikat) (b) PTE Academic (c) 韓國語能力測驗 (KLAT) (d) 日本語能力試驗 (JLPT),(a) 歌德語檢定 (Goethe-Zertifikat)
+de_test_0_common_voice_de_26820347.wav,German,音訊中包含一段以特定語言所說的簡短演講片段。你的任務是分析該音訊並判斷講者所使用的是下列哪一種語言。(a) 韓語 (b) 德語 (c) 中文 (d) 英語,(b) 德語,音訊中的語言屬於哪一語系？(a) 日琉語系 (b) 印歐語系 (c) 漢藏語系 (d) 韓語系,(b) 印歐語系
+de_test_0_common_voice_de_18201555.wav,German,請仔細聆聽音檔，專注於口語內容。根據你的分析，從以下選項中選出說話者所使用的語言：(a) 日語 (b) 義大利語 (c) 韓語 (d) 德語,(d) 德語,從列表中的書籍中，哪一本原本是用你在音檔中聽到的語言所寫的？(a) 雪國 (b) 羅生門 (c) 春香傳 (d) 少年維特的煩惱,(d) 少年維特的煩惱
+de_test_0_common_voice_de_37560092.wav,German,請聆聽提供的音訊片段，並從下列選項中選擇說話者所說的語言。你的任務就是選出你認為與音訊相符的語言。（a）韓語 （b）德語 （c）中文 （d）法語,（b）德語,根據給定的選項，哪一道料理起源於這段音訊主要語言所通行的國家？（a）辣炒年糕 （b）德國麵疙瘩（Spätzle） （c）月餅 （d）紅酒燉雞,（b）德國麵疙瘩（Spätzle）
+de_test_0_common_voice_de_40049265.wav,German,請聆聽所提供的音訊片段，並辨識該名人士所說的語言。請從下方選項中，選擇最符合你對此語音辨識的語言。下列哪一種語言是說話者在音訊片段中所使用的？(a) 日語 (b) 德語 (c) 韓語 (d) 義大利語,(b) 德語,以下哪一個選項在此音訊所使用的語言中代表「智慧」？(a) 自惚れ (b) Weisheit (c) Arroganz (d) ウィズダム,(b) Weisheit
+de_test_0_common_voice_de_34261989.wav,German,"請聆聽該段演說，並選擇講者所使用的語言。
+(a) 義大利語 (b) 德語 (c) 韓語 (d) 英語",(b) 德語,"根據提供的選項，哪一個 ISO 語言代碼最適合用來分類音檔中的語言？
+(a) it (b) de (c) ko (d) en",(b) de
+de_test_0_common_voice_de_18354244.wav,German,從所提供的音檔中，所說的是哪一種語言？(a) 西班牙語 (b) 德語 (c) 日語 (d) 英語,(b) 德語,哪一個國家將音檔中所說的語言列為官方語言之一？(a) 阿根廷 (b) 德國 (c) 日本 (d) 英國,(b) 德國
+de_test_0_common_voice_de_17499319.wav,German,判斷所提供語音的語言是什麼？(a) 德語 (b) 西班牙語 (c) 法語 (d) 韓語,(a) 德語,下列哪一個城市位於語音所用語言為官方語言的國家？(a) 因斯布魯克 (b) 利馬 (c) 科爾馬 (d) 首爾,(a) 因斯布魯克
+de_test_0_common_voice_de_17868905.wav,German,請聆聽所提供的音訊。下列哪一種語言最符合音檔中所說的語言？(a) 義大利語 (b) 英語 (c) 德語 (d) 中文,(c) 德語,從以下人物中，誰來自該音檔所用語言的官方語言國家？(a) Galileo Galilei (b) Mahatma Gandhi (c) Johann Wolfgang von Goethe (d) 杜甫,(c) Johann Wolfgang von Goethe
+de_test_0_common_voice_de_39792483.wav,German,請仔細聆聽所提供的語音片段，評估該人所使用的語言。請選擇最能代表語音中所用語言的答案。(a) English (b) German (c) Chinese (d) Korean,(b) German,哪一個測驗著重於該語音片段所使用語言的能力測驗？(a) TOEFL (b) DSH (c) TOCFL (d) KLAT,(b) DSH
+de_test_0_common_voice_de_19740814.wav,German,音訊中包含一段用特定語言所講的簡短演說。你的任務是分析這段音訊，並判斷說話者所使用的是下列哪一種語言？(a) Italian (b) Japanese (c) Spanish (d) German,(d) German,以下哪一個語系屬於音訊中所聽到的語言？(a) Koreanic (b) Japonic (c) Sino-Tibetan (d) Indo-European,(d) Indo-European
+de_test_0_common_voice_de_24874063.wav,German,請仔細聆聽音頻，專注於演講內容。根據你的分析，從以下選項中選出講者所使用的語言：（a）中文（b）英文（c）西班牙文（d）德文,（d）德文,從下列選項中，哪一部文學巨作最早以音頻中所用語言創作？（a）西遊記（b）蒼蠅王（c）預知死亡紀事（d）荒原狼,（d）荒原狼
+de_test_0_common_voice_de_34232271.wav,German,請聆聽所提供的音訊片段，並從下列選項中選出講者所使用的語言。你的任務僅是選擇你認為最符合該語音的語言。 (a) 西班牙語 (b) 德語 (c) 義大利語 (d) 法語,(b) 德語,下列哪一道料理最明顯與該音訊語言為主要語言的國家有關？(a) 西班牙海鮮飯 (b) 德國麵疙瘩 (c) 義式冰淇淋 (d) 普羅旺斯燉魚湯,(b) 德國麵疙瘩
+de_test_0_common_voice_de_33974641.wav,German,請聆聽提供的音檔片段，並辨識該人所說的語言。請從下列選項中選擇一個最符合你聽感的語言。下列哪一種語言是說話者在音檔中所使用的？(a) 義大利語 (b) 德語 (c) 西班牙語 (d) 中文,(b) 德語,從以下選項中，哪一項在這段語言中與「prosperity（繁榮）」的含義相符？(a) プアリティー (b) Prosperität (c) 繁栄 (d) Armut,(b) Prosperität
+de_test_0_common_voice_de_19167601.wav,German,請聆聽這段演講內容，並選出說話者所使用的語言。(a) 日語 (b) 中文 (c) 德語 (d) 法語,(c) 德語,在考慮這段錄音樣本中的語言時，下列哪一個 ISO 語言代碼最適合用來準確標識說話者所使用的語言？(a) ja (b) zh (c) de (d) fr,(c) de
+de_test_0_common_voice_de_17300767.wav,German,從所提供的音訊中，所說的是哪一種語言？(a) 英文 (b) 日文 (c) 法文 (d) 德文,(d) 德文,考慮此音訊錄音中所說的語言，下列哪一個國家將此語言列為官方認可語言之一？(a) 紐西蘭 (b) 日本 (c) 法國 (d) 列支敦士登,(d) 列支敦士登
+de_test_0_common_voice_de_19009341.wav,German,判斷所提供的語音所使用的語言。 (a) 法語 (b) 德語 (c) 英語 (d) 義大利語,(b) 德語,考慮錄音中所說的語言，下列哪一個城市最有可能位於該語言被認定為官方語言之一的國家？ (a) Colmar (b) Innsbruck (c) Wellington (d) Florence,(b) Innsbruck
+de_test_0_common_voice_de_19421035.wav,German,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 英文 (b) 德文 (c) 西班牙文 (d) 義大利文,(b) 德文,根據音訊中所說的語言，下列哪一位歷史人物最有可能來自該語言被正式認可為官方語言的國家？(a) Winston Churchill (b) Johann Wolfgang von Goethe (c) Miguel de Cervantes (d) Michelangelo Buonarroti,(b) Johann Wolfgang von Goethe
+de_test_0_common_voice_de_23830842.wav,German,請仔細聆聽所提供的語音片段，並評估該人的語言。請選擇最能代表語音中所使用語言的答案。（a）西班牙語（b）義大利語（c）中文（d）德語,（d）德語,如果你需要評估自己在此語音中所說語言的語言能力，下列哪一個標準化測驗最適合用來衡量你的語言能力？（a）DELE（b）CELI（c）TOCFL（d）TestDaF,（d）TestDaF
+de_test_0_common_voice_de_18220231.wav,German,音訊中包含一段以特定語言所說的短講。你的任務是分析這段音訊並判斷說話者使用的是下列哪一種語言？(a) 德語 (b) 英語 (c) 中文 (d) 法語,(a) 德語,考慮到音訊中所說的語言，根據語言學分類，它最準確地屬於下列哪一個語系？(a) 印歐語系 (b) 韓語語系 (c) 漢藏語系 (d) 日語語系,(a) 印歐語系
+de_test_0_common_voice_de_22710968.wav,German,請仔細聆聽音訊內容，專注於語音。根據你的分析，從以下選項中選出說話者所使用的語言：(a) 西班牙語 (b) 韓語 (c) 德語 (d) 義大利語,(c) 德語,考慮到本音訊所使用的語言，下列哪一部文學作品原本是用這種語言創作的？(a) 巧克力情緣 (b) 春香傳 (c) 西線無戰事 (d) 福柯的鐘擺,(c) 西線無戰事
+de_test_0_common_voice_de_19937217.wav,German,請聆聽提供的音訊片段，並從下列選項中選擇講者所使用的語言。你的任務是選出你認為與語音相符的語言。(a) 韓語 (b) 日語 (c) 德語 (d) 中文,(c) 德語,考慮到此音訊所使用的語言，下列哪一道料理最有可能起源於以這種語言為主要語言的國家？(a) 石鍋拌飯 (b) 味噌湯 (c) 德國香腸 (d) 月餅,(c) 德國香腸
+de_test_0_common_voice_de_38232955.wav,German,請聆聽提供的音頻片段，並辨識該人士所說的語言。請從以下選項中，選出最符合您認知的語言。以下哪一種語言是說話者在音頻片段中所使用的？(a) 日語 (b) 義大利語 (c) 德語 (d) 西班牙語,(c) 德語,在這段演講所使用語言中，以下哪個詞語與「繁榮」有相同意思？(a) stagnazione (b) Stillstand (c) Prosperität (d) prosperità,(c) Prosperität
+de_test_0_common_voice_de_22885447.wav,German,請聆聽該段演講，並選擇講者所說的語言是：(a) 西班牙語 (b) 英語 (c) 日語 (d) 德語,(d) 德語,根據所提供的音訊記錄，下列哪一個 ISO 語言代碼最適合用來正確識別整段錄音中所使用的語言？(a) es (b) en (c) ja (d) de,(d) de
+de_test_0_common_voice_de_19561153.wav,German,根據提供的音訊，所使用的是哪一種語言？ (a) Italian (b) French (c) German (d) Japanese,(c) German,在所列出的國家中，哪一個將音訊中所說的語言列為官方語言？ (a) San Marino (b) Haiti (c) Liechtenstein (d) Japan,(c) Liechtenstein
+de_test_0_common_voice_de_20279928.wav,German,判斷所提供的語音所使用的語言是什麼？(a) 中文 (b) 義大利文 (c) 德文 (d) 西班牙文,(c) 德文,當分析音訊中所說的語言時，下列哪一個城市最有可能位於該語言屬於其官方語言的國家？(a) 台北 (b) 那不勒斯 (c) 柏林 (d) 奇瓦瓦市,(c) 柏林
+de_test_0_common_voice_de_39183455.wav,German,請聆聽所提供的音檔。下列哪一種語言最符合錄音中所說的語言？ (a) 德語 (b) 西班牙語 (c) 英語 (d) 法語,(a) 德語,考慮音檔中所說的語言，下列哪一位歷史人物最有可能來自一個將此語言列為官方語言的國家？ (a) Ludwig van Beethoven (b) Eva Perón (c) Mahatma Gandhi (d) Toussaint Louverture,(a) Ludwig van Beethoven
+de_test_0_common_voice_de_20397921.wav,German,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選擇最能代表音檔中所用語言的答案。(a) 韓語 (b) 中文 (c) 西班牙語 (d) 德語,(d) 德語,如果你打算申請一個要求精通該音檔所講語言的課程或職位，下列哪一項測驗最適合評估你的能力？(a) BKT (b) HSK (c) SIELE (d) TestDaF,(d) TestDaF
+de_test_0_common_voice_de_17843259.wav,German,音訊中包含一小段以特定語言所講的演講片段。你的任務是分析音訊並判斷講者所使用的是下列哪一種語言？(a)韓語 (b)中文 (c)義大利語 (d)德語,(d)德語,考慮到此音訊所用的語言，依語言學分類，以下哪一個語系是它所屬的？(a)韓語系 (b)日語系 (c)漢藏語系 (d)印歐語系,(d)印歐語系
+de_test_0_common_voice_de_20515439.wav,German,請仔細聆聽音頻，專注於說話內容。根據你的分析，從以下選項中選出講者所使用的語言：(a) 德語 (b) 義大利語 (c) 西班牙語 (d) 英語,(a) 德語,考慮到這段音頻所使用的語言，下列哪些文學作品最初是以該語言創作的？(a) 魔山 (b) 倘若這是個人 (c) 霍亂時期的愛情 (d) 麥田捕手,(a) 魔山
+de_test_0_common_voice_de_25949640.wav,German,請聆聽所提供的音訊片段，並從以下選項中選出講者所說的語言。您的任務很簡單，只需選擇您認為與該語音相符的語言。(a) 德語 (b) 西班牙語 (c) 中文 (d) 韓語,(a) 德語,在考慮音訊中所聽到的語言後，下列哪一道菜最能代表主要使用該語言的國家的料理？(a) 炸豬排 (b) 西班牙海鮮飯 (c) 麻婆豆腐 (d) 韓式五花肉,(a) 炸豬排
+de_test_0_common_voice_de_27315844.wav,German,請聆聽提供的音訊片段，並辨認該人所講的語言。在下列選項中，選擇你認為最符合音訊內容的語言。以下哪一種語言是講者在提供的音訊片段中所使用的？（a）德語（b）中文（c）英文（d）義大利語,(a) 德語,在所提供的選項中，哪一個詞語在該語言中與「感激」的意思相對應？（a）Dankbarkeit（b）gratitud（c）egoísmo（d）Egoismus,(a) Dankbarkeit
+de_test_0_common_voice_de_17902872.wav,German,請聆聽這段演講片段，並選擇講者所說的語言。（a）英語 （b）韓語 （c）中文 （d）德語,（d）德語,根據您所聽到的音頻樣本，從以下提供的 ISO 語言代碼中，哪一個最適合表示錄音中所說的語言？（a）en （b）ko （c）zh （d）de,（d）de
+de_test_0_common_voice_de_18934633.wav,German,根據所提供的音訊，所說的是哪一種語言？ (a) 西班牙語 (b) 中文 (c) 義大利語 (d) 德語,(d) 德語,根據音訊記錄中所講的語言，下列哪一個選項中的國家正式承認這個語言為其官方語言之一？ (a) 西班牙 (b) 中國 (c) 聖馬力諾 (d) 德國,(d) 德國
+de_test_0_common_voice_de_20255382.wav,German,判斷所提供的語音是屬於哪一種語言？(a) 德語 (b) 中文 (c) 法語 (d) 英語,(a) 德語,在以下城市中，哪一個最有可能位於一個以該音訊語言作為官方語言的國家？(a) 因斯布魯克 (b) 上海 (c) 阿比讓 (d) 倫敦,(a) 因斯布魯克
+de_test_0_common_voice_de_20561354.wav,German,請聆聽提供的音訊。下列哪一種語言最符合錄音中所使用的語言？(a) 英語 (b) 德語 (c) 韓語 (d) 中文,(b) 德語,根據音訊中所講的語言，下列哪一位歷史人物最有可能來自這種語言被列為官方語言之一的國家？(a) Edmund Hillary (b) Sigmund Freud (c) Yi Hwang (d) Confucius,(b) Sigmund Freud
+de_test_0_common_voice_de_18206573.wav,German,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選出最能代表語音中所使用語言的答案。(a) 德語 (b) 韓語 (c) 日語 (d) 法語,(a) 德語,根據此語音片段所使用的語言，下列選項中，哪一種標準化測驗最適合用來證明此語言能力？(a) TestDaF (b) BKT (c) EJU (d) TCF,(a) TestDaF
+de_test_0_common_voice_de_32524714.wav,German,音訊中包含了一段以特定語言所說的簡短演講片段。你的任務是分析這段音訊，並判斷說話者所使用的是下列哪一種語言？(a) 韓語 (b) 中文 (c) 日語 (d) 德語,(d) 德語,考慮到音訊中語言的起源、結構以及語言特徵，它屬於下列哪一種語系？(a) 日本語系 (b) 漢藏語系 (c) 韓語系 (d) 印歐語系,(d) 印歐語系
+de_test_0_common_voice_de_19439084.wav,German,請仔細聆聽音檔，專注於說話內容。根據你的分析，從下列選項中選出說話者所使用的語言：(a) 日語 (b) 義大利語 (c) 德語 (d) 中文,(c) 德語,根據該音檔所使用的語言，下列哪一本文學經典原本是以此語言創作？(a) 發條鳥年代記 (b) 齊諾的良心 (c) 少年維特的煩惱 (d) 西遊記,(c) 少年維特的煩惱
+de_test_0_common_voice_de_17301827.wav,German,請聆聽所提供的音訊片段，並從下列選項中選出說話者所使用的語言。您的任務就是選擇您認為與聲音相符的語言。(a) 英語 (b) 義大利語 (c) 德語 (d) 西班牙語,(c) 德語,考慮到音訊中所使用的語言，下列哪一道料理起源於這個語言為主要溝通語言的國家？(a) 哈吉斯 (b) 千層麵 (c) 香腸 (d) 冷湯,(c) 香腸
+de_test_0_common_voice_de_19043449.wav,German,請聆聽所提供的音檔，並辨識該位說話者所使用的語言。請從下列選項中，選出最符合你對該語音認知的語言。下列哪一種語言是說話者在音檔中所使用的語言？ (a) 日語 (b) 韓語 (c) 德語 (d) 西班牙語,(c) 德語,以下哪一個選項在音檔語言中正確地代表「傑作」這個意思？ (a) 걸작 (b) 실패 (c) Meisterwerk (d) Misserfolg,(c) Meisterwerk
+de_test_0_common_voice_de_18493314.wav,German,聆聽這段演講內容，並選擇講話者所使用的語言。(a) 法語 (b) 中文 (c) 義大利語 (d) 德語,(d) 德語,根據所提供的音訊錄音以及判斷正確語言代碼的任務，以下選項中哪一個 ISO 語言代碼最符合錄音中所說的語言？(a) fr (b) zh (c) it (d) de,(d) de
+en_test_0_common_voice_en_22335218.wav,English,根據所提供的音訊，所講的是哪一種語言？(a) 韓語 (b) 德語 (c) 西班牙語 (d) 英語,(d) 英語,根據所提供的音訊樣本，下列哪一個國家將該語言認定為其境內的官方語言？(a) 南韓 (b) 德國 (c) 智利 (d) 紐西蘭,(d) 紐西蘭
+en_test_0_common_voice_en_37976442.wav,English,判斷所提供語音的語言為何？(a) 韓語 (b) 中文 (c) 西班牙語 (d) 英語,(d) 英語,根據音頻錄音與所使用的語言，以下選項中的哪一個城市最有可能位於官方語言中包含此語言的國家？(a) 仁川 (b) 上海 (c) 墨西哥城 (d) 威靈頓,(d) 威靈頓
+en_test_0_common_voice_en_31266588.wav,English,請聆聽提供的音檔。下列哪一種語言最符合錄音中所說的語言？(a) 法語 (b) 德語 (c) 日語 (d) 英語,(d) 英語,在所提供的歷史人物中，誰最有可能來自一個正式承認音檔中語言為官方語言的國家？(a) Jean-Bédel Bokassa (b) Maria Theresa (c) Murasaki Shikibu (d) Nelson Mandela,(d) Nelson Mandela
+en_test_0_common_voice_en_36016278.wav,English,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選擇最能代表音檔中語言的答案。（a）德語（b）法語（c）西班牙語（d）英語,（d）英語,對於計畫到該語音中所使用語言的國家留學或工作的人來說，下列哪一種考試最適合用來證明語言能力？（a）歌德證書（b）法語高級文憑（c）西班牙語證書（d）PTE Academic,（d）PTE Academic
+en_test_0_common_voice_en_19954794.wav,English,音訊中包含一段以特定語言講述的簡短演說。你的任務是分析該音訊並判斷講者使用的是下列哪一種語言？(a) 西班牙語 (b) 義大利語 (c) 日語 (d) 英語,(d) 英語,根據此音訊中的口說語言，下列哪一個語系包含了這種語言？(a) 日琉語系 (b) 韓語語系 (c) 漢藏語系 (d) 印歐語系,(d) 印歐語系
+en_test_0_common_voice_en_18395139.wav,English,請仔細聆聽音訊，重點關注講話內容。根據你的分析，從以下選項中選出說話者所使用的語言：(a) 義大利語 (b) 韓語 (c) 日語 (d) 英語,(d) 英語,考慮音訊的語言時，下列哪一本書的原文就是以該語言創作的？(a) Decameron (b) The Vegetarian (c) Rashomon (d) Lord of the Flies,(d) Lord of the Flies
+en_test_0_common_voice_en_39645706.wav,English,請聆聽所提供的音訊片段，並從以下選項中選出講者所使用的語言。你的任務僅是選出你認為與該語音相符的語言。(a) 中文 (b) 德文 (c) 英文 (d) 日文,(c) 英文,根據音訊中所聽到的語言，下列哪一道料理最密切與該語言做為官方語言的國家之烹飪傳統相關？(a) 水餃 (b) 椒鹽脆餅 (c) 牧羊人派 (d) 壽司,(c) 牧羊人派
+en_test_0_common_voice_en_19489627.wav,English,請聆聽所提供的音訊片段，並判別說話者所使用的語言。請從下列語言選項中，選出你認為最符合音訊內容的語言。下列哪一種語言是說話者在提供的音訊片段中所使用的？(a) 英文 (b) 法文 (c) 德文 (d) 義大利文,(a) 英文,從所提供的 ISO 語言代碼列表中，請選出你認為最適當且最準確代表音訊錄音中所說語言的代碼。(a) en (b) fr (c) de (d) it,(a) en
+en_test_0_common_voice_en_19704669.wav,English,請聆聽這段演講，並選擇講者所使用的語言。(a) 英語 (b) 德語 (c) 西班牙語 (d) 法語,(a) 英語,根據提供的音檔，下列選項中哪一個國家將音檔中所使用的語言視為官方語言之一？(a) 紐西蘭 (b) 奧地利 (c) 哥倫比亞 (d) 塞內加爾,(a) 紐西蘭
+en_test_0_common_voice_en_18854899.wav,English,從所提供的音訊中，說的是哪一種語言？(a) 西班牙語 (b) 義大利語 (c) 英語 (d) 日語,(c) 英語,考慮在音訊樣本中所聽到的語言，下列選項中，哪一個城市位於官方語言包括此語言的國家？(a) Lima (b) Venice (c) Liverpool (d) Hiroshima,(c) Liverpool
+en_test_0_common_voice_en_36016276.wav,English,判斷所提供語音的語言是什麼？ (a) 日語 (b) 西班牙語 (c) 英語 (d) 法語,(c) 英語,在檢視音訊中所說的語言時，下列哪一位歷史人物最有可能來自以此語言為官方語言的國家？(a) Murasaki Shikibu (b) Miguel de Cervantes (c) Nelson Mandela (d) Napoleon Bonaparte,(c) Nelson Mandela
+en_test_0_common_voice_en_106966.wav,English,請聆聽提供的音訊。下列哪一種語言最符合錄音中所講的語言？ (a) 西班牙語 (b) 韓語 (c) 中文 (d) 英文,(d) 英文,根據這段音訊的內容和所使用的語言，以下哪一項測驗最廣泛用來測量這種語言的能力？ (a) SIELE (b) BKT (c) TOCFL (d) TOEFL,(d) TOEFL
+en_test_0_common_voice_en_19935427.wav,English,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選擇最能代表音訊中所用語言的答案。 (a) 日語 (b) 韓語 (c) 西班牙語 (d) 英語,(d) 英語,根據此音訊中語言的語言學特徵與起源，下列哪一個語系最能準確對應這個語言？(a) 日琉語系 (b) 漢藏語系 (c) 韓語系 (d) 印歐語系,(d) 印歐語系
+en_test_0_common_voice_en_19935040.wav,English,音訊中包含一段以特定語言所說的簡短演講片段。你的任務是分析這段音訊，並判斷說話者使用的是以下哪一種語言？(a) 義大利語 (b) 日語 (c) 德語 (d) 英語,(d) 英語,根據所提供的選項，哪一本書的原作語言即為此音訊中所聽到的語言？(a) The Garden of the Finzi-Continis (b) Norwegian Wood (c) All Quiet on the Western Front (d) Lord of the Flies,(d) Lord of the Flies
+en_test_0_common_voice_en_627541.wav,English,請仔細聆聽音訊，專注於說話內容。根據你的分析，從以下選項中選出說話者所使用的語言：(a) 英語 (b) 西班牙語 (c) 義大利語 (d) 中文,(a) 英語,根據音訊內容，下列哪一道料理最有可能與所講語言廣泛使用的國家具有文化和飲食上的關聯？(a) 炸魚薯條 (b) 西班牙冷湯 (c) 瑪格莉特披薩 (d) 北京烤鴨,(a) 炸魚薯條
+en_test_0_common_voice_en_17473365.wav,English,請聆聽提供的音訊片段，並從下列選項中選擇講者所說的語言。您的任務僅是選出您認為與語音相符的語言。(a) 中文 (b) 日文 (c) 英文 (d) 西班牙文,(c) 英文,下列哪一個 ISO 語言代碼對應於此音訊錄音中所說的語言？(a) zh (b) ja (c) en (d) es,(c) en
+en_test_0_common_voice_en_39990821.wav,English,請聆聽所提供的音訊片段，辨認說話者所使用的語言。請從以下列表中選出你認為與所聽語音最符合的語言。下列哪一種語言是說話者在所提供的音訊片段中所使用的？（a）西班牙語（b）法語（c）英語（d）義大利語,（c）英語,下列哪一個國家將音訊中所說的語言視為官方語言？（a）智利（b）海地（c）南非（d）梵蒂岡,（c）南非
+en_test_0_common_voice_en_38849850.wav,English,請聽該段演講，並選擇講者所使用的語言。(a) 西班牙語 (b) 法語 (c) 英語 (d) 中文,(c) 英語,在以下選項中，哪一個城市有可能位於該語言作為官方語言的國家？(a) 馬德里 (b) 巴黎 (c) 愛丁堡 (d) 上海,(c) 愛丁堡
+en_test_0_common_voice_en_25619619.wav,English,從提供的音訊中，可以聽出是哪一種語言？(a) 日語 (b) 韓語 (c) 西班牙語 (d) 英語,(d) 英語,以下哪一位歷史人物最有可能來自音訊語言為官方語言的國家？(a) Murasaki Shikibu (b) Shin Saimdang (c) Gabriel García Márquez (d) Nelson Mandela,(d) Nelson Mandela
+en_test_0_common_voice_en_19696555.wav,English,判斷所提供語音的語言是什麼？(a) 西班牙語 (b) 英語 (c) 日語 (d) 義大利語,(b) 英語,哪一種標準化測驗評量這段音訊所使用語言的能力？(a) SIELE (b) IELTS (c) JLPT (d) CILS,(b) IELTS
+en_test_0_common_voice_en_17960994.wav,English,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 日本語 (b) 英語 (c) 韓語 (d) 德語,(b) 英語,音訊中的語言屬於哪一個語系？(a) 漢藏語系 (b) 印歐語系 (c) 韓語語系 (d) 日語語系,(b) 印歐語系
+en_test_0_common_voice_en_31671570.wav,English,請仔細聆聽所提供的語音片段，並評估該人所使用的語言。請選出最能代表該語音所用語言的答案。（a）日語 （b）英語 （c）義大利語 （d）西班牙語,（b）英語,以下哪一部世界經典文學最初是以語音中使用的語言創作的？（a）The Wind-Up Bird Chronicle（b）1984（c）Foucault's Pendulum（d）One Hundred Years of Solitude,（b）1984
+en_test_0_common_voice_en_19524811.wav,English,音訊包含一段以特定語言所說的簡短演說片段。你的任務是分析這段音訊，並判斷說話者使用下列哪一種語言。（a）德語 （b）西班牙語 （c）英語 （d）義大利語,（c）英語,以下哪一道料理最有可能起源於音訊中所使用語言的主要國家？（a）德國酸菜 （b）西班牙海鮮燉飯 （c）康沃爾派 （d）提拉米蘇,（c）康沃爾派
+en_test_0_common_voice_en_31693756.wav,English,請仔細聆聽音檔，專注於語音內容。根據你的分析，從以下選項中選出說話者所使用的語言：（a）德語 （b）義大利語 （c）日語 （d）英語,（d）英語,在所提供的 ISO 語言代碼中，哪一個最能準確對應音檔中的語言？（a）de （b）it （c）ja （d）en,（d）en
+en_test_0_common_voice_en_18979306.wav,English,請聆聽提供的音訊片段，並從下列選項中選出講者所使用的語言。你的任務僅是選擇你認為與語音相符的語言。(a) English (b) Japanese (c) German (d) Chinese,(a) English,在下列國家中，哪一個國家將該音訊的語言作為官方語言？(a) United Kingdom (b) Japan (c) Liechtenstein (d) China,(a) United Kingdom
+en_test_0_common_voice_en_19735675.wav,English,請聆聽所提供的音訊片段，並確認講話者所使用的語言。請從下列選項中選出最符合該語音的語言。以下哪一種語言是該音訊片段中的講話者所使用的語言？（a）德語（b）義大利語（c）韓語（d）英語,（d）英語,在所提供的城市中，哪一個最有可能位於將該音訊語言作為官方語言的國家？（a）柏林（b）威尼斯（c）首爾（d）曼徹斯特,（d）曼徹斯特
+en_test_0_common_voice_en_21730660.wav,English,請聆聽這段演講，選出講者所使用的語言是什麼？(a) 德語 (b) 英語 (c) 韓語 (d) 法語,(b) 英語,在所提供的人物中，誰最有可能來自一個官方語言與音檔語言相同的國家？(a) Sigmund Freud (b) Edmund Hillary (c) Kim Dae-jung (d) Napoleon Bonaparte,(b) Edmund Hillary
+en_test_0_common_voice_en_17840464.wav,English,根據所提供的音訊，所說的是哪一種語言？ (a) 德語 (b) 英語 (c) 韓語 (d) 西班牙語,(b) 英語,若要證明你具備該音訊語言能力，應該參加哪一個測驗？ (a) Goethe-Zertifikat (b) TOEFL (c) TOPIK (d) DELE,(b) TOEFL
+en_test_0_common_voice_en_35437451.wav,English,請判斷所提供語音的語言是什麼？（a）義大利語（b）西班牙語（c）英語（d）日語,（c）英語,在下列選項中，哪一個語系包括該語音所屬的語言？（a）韓語語系（b）漢藏語系（c）印歐語系（d）日語語系,（c）印歐語系
+en_test_0_common_voice_en_39747514.wav,English,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 英語 (b) 中文 (c) 義大利語 (d) 德語,(a) 英語,以下哪一本書最初是用此音訊中所聽到的語言寫成的？(a) 黑暗之心 (b) 紅樓夢 (c) 費尼茲—孔提尼花園 (d) 威尼斯之死,(a) 黑暗之心
+en_test_0_common_voice_en_19984720.wav,English,請仔細聆聽所提供的語音片段，並評估該人所使用的語言。請選擇最能代表音檔中所用語言的答案。(a) 中文 (b) 韓文 (c) 義大利文 (d) 英文,(d) 英文,在下列料理中，哪一道與音檔中所使用語言的國家有關？(a) 北京烤鴨 (b) 辣炒年糕 (c) 瑪格麗塔披薩 (d) 炸魚薯條,(d) 炸魚薯條
+en_test_0_common_voice_en_39022785.wav,English,音訊中包含一段以特定語言所說的簡短演講片段。你的任務是分析音訊並判斷說話者使用下列哪一種語言？(a) 義大利語 (b) 中文 (c) 西班牙語 (d) 英語,(d) 英語,在以下的 ISO 語言代碼中，哪一個正確代表此音訊錄音中所使用的語言？(a) it (b) zh (c) es (d) en,(d) en
+en_test_0_common_voice_en_18375213.wav,English,請仔細聆聽音訊，注意說話內容。根據你的分析，請從所提供的選項中選擇說話者所使用的語言：(a) 日語 (b) 中文 (c) 法語 (d) 英語,(d) 英語,在所給的選項中，哪一個國家將音訊中的語言作為其官方語言之一？(a) 日本 (b) 中國 (c) 海地 (d) 南非,(d) 南非
+en_test_0_common_voice_en_34481119.wav,English,請聆聽所提供的音訊片段，並從下方選項中選出說話者所使用的語言。您的任務是選擇您認為與語音相符的語言。(a) 德語 (b) 日語 (c) 英語 (d) 中文,(c) 英語,在提供的城市當中，哪一個城市位於官方語言包含音訊所用語言的國家？(a) 維也納 (b) 大阪 (c) 開普敦 (d) 臺北,(c) 開普敦
+en_test_0_common_voice_en_25126314.wav,English,請聆聽所提供的音檔，並辨識講者所使用的語言。請從下列選項中選擇最符合你對語音判斷的語言。以下哪一種語言是講者在音檔中所使用的？(a) 法語 (b) 德語 (c) 義大利語 (d) 英語,(d) 英語,下列哪一位歷史人物來自以此音檔中所說語言作為官方語言的國家？(a) 拿破崙·波拿巴 (b) 約翰·沃爾夫岡·馮·歌德 (c) 李奧納多·達·文西 (d) 溫斯頓·邱吉爾,(d) 溫斯頓·邱吉爾
+en_test_0_common_voice_en_18556.wav,English,請聆聽這段演講，並選出說話者所使用的語言。(a) 義大利語 (b) 中文 (c) 英文 (d) 韓文,(c) 英文,如果你打算出國留學，哪一項測驗能檢測到這段音訊中使用的語言？(a) PLIDA (b) TOCFL (c) PTE Academic (d) TOPIK,(c) PTE Academic
+en_test_0_common_voice_en_17864432.wav,English,從所提供的音訊中，所說的語言是什麼？(a) 英語 (b) 法語 (c) 德語 (d) 西班牙語,(a) 英語,音訊中聽到的語言屬於下列哪一個語系？(a) 印歐語系 (b) 漢藏語系 (c) 韓語語系 (d) 日語語系,(a) 印歐語系
+en_test_0_common_voice_en_25898322.wav,English,判斷所提供的語音是什麼語言。（a）法語 （b）德語 （c）英語 （d）韓語,（c）英語,以下哪一本文學經典最初是用音檔中聽到的語言創作的？（a）悲慘世界 （b）浮士德 （c）梅岡城故事 （d）春香傳,（c）梅岡城故事
+en_test_0_common_voice_en_24472733.wav,English,請聆聽所提供的音訊。下列哪一種語言最符合錄音中的語言？(a) 西班牙語 (b) 英語 (c) 法語 (d) 義大利語,(b) 英語,以下哪一道料理來自於音訊中的主要語言國家？(a) 西班牙海鮮燉飯 (b) 牧羊人派 (c) 洛林鹹派 (d) 義式冰淇淋,(b) 牧羊人派
+en_test_0_common_voice_en_19938518.wav,English,請仔細聆聽所提供的語音片段，並評估該位個人所使用的語言。請選出最能代表音檔中使用語言的選項。（a）中文（b）韓文（c）法文（d）英文,（d）英文,根據所列選項，哪一個 ISO 代碼正確識別本語音中的語言？（a）zh（b）ko（c）fr（d）en,（d）en
+en_test_0_common_voice_en_19729843.wav,English,音檔中包含了一小段以特定語言所說的短講。你的任務是分析這段音檔並判斷說話者使用的是下列哪一種語言。（a）義大利語 （b）英語 （c）西班牙語 （d）法語,（b）英語,下列哪一個國家官方語言是音檔中所使用的語言？（a）聖馬利諾 （b）南非 （c）哥倫比亞 （d）象牙海岸,（b）南非
+en_test_0_common_voice_en_39908937.wav,English,請仔細聆聽音訊，專注於其中的語音。根據你的分析，從以下選項中選出講者所使用的語言： (a) 中文 (b) 韓文 (c) 法文 (d) 英文,(d) 英文,從給定的選項中，哪一個城市最有可能位於音訊語言為官方語言的國家？ (a) 北京 (b) 仁川 (c) 巴黎 (d) 開普敦,(d) 開普敦
+en_test_0_common_voice_en_18361080.wav,English,請聆聽提供的音訊片段，並從下列選項中選擇說話者所使用的語言。你的任務僅僅是選出你認為與語音相符的語言。 (a) 法語 (b) 韓語 (c) 英語 (d) 義大利語,(c) 英語,下列哪一位歷史人物最有可能來自一個正式承認音訊中語言的國家？(a) Léopold Sédar Senghor (b) Kim Gu (c) Winston Churchill (d) Leonardo da Vinci,(c) Winston Churchill
+en_test_0_common_voice_en_33366310.wav,English,請聆聽所提供的語音片段，辨識該人正在說哪一種語言。請從下列選項中挑選出最符合你對語音感受的語言。以下哪一種語言是該語音片段的說話者所使用的？(a) 法語 (b) 韓語 (c) 英語 (d) 德語,(c) 英語,在這些選項當中，哪一項標準化考試是用來評估語音中所聽到的語言？(a) DELF (b) TOPIK (c) IELTS (d) DSH,(c) IELTS
+en_test_0_common_voice_en_19562559.wav,English,聆聽這段演講片段，選擇說話者所使用的語言是什麼。（a）中文 （b）德文 （c）西班牙文 （d）英文,（d）英文,音檔中的語言屬於哪一語系？（a）韓語語系 （b）漢藏語系 （c）日語語系 （d）印歐語系,（d）印歐語系
+en_test_0_common_voice_en_17823851.wav,English,從提供的音訊中，所說的是哪一種語言？ (a) 法語 (b) 英語 (c) 西班牙語 (d) 中文,(b) 英語,在清單中的哪一本書是最初以此音訊中聽到的語言所寫？ (a) Candide (b) The Great Gatsby (c) Pedro Páramo (d) Rickshaw Boy,(b) The Great Gatsby
+en_test_0_common_voice_en_35905111.wav,English,判斷所提供語音的語言為何。(a) 英語 (b) 西班牙語 (c) 日語 (d) 義大利語,(a) 英語,從以下選項中，哪一道菜起源於此語音所使用語言的主導國家？(a) 牧羊人派 (b) 西班牙涼湯 (c) 味噌湯 (d) 瑪格麗特披薩,(a) 牧羊人派
+en_test_0_common_voice_en_20343661.wav,English,請聆聽所提供的音檔。以下哪一種語言最符合錄音中所說的語言？(a) 日語 (b) 英語 (c) 韓語 (d) 德語,(b) 英語,從以下選項中，哪一個 ISO 語言代碼最適合用來分類音檔中所說的語言？(a) ja (b) en (c) ko (d) de,(b) en
+en_test_0_common_voice_en_34082125.wav,English,請仔細聆聽所提供的語音片段，判斷說話者所使用的語言。請選擇最能代表音檔中所使用語言的答案。(a) 中文 (b) 英文 (c) 義大利文 (d) 德文,(b) 英文,哪一個國家將音檔中所說的語言列為官方語言之一？(a) 中國 (b) 南非 (c) 義大利 (d) 德國,(b) 南非
+en_test_0_common_voice_en_38348269.wav,English,音檔中包含一段以特定語言說出的短暫演講片段。你的任務是分析這段音檔並判斷說話者使用的是以下哪一種語言？(a) 日語 (b) 德語 (c) 英語 (d) 韓語,(c) 英語,以下城市中，哪一個屬於音檔所用語言為官方語言的國家？(a) 廣島 (b) 瓦杜茲 (c) 愛丁堡 (d) 平壤,(c) 愛丁堡
+en_test_0_common_voice_en_19808301.wav,English,請仔細聆聽音檔，並將注意力集中在語音上。根據你的分析，從以下選項中選出講者使用的語言：（a）義大利語（b）英語（c）法語（d）德語,（b）英語,從給定的人物中，誰來自一個將音檔語言作為官方語言的國家？（a）Dante Alighieri（但丁·阿利吉耶里）（b）Edmund Hillary（艾德蒙·希拉里）（c）Léopold Sédar Senghor（利奧波德·塞達爾·桑戈爾）（d）Sigmund Freud（西格蒙德·弗洛伊德）,（b）Edmund Hillary
+en_test_0_common_voice_en_23817815.wav,English,請聆聽所提供的音訊片段，並從以下選項中選出講者所使用的語言。你的任務是選擇你認為最符合該語音的語言。(a) English (b) Chinese (c) Japanese (d) Spanish,(a) English,哪一項測驗著重於檢測此音訊片段所用語言的能力？(a) PTE Academic (b) HSK (c) JLPT (d) SIELE,(a) PTE Academic
+en_test_0_common_voice_en_26209043.wav,English,"請聆聽所提供的音訊片段，並判斷說話者正在使用哪一種語言。請從下列選項中選出最符合您對該語音辨識的語言。
+在所提供的音訊片段中，說話者使用的是下列哪一種語言？(a) 中文 (b) 英文 (c) 韓文 (d) 西班牙文",(b) 英文,下列哪一個語系與音訊中聽到的語言相對應？(a) 日琉語系 (b) 印歐語系 (c) 韓語系 (d) 漢藏語系,(b) 印歐語系
+en_test_0_common_voice_en_31893853.wav,English,請聆聽該段語音，並選擇講者所使用的語言。(a) 英語 (b) 法語 (c) 義大利語 (d) 韓語,(a) 英語,以下選項中，哪一部文學經典作品最早是以這段語音的語言創作的？(a) 咆哮山莊 (b) 悲慘世界 (c) 布朗修的擺 (d) 82年生的金智英,(a) 咆哮山莊
+en_test_0_common_voice_en_18267223.wav,English,從所提供的音訊中，所說的語言是哪一種？(a) 法語 (b) 韓語 (c) 英語 (d) 義大利語,(c) 英語,下列哪一道菜與該音訊主要語言的國家最有密切關聯？(a) Ratatouille (b) Bibimbap (c) Shepherd's Pie (d) Gelato,(c) Shepherd's Pie
+en_test_0_common_voice_en_17880588.wav,English,請判斷所提供語音的語言是什麼？(a) 法語 (b) 英語 (c) 德語 (d) 西班牙語,(b) 英語,當考慮這段語音範例中的口語語言時，以下哪一個 ISO 語言代碼最適合準確識別說話者所使用的語言？(a) fr (b) en (c) de (d) es,(b) en
+en_test_0_common_voice_en_23846478.wav,English,請聆聽所提供的音訊。下列哪一種語言最符合錄音中的語言？(a) 日語 (b) 義大利語 (c) 中文 (d) 英語,(d) 英語,考慮此音訊錄音中所說的語言，下列哪一個國家將此語言列為官方語言之一？(a) 日本 (b) 義大利 (c) 中國 (d) 英國,(d) 英國
+en_test_0_common_voice_en_39979187.wav,English,請仔細聆聽所提供的語音片段，評估說話者所使用的語言。請選擇最能代表音檔中所用語言的答案。(a) 英文 (b) 西班牙文 (c) 韓文 (d) 中文,(a) 英文,考慮到錄音中所使用的語言，下列哪一個城市最有可能位於將該語言視為官方語言之一的國家？(a) 利物浦 (b) 波哥大 (c) 平壤 (d) 上海,(a) 利物浦
+en_test_0_common_voice_en_32222394.wav,English,音訊中包含一段以特定語言所說的短篇演說。你的任務是分析這段音訊，判斷說話者使用的是下列哪一種語言？(a) 中文 (b) 日文 (c) 英文 (d) 西班牙文,(c) 英文,根據音訊所使用的語言，下列哪一位歷史人物最有可能來自以該語言作為官方語言之一的國家？(a) 李白 (b) 明治天皇 (c) 甘地 (d) 馬奎斯,(c) 甘地
+en_test_0_common_voice_en_17435140.wav,English,請仔細聆聽音訊，專注於語音內容。根據你的分析，請從以下選項中選出說話者所使用的語言：(a) 中文 (b) 義大利語 (c) 韓語 (d) 英語,(d) 英語,如果你需要評估你在此音訊所用語言的語言能力，以下哪一個標準化測驗最適合用來測量你的技能？(a) TOCFL (b) CILS (c) TOPIK (d) PTE Academic,(d) PTE Academic
+en_test_0_common_voice_en_18216835.wav,English,請聆聽提供的音訊片段，並從下列選項中選出說話者所使用的語言。你的任務僅需選擇你認為與語音相符的語言。(a) 義大利語 (b) 日語 (c) 英語 (d) 西班牙語,(c) 英語,考慮此音訊中所說的語言，根據語言學分類，以下哪一個語系最符合？(a) 韓語語系 (b) 漢藏語系 (c) 印歐語系 (d) 日琉語系,(c) 印歐語系
+en_test_0_common_voice_en_18236093.wav,English,請聆聽所提供的音訊片段，並辨認講話者所使用的語言。請從下列語言中選擇一項最符合您對語音的判斷。以下哪一種語言是講話者在音訊片段中所使用的語言？(a) 英語 (b) 日語 (c) 法語 (d) 韓語,(a) 英語,考慮到這段音訊中所使用的語言，下列哪些文學作品原本就是用這種語言創作的？(a) 1984 (b) 細雪 (c) 瘟疫 (d) 春香傳,(a) 1984
+en_test_0_common_voice_en_18848277.wav,English,請聆聽這段語音並選擇講者所使用的語言。 (a) 西班牙語 (b) 中文 (c) 韓語 (d) 英語,(d) 英語,根據這段語音所使用的語言，下列哪一項料理最有可能起源於該語言為主要語言的國家？ (a) 西班牙海鮮飯 (b) 月餅 (c) 泡菜 (d) 康沃爾餡餅,(d) 康沃爾餡餅
+en_test_0_common_voice_en_21883920.wav,English,根據提供的音訊，所說的是哪一種語言？(a) 中文 (b) 德文 (c) 英文 (d) 法文,(c) 英文,考慮到提供的音訊錄音，在選項中列出的 ISO 語言代碼中，哪一個最適合準確識別整段錄音中所使用的語言？(a) zh (b) de (c) en (d) fr,(c) en
+es_test_0_common_voice_es_29112499.wav,Spanish,請判斷所提供語音的語言是什麼？（a）法語（b）中文（c）西班牙語（d）英語,（c）西班牙語,考慮本音訊所使用的語言，以下哪一個詞語是「courage」在此語言中的正確翻譯？（a）용기（b）miedo（c）valentía（d）두려움,（c）valentía
+es_test_0_common_voice_es_23395164.wav,Spanish,請聆聽所提供的音檔。下列哪一種語言最符合錄音中所說的語言？(a) 韓語 (b) 德語 (c) 西班牙語 (d) 義大利語,(c) 西班牙語,在所提供的選項中，哪個詞語最貼近音檔中語言的「prosperity」意思？(a) fracaso (b) 失敗 (c) prosperidad (d) 繁榮,(c) prosperidad
+es_test_0_common_voice_es_19683623.wav,Spanish,請仔細聆聽所提供的語音片段，並評估講話者所使用的語言。請選擇最能代表音檔所用語言的答案。（a）西班牙語 （b）義大利語 （c）法語 （d）英語,（a）西班牙語,在檢視所提供的選項後，哪一個是該語音所用語言中「adventure」的正確翻譯？（a）aventura （b）冒険 （c）seguridad （d）セーフティ,（a）aventura
+es_test_0_common_voice_es_19665262.wav,Spanish,音訊中包含一段短的演講片段，該片段是用某一特定語言所講。請分析這段音訊，判斷講者所使用的語言是哪一種：(a) 西班牙語 (b) 中文 (c) 英語 (d) 德語,(a) 西班牙語,根據音訊中所講的語言，下列哪一個片語最能對應這個語言中『傑作』的意思？(a) obra maestra (b) effort (c) chef-d'œuvre (d) esfuerzo,(a) obra maestra
+es_test_0_common_voice_es_32535252.wav,Spanish,請仔細聆聽音訊，專注於說話內容。根據你的分析，從下列選項中選出說話者所使用的語言：(a) 日語 (b) 德語 (c) 西班牙語 (d) 義大利語,(c) 西班牙語,根據這段音訊所使用的語言，下列哪一個詞是「感激」在該語言中的正確翻譯？(a) resentimiento (b) 感激 (c) gratitud (d) 怨恨,(c) gratitud
+es_test_0_common_voice_es_32231483.wav,Spanish,請聆聽提供的音訊片段，並從下列選項中選擇講者所使用的語言。您的任務僅需選擇您認為與語音相符的語言。（a）西班牙語（b）義大利語（c）日語（d）法語,（a）西班牙語,將「kindness」翻譯成這段音訊中使用的語言時，下列哪一個詞與之最為相符？（a）amabilidad（b）친절（c）잔인함（d）crueldad,（a）amabilidad
+es_test_0_common_voice_es_31296355.wav,Spanish,請聆聽所提供的音訊片段，並辨識說話者所使用的語言。請從下列清單中選出你認為最符合該語音的語言。以下哪一種語言是說話者在所提供音訊片段中所使用的？（a）德語 （b）義大利語 （c）英語 （d）西班牙語,（d）西班牙語,在所提供的翻譯選項中，哪一個對應於音訊語言中的「繁榮」？（a）繁栄 （b）プアリティー （c）pobreza （d）prosperidad,（d）prosperidad
+es_test_0_common_voice_es_19960885.wav,Spanish,請聆聽這段語音，並選出說話者所講的語言是什麼？(a) 西班牙語 (b) 韓語 (c) 德語 (d) 中文,(a) 西班牙語,在音檔中所使用的語言裡，下列哪一個選項正確翻譯了『gratitude』（感謝）？(a) gratitud (b) egoísmo (c) 感謝の気持ち (d) じこしゅぎ,(a) gratitud
+es_test_0_common_voice_es_30842597.wav,Spanish,根據所提供的音訊，請問所說的語言是什麼？（a）英文（b）西班牙文（c）中文（d）法文,（b）西班牙文,在所提供的選項國家中，哪一個國家官方認定音訊中所說的語言為官方語言？（a）南非（b）智利（c）中國（d）法國,（b）智利
+es_test_0_common_voice_es_20302216.wav,Spanish,判斷所提供演講的語言是以下哪一種？(a) 西班牙語 (b) 英語 (c) 韓語 (d) 德語,(a) 西班牙語,在分析音訊中所說的語言後，下列哪個城市最有可能位於其官方語言包含該語言的國家？(a) 波哥大 (b) 愛丁堡 (c) 仁川 (d) 瓦杜茲,(a) 波哥大
+es_test_0_common_voice_es_34525519.wav,Spanish,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 義大利語 (b) 英語 (c) 西班牙語 (d) 韓語,(c) 西班牙語,根據音訊中所使用的語言，以下哪一位歷史人物最有可能來自該語言作為官方語言的國家？(a) Giuseppe Verdi (b) Edmund Hillary (c) Simón Bolívar (d) Shin Saimdang,(c) Simón Bolívar
+es_test_0_common_voice_es_19668121.wav,Spanish,請仔細聆聽所提供的語音片段，並評估此人所說的語言。選出最能代表語音中所用語言的答案。（a）西班牙語 （b）德語 （c）法語 （d）中文,（a）西班牙語,如果你打算申請需要聽力音檔中語言流利能力的課程或職位，下列哪一項考試最適合評估你的能力？（a）SIELE （b）Goethe-Zertifikat （c）DELF （d）HSK,（a）SIELE
+es_test_0_common_voice_es_20286753.wav,Spanish,音訊中包含了一段特定語言的短講內容。你的任務是分析這段音訊，並判斷說話者所使用的是下列哪一種語言？(a) 義大利語 (b) 西班牙語 (c) 法語 (d) 日語,(b) 西班牙語,根據這段音訊中所使用的語言，從以下選項中，該語言在語言學分類中是屬於哪一個語系？(a) 漢藏語系 (b) 印歐語系 (c) 日琉語系 (d) 韓語系,(b) 印歐語系
+es_test_0_common_voice_es_19602665.wav,Spanish,請仔細聆聽音訊，專注於說話內容。根據你的分析，從以下選項中選出講者所使用的語言：(a) 韓語 (b) 義大利語 (c) 中文 (d) 西班牙語,(d) 西班牙語,考慮到此音訊中所使用的語言，以下哪一部文學作品最初是以此語言創作的？(a) 82年生的金智英 (b) 看不見的城市 (c) 三國演義 (d) 跳房子,(d) 跳房子
+es_test_0_common_voice_es_34366658.wav,Spanish,請聆聽所提供的音訊片段，並從以下選項中選出講者所使用的語言。您的任務只是選擇您認為與語音相符的語言。(a) 中文 (b) 西班牙文 (c) 英文 (d) 法文,(b) 西班牙文,根據音訊中所聽到的語言，以下哪一道料理最能代表以該語言為主要語言的國家的美食？(a) 北京烤鴨 (b) 墨西哥捲餅 (c) 牧羊人派 (d) 馬賽魚湯,(b) 墨西哥捲餅
+es_test_0_common_voice_es_33274982.wav,Spanish,請聆聽所提供的音訊片段，並辨認該人士所講的語言。請從下列選項中選擇一個最符合你對該語音判斷的語言。請問該人士在音訊片段中使用下列哪一種語言？(a) 中文 (b) 義大利文 (c) 西班牙文 (d) 韓文,(c) 西班牙文,根據此次音訊中所使用的語言，下列哪一個單字最能正確翻譯『prosperity（繁榮）』，並準確表達其意義？(a) prosperità (b) fallimento (c) prosperidad (d) fracaso,(c) prosperidad
+es_test_0_common_voice_es_20061372.wav,Spanish,聆聽這段演講，選出說話者所使用的語言。（a）德語 （b）韓語 （c）西班牙語 （d）中文,（c）西班牙語,根據你所聽到的音檔，從所提供的列表中選出最符合錄音語言的 ISO 語言代碼。（a）de （b）ko （c）es （d）zh,（c）es
+es_test_0_common_voice_es_23818648.wav,Spanish,從所提供的音訊中，所說的是哪一種語言？(a) 西班牙語 (b) 日語 (c) 英語 (d) 德語,(a) 西班牙語,考慮到音訊中所說的語言，下列選項中哪一個國家官方承認這種語言為其官方語言之一？(a) 西班牙 (b) 日本 (c) 南非 (d) 列支敦士登,(a) 西班牙
+es_test_0_common_voice_es_19618280.wav,Spanish,判斷所提供語音所使用的語言。(a) 法語 (b) 西班牙語 (c) 德語 (d) 中文,(b) 西班牙語,在以下給定的城市中，哪一個最有可能位於一個以所聽語音為官方語言之一的國家？(a) 科爾馬 (b) 塞維利亞 (c) 瓦杜茲 (d) 北京,(b) 塞維利亞
+es_test_0_common_voice_es_32233399.wav,Spanish,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 西班牙語 (b) 中文 (c) 英文 (d) 義大利語,(a) 西班牙語,根據音訊中所說的語言，下列哪一位歷史人物最有可能來自其官方語言包含該語言的國家？(a) Gabriel García Márquez (b) 杜甫 (c) William Shakespeare (d) Leonardo da Vinci,(a) Gabriel García Márquez
+es_test_0_common_voice_es_19609911.wav,Spanish,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選擇最能代表音訊中所用語言的選項。(a) 德語 (b) 西班牙語 (c) 英語 (d) 法語,(b) 西班牙語,根據此音訊片段中所說的語言，下列哪一種標準化測驗最適合欲證明此語言能力的人士？(a) DSH (b) SIELE (c) PTE Academic (d) DELF,(b) SIELE
+es_test_0_common_voice_es_20301927.wav,Spanish,音訊中包含一段以特定語言所說的簡短演講片段。你的任務是分析這段音訊並判斷說話者正在使用下列哪一種語言？(a) 韓語 (b) 中文 (c) 義大利語 (d) 西班牙語,(d) 西班牙語,考慮到音訊中語言的起源、結構與語言學特徵，它屬於下列哪一個語系？(a) 日本語系 (b) 漢藏語系 (c) 韓語系 (d) 印歐語系,(d) 印歐語系
+es_test_0_common_voice_es_19695154.wav,Spanish,請仔細聆聽音頻，重點注意講話內容。根據你的分析，從以下選項中選出講者所使用的語言：(a) 西班牙語 (b) 義大利語 (c) 韓語 (d) 英語,(a) 西班牙語,根據此音頻中所說的語言，下列哪一部經典文學原著是以該語言創作的？(a) The Death of Artemio Cruz (b) Zeno's Conscience (c) The Vegetarian (d) Wuthering Heights,(a) The Death of Artemio Cruz
+es_test_0_common_voice_es_30784891.wav,Spanish,請聆聽提供的音訊片段，並從下列選項中選出講者所使用的語言。你的任務就是選出你認為與語音內容相符的語言。(a) 德語 (b) 法語 (c) 英語 (d) 西班牙語,(d) 西班牙語,考慮音訊中所講的語言，下列哪一道料理起源於這個語言作為主要溝通語言的國家？(a) 酸菜 (b) 法式燉菜 (c) 蛤蜊巧達湯 (d) 玉米餅,(d) 玉米餅
+es_test_0_common_voice_es_32232742.wav,Spanish,請聆聽所提供的音訊片段，並辨識該個體所說的語言。請從下列語言中選出最符合你對語音的判斷的答案。請問在這段音訊片段中，說話者所使用的是哪一種語言？(a) 中文 (b) 日文 (c) 西班牙文 (d) 英文,(c) 西班牙文,在以下選項中，哪一個選項對應到音訊中所聽到語言的「冒險」這個詞？(a) 无聊 (b) 冒險 (c) aventura (d) rutina,(c) aventura
+es_test_0_common_voice_es_39764888.wav,Spanish,請聆聽這段演講內容，並選擇講者所說的語言是什麼？(a) 英語 (b) 義大利語 (c) 韓語 (d) 西班牙語,(d) 西班牙語,根據提供的音檔以及判斷正確語言代碼的任務，以下選項中的哪一個 ISO 語言代碼最能準確對應錄音檔中的語言？(a) en (b) it (c) ko (d) es,(d) es
+es_test_0_common_voice_es_34526029.wav,Spanish,根據所提供的音訊，該音訊使用的是哪種語言？(a) 英語 (b) 中文 (c) 西班牙語 (d) 德語,(c) 西班牙語,根據所提供的音訊範例，下列哪個國家將該語言認定為官方語言之一？(a) 紐西蘭 (b) 中國 (c) 智利 (d) 列支敦斯登,(c) 智利
+es_test_0_common_voice_es_19635567.wav,Spanish,判斷所提供語音的語言是什麼？ (a) 中文 (b) 義大利文 (c) 西班牙文 (d) 韓文,(c) 西班牙文,根據音訊錄音以及所說語言，在所提供的選項中，哪一個城市最有可能位於官方指定該語言為官方語言的國家？ (a) 深圳 (b) 威尼斯 (c) 馬德里 (d) 釜山,(c) 馬德里
+es_test_0_common_voice_es_22140040.wav,Spanish,請聆聽所提供的音檔。下列哪一個語言最符合錄音中的語言？ (a) 日語 (b) 英語 (c) 西班牙語 (d) 德語,(c) 西班牙語,在所提供的歷史人物中，誰最有可能來自一個正式承認錄音中語言為官方語言的國家？ (a) Murasaki Shikibu (b) Mahatma Gandhi (c) Pablo Neruda (d) Ludwig van Beethoven,(c) Pablo Neruda
+es_test_0_common_voice_es_25268035.wav,Spanish,請仔細聆聽所提供的語音片段，評估講話者所使用的語言。請選出最能代表音頻中所用語言的答案。(a) 德語 (b) 西班牙語 (c) 英語 (d) 日語,(b) 西班牙語,對於有意到本音頻所使用語言的國家留學或工作的學生，以下哪一種考試最適合用來證明語言能力？(a) DSH (b) SIELE (c) PTE Academic (d) BJT,(b) SIELE
+es_test_0_common_voice_es_26185995.wav,Spanish,音訊中包含一段以特定語言所說的簡短演講片段。你的任務是分析這段音訊，判斷說話者所使用的語言為下列哪一種？(a) Italian (b) Spanish (c) French (d) English,(b) Spanish,根據該音訊中所使用的語言，以下哪一個語系涵蓋此語言？(a) Japonic (b) Indo-European (c) Sino-Tibetan (d) Koreanic,(b) Indo-European
+es_test_0_common_voice_es_25566581.wav,Spanish,仔細聆聽音頻，專注於語音內容。根據你的分析，從下列選項中選出講者所使用的語言：(a) 德語 (b) 義大利語 (c) 英語 (d) 西班牙語,(d) 西班牙語,考慮到音頻所使用的語言，下列哪一本書的原著就是以這種語言撰寫的？(a) 柏林亞歷山大廣場 (b) 羅生門 (c) 白鯨記 (d) 唐吉訶德,(d) 唐吉訶德
+es_test_0_common_voice_es_20297781.wav,Spanish,請聆聽提供的音訊剪輯，並從下列選項中選出講者所說的語言。你的任務僅需選出你認為與講話內容相符的語言。 (a) 英語 (b) 西班牙語 (c) 中文 (d) 日語,(b) 西班牙語,根據音訊中聽到的語言，以下哪一道菜最能代表該語言作為官方語言的國家之飲食傳統？ (a) 哈吉斯 (b) 海鮮燉飯 (c) 月餅 (d) 味噌湯,(b) 海鮮燉飯
+es_test_0_common_voice_es_33881584.wav,Spanish,請聆聽所提供的音訊片段，並判斷該人士所說的語言。請從以下選項中選擇最符合你對語音判斷的語言。下列哪一項是此音訊片段中說話者所使用的語言？(a) 西班牙語 (b) 中文 (c) 日語 (d) 德語,(a) 西班牙語,下列哪一個詞是音訊所用語言中「adventure」的正確翻譯？(a) aventura (b) seguridad (c) 冒險 (d) 例行,(a) aventura
+es_test_0_common_voice_es_19606780.wav,Spanish,請聆聽該段演講，並選擇講者所使用的語言。 (a) 英語 (b) 法語 (c) 韓語 (d) 西班牙語,(d) 西班牙語,從所提供的 ISO 語言代碼列表中，請選擇最適合且最準確代表錄音中所說語言的代碼。 (a) en (b) fr (c) ko (d) es,(d) es
+es_test_0_common_voice_es_19604622.wav,Spanish,根據所提供的音訊，講的是哪一種語言？ (a) 西班牙語 (b) 義大利語 (c) 法語 (d) 英語,(a) 西班牙語,根據所提供的音訊，下列哪一個選項中的國家承認音訊中講的語言為其官方語言之一？ (a) 瓜地馬拉 (b) 聖馬利諾 (c) 法國 (d) 英國,(a) 瓜地馬拉
+es_test_0_common_voice_es_22208388.wav,Spanish,判斷所提供語音的語言。（a）法語（b）西班牙語（c）中文（d）日語,（b）西班牙語,根據音檔中聽到的語言，下列哪一個城市位於一個將該語言視為官方語言的國家？（a）巴黎（b）波哥大（c）上海（d）廣島,（b）波哥大
+es_test_0_common_voice_es_29444210.wav,Spanish,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？ (a) 英語 (b) 德語 (c) 西班牙語 (d) 日語,(c) 西班牙語,在檢視音訊中所說的語言時，下列哪一位歷史人物最有可能來自以這種語言為官方語言的國家？ (a) Edmund Hillary (b) Hermann Hesse (c) Simón Bolívar (d) Murasaki Shikibu,(c) Simón Bolívar
+es_test_0_common_voice_es_28537332.wav,Spanish,請仔細聆聽所提供的語音片段並評估該人士所說的語言。請選擇最能代表音訊中所使用語言的答案。(a) 日語 (b) 法語 (c) 西班牙語 (d) 義大利語,(c) 西班牙語,考慮到這段音訊的語境以及所使用的語言，下列哪一項測驗是用來測量這種特定語言能力最廣泛使用的？(a) EJU (b) TCF (c) SIELE (d) CELI,(c) SIELE
+es_test_0_common_voice_es_19695678.wav,Spanish,音訊中包含了一段由特定語言所說的簡短演講片段。你的任務是分析這段音訊，並判斷講者使用以下哪一種語言。（a）英文（b）西班牙文（c）日文（d）義大利文,(b) 西班牙文,根據本音訊所聽到語言的語言特徵與起源，以下哪一個語系最能正確對應此語言？（a）韓語系（b）印歐語系（c）日語系（d）漢藏語系,(b) 印歐語系
+es_test_0_common_voice_es_19600961.wav,Spanish,請仔細聆聽音頻，專注於說話內容。根據你的分析，從下列選項中選出說話者所使用的語言：(a) 韓語 (b) 義大利語 (c) 英語 (d) 西班牙語,(d) 西班牙語,根據提供的選項，哪一本書的原著是以你在此音頻中聽到的語言創作的？(a) 春香傳 (b) 豹 (c) 傲慢與偏見 (d) 跳房子,(d) 跳房子
+es_test_0_common_voice_es_21744907.wav,Spanish,請聆聽所提供的音訊片段，並從以下選項中選出說話者所使用的語言。你的任務僅僅是選擇你認為與語音相符的語言。(a) 義大利語 (b) 法語 (c) 西班牙語 (d) 中文,(c) 西班牙語,根據音訊，下列哪一道料理最有可能與所講語言廣泛使用的國家的文化和料理關聯最深？(a) 瑪格麗塔披薩 (b) 普羅旺斯燉菜 (c) 西班牙冷湯 (d) 餃子,(c) 西班牙冷湯
+es_test_0_common_voice_es_19598602.wav,Spanish,請聆聽所提供的音訊片段，並辨識出講話者所使用的語言。請從下列選項中選擇最符合您對該語言認知的答案。以下哪一種語言是講話者在音訊片段中所使用的語言？(a) 韓語 (b) 西班牙語 (c) 法語 (d) 義大利語,(b) 西班牙語,下列哪一個翻譯最正確地表示了這段語言中的「kindness」？(a) 친절 (b) amabilidad (c) indiferencia (d) 무관심,(b) amabilidad
+es_test_0_common_voice_es_26991582.wav,Spanish,聆聽這段演講片段，並選擇講者所說的語言是下列哪一種？(a) 法語 (b) 西班牙語 (c) 日語 (d) 韓語,(b) 西班牙語,下列哪一個 ISO 語言代碼對應於這段音訊錄音中所使用的語言？(a) fr (b) es (c) ja (d) ko,(b) es
+es_test_0_common_voice_es_22053528.wav,Spanish,根據所提供的音訊，請問所說的是哪一種語言？ (a) 西班牙語 (b) 中文 (c) 韓語 (d) 義大利語,(a) 西班牙語,在下列選項中，哪一個國家承認音訊中所說的語言為官方語言？ (a) 阿根廷 (b) 中國 (c) 南韓 (d) 梵蒂岡,(a) 阿根廷
+es_test_0_common_voice_es_34369130.wav,Spanish,判斷所提供語音的語言是什麼？(a) 法語 (b) 德語 (c) 西班牙語 (d) 義大利語,(c) 西班牙語,以下哪一個城市最有可能位於該語音語言為官方語言的國家？(a) 巴黎 (b) 法蘭克福 (c) 奇瓦瓦市 (d) 羅馬,(c) 奇瓦瓦市
+es_test_0_common_voice_es_19609731.wav,Spanish,請聆聽提供的音檔。下列哪一種語言最符合錄音中所講的語言？ (a) 德語 (b) 西班牙語 (c) 義大利語 (d) 英語,(b) 西班牙語,下列哪位歷史人物最有可能來自音檔中官方語言的國家？ (a) Hermann Hesse (b) Pablo Neruda (c) Giuseppe Verdi (d) William Shakespeare,(b) Pablo Neruda
+es_test_0_common_voice_es_19950997.wav,Spanish,請仔細聆聽所提供的語音片段，並評估該人所說的語言。請選擇最能代表該語音所使用語言的答案。(a) 義大利語 (b) 西班牙語 (c) 法語 (d) 英語,(b) 西班牙語,下列哪一項標準化測驗是用來評估此語音片段中所使用語言的熟練程度？(a) CELI (b) SIELE (c) TCF (d) TOEFL,(b) SIELE
+es_test_0_common_voice_es_19994105.wav,Spanish,音訊中包含一段短暫的語音片段，使用了特定的語言。你的任務是分析此音訊並判斷說話者所使用的是下列哪一種語言？(a) 西班牙語 (b) 英語 (c) 德語 (d) 法語,(a) 西班牙語,此音訊中的語言屬於哪一個語系？(a) 印歐語系 (b) 韓語系 (c) 日語系 (d) 漢藏語系,(a) 印歐語系
+es_test_0_common_voice_es_20273269.wav,Spanish,請仔細聆聽音訊內容，專注於講者的語音。根據你的分析，從以下選項中選出講者所使用的語言：(a) 德語 (b) 西班牙語 (c) 義大利語 (d) 日語,(b) 西班牙語,下列哪些文學經典最初是以音訊所使用的語言創作的？(a) 審判 (b) 阿特米歐·克魯斯之死 (c) 齊諾的自省 (d) 源氏物語,(b) 阿特米歐·克魯斯之死
+es_test_0_common_voice_es_20959681.wav,Spanish,請聆聽所提供的音訊片段，並從以下選項中選擇講者所說的語言。你的任務是選擇你認為與語音內容相符的語言。(a) 西班牙語 (b) 法語 (c) 德語 (d) 日語,(a) 西班牙語,下列哪一道菜最有可能起源於音訊片段中所說語言作為主要語言的國家？(a) 玉米餅（Tacos） (b) 紅酒燉雞（Coq au Vin） (c) 麵疙瘩（Spätzle） (d) 章魚燒（Takoyaki）,(a) 玉米餅（Tacos）
+es_test_0_common_voice_es_24544456.wav,Spanish,請聆聽所提供的音檔片段，並辨認說話者所使用的語言。請從下列選項中選擇最符合你對語音判斷的語言。以下哪一種語言是該音檔中的說話者正在使用的語言？(a) 韓語 (b) 日語 (c) 法語 (d) 西班牙語,(d) 西班牙語,以下哪一個選項是在音檔中所講語言裡表示「感激」的詞？(a) 분노 (b) resentimiento (c) 감사 (d) gratitud,(d) gratitud
+es_test_0_common_voice_es_19954818.wav,Spanish,請聆聽該段演說，並選擇說話者所使用的語言。（a）日語 （b）法語 （c）西班牙語 （d）義大利語,（c）西班牙語,在所提供的 ISO 語言代碼中，哪一個最能正確對應音檔中所用的語言？（a）ja （b）fr （c）es （d）it,（c）es
+es_test_0_common_voice_es_19952288.wav,Spanish,從所提供的音訊中，所說的是哪一種語言？(a) 德語 (b) 西班牙語 (c) 韓語 (d) 英語,(b) 西班牙語,在所列的國家中，哪一個國家的官方語言是音訊中所說的語言？(a) 奧地利 (b) 厄瓜多 (c) 北韓 (d) 印度,(b) 厄瓜多
+es_test_0_common_voice_es_27062049.wav,Spanish,判斷所提供語音的語言是什麼？ (a) 中文 (b) 德文 (c) 西班牙文 (d) 日文,(c) 西班牙文,在以下提供的城市中，哪一個最有可能位於以該語音語言為官方語言的國家？ (a) 北京 (b) 維也納 (c) 馬德里 (d) 大阪,(c) 馬德里
+es_test_0_common_voice_es_20007783.wav,Spanish,請聆聽所提供的音訊。以下哪一種語言最符合錄音中所說的語言？ (a) 中文 (b) 西班牙文 (c) 法文 (d) 英文,(b) 西班牙文,在所提供的人物中，誰最有可能來自一個官方語言為該音訊語言的國家？ (a) 蔡倫 (b) Pablo Neruda (c) Jean-Bédel Bokassa (d) Mahatma Gandhi,(b) Pablo Neruda
+es_test_0_common_voice_es_19401736.wav,Spanish,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選擇最能代表語音中所使用語言的答案。 (a) 法語 (b) 日語 (c) 德語 (d) 西班牙語,(d) 西班牙語,若要證明你具備語音所使用語言的能力，應該參加哪一種考試？(a) DALF (b) EJU (c) Goethe-Zertifikat (d) SIELE,(d) SIELE
+es_test_0_common_voice_es_23797334.wav,Spanish,音訊中包含以特定語言說出的短篇口語片段。你的任務是分析音訊並判斷說話者所使用的語言是哪一種：(a) 西班牙語 (b) 法語 (c) 德語 (d) 日語,(a) 西班牙語,在以下選項之中，哪一個語系包括音訊所使用的語言？(a) 印歐語系 (b) 日琉語系 (c) 韓語語系 (d) 漢藏語系,(a) 印歐語系
+es_test_0_common_voice_es_29077208.wav,Spanish,請仔細聆聽音頻，專注於演講內容。根據你的分析，從所提供的選項中選出講者所使用的語言：(a) 西班牙語 (b) 中文 (c) 日文 (d) 韓文,(a) 西班牙語,"在下列選項中，哪一本書的原始文本是用此音頻中所聽到的語言創作的？(a) The Death of Artemio Cruz (b) Fortress Besieged (c) Kokoro (d) Kim Ji-young, Born 1982",(a) The Death of Artemio Cruz
+es_test_0_common_voice_es_30945781.wav,Spanish,請聆聽所提供的音訊片段，並從下面的選項中選擇說話者所使用的語言。你的任務是選出你認為與語音相符的語言。 (a) 日語 (b) 西班牙語 (c) 韓語 (d) 義大利語,(b) 西班牙語,在以下的菜餚中，哪一道與音訊語言所使用國家有關？(a) 天婦羅 (b) 塔可 (c) 烤肉 (d) 千層麵,(b) 塔可
+es_test_0_common_voice_es_22137909.wav,Spanish,請聆聽所提供的音訊片段，並辨識講話者所使用的語言。請從下列選項中選擇最符合您對該語音認知的語言。以下哪一種語言是講話者在所提供的音訊片段中所使用的？（a）西班牙語（b）義大利語（c）法語（d）德語,（a）西班牙語,在下列選項中，哪一個詞在該語言中與「courage」（勇氣）的意思最為相符？（a）valentía（b）miedo（c）용기（d）두려움,（a）valentía
+es_test_0_common_voice_es_32156457.wav,Spanish,聆聽這段演講，請選出講者所說的語言是下列哪一種？(a) 德語 (b) 義大利語 (c) 韓語 (d) 西班牙語,(d) 西班牙語,在以下提供的 ISO 語言代碼中，哪一個正確代表這段錄音中所說的語言？(a) de (b) it (c) ko (d) es,(d) es
+es_test_0_common_voice_es_32233476.wav,Spanish,從所提供的音訊中，說的是哪一種語言？(a) 韓語 (b) 義大利語 (c) 西班牙語 (d) 英語,(c) 西班牙語,在以下選項中，哪一個國家將音訊中所說的語言列為官方語言之一？(a) 北韓 (b) 義大利 (c) 厄瓜多 (d) 印度,(c) 厄瓜多
+es_test_0_common_voice_es_20289312.wav,Spanish,判斷所提供的語音是屬於哪一種語言？（a）法語 （b）英語 （c）義大利語 （d）西班牙語,（d）西班牙語,在所提供的城市中，哪一個位於官方語言為該音訊所說語言的國家？（a）達卡 （b）曼徹斯特 （c）那不勒斯 （d）馬德里,（d）馬德里
+fr_test_0_common_voice_fr_19646429.wav,French,請聆聽所提供的音檔。下列哪一種語言最符合錄音中所講的語言？(a) 中文 (b) 英文 (c) 德文 (d) 法文,(d) 法文,下列哪一位歷史人物來自以音檔中所講語言作為官方語言的國家？(a) 蔡倫 (b) Mahatma Gandhi (c) Hermann Hesse (d) 拿破崙·波拿巴,(d) 拿破崙·波拿巴
+fr_test_0_common_voice_fr_17323684.wav,French,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選出最能代表音檔中所使用語言的選項。(a) 韓語 (b) 德語 (c) 日語 (d) 法語,(d) 法語,如果你打算出國留學，下列哪一項測驗是測量此音檔中語言的考試？(a) TOPIK (b) DSH (c) BJT (d) DELF,(d) DELF
+fr_test_0_common_voice_fr_19720135.wav,French,音訊中包含一段用特定語言所說的短暫談話。你的任務是分析音訊，並判斷講者使用的是下列哪一種語言？(a) 義大利語 (b) 英語 (c) 日語 (d) 法語,(d) 法語,你在音訊中聽到的語言屬於以下哪一個語言家族？(a) 日琉語系 (b) 漢藏語系 (c) 韓語系 (d) 印歐語系,(d) 印歐語系
+fr_test_0_common_voice_fr_17963677.wav,French,請仔細聆聽音頻，專注於說話內容。根據你的分析，請從以下選項中選出說話者使用的語言：(a) 韓語 (b) 英語 (c) 中文 (d) 法語,(d) 法語,以下哪一本文學經典最初是以你剛剛在音頻中聽到的語言創作的？(a) 請照顧媽媽 (b) 簡愛 (c) 西遊記 (d) Germinal,(d) Germinal
+fr_test_0_common_voice_fr_19965749.wav,French,請聆聽提供的音訊片段，並從以下選項中選出講者所使用的語言。您的任務就是選出您認為與語音內容相符的語言。(a) 韓語 (b) 英語 (c) 日語 (d) 法語,(d) 法語,下列哪一道料理來自音訊中主要語言作為官方語言的國家？(a) 石鍋拌飯 (b) 炸魚薯條 (c) 章魚燒 (d) 馬賽魚湯,(d) 馬賽魚湯
+fr_test_0_common_voice_fr_19998169.wav,French,請聆聽所提供的音檔片段，並辨識該位說話者所使用的語言。請從下列選項中選出最符合您對語音感知的語言。以下哪一種語言是該說話者在音檔片段中所使用的？(a) 日語 (b) 英語 (c) 義大利語 (d) 法語,(d) 法語,在這段語音所使用的語言中，以下哪一個片語的意思與「masterpiece」（經典之作）最相近？(a) œuvre d'art (b) obra maestra (c) obra de arte (d) chef-d'œuvre,(d) chef-d'œuvre
+fr_test_0_common_voice_fr_22750661.wav,French,請聆聽這段演講，並選出講者所使用的語言。（a）法語 （b）韓語 （c）英語 （d）西班牙語,（a）法語,根據所列選項，哪一個是用來識別此段音訊所用語言的正確 ISO 代碼？（a）fr （b）ko （c）en （d）es,（a）fr
+fr_test_0_common_voice_fr_17623671.wav,French,從所提供的音檔中，說的是哪一種語言？ (a) 西班牙語 (b) 韓語 (c) 英語 (d) 法語,(d) 法語,下列哪一個國家正式使用音檔中所說的語言？ (a) 墨西哥 (b) 北韓 (c) 印度 (d) 象牙海岸,(d) 象牙海岸
+fr_test_0_common_voice_fr_20311057.wav,French,判斷所提供語音的語言是什麼？(a) 英文 (b) 中文 (c) 法文 (d) 德文,(c) 法文,從以下選項中，哪一個城市最有可能位於此語音語言為官方語言的國家？(a) 威靈頓 (b) 臺北 (c) 阿比尚 (d) 因斯布魯克,(c) 阿比尚
+fr_test_0_common_voice_fr_19008192.wav,French,請聆聽提供的音檔。下列哪一個語言最符合錄音中所說的語言？(a) 西班牙語 (b) 義大利語 (c) 英語 (d) 法語,(d) 法語,下列哪一位歷史人物最有可能來自官方承認錄音中所說語言的國家？(a) Pablo Neruda (b) Leonardo da Vinci (c) Edmund Hillary (d) Léopold Sédar Senghor,(d) Léopold Sédar Senghor
+fr_test_0_common_voice_fr_18099777.wav,French,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選擇最能代表音頻中所用語言的答案。（a）法語 （b）德語 （c）西班牙語 （d）英語,（a）法語,在下列選項中，哪一項標準化測驗是評估音頻中所聽語言的考試？（a）TCF （b）TestDaF （c）SIELE （d）TOEFL,（a）TCF
+fr_test_0_common_voice_fr_21782932.wav,French,該音訊包含一段由特定語言所說的短演講片段。你的任務是分析這段音訊並判斷說話者所使用的語言是哪一種。(a) 法語 (b) 義大利語 (c) 西班牙語 (d) 日語,(a) 法語,該音訊中的語言屬於哪一個語系？(a) 印歐語系 (b) 韓語系 (c) 日琉語系 (d) 漢藏語系,(a) 印歐語系
+fr_test_0_common_voice_fr_19631305.wav,French,請仔細聆聽音訊，專注於語音內容。根據你的分析，從以下選項中選出說話者所使用的語言：(a) English （英文） (b) Spanish （西班牙文） (c) Korean （韓文） (d) French （法文）,(d) French （法文）,在這份書籍清單中，哪一本原本是用這段音訊中所聽到的語言撰寫的？(a) The Great Gatsby (b) Ficciones (c) The Vegetarian (d) Germinal,(d) Germinal
+fr_test_0_common_voice_fr_37471152.wav,French,請聆聽提供的音檔，並從下列選項中選出講者所使用的語言。你的任務是選擇你認為與錄音內容相符的語言。(a) 法語 (b) 英語 (c) 義大利語 (d) 日語,(a) 法語,從以下選項中，哪一道料理起源於在此音檔所用語言為主要語言的國家？(a) 普羅旺斯燉菜 (b) 牧羊人派 (c) 提拉米蘇 (d) 拉麵,(a) 普羅旺斯燉菜
+fr_test_0_common_voice_fr_25023194.wav,French,請聆聽所提供的音檔片段，並判斷說話者所使用的語言。請從下列語言選項中，選出最符合您對該語音感受的語言。請問在所提供的音檔片段中，說話者使用的是哪一種語言？(a) 法文 (b) 中文 (c) 日文 (d) 西班牙文,(a) 法文,在所提供的選項中，哪一個詞語在該語言中最能對應到「kindness」的意思？(a) gentillesse (b) indifférence (c) 善良 (d) 冷漠,(a) gentillesse
+fr_test_0_common_voice_fr_30199980.wav,French,"請聆聽此段演講，並選擇講者所使用的語言。
+(a) 英語 (b) 西班牙語 (c) 義大利語 (d) 法語",(d) 法語,"從所提供的選項中，哪一個 ISO 語言代碼最適合用來分類音檔中所講的語言？
+(a) en (b) es (c) it (d) fr",(d) fr
+fr_test_0_common_voice_fr_19600338.wav,French,從所提供的音訊中，所講的是哪一種語言？ (a) 中文 (b) 德文 (c) 西班牙文 (d) 法文,(d) 法文,哪一個國家將音訊中使用的語言作為官方語言之一？ (a) 中國 (b) 德國 (c) 哥倫比亞 (d) 海地,(d) 海地
+fr_test_0_common_voice_fr_17320855.wav,French,判斷所提供語音的語言是什麼？ (a) 日語 (b) 英語 (c) 法語 (d) 德語,(c) 法語,以下哪一個城市屬於官方語言與音檔相同的國家？ (a) 京都 (b) 愛丁堡 (c) 阿比讓 (d) 因斯布魯克,(c) 阿比讓
+fr_test_0_common_voice_fr_19816364.wav,French,請聆聽所提供的音檔。以下哪一種語言最符合錄音中所說的語言？(a) 法語 (b) 韓語 (c) 日語 (d) 中文,(a) 法語,從下列人物中，誰來自官方語言為音檔語言的國家？(a) Léopold Sédar Senghor (b) King Sejong (c) Murasaki Shikibu (d) Zheng He,(a) Léopold Sédar Senghor
+fr_test_0_common_voice_fr_39999164.wav,French,請仔細聆聽所提供的演講片段，並評估該人士所使用的語言。請選出最能代表音檔中所用語言的選項。（a）法語（b）韓語（c）德語（d）中文,（a）法語,哪一項測驗主要評量這段語音中所使用語言的熟練程度？（a）DELF（b）TOPIK（c）Goethe-Zertifikat（d）HSK,（a）DELF
+fr_test_0_common_voice_fr_24547869.wav,French,音檔中包含一段以特定語言所說的簡短演講內容。請分析音檔，判斷講者所使用的語言是哪一種？(a) 法語 (b) 中文 (c) 德語 (d) 西班牙語,(a) 法語,以下哪一個語系與音檔中所聽到的語言相對應？(a) 印歐語系 (b) 日琉語系 (c) 韓語系 (d) 漢藏語系,(a) 印歐語系
+fr_test_0_common_voice_fr_19193512.wav,French,請仔細聆聽音頻，專注於語音內容。根據你的分析，請從下列選項中選出講者所使用的語言：(a) 日語 (b) 義大利語 (c) 法語 (d) 英語,(c) 法語,從提供的選項中，哪一部文學經典最先以音頻中的語言創作？(a) Kokoro (b) Foucault's Pendulum (c) The Red and the Black (d) The Great Gatsby,(c) 紅與黑
+fr_test_0_common_voice_fr_18641317.wav,French,請聆聽所提供的音訊片段，並從下列選項中選出說話者所使用的語言。你的任務就是選擇你認為與語音相符的語言。(a) 中文 (b) 英文 (c) 法文 (d) 德文,(c) 法文,在下列選項中，哪一道料理與該音訊主要語言所在的國家連結最深？(a) 麻婆豆腐 (b) 康沃爾餡餅 (c) 馬賽魚湯 (d) 酸菜,(c) 馬賽魚湯
+fr_test_0_common_voice_fr_19736307.wav,French,請聆聽所提供的音訊片段，並辨認說話者所使用的語言。請從下列選項中選擇一個最符合你對其語言的判斷。說話者在音訊片段中使用的是哪一種語言？（a）中文 （b）英文 （c）法文 （d）西班牙文,（c）法文,以下哪一個選項在該音訊使用的語言中正確表示「智慧」的意思？（a）folie （b）愚かさ （c）sagesse （d）ウィズダム,（c）sagesse
+fr_test_0_common_voice_fr_22740885.wav,French,"請聆聽這段演講，並選擇講者所使用的語言。
+(a) 英語 (b) 日語 (c) 法語 (d) 義大利語",(c) 法語,"考慮此音訊範例中的語言，下列哪一個 ISO 語言代碼最能準確識別講者所使用的語言？
+(a) en (b) ja (c) fr (d) it",(c) fr
+fr_test_0_common_voice_fr_19705581.wav,French,根據所提供的音訊，說的是哪一種語言？(a) 西班牙語 (b) 日語 (c) 法語 (d) 韓語,(c) 法語,考慮這段音訊中所使用的語言，下列哪一個國家將這種語言列為其官方語言之一？(a) 西班牙 (b) 日本 (c) 象牙海岸 (d) 南韓,(c) 象牙海岸
+fr_test_0_common_voice_fr_28536843.wav,French,判斷所提供語音的語言為何？(a) 日語 (b) 法語 (c) 中文 (d) 德語,(b) 法語,考慮音訊錄音中使用的語言，下列哪一個城市最有可能位於該語言被認可為官方語言之一的國家？(a) 東京 (b) 巴黎 (c) 北京 (d) 柏林,(b) 巴黎
+fr_test_0_common_voice_fr_39510238.wav,French,請聆聽所提供的音檔。下列哪一種語言最符合錄音中所說的語言？(a) 韓語 (b) 德語 (c) 英語 (d) 法語,(d) 法語,根據音檔中使用的語言，下列哪位歷史人物最有可能來自該語言被正式認可為官方語言的國家？(a) Yi Hwang (b) Hermann Hesse (c) Nelson Mandela (d) Napoleon Bonaparte,(d) Napoleon Bonaparte
+fr_test_0_common_voice_fr_22740887.wav,French,請仔細聆聽所提供的語音片段，並評估講話者所使用的語言。請選擇最能代表該語音所用語言的答案：(a) 西班牙語 (b) 義大利語 (c) 法語 (d) 中文,(c) 法語,如果你需要評估自己在該語音所使用語言的熟練程度，下列選項中的哪一項標準化測驗最適合用來測量你的語言能力？(a) SIELE (b) CELI (c) DALF (d) HSK,(c) DALF
+fr_test_0_common_voice_fr_19780756.wav,French,音訊中包含一段以特定語言所說的簡短演說片段。你的任務是分析該音訊，並判斷說話者使用的是下列哪一種語言？(a) 法語 (b) 西班牙語 (c) 中文 (d) 德語,(a) 法語,考慮到此音訊所使用的語言，根據語言學分類，該語言最正確屬於下列哪一個語系？(a) 印歐語系 (b) 漢藏語系 (c) 日琉語系 (d) 韓語系,(a) 印歐語系
+fr_test_0_common_voice_fr_32088494.wav,French,請仔細聆聽音訊，專注於說話內容。根據你的分析，從以下選項中選擇說話者所使用的語言：(a) 日語 (b) 法語 (c) 英語 (d) 中文,(b) 法語,考慮到此音訊中所使用的語言，以下哪一部文學作品是原本以這種語言創作的？(a) 千隻鶴 (b) 斯萬之路 (c) 咆哮山莊 (d) 水滸傳,(b) 斯萬之路
+fr_test_0_common_voice_fr_25035483.wav,French,請聆聽所提供的音訊片段，並從以下選項中選出講者所使用的語言。您的任務就是選擇您認為與音訊最符合的語言。（a）西班牙語（b）法語（c）德語（d）義大利語,（b）法語,考慮到音訊中所使用的語言，下列哪一道料理最有可能源自該語言為主要通用語的國家？（a）海鮮燴飯（Paella）（b）馬賽魚湯（Bouillabaisse）（c）椒鹽脆餅（Pretzel）（d）義式冰淇淋（Gelato）,（b）馬賽魚湯（Bouillabaisse）
+fr_test_0_common_voice_fr_19754387.wav,French,請聆聽所提供的音檔片段，並判斷說話者所使用的語言。請從下列選項中選擇一個最符合你對語音判斷的語言。此音檔中，說話者所使用的語言是什麼？（a）英語 （b）法語 （c）西班牙語 （d）韓語,（b）法語,考慮此音檔所使用的語言，以下哪一個詞語是「courage」在這個語言中的正確翻譯？（a）용기 （b）bravoure （c）겁쟁이 （d）timidité,（b）bravoure
+fr_test_0_common_voice_fr_18910744.wav,French,請聆聽這段演講，並選出講者所使用的語言。(a) 日語 (b) 韓語 (c) 法語 (d) 義大利語,(c) 法語,根據所提供的音訊錄音，以下選項中哪一個 ISO 語言代碼最適合用來準確識別錄音中所使用的語言？(a) ja (b) ko (c) fr (d) it,(c) fr
+fr_test_0_common_voice_fr_19615229.wav,French,從所提供的音訊中，所說的語言是什麼？ (a) 法語 (b) 英語 (c) 義大利語 (d) 中文,(a) 法語,在選項中所列的國家中，哪一個國家正式將音訊中的語言視為官方語言？ (a) 海地 (b) 愛爾蘭 (c) 梵諦岡 (d) 中國,(a) 海地
+fr_test_0_common_voice_fr_39564535.wav,French,判斷所提供語音的語言為何？(a) 法語 (b) 中文 (c) 西班牙語 (d) 韓語,(a) 法語,在分析音檔中所講的語言後，下列哪一個城市最有可能位於該語言為官方語言的國家？(a) 阿比讓 (b) 上海 (c) 利馬 (d) 首爾,(a) 阿比讓
+fr_test_0_common_voice_fr_25608680.wav,French,聆聽所提供的音頻。下列哪一種語言最符合錄音中所說的語言？(a) 義大利語 (b) 中文 (c) 法語 (d) 英語,(c) 法語,考慮到音頻中所說的語言，下列哪一位歷史人物最有可能來自以該語言為官方語言的國家？(a) Giuseppe Verdi (b) 鄭和 (c) Jean-Bédel Bokassa (d) Winston Churchill,(c) Jean-Bédel Bokassa
+fr_test_0_common_voice_fr_20111427.wav,French,請仔細聆聽所提供的語音片段，並評估講話者所使用的語言。請選擇最能代表音檔中語言的答案。 (a) 韓語 (b) 西班牙語 (c) 德語 (d) 法語,(d) 法語,如果你計畫申請一個要求熟練使用此音檔語言的課程或職位，以下哪一項測驗最適合用來評估你的能力？(a) TOPIK (b) SIELE (c) DSH (d) DALF,(d) DALF
+fr_test_0_common_voice_fr_19632011.wav,French,這段音訊包含一段以特定語言所說的短講話內容。你的任務是分析這段音訊並判斷說話者所使用的語言是哪一種。(a) 韓語 (b) 法語 (c) 西班牙語 (d) 英語,(b) 法語,考慮到該音訊中所使用的語言，從下列選項中，該語言在語言學上屬於哪一個語系？(a) 韓語語系 (b) 印歐語系 (c) 日語語系 (d) 漢藏語系,(b) 印歐語系
+fr_test_0_common_voice_fr_24533969.wav,French,請仔細聆聽音訊，專注於說話內容。根據你的分析，請從提供的選項中選出講者所使用的語言：(a) 英文 (b) 西班牙文 (c) 德文 (d) 法文,(d) 法文,根據這段音訊中所使用的語言，下列哪一部文學作品最初是用這種語言創作的？(a) 簡愛 (b) 百年孤寂 (c) 魔山 (d) 窒息,(d) 窒息
+fr_test_0_common_voice_fr_37230166.wav,French,請聆聽所提供的音訊片段，並從以下選項中選出說話者所使用的語言。你的任務是選擇你認為與該語音相符的語言。(a) 英語 (b) 中文 (c) 法語 (d) 義大利語,(c) 法語,在考慮音訊中所聽到的語言後，以下哪一道菜最能代表主要講此語言國家的料理？(a) 牧羊人派 (b) 北京烤鴨 (c) 洛林鹹派 (d) 燉飯,(c) 洛林鹹派
+fr_test_0_common_voice_fr_29083030.wav,French,請聆聽所提供的音檔片段，並判別講者所使用的語言。請從以下選項中選出最符合您對該語言聽覺印象的答案。以下哪一種語言是講者在音檔中所使用的？ (a) 韓語 (b) 中文 (c) 西班牙語 (d) 法語,(d) 法語,在以下選項中，哪一個片語最符合音檔中所講語言裡「adventure（冒險）」的意思？ (a) 冒険 (b) sécurité (c) セーフティ (d) aventure,(d) aventure
+fr_test_0_common_voice_fr_25885201.wav,French,請聆聽語音片段，並選擇講者所使用的語言。(a) 英語 (b) 西班牙語 (c) 義大利語 (d) 法語,(d) 法語,根據你所聽到的音訊範例，以下列表中哪一個 ISO 語言代碼最能對應錄音中所說的語言？(a) en (b) es (c) it (d) fr,(d) fr
+fr_test_0_common_voice_fr_38206114.wav,French,從所提供的音訊中，說的是哪一種語言？(a) 韓語 (b) 西班牙語 (c) 中文 (d) 法語,(d) 法語,考慮到音訊錄音中的語言，下列選項中，哪一個國家將此語言正式認可為官方語言之一？(a) 北韓 (b) 智利 (c) 中國 (d) 海地,(d) 海地
+fr_test_0_common_voice_fr_24085763.wav,French,判斷所提供語音的語言是什麼？(a) 韓文 (b) 西班牙文 (c) 德文 (d) 法文,(d) 法文,在下列城市中，哪一個最有可能位於一個官方語言包含所聽到語音的國家？(a) 釜山 (b) 馬德里 (c) 維也納 (d) 達卡,(d) 達卡
+fr_test_0_common_voice_fr_23232071.wav,French,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所使用的語言？(a) 英語 (b) 中文 (c) 韓語 (d) 法語,(d) 法語,根據音訊中的語言，下列哪一位歷史人物最有可能來自以該語言為官方語言之一的國家？(a) Nelson Mandela (b) Cai Lun (c) King Sejong (d) Jean-Bédel Bokassa,(d) Jean-Bédel Bokassa
+fr_test_0_common_voice_fr_19740504.wav,French,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選出最能代表語音內容所用語言的答案。(a) 中文 (b) 法文 (c) 西班牙文 (d) 英文,(b) 法文,根據此語音片段中的語言，以下哪一項標準化考試最適合想證明該語言能力的人士？(a) HSK (b) TCF (c) SIELE (d) IELTS,(b) TCF
+fr_test_0_common_voice_fr_17763510.wav,French,音訊中包含一段以特定語言所說的簡短演講片段。你的任務是分析這段音訊，判斷說話者使用的是下列哪一種語言。 (a) 法語 (b) 日語 (c) 西班牙語 (d) 韓語,(a) 法語,考慮到音訊中語言的起源、結構及語言特徵，它屬於下列哪一個語系？ (a) 印歐語系 (b) 日本語系 (c) 漢藏語系 (d) 韓語系,(a) 印歐語系
+fr_test_0_common_voice_fr_17316307.wav,French,請仔細聆聽音檔內容，並專注於聽辨語言。根據你的分析，從下列選項中選出說話者所使用的語言：(a) 日語 (b) 西班牙語 (c) 德語 (d) 法語,(d) 法語,根據音檔所使用的語言，下列哪一部文學經典作品最初是以這種語言創作的？(a) 源氏物語 (b) 霍亂時期的愛情 (c) 荒原狼 (d) 坎迪德,(d) 坎迪德
+fr_test_0_common_voice_fr_21340005.wav,French,請聆聽所提供的音訊片段，並從下列選項中選擇說話者所使用的語言。你的任務是選出你認為與語音內容相符的語言。(a) 德語 (b) 日語 (c) 西班牙語 (d) 法語,(d) 法語,考慮到音訊中所使用的語言，下列哪一道料理源自於這種語言為主要溝通方式的國家？(a) 德國香腸 (b) 章魚燒 (c) 墨西哥捲餅 (d) 普羅旺斯燉菜,(d) 普羅旺斯燉菜
+fr_test_0_common_voice_fr_25458750.wav,French,請聆聽提供的音訊片段，並辨識該人所使用的語言。從下列選項中選擇最符合你對語音感受的語言。以下哪一種語言是說話者在音訊片段中所使用的？(a) 法語 (b) 英語 (c) 西班牙語 (d) 義大利語,(a) 法語,在檢視所提供的選項時，下列哪一個是音訊中聽到之語言裡，“masterpiece”的正確翻譯？(a) chef-d'œuvre (b) obra maestra (c) œuvre d'art (d) obra de arte,(a) chef-d'œuvre
+fr_test_0_common_voice_fr_18297347.wav,French,聆聽這段演講，選出說話者所使用的語言。（a）法語 （b）日語 （c）西班牙語 （d）韓語,（a）法語,根據所提供的錄音內容，請從列表中的 ISO 語言代碼中，選出最能正確對應錄音中所使用語言的代碼。（a）fr （b）ja （c）es （d）ko,（a）fr
+fr_test_0_common_voice_fr_17897349.wav,French,從所提供的音檔中，所說的語言是什麼？(a) 西班牙語 (b) 韓語 (c) 法語 (d) 義大利語,(c) 法語,根據所提供的音檔範例，下列哪一個國家將該語言列為官方語言？(a) 智利 (b) 南韓 (c) 塞內加爾 (d) 梵蒂岡,(c) 塞內加爾
+fr_test_0_common_voice_fr_18605005.wav,French,判斷所提供的語音是屬於哪一種語言。(a) 中文 (b) 法文 (c) 英文 (d) 西班牙文,(b) 法文,根據音訊錄音和所說語言，在所提供的選項中，哪一個城市最有可能位於一個將這種語言正式列為官方語言之一的國家？(a) 台北 (b) 太子港 (c) 威靈頓 (d) 利馬,(b) 太子港
+fr_test_0_common_voice_fr_20894915.wav,French,聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？ (a) 韓語 (b) 法語 (c) 義大利語 (d) 西班牙語,(b) 法語,在所提供的歷史人物中，誰最有可能來自一個正式承認音訊語言為官方語言的國家？ (a) Shin Saimdang (b) Toussaint Louverture (c) Leonardo da Vinci (d) Simón Bolívar,(b) Toussaint Louverture
+fr_test_0_common_voice_fr_20723077.wav,French,"請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選擇最能代表音檔中使用語言的答案。
+(a) 中文
+(b) 德語
+(c) 義大利語
+(d) 法語",(d) 法語,"若有意前往該語音所用語言的國家留學或工作，下列哪一項測驗最適合用來證明語言能力？
+(a) HSK
+(b) 歌德證書（Goethe-Zertifikat）
+(c) 義大利語認證考試（CILS）
+(d) 法語高級文憑（DALF）",(d) 法語高級文憑（DALF）
+fr_test_0_common_voice_fr_20275008.wav,French,音訊中包含一段短暫的演講片段，是用特定語言講述的。你的任務是分析音訊，判斷說話者使用的是以下哪一種語言？(a) 中文 (b) 日文 (c) 英文 (d) 法文,(d) 法文,根據這段音訊中所使用的語言，以下哪一個語系包含這種語言？(a) 漢藏語系 (b) 韓語系 (c) 日語系 (d) 印歐語系,(d) 印歐語系
+fr_test_0_common_voice_fr_23976662.wav,French,請仔細聆聽音頻，重點注意講話內容。根據你的分析，從以下選項中選出說話者所使用的語言：(a) 中文 (b) 法文 (c) 德文 (d) 義大利文,(b) 法文,在考慮音頻所用語言時，下列哪一本書的原作是用該語言寫成的？(a) 紅樓夢 (b) 悲慘世界 (c) 荒原狼 (d) 倘若這是個人,(b) 悲慘世界
+fr_test_0_common_voice_fr_17320904.wav,French,請聆聽所提供的音訊片段，並從以下選項中選出講者所使用的語言。你的任務就是選擇你認為與語音相符的語言。（a）德語（b）西班牙語（c）法語（d）韓語,（c）法語,根據音訊中聽到的語言，以下哪一道菜最能代表該語言作為官方語言的國家的飲食傳統？（a）炸豬排（b）西班牙冷湯（c）紅酒燉雞（d）韓式烤肉,（c）紅酒燉雞
+fr_test_0_common_voice_fr_36972690.wav,French,請聆聽所提供的音訊片段，並判斷該個體所說的語言。請從下列表單中，選出最符合你對語音感知的語言。下列哪一個語言是講者在所提供音訊片段中所使用的？(a) 意大利語 (b) 法語 (c) 英語 (d) 日語,(b) 法語,考慮到該音訊中所使用的語言，下列哪一個詞語最能符合該語言中「冒險」的表達方式？(a) ennuis (b) aventure (c) 冒険 (d) 退屈,(b) aventure
+fr_test_0_common_voice_fr_19001824.wav,French,請聽該段演講，並選出講者所使用的語言：(a) 中文 (b) 法文 (c) 英文 (d) 韓文,(b) 法文,從所提供的 ISO 語言代碼列表中，請選出你認為最合適且最準確代表音檔中所使用語言的代碼：(a) zh (b) fr (c) en (d) ko,(b) fr
+fr_test_0_common_voice_fr_19726647.wav,French,從所提供的音訊中，所說的語言是？ (a) 日語 (b) 義大利語 (c) 英語 (d) 法語,(d) 法語,根據所提供的音訊，下列選項中的哪個國家承認音訊中所說的語言為其官方語言之一？ (a) 日本 (b) 聖馬利諾 (c) 愛爾蘭 (d) 塞內加爾,(d) 塞內加爾
+fr_test_0_common_voice_fr_19140964.wav,French,判斷所提供的語音是屬於哪一種語言？(a) 法語 (b) 日語 (c) 中文 (d) 英語,(a) 法語,考慮到在音訊樣本中聽到的語言，以下選項中哪一個城市位於以此語言為官方語言的國家？(a) 阿比讓 (b) 廣島 (c) 上海 (d) 利物浦,(a) 阿比讓
+fr_test_0_common_voice_fr_19612819.wav,French,請聆聽所提供的音檔。下列哪一種語言最符合錄音中所說的語言？（a）英語 （b）中文 （c）日語 （d）法語,（d）法語,在檢視音檔中的語言後，下列哪一位歷史人物最有可能來自以此語言作為官方語言的國家？（a）Winston Churchill （b）孔子 （c）豐臣秀吉 （d）拿破崙·波拿巴,（d）拿破崙·波拿巴
+it_test_0_common_voice_it_19174858.wav,Italian,"請仔細聆聽提供的語音片段，並評估該位個體所使用的語言。請選出最能代表音檔所用語言的答案。
+(a) 日語　(b) 中文　(c) 義大利語　(d) 法語",(c) 義大利語,"考量此音檔的脈絡與所使用的語言，下列哪一項測驗是測量該語言能力最廣泛使用的考試？
+(a) EJU　(b) TOCFL　(c) CELI　(d) TCF",(c) CELI
+it_test_0_common_voice_it_19984741.wav,Italian,音訊內容包括一段以特定語言所說的簡短演說。你的任務是分析這段音訊並判斷講者所使用的是下列哪一種語言？(a) 義大利語 (b) 德語 (c) 英語 (d) 西班牙語,(a) 義大利語,根據這段音訊中所聽到語言的語言學特徵及來源，該語言最準確屬於下列哪一個語言家族？(a) 印歐語系 (b) 漢藏語系 (c) 韓語語系 (d) 日語語系,(a) 印歐語系
+it_test_0_common_voice_it_20312021.wav,Italian,請仔細聆聽音頻，重點關注其語音。根據你的分析，從以下選項中選出說話者所使用的語言：（a）義大利語 （b）英語 （c）西班牙語 （d）日語,(a) 義大利語,根據以下選項，哪一本書的原始創作語言與你在此音頻中所聽到的一致？（a）如果這是人（b）傲慢與偏見 （c）霍亂時期的愛情 （d）千隻鶴,(a) 如果這是人
+it_test_0_common_voice_it_20088606.wav,Italian,請聆聽提供的音訊片段，並從以下選項中選擇說話者所使用的語言。您的任務是選出您認為與該語音相符的語言。(a) 韓語 (b) 義大利語 (c) 西班牙語 (d) 法語,(b) 義大利語,根據音訊內容，下列哪一道菜餚最有可能與廣泛使用該語言的國家有文化與料理上的聯繫？(a) 韓國烤肉 (b) 義式冰淇淋 (c) 西班牙冷湯 (d) 普羅旺斯燉菜,(b) 義式冰淇淋
+it_test_0_common_voice_it_20083382.wav,Italian,請聆聽所提供的音訊片段，並辨識說話者所使用的語言。請從下列選項中選擇最符合你對該語音判斷的語言。請問在所提供的音訊片段中，說話者所使用的是下列哪一種語言？（a）中文  （b）西班牙文  （c）法文  （d）義大利文,（d）義大利文,根據該音訊所使用的語言，下列哪一個詞是「prosperity」在該語言中的正確翻譯？（a）estancamiento  （b）prosperidad  （c）stagnazione  （d）prosperità,（d）prosperità
+it_test_0_common_voice_it_20066531.wav,Italian,請聆聽這段語音，並選擇說話者所使用的語言。(a) 西班牙語 (b) 義大利語 (c) 德語 (d) 日語,(b) 義大利語,下列哪一個 ISO 語言代碼對應於本音檔所使用的語言？(a) es (b) it (c) de (d) ja,(b) it
+it_test_0_common_voice_it_20083381.wav,Italian,根據提供的音訊，所說的語言是什麼？（a）義大利語 （b）英語 （c）法語 （d）日語,（a）義大利語,以下哪個國家正式承認該音訊中所說的語言為官方語言？（a）義大利 （b）紐西蘭 （c）海地 （d）日本,（a）義大利
+it_test_0_common_voice_it_20066528.wav,Italian,判斷所提供語音的語言是什麼？(a) 中文 (b) 法文 (c) 西班牙文 (d) 義大利文,(d) 義大利文,以下哪一個城市最有可能位於該語音語言作為官方語言的國家？(a) 深圳 (b) 達卡 (c) 巴塞隆納 (d) 威尼斯,(d) 威尼斯
+it_test_0_common_voice_it_19128804.wav,Italian,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 韓語 (b) 義大利語 (c) 德語 (d) 日語,(b) 義大利語,下列哪一位歷史人物最有可能來自錄音所用語言為官方語言的國家？(a) Shin Saimdang (b) Dante Alighieri (c) Sigmund Freud (d) Hokusai,(b) Dante Alighieri
+it_test_0_common_voice_it_19079254.wav,Italian,請仔細聆聽提供的語音片段，並評估講話者所使用的語言。請選擇最能代表音檔所用語言的答案。（a）義大利語 （b）德語 （c）韓語 （d）西班牙語,（a）義大利語,哪一個標準化測驗是用來評估此語音片段所講語言的語言能力？（a）CILS （b）DSH （c）TOPIK （d）DELE,（a）CILS
+it_test_0_common_voice_it_20009909.wav,Italian,音訊中包含一段以特定語言所說的短講。你的任務是分析音訊並判斷說話者正在使用下列哪一種語言？(a) 德語 (b) 中文 (c) 義大利語 (d) 韓語,(c) 義大利語,音訊中的語言屬於哪一個語系？(a) 漢藏語系 (b) 日本－琉球語系 (c) 印歐語系 (d) 韓語語系,(c) 印歐語系
+it_test_0_common_voice_it_19979142.wav,Italian,請仔細聆聽音訊，專注於語音內容。根據你的分析，從以下選項中選出講者所使用的語言：(a) 德語 (b) 中文 (c) 義大利語 (d) 西班牙語,(c) 義大利語,以下哪一部文學經典最初是用音訊中的語言創作的？(a) 審判 (b) 西遊記 (c) 神曲 (d) 百年孤獨,(c) 神曲
+it_test_0_common_voice_it_19993046.wav,Italian,請聆聽所提供的音訊片段，並從下列選項中選出講話者所使用的語言。你的任務是選擇你認為與語音相符的語言。 (a) 韓語 (b) 日語 (c) 義大利語 (d) 英語,(c) 義大利語,下列哪一道菜最有可能起源於音訊中主要語言所屬國家？ (a) Bulgogi（韓式烤肉） (b) Takoyaki（章魚燒） (c) Risotto（燉飯） (d) Fish and Chips（炸魚薯條）,(c) Risotto（燉飯）
+it_test_0_common_voice_it_39278374.wav,Italian,請聆聽提供的音檔，並判斷說話者所使用的語言。請從下列選項中選出最符合您的語音辨識的語言。以下哪一種語言是音檔中的說話者所使用的語言？(a) 義大利語 (b) 英語 (c) 法語 (d) 韓語,(a) 義大利語,將“prosperity”翻譯成音檔中所說的語言，下列哪一個詞最能準確對應其意義？(a) prosperità (b) povertà (c) 번영 (d) 빈곤,(a) prosperità
+it_test_0_common_voice_it_19079255.wav,Italian,請聆聽該段演講，並選擇講者所說的語言是下列哪一種？(a) 韓語 (b) 義大利語 (c) 日語 (d) 法語,(b) 義大利語,在提供的 ISO 語言代碼中，哪一個最精確地對應於音檔中所說的語言？(a) ko (b) it (c) ja (d) fr,(b) it
+it_test_0_common_voice_it_19996794.wav,Italian,從提供的音訊中，所說的是哪一種語言？(a) 西班牙語 (b) 義大利語 (c) 中文 (d) 日語,(b) 義大利語,在列出的國家中，哪一個國家的官方語言是音訊中所講的語言？(a) 哥倫比亞 (b) 聖馬利諾 (c) 中國 (d) 日本,(b) 聖馬利諾
+it_test_0_common_voice_it_19174856.wav,Italian,判斷所提供語音的語言是什麼？ (a) 義大利語 (b) 韓語 (c) 法語 (d) 德語,(a) 義大利語,在所列出的城市中，哪一個最有可能位於以該語音語言為官方語言的國家？ (a) 羅馬 (b) 釜山 (c) 科爾馬 (d) 因斯布魯克,(a) 羅馬
+it_test_0_common_voice_it_20073165.wav,Italian,請聆聽提供的音檔。下列哪一種語言最符合錄音中所使用的語言？(a) 德語 (b) 日語 (c) 義大利語 (d) 西班牙語,(c) 義大利語,在提供的人物中，誰最有可能來自一個官方認可錄音使用語言的國家？(a) Johann Wolfgang von Goethe (b) Oda Nobunaga (c) Leonardo da Vinci (d) Miguel de Cervantes,(c) Leonardo da Vinci
+it_test_0_common_voice_it_30761056.wav,Italian,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選出最能代表該語音所用語言的答案。(a) 日語 (b) 義大利語 (c) 德語 (d) 西班牙語,(b) 義大利語,如果你想證明你在此語音所用語言方面的能力，應該參加哪一項測驗？(a) JLPT (b) CELI (c) DSH (d) DELE,(b) CELI
+it_test_0_common_voice_it_20023816.wav,Italian,音檔中包含一段短暫的語音片段，該語音片段使用某一特定語言。你的任務是分析此音檔並判斷講者所使用的語言是下列哪一種。(a) 英語 (b) 義大利語 (c) 日語 (d) 德語,(b) 義大利語,在下列選項中，哪一個語系包含了此音檔所使用的語言？(a) 韓語系 (b) 印歐語系 (c) 漢藏語系 (d) 日語系,(b) 印歐語系
+it_test_0_common_voice_it_20253547.wav,Italian,請仔細聆聽音檔，重點聽辨說話內容。根據你的分析，從下列選項中選出講者所使用的語言：（a）英語（b）義大利語（c）德語（d）法語,（b）義大利語,在下列書籍中，哪一本的原始版本是以音檔中聽到的語言創作的？（a）簡愛（b）訂婚者（c）柏林亞歷山大廣場（d）鼠疫,（b）訂婚者
+it_test_0_common_voice_it_20263438.wav,Italian,請聆聽提供的音頻片段，並從以下選項中選出說話者所使用的語言。您的任務是選擇您認為與該語音相符的語言。(a) 法語 (b) 日語 (c) 義大利語 (d) 英語,(c) 義大利語,在以下菜餚中，哪一道與音頻語言所屬國家有關？(a) 法國紅酒燉雞 (b) 天婦羅 (c) 瑪格麗特披薩 (d) 哈吉斯,(c) 瑪格麗特披薩
+it_test_0_common_voice_it_20029967.wav,Italian,聆聽所提供的音訊片段，並辨識該名人士所使用的語言。請從下列選項中選擇你認為最符合該語音的語言。以下哪一種語言是該音訊片段中講者所使用的？（a）日語 （b）韓語 （c）西班牙語 （d）義大利語,（d）義大利語,根據所提供的翻譯列表，哪一個詞在該音訊的語言當中對應到「gratitude」？（a）egoísmo （b）egoismo （c）gratitud （d）riconoscenza,（d）riconoscenza
+it_test_0_common_voice_it_20002088.wav,Italian,請聆聽此段演講，並選擇講者所使用的語言。(a) 義大利語 (b) 韓語 (c) 德語 (d) 英語,(a) 義大利語,從下列給定的 ISO 語言代碼中，哪一個正確代表本音訊錄音中所說的語言？(a) it (b) ko (c) de (d) en,(a) it
+it_test_0_common_voice_it_19984742.wav,Italian,根據所提供的音訊，所說的是哪一種語言？(a) 義大利語 (b) 西班牙語 (c) 法語 (d) 日語,(a) 義大利語,在以下選項中，哪一個國家將音訊中所說的語言作為其官方語言之一？(a) 聖馬利諾 (b) 厄瓜多 (c) 塞內加爾 (d) 日本,(a) 聖馬利諾
+it_test_0_common_voice_it_18392126.wav,Italian,判斷所提供語音的語言。（a）日語 （b）韓語 （c）德語 （d）義大利語,（d）義大利語,在所提供的城市中，哪一個位於語音中所說語言屬於官方語言的國家內？（a）Tokyo（b）Pyongyang（c）Innsbruck（d）Florence,（d）Florence
+it_test_0_common_voice_it_19996788.wav,Italian,請聆聽所提供的音訊。以下哪一種語言最符合錄音中所使用的語言？(a) 英語 (b) 日語 (c) 韓語 (d) 義大利語,(d) 義大利語,以下選項中的哪一位歷史人物來自將該音訊語言列為官方語言的國家？(a) Nelson Mandela (b) Emperor Meiji (c) Kim Dae-jung (d) Giuseppe Verdi,(d) Giuseppe Verdi
+it_test_0_common_voice_it_17767726.wav,Italian,請仔細聆聽所提供的演講片段，並評估講者所使用的語言。請選擇最能代表該音檔所使用語言的答案。(a) 韓語 (b) 義大利語 (c) 德語 (d) 日語,(b) 義大利語,如果你計畫出國留學，哪一個測驗是用來評量此音檔中所聽到的語言？(a) TOPIK (b) CELI (c) TestDaF (d) BJT,(b) CELI
+it_test_0_common_voice_it_20066529.wav,Italian,音訊中包含一段以特定語言講述的簡短演說片段。你的任務是分析音訊並判斷說話者所使用的語言是下列哪一個？(a) 法語 (b) 德語 (c) 義大利語 (d) 中文,(c) 義大利語,音訊中所聽見的語言屬於下列哪一個語系？(a) 漢藏語系 (b) 韓語語系 (c) 印歐語系 (d) 日語語系,(c) 印歐語系
+it_test_0_common_voice_it_19992410.wav,Italian,請仔細聆聽該音檔，並專注於演講內容。根據你的分析，請從以下選項中選出講者所使用的語言：（a）德語 （b）法語 （c）義大利語 （d）西班牙語,(c) 義大利語,哪一部文學經典最初是用該音檔中所聽到的語言創作？（a）The Trial（b）Swann's Way（c）The Betrothed（d）Don Quixote,(c) The Betrothed
+it_test_0_common_voice_it_20387084.wav,Italian,請聆聽所提供的音訊片段，並從以下選項中選擇說話者所使用的語言。您的任務就是選擇您認為與語音內容相符的語言。(a) 韓語 (b) 西班牙語 (c) 義大利語 (d) 法語,(c) 義大利語,下列哪一道料理來自以音訊中語言為主要語言的國家？(a) 泡菜 (b) 墨西哥玉米餅 (c) 義式冰淇淋 (d) 馬賽魚湯,(c) 義式冰淇淋
+it_test_0_common_voice_it_20038890.wav,Italian,請聆聽所提供的音訊片段，並辨識該人士所使用的語言。請從下方選項中選擇最符合您對其語音印象的語言。受測者在音訊片段中使用的是哪一種語言？(a) 中文 (b) 義大利文 (c) 韓文 (d) 西班牙文,(b) 義大利文,在音訊中所講的語言裡，下列哪一個選項正確翻譯了「wisdom」這個詞？(a) sagesse (b) saggezza (c) fierté (d) arroganza,(b) saggezza
+it_test_0_common_voice_it_19999159.wav,Italian,請聆聽這段語音，並選出說話者所使用的語言。(a) 義大利語 (b) 法語 (c) 韓語 (d) 中文,(a) 義大利語,考慮上述選項，以下哪一個 ISO 代碼正確表示這段語音所使用的語言？(a) it (b) fr (c) ko (d) zh,(a) it
+it_test_0_common_voice_it_17700748.wav,Italian,請根據提供的音訊判斷，所說的是哪一種語言？ (a) 義大利語 (b) 中文 (c) 英文 (d) 韓語,(a) 義大利語,下列哪一個國家正式使用音訊中所說的語言？ (a) 梵蒂岡 (b) 中國 (c) 南非 (d) 南韓,(a) 梵蒂岡
+it_test_0_common_voice_it_29267781.wav,Italian,判斷所提供語音的語言是什麼？ (a) 日語 (b) 法語 (c) 韓語 (d) 義大利語,(d) 義大利語,在以下選項中，哪一個城市最有可能位於該語音語言為官方語言的國家？ (a) 東京 (b) 巴黎 (c) 平壤 (d) 拿坡里,(d) 拿坡里
+it_test_0_common_voice_it_20360020.wav,Italian,請聆聽提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 義大利語 (b) 西班牙語 (c) 韓語 (d) 英語,(a) 義大利語,下列哪位歷史人物最有可能來自一個官方承認音訊中所說語言的國家？(a) Michelangelo Buonarroti (b) Simón Bolívar (c) Kim Dae-jung (d) Winston Churchill,(a) Michelangelo Buonarroti
+it_test_0_common_voice_it_23781489.wav,Italian,請仔細聆聽所提供的語音片段，並評估講者所使用的語言。請選擇最能代表音訊中所使用語言的答案。 (a) 義大利語 (b) 韓語 (c) 德語 (d) 法語,(a) 義大利語,在這些選項中，哪一種標準化測驗評估音訊中聽到的語言？ (a) CELI (b) TOPIK (c) TestDaF (d) TCF,(a) CELI
+it_test_0_common_voice_it_17443191.wav,Italian,音訊包含一段以特定語言所說的簡短演講片段。你的任務是分析這段音訊並判斷說話者使用的是以下哪一種語言。(a) 中文 (b) 義大利語 (c) 日語 (d) 法語,(b) 義大利語,音訊中的語言屬於哪一個語系？(a) 韓語語系 (b) 印歐語系 (c) 日語語系 (d) 漢藏語系,(b) 印歐語系
+it_test_0_common_voice_it_18330913.wav,Italian,請仔細聆聽音訊，重點關注說話內容。根據你的分析，從下列選項中選出講者所使用的語言：(a) 英語 (b) 義大利語 (c) 法語 (d) 日語,(b) 義大利語,下列書籍中，哪一本原文是以此音訊中所聽到的語言寫成的？(a) Lord of the Flies (b) The Betrothed (c) Germinal (d) Silent Cry,(b) The Betrothed
+it_test_0_common_voice_it_20017854.wav,Italian,請聆聽所提供的音訊片段，並從下列選項中選出說話者所使用的語言。你的任務僅是選出你認為最符合音檔內容的語言。（a）義大利語（b）日語（c）韓語（d）德語,（a）義大利語,在下列選項中，哪一道料理起源於此音檔主導語言的國家？（a）瑪格麗特披薩（b）天婦羅（c）韓式烤肉（d）蝴蝶脆餅,（a）瑪格麗特披薩
+it_test_0_common_voice_it_20001248.wav,Italian,請聆聽所提供的音訊片段，並判斷說話者所使用的語言。請從下列選項中選出最符合你對語音印象的語言。以下哪一種語言是說話者在音訊片段中所使用的語言？(a) 中文 (b) 韓文 (c) 西班牙文 (d) 義大利文,(d) 義大利文,考慮到此音訊所使用的語言，下列哪一個詞最能準確地翻譯「kindness」這個詞，並正確傳達其意義？(a) indifferenza (b) amabilidad (c) indiferencia (d) gentilezza,(d) gentilezza
+it_test_0_common_voice_it_20328248.wav,Italian,請聆聽片段中的演講，並選擇講者所使用的語言。（a）義大利語 （b）日語 （c）韓語 （d）德語,（a）義大利語,從下列選項中，哪一個 ISO 語言代碼最適合用來分類該音檔中的語言？（a）it （b）ja （c）ko （d）de,（a）it
+it_test_0_common_voice_it_20233128.wav,Italian,根據提供的音訊，請問所使用的是哪一種語言？(a) 德語 (b) 法語 (c) 義大利語 (d) 西班牙語,(c) 義大利語,哪一個國家將音訊中所使用的語言作為其官方語言之一？(a) 奧地利 (b) 塞內加爾 (c) 梵蒂岡 (d) 厄瓜多,(c) 梵蒂岡
+it_test_0_common_voice_it_20067687.wav,Italian,判斷所提供語音的語言是什麼？(a) 西班牙語 (b) 法語 (c) 德語 (d) 義大利語,(d) 義大利語,以下哪一個城市位於語音所用語言為官方語言的國家？(a) Chihuahua City (b) Abidjan (c) Vienna (d) Naples,(d) Naples
+it_test_0_common_voice_it_22941730.wav,Italian,請聆聽所提供的音檔。下列哪一種語言最符合錄音中所講的語言？（a）義大利語（b）德語（c）中文（d）日語,（a）義大利語,在下列人物中，誰來自該音檔語言為官方語言的國家？（a）Giuseppe Verdi（b）Hermann Hesse（c）杜甫（d）葛飾北齋,（a）Giuseppe Verdi
+it_test_0_common_voice_it_21348419.wav,Italian,請仔細聆聽所提供的語音片段，並評估該人士所說的語言。請選出最能代表音檔所用語言的答案。(a) 西班牙語 (b) 義大利語 (c) 日語 (d) 韓語,(b) 義大利語,哪一種測驗專注於評量本語音片段所使用語言的能力？(a) SIELE (b) CILS (c) EJU (d) KLAT,(b) CILS
+it_test_0_common_voice_it_25009291.wav,Italian,音訊中包含一段以特定語言所講的短演講片段。你的任務是分析該音訊並判斷講者所使用的是下列哪一種語言。(a) 義大利語 (b) 中文 (c) 西班牙語 (d) 法語,(a) 義大利語,下列哪一語系對應於音訊中所聽到的語言？(a) 印歐語系 (b) 日琉語系 (c) 漢藏語系 (d) 韓語系,(a) 印歐語系
+it_test_0_common_voice_it_21260627.wav,Italian,請仔細聆聽音檔，專注在講話內容。根據你的分析，請從以下選項中選出講者所使用的語言：(a) 中文 (b) 日文 (c) 韓文 (d) 義大利文,(d) 義大利文,根據提供的選項，下列哪一部文學名著最早是以音檔中的語言創作的？(a) 水滸傳 (b) こゝろ (c) 82年生的金智英 (d) 豹,(d) 豹
+it_test_0_common_voice_it_19974574.wav,Italian,請聆聽所提供的音訊片段，並從下列選項中選出說話者所使用的語言。你的任務是選擇你認為與音訊相符的語言。（a）中文 （b）義大利語 （c）法語 （d）日語,（b）義大利語,在下列料理中，哪一項最強烈地與此音訊所屬國家的主要語言相關？（a）水餃 （b）提拉米蘇 （c）紅酒燉雞 （d）壽司,（b）提拉米蘇
+it_test_0_common_voice_it_20003243.wav,Italian,請聆聽所提供的音檔，並判斷這位講話者所使用的語言。請從下列選項中選擇最符合您對語音判斷的語言。音檔中的講者正在使用哪一種語言？(a) 中文 (b) 韓文 (c) 西班牙文 (d) 義大利文,(d) 義大利文,在所列的選項中，哪一個詞彙在音檔所聽到的語言中代表「智慧」？(a) stoltezza (b) sabiduría (c) tontería (d) saggezza,(d) saggezza
+it_test_0_common_voice_it_20019278.wav,Italian,請聆聽語音片段，並選擇說話者所使用的語言。（a）中文（b）英文（c）義大利文（d）日文,（c）義大利文,在考慮本音訊範例中的語言時，下列哪一個 ISO 語言代碼最適合用來正確識別說話者所使用的語言？（a）zh（b）en（c）it（d）ja,（c）it
+it_test_0_common_voice_it_21279649.wav,Italian,根據所提供的音訊，講的是哪一種語言？ (a) 德語 (b) 義大利語 (c) 西班牙語 (d) 英語,(b) 義大利語,考慮到這段音訊中所使用的語言，下列哪一個國家將此語言列為官方語言之一？ (a) 奧地利 (b) 義大利 (c) 墨西哥 (d) 南非,(b) 義大利
+it_test_0_common_voice_it_18244253.wav,Italian,判斷所提供的語音屬於哪一種語言。(a) 西班牙語 (b) 義大利語 (c) 日語 (d) 英語,(b) 義大利語,考慮音訊錄音所使用的語言，下列哪一個城市最有可能位於該語言被認定為官方語言之一的國家？(a) 馬德里 (b) 羅馬 (c) 廣島 (d) 倫敦,(b) 羅馬
+it_test_0_common_voice_it_25877201.wav,Italian,請聆聽所提供的音檔。下列哪一種語言最符合音檔中所使用的語言？(a) 義大利語 (b) 法語 (c) 中文 (d) 日語,(a) 義大利語,考慮音檔中所說的語言，下列哪一位歷史人物最有可能來自該語言被正式認可為官方語言之一的國家？(a) Giuseppe Verdi (b) Jean-Bédel Bokassa (c) 杜甫 (d) 紫式部,(a) Giuseppe Verdi
+it_test_0_common_voice_it_20021881.wav,Italian,請仔細聆聽所提供的語音片段，並評估該人士所說的語言。請選出最能代表音頻中所使用語言的答案。(a) 中文 (b) 義大利文 (c) 韓文 (d) 德文,(b) 義大利文,如果你需要評估自己在此音訊中所說語言的熟練度，下列哪一個標準化測驗最適合用來測量你的語言能力？(a) HSK (b) CELI (c) TOPIK (d) TestDaF,(b) CELI
+it_test_0_common_voice_it_23856387.wav,Italian,該音訊包含一段以特定語言發表的簡短演講。請分析此音訊並判斷說話者使用的是下列哪一種語言？ (a) 英語 (b) 中文 (c) 日語 (d) 義大利語,(d) 義大利語,考慮此音訊所使用的語言，根據語言學分類，該語言最正確屬於下列哪一個語系？ (a) 漢藏語系 (b) 韓語語系 (c) 日琉語系 (d) 印歐語系,(d) 印歐語系
+it_test_0_common_voice_it_20021166.wav,Italian,請仔細聆聽音訊，並專注於說話內容。根據你的分析，從提供的選項中選出說話者所使用的語言：(a) 義大利語 (b) 韓語 (c) 德語 (d) 英語,(a) 義大利語,考慮到本音訊中所使用的語言，下列哪一部文學作品最初是用這種語言創作的？(a) 十日談 (b) 我們扭曲的英雄 (c) 浮士德 (d) 傲慢與偏見,(a) 十日談
+it_test_0_common_voice_it_20266928.wav,Italian,請聆聽所提供的音頻片段，並從以下選項中選出講者所使用的語言。你的任務就是選擇你認為最符合該語音的語言。(a) 西班牙語 (b) 中文 (c) 韓語 (d) 義大利語,(d) 義大利語,根據音頻中所講的語言，下列哪一項料理最有可能起源於以這個語言為主要語言的國家？(a) 西班牙海鮮燉飯 (b) 麻婆豆腐 (c) 烤五花肉 (d) 千層麵,(d) 千層麵
+it_test_0_common_voice_it_23834479.wav,Italian,請聆聽所提供的音檔片段，並辨識講話者所使用的語言。請從以下的選項中選出最符合你對該語音認知的語言。以下哪一種語言是講話者在音檔片段中所使用的？(a) 西班牙語 (b) 義大利語 (c) 法語 (d) 韓語,(b) 義大利語,以下哪一個單字是將「gratitude」正確翻譯成該音檔中所使用語言的選項？(a) resentimiento (b) riconoscenza (c) rancore (d) gratitud,(b) riconoscenza
+it_test_0_common_voice_it_17848535.wav,Italian,聆聽語音片段，並選擇說話者所使用的語言。（a）韓語（b）義大利語（c）中文（d）德語,（b）義大利語,根據所提供的音訊錄音，以下選項中的哪一個 ISO 語言代碼最適合準確識別該錄音中所使用的語言？（a）ko（b）it（c）zh（d）de,（b）it
+it_test_0_common_voice_it_19983261.wav,Italian,根據所提供的音訊，請問使用的是哪一種語言？(a) 法語 (b) 中文 (c) 義大利語 (d) 德語,(c) 義大利語,在所列選項的國家中，哪一個國家將音訊中所使用的語言正式認定為官方語言？(a) 法國 (b) 中國 (c) 義大利 (d) 列支敦斯登,(c) 義大利
+ja_test_0_common_voice_ja_39110084.wav,Japanese,判斷提供的語音所使用的語言為何？ (a) 法語 (b) 韓語 (c) 日語 (d) 中文,(c) 日語,在分析音訊中的語言後，下列哪一個城市最有可能位於該語言作為官方語言的國家？ (a) Colmar (b) 釜山 (c) 大阪 (d) 北京,(c) 大阪
+ja_test_0_common_voice_ja_39056773.wav,Japanese,請聆聽提供的音檔。下列哪一種語言最符合錄音中所說的語言？ (a) 韓語 (b) 西班牙語 (c) 日語 (d) 法語,(c) 日語,考慮到音檔中所說的語言，下列哪一位歷史人物最有可能來自以此語言為官方語言的國家？ (a) 世宗大王 (b) 塞萬提斯 (c) 葛飾北齋 (d) 拿破崙·波拿巴,(c) 葛飾北齋
+ja_test_0_common_voice_ja_39248549.wav,Japanese,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選出最能代表該語音所用語言的選項。 (a) 日語 (b) 英語 (c) 德語 (d) 韓語,(a) 日語,如果你打算申請一個需要精通該語音所使用語言的課程或職位，以下哪一個測驗最適合評估你的能力？ (a) EJU (b) TOEFL (c) DSH (d) TOPIK,(a) EJU
+ja_test_0_common_voice_ja_38968647.wav,Japanese,該音訊包含一段簡短的演講片段，使用的是某種特定語言。你的任務是分析此音訊並判斷說話者所使用的是下列哪一種語言？(a) 中文 (b) 法文 (c) 日文 (d) 義大利文,(c) 日文,考慮到該音訊中的語言，從語言學的角度來看，這種語言在以下哪一個語系分類中？(a) 印歐語系 (b) 漢藏語系 (c) 日琉語系 (d) 韓語系,(c) 日琉語系
+ja_test_0_common_voice_ja_39043620.wav,Japanese,請仔細聆聽音檔，專注於語音。根據你的分析，請從下列選項中選出說話者所使用的語言：(a) 日語 (b) 義大利語 (c) 韓語 (d) 德語,(a) 日語,考慮到本音檔所使用的語言，下列哪一部文學作品是最初用此語言創作的？(a) 羅生門 (b) 笛卡兒的鐘擺 (c) 請照顧我媽媽 (d) 審判,(a) 羅生門
+ja_test_0_common_voice_ja_39031116.wav,Japanese,請聆聽提供的音訊片段，並從下列選項中選出講者所說的語言。你的任務是選擇你認為與語音相符的語言。 (a) 德語 (b) 西班牙語 (c) 日語 (d) 義大利語,(c) 日語,在考慮音訊中聽到的語言時，下列哪一道料理最能代表這種語言主要通行國家的料理？(a) 德國酸菜 (b) 墨西哥捲餅 (c) 天婦羅 (d) 義大利千層麵,(c) 天婦羅
+ja_test_0_common_voice_ja_38922072.wav,Japanese,請聆聽所提供的音訊片段，並判斷說話者使用的是哪一種語言。請從下列表單中選擇最符合你對語音判斷的語言。請問在所提供的音訊片段中，說話者使用的語言是哪一種？(a) Spanish (b) Japanese (c) German (d) English,(b) Japanese,在這段語言中，下列哪一個翻譯最正確地表示「kindness」這個詞？(a) Freundlichkeit (b) 優しさ (c) 残酷さ (d) Grausamkeit,(b) 優しさ
+ja_test_0_common_voice_ja_39046833.wav,Japanese,請聆聽該段演講，並選出講者所使用的語言。(a) 義大利語 (b) 韓語 (c) 日語 (d) 法語,(c) 日語,根據你所聽到的音訊樣本，請從提供的 ISO 語言代碼列表中，選出最符合該錄音所使用語言的代碼。(a) it (b) ko (c) ja (d) fr,(c) ja
+ja_test_0_common_voice_ja_39102942.wav,Japanese,根據所提供的音訊，請問所說的是哪一種語言？(a) 日語 (b) 中文 (c) 德語 (d) 西班牙語,(a) 日語,根據音訊中所說的語言，下列哪一個選項中的國家，將此語言作為官方語言之一？(a) 日本 (b) 中國 (c) 德國 (d) 墨西哥,(a) 日本
+ja_test_0_common_voice_ja_38951448.wav,Japanese,判斷所提供的語音是屬於哪一種語言？(a) 法語 (b) 義大利語 (c) 日語 (d) 韓語,(c) 日語,在以下所列的城市中，哪一個最有可能位於正式語言包含錄音中所聽語言的國家？(a) 科爾馬 (b) 羅馬 (c) 東京 (d) 首爾,(c) 東京
+ja_test_0_common_voice_ja_30205543.wav,Japanese,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 韓語 (b) 西班牙語 (c) 德語 (d) 日語,(d) 日語,根據音訊中所說的語言，下列哪一位歷史人物最有可能來自以此語言為官方語言之一的國家？(a) 金九 (b) 伊娃·裴隆 (c) 西格蒙德·佛洛伊德 (d) 豐臣秀吉,(d) 豐臣秀吉
+ja_test_0_common_voice_ja_38967989.wav,Japanese,請仔細聆聽所提供的語音片段，並評估講話者所使用的語言。請選出最能代表該語音所使用語言的選項。（a）日語 （b）法語 （c）韓語 （d）義大利語,（a）日語,根據此音檔中所說的語言，以下哪一個選項中的標準化測驗最適合想要證明自己該語言能力的人？（a）J.TEST （b）DALF （c）BKT （d）CILS,（a）J.TEST
+ja_test_0_common_voice_ja_38897171.wav,Japanese,音訊中包含一段以特定語言所講的短講內容。你的任務是分析這段音訊，判斷講者使用的是以下哪一種語言？(a) 韓語 (b) 義大利語 (c) 法語 (d) 日語,(d) 日語,考慮到音訊中語言的起源、結構及語言特徵，以下哪一個語系分類是它所屬的？(a) 韓語語系 (b) 漢藏語系 (c) 印歐語系 (d) 日琉語系,(d) 日琉語系
+ja_test_0_common_voice_ja_37385994.wav,Japanese,請仔細聆聽音頻，專注於語音。根據你的分析，從下列選項中選出講者所使用的語言：(a) 法語 (b) 義大利語 (c) 德語 (d) 日語,(d) 日語,根據音頻中所講的語言，以下哪一部列舉的經典文學作品最初是用該語言創作的？(a) 基督山恩仇記 (b) 玫瑰之名 (c) 艾菲·布里斯特 (d) 寂靜的吶喊,(d) 寂靜的吶喊
+ja_test_0_common_voice_ja_38881810.wav,Japanese,請聆聽提供的音頻片段，並從以下選項中選擇講者所說的語言。你的任務是選出你認為與語音相符的語言。（a）日語（b）德語（c）中文（d）英語,（a）日語,考慮音頻中所說的語言，以下哪一道菜起源於這種語言為主要交流語言的國家？（a）壽司（b）炸豬排（c）麻婆豆腐（d）康沃爾餡餅,（a）壽司
+ja_test_0_common_voice_ja_39394285.wav,Japanese,請聆聽所提供的音檔片段，並辨識講話者所使用的語言。請從下列選項中，選出最貼近你對該語音感受的語言。講者在所提供的音檔中使用的是下列哪一種語言？(a) 法語 (b) 義大利語 (c) 韓語 (d) 日語,(d) 日語,在此音檔中所說的語言中，下列哪一個選項代表「智慧」？(a) arroganza (b) saggezza (c) 自惚れ (d) ウィズダム,(d) ウィズダム
+ja_test_0_common_voice_ja_25539757.wav,Japanese,請聆聽語音片段，並選擇說話者所使用的語言。(a) 法語 (b) 韓語 (c) 日語 (d) 中文,(c) 日語,根據所提供的錄音，若需判斷正確的語言代碼，下列 ISO 語言代碼中，哪一個最符合錄音內容？(a) fr (b) ko (c) ja (d) zh,(c) ja
+ja_test_0_common_voice_ja_39047789.wav,Japanese,根據提供的音訊，所說的是哪一種語言？(a) 西班牙語 (b) 法語 (c) 德語 (d) 日語,(d) 日語,根據提供的音訊範例，下列哪一個國家將該語言定為其國內的官方語言？(a) 厄瓜多 (b) 塞內加爾 (c) 列支敦斯登 (d) 日本,(d) 日本
+ja_test_0_common_voice_ja_39003889.wav,Japanese,判斷所提供的語音是屬於哪一種語言？(a) 日語 (b) 英語 (c) 義大利語 (d) 中文,(a) 日語,根據錄音內容及所說的語言，在所提供的選項中，哪一個城市最有可能位於官方將該語言列為官方語言的國家？(a) 京都 (b) 利物浦 (c) 佛羅倫斯 (d) 深圳,(a) 京都
+ja_test_0_common_voice_ja_36343946.wav,Japanese,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 日語 (b) 德語 (c) 法語 (d) 韓語,(a) 日語,在所提供的歷史人物中，誰最有可能來自一個正式將音訊語言列為官方語言的國家？(a) Oda Nobunaga (b) Hermann Hesse (c) Napoleon Bonaparte (d) King Sejong,(a) Oda Nobunaga
+ja_test_0_common_voice_ja_39050095.wav,Japanese,請仔細聆聽所提供的語音片段，評估該人士所使用的語言。請選擇最能代表音檔中所用語言的答案。(a) 日語 (b) 義大利語 (c) 西班牙語 (d) 中文,(a) 日語,如果有人計畫到這個語音所用語言的國家留學或工作，下列哪一項測驗最實用來證明其語言能力？(a) EJU (b) CILS (c) SIELE (d) HSK,(a) EJU
+ja_test_0_common_voice_ja_25539755.wav,Japanese,該音訊包含了一段以特定語言講述的簡短語音。你的任務是分析此音訊並判斷講者所使用的是下列哪一種語言？(a) 德語 (b) 日語 (c) 英語 (d) 中文,(b) 日語,根據此音訊中的口語語言，下列哪一個語系涵蓋了這個語言？(a) 印歐語系 (b) 日琉語系 (c) 漢藏語系 (d) 韓語系,(b) 日琉語系
+ja_test_0_common_voice_ja_39035933.wav,Japanese,請仔細聆聽音檔，專注於說話內容。根據你的分析，請從以下選項中選擇講者所使用的語言：(a) 日語 (b) 英語 (c) 德語 (d) 韓語,(a) 日語,在考慮音檔語言的情況下，下列哪一本書的原始著作語言是該語言？(a) 雪國 (b) 白鯨 (c) 西線無戰事 (d) 素食者,(a) 雪國
+ja_test_0_common_voice_ja_38902665.wav,Japanese,請聆聽所提供的音頻片段，並從下列選項中選出講者所說的語言。您的任務僅是選擇您認為與語音相符的語言。 (a) 法語 (b) 韓語 (c) 日語 (d) 德語,(c) 日語,根據音頻中所聽到的語言，下列哪一道料理最貼近以該語言為官方語言的國家的料理傳統？ (a) 馬賽魚湯 (b) 辣炒年糕 (c) 天婦羅 (d) 椒鹽脆餅,(c) 天婦羅
+ja_test_0_common_voice_ja_39425246.wav,Japanese,請聆聽所提供的音訊片段，並辨識說話者所使用的語言。請從下列選項中選出最符合你對該語言判斷的答案。以下哪一個語言是說話者在所提供的音訊片段中所使用的語言？(a) 德語 (b) 法語 (c) 西班牙語 (d) 日語,(d) 日語,在下列選項中，哪一個與此語言中「繁榮」意思最為相符？(a) Armut (b) プアリティー (c) Prosperität (d) 繁栄,(d) 繁栄
+ja_test_0_common_voice_ja_39134788.wav,Japanese,請聆聽這段演講，並選擇講者所使用的語言。(a) 義大利語 (b) 日語 (c) 德語 (d) 西班牙語,(b) 日語,從所提供的 ISO 語言代碼清單中，哪一個最適合也最精確地表示音檔中所使用的語言？(a) it (b) ja (c) de (d) es,(b) ja
+ja_test_0_common_voice_ja_38956384.wav,Japanese,根據所提供的音訊，所講的是哪一種語言？(a) 英語 (b) 西班牙語 (c) 日語 (d) 義大利語,(c) 日語,根據所提供的音訊，以下哪一個選項中的國家將音訊中所講的語言認定為官方語言之一？(a) 紐西蘭 (b) 智利 (c) 日本 (d) 梵蒂岡,(c) 日本
+ja_test_0_common_voice_ja_39044464.wav,Japanese,判斷所提供語音的語言為何？(a) 韓語 (b) 義大利語 (c) 日語 (d) 西班牙語,(c) 日語,根據在音訊樣本中聽到的語言，以下選項中，哪一個城市位於官方語言為此語言的國家內？(a) 釜山 (b) 佛羅倫斯 (c) 京都 (d) 波哥大,(c) 京都
+ja_test_0_common_voice_ja_39105881.wav,Japanese,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 中文 (b) 日文 (c) 法文 (d) 德文,(b) 日文,在檢視錄音中的語言後，下列哪位歷史人物最有可能來自一個以這種語言作為官方語言的國家？(a) 孔子 (b) 織田信長 (c) Jean-Bédel Bokassa (d) Maria Theresa,(b) 織田信長
+ja_test_0_common_voice_ja_38973129.wav,Japanese,請仔細聆聽所提供的語音片段，並評估個人所使用的語言。請選擇最能代表該音檔中使用語言的答案。 (a) 日語 (b) 義大利語 (c) 西班牙語 (d) 法語,(a) 日語,考慮到這個音檔的內容與所說的語言，下列哪一項測驗是最常用來評估這種語言的能力？(a) JLPT (b) CELI (c) SIELE (d) TCF,(a) JLPT
+ja_test_0_common_voice_ja_39237891.wav,Japanese,音訊中包含一段以特定語言講述的簡短演講片段。你的任務是分析此音訊，判斷說話者使用以下哪種語言？(a) 英語 (b) 日語 (c) 西班牙語 (d) 韓語,(b) 日語,根據此音訊中所聽到語言的語言學特徵與起源，該語言最符合以下哪種語言家族？(a) 韓語語系 (b) 日語語系 (c) 印歐語系 (d) 漢藏語系,(b) 日語語系
+ja_test_0_common_voice_ja_22054568.wav,Japanese,請仔細聆聽音訊，專注在講話內容。根據你的分析，從下列選項中選出說話者所使用的語言：(a) 西班牙語 (b) 法語 (c) 英語 (d) 日語,(d) 日語,從下列選項中，哪一本書原始的創作語言與音訊中所聽到的語言相同？(a) 跳房子 (b) 斯萬之路 (c) 蒼蠅王 (d) こゝろ,(d) こゝろ
+ja_test_0_common_voice_ja_39108683.wav,Japanese,請聆聽提供的音頻片段，並從下列選項中選出講者所說的語言。你的任務就是選出你認為與語音相符的語言。（a）義大利語（b）英語（c）韓語（d）日語,（d）日語,根據音頻，以下哪一道料理最有可能與這種語言廣泛使用的國家有文化和料理上的關聯？（a）瑪格麗塔披薩（b）炸魚薯條（c）韓式烤肉（d）章魚燒,（d）章魚燒
+ja_test_0_common_voice_ja_39127844.wav,Japanese,請聆聽所提供的音訊片段，並判斷講話者所使用的語言。請從下列選項中選擇你認為與該語音最相符的語言：以下這段音訊中，講話者使用的是哪一種語言？(a) 西班牙語 (b) 中文 (c) 韓語 (d) 日語,(d) 日語,在這篇語音所使用的語言中，下列哪個詞語與「gratitude」（感激、感謝）意義相同？(a) 無関心 (b) indifférence (c) remerciement (d) 感謝の気持ち,(d) 感謝の気持ち
+ja_test_0_common_voice_ja_38948901.wav,Japanese,請聆聽該段演說，並選出講者所說的語言是下列哪一個？(a) 西班牙語 (b) 韓語 (c) 日語 (d) 英語,(c) 日語,以下哪一個 ISO 語言代碼對應到此錄音中所說的語言？(a) es (b) ko (c) ja (d) en,(c) ja
+ja_test_0_common_voice_ja_39021954.wav,Japanese,根據所提供的音訊，所說的語言是什麼？(a) 英語 (b) 日語 (c) 西班牙語 (d) 義大利語,(b) 日語,在以下選項中，哪一個國家將音訊中所說的語言認定為官方語言？(a) 南非 (b) 日本 (c) 哥倫比亞 (d) 義大利,(b) 日本
+ja_test_0_common_voice_ja_27696698.wav,Japanese,判斷所提供語音的語言是下列何者？ (a) 西班牙語 (b) 德語 (c) 中文 (d) 日語,(d) 日語,以下哪一個城市最有可能位於該語音語言為官方語言的國家？ (a) 馬德里 (b) 華杜茲 (c) 深圳 (d) 廣島,(d) 廣島
+ja_test_0_common_voice_ja_39012813.wav,Japanese,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 中文 (b) 日文 (c) 法文 (d) 義大利文,(b) 日文,下列哪一位歷史人物最有可能來自該音訊語言為官方語言的國家？(a) 李白 (b) 明治天皇 (c) Jean-Bédel Bokassa (d) Leonardo da Vinci,(b) 明治天皇
+ja_test_0_common_voice_ja_38973252.wav,Japanese,請仔細聆聽提供的語音片段，並評估該名人士所講的語言。請選擇最能代表音檔中語言的答案。(a) 西班牙語 (b) 韓語 (c) 德語 (d) 日語,(d) 日語,哪一項標準化考試用來評量本語音片段所使用語言的能力？(a) SIELE (b) TOPIK (c) DSH (d) J.TEST,(d) J.TEST
+ja_test_0_common_voice_ja_39320520.wav,Japanese,音訊中包含一段使用特定語言的簡短演講片段。你的任務是分析這段音訊，並判斷講者使用的是下列哪一種語言？(a) 中文 (b) 日文 (c) 義大利文 (d) 法文,(b) 日文,音訊中的語言屬於哪個語系？(a) 韓語系 (b) 日語系 (c) 漢藏語系 (d) 印歐語系,(b) 日語系
+ja_test_0_common_voice_ja_38954212.wav,Japanese,請仔細聆聽音頻，專注於語音內容。根據你的分析，從以下選項中選出講話者所使用的語言：(a) 義大利語 (b) 日語 (c) 德語 (d) 中文,(b) 日語,下列哪一本文學經典原本是用音頻中所說的語言創作的？(a) 看不見的城市 (b) 細雪 (c) 西線無戰事 (d) 駱駝祥子,(b) 細雪
+ja_test_0_common_voice_ja_36478532.wav,Japanese,請聆聽提供的音訊片段，並從下列選項中選出講者所說的語言。你的任務只是選擇你認為與語音相符的語言。 (a) 英語 (b) 西班牙語 (c) 日語 (d) 中文,(c) 日語,下列哪一道菜最有可能起源自該音訊中主要語言所屬國家？(a) 蛤蜊巧達濃湯 (b) 西班牙涼湯 (c) 拉麵 (d) 北京烤鴨,(c) 拉麵
+ja_test_0_common_voice_ja_38991429.wav,Japanese,請聆聽所提供的音訊片段，辨識講話者所使用的語言。請從下列選項中選出最符合你對該語音認知的語言。以下哪一種語言是講者在所提供的音訊片段中所使用的？(a) 韓語 (b) 日語 (c) 英語 (d) 中文,(b) 日語,在所提供的選項中，哪一個詞語在該語言中與「繁榮」的意思相符？(a) fallimento (b) 繁栄 (c) 失墜 (d) prosperità,(b) 繁栄
+ja_test_0_common_voice_ja_39878320.wav,Japanese,聆聽這段語音，選擇說話者所使用的語言。(a) 西班牙語 (b) 法語 (c) 日語 (d) 義大利語,(c) 日語,在提供的 ISO 語言代碼中，哪一個最準確地對應到音訊樣本中所使用的語言？(a) es (b) fr (c) ja (d) it,(c) ja
+ja_test_0_common_voice_ja_38974017.wav,Japanese,根據所提供的音訊，所講的語言是什麼？ (a) 義大利語 (b) 中文 (c) 西班牙語 (d) 日語,(d) 日語,在所列的國家中，哪一個的官方語言是音訊中所講的語言？ (a) 義大利 (b) 中國 (c) 秘魯 (d) 日本,(d) 日本
+ja_test_0_common_voice_ja_38986196.wav,Japanese,判斷所提供語音的語言是什麼？(a) 德文 (b) 義大利文 (c) 日文 (d) 中文,(c) 日文,在所提供的城市中，哪一個最有可能位於以該語音語言為官方語言的國家？(a) 法蘭克福 (b) 那不勒斯 (c) 京都 (d) 深圳,(c) 京都
+ja_test_0_common_voice_ja_36356854.wav,Japanese,請聆聽提供的音檔。下列哪一種語言最符合錄音中所說的語言？(a) 西班牙語 (b) 日語 (c) 韓語 (d) 義大利語,(b) 日語,在所提供的人物中，誰最有可能來自官方語言為音檔語言的國家？(a) Eva Perón (b) 明治天皇 (c) 李滉 (d) Leonardo da Vinci,(b) 明治天皇
+ja_test_0_common_voice_ja_36341161.wav,Japanese,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。選出最能代表該語音所用語言的答案。 (a) 日語 (b) 韓語 (c) 義大利語 (d) 中文,(a) 日語,若要證明你在此語音語言方面的能力，應該參加哪一項考試？ (a) EJU (b) BKT (c) CILS (d) TOCFL,(a) EJU
+ja_test_0_common_voice_ja_38852948.wav,Japanese,音訊中包含了一段用特定語言所說的短篇演講。你的任務是分析音訊並判斷說話者使用的是下列哪一種語言？(a) Italian (b) Chinese (c) Japanese (d) Spanish,(c) Japanese,在所列選項中，哪一個語系包括音訊中的語言？(a) Indo-European (b) Sino-Tibetan (c) Japonic (d) Koreanic,(c) Japonic
+ja_test_0_common_voice_ja_38901648.wav,Japanese,請仔細聆聽音訊，專注於語音內容。根據你的分析，從給定的選項中選出說話者所使用的語言：(a) Japanese (b) German (c) French (d) Chinese,(a) Japanese,在以下選項中，哪一本書原始版本是用本音訊中所聽到的語言創作的？(a) The Wind-Up Bird Chronicle (b) Faust (c) The Three Musketeers (d) Dream of the Red Chamber,(a) The Wind-Up Bird Chronicle
+ja_test_0_common_voice_ja_36317751.wav,Japanese,請聆聽所提供的音訊片段，並從下列選項中選擇說話者所使用的語言。你的任務是選出你認為與語音內容相符的語言。（a）德語 （b）西班牙語 （c）英語 （d）日語,（d）日語,在下列菜餚中，哪一道是與音訊語言所屬國家相關的？（a）Spätzle （b）Tacos （c）Clam Chowder （d）章魚燒,（d）章魚燒
+ja_test_0_common_voice_ja_24983165.wav,Japanese,請聆聽所提供的音訊片段，並辨識該位說話者所使用的語言。請從下方選項中選擇最符合你對語音感知的語言。下列哪一種語言是說話者於音訊片段中所使用的？(a) English（英語） (b) Japanese（日本語） (c) Chinese（中文） (d) Italian（義大利語）,(b) Japanese,下列哪一個選項正確表達了音訊語言中的「冒險」這個意思？(a) ennuis (b) 冒険 (c) 退屈 (d) aventure,(b) 冒険
+ja_test_0_common_voice_ja_39084450.wav,Japanese,請聆聽這段演講，並選出講者所說的語言。 (a) 德語 (b) 日語 (c) 義大利語 (d) 法語,(b) 日語,在以下 ISO 語言代碼中，哪一個正確代表本音訊記錄中所說的語言？ (a) de (b) ja (c) it (d) fr,(b) ja
+ja_test_0_common_voice_ja_21593940.wav,Japanese,根據所提供的音檔，所說的語言是什麼？(a) 日語 (b) 中文 (c) 英語 (d) 法語,(a) 日語,在下列選項中，哪一個國家把音檔中所說的語言列為官方語言之一？(a) 日本 (b) 中國 (c) 南非 (d) 海地,(a) 日本
+ja_test_0_common_voice_ja_38940287.wav,Japanese,請判斷所提供的語音是以下哪一種語言？ (a) 義大利語 (b) 英語 (c) 日語 (d) 德語,(c) 日語,以下所列城市中，哪一個位於官方語言與所聽語音相同的國家？ (a) 羅馬 (b) 開普敦 (c) 廣島 (d) 瓦都茲,(c) 廣島
+ja_test_0_common_voice_ja_38985102.wav,Japanese,請聆聽所提供的音檔。下列哪一種語言最符合錄音中的語言？(a) 日語 (b) 義大利語 (c) 德語 (d) 中文,(a) 日語,在選項中的歷史人物裡，哪一位來自以錄音語言為官方語言的國家？(a) Oda Nobunaga (b) Michelangelo Buonarroti (c) Hermann Hesse (d) Laozi,(a) Oda Nobunaga
+ja_test_0_common_voice_ja_39059806.wav,Japanese,請仔細聆聽所提供的語音片段，並評估該人所說的語言。請選擇最能代表音檔中使用語言的答案。 (a) 日語 (b) 韓語 (c) 西班牙語 (d) 中文,(a) 日語,如果你計劃出國留學，哪一項測驗是針對這段音檔中所聽到語言的？ (a) BJT (b) BKT (c) DELE (d) HSK,(a) BJT
+ja_test_0_common_voice_ja_39043779.wav,Japanese,音訊中包含一段由特定語言所講述的短篇演說。你的任務是分析這段音訊，並判斷說話者所使用的是下列哪一種語言？(a) 中文 (b) 英文 (c) 日文 (d) 韓文,(c) 日文,音訊中聽到的語言屬於下列哪一個語系？(a) 印歐語系 (b) 韓語語系 (c) 日語語系 (d) 漢藏語系,(c) 日語語系
+ja_test_0_common_voice_ja_39022955.wav,Japanese,請仔細聆聽音訊，專注於語音。根據你的分析，從下列選項中選出說話者所使用的語言：（a）義大利語 （b）德語 （c）法語 （d）日語,（d）日語,下列哪一部文學經典最初是以音訊中語言撰寫的？（a）《豹》 （b）《流浪者之歌》 （c）《異鄉人》 （d）《雪國》,（d）《雪國》
+ja_test_0_common_voice_ja_39025242.wav,Japanese,請聆聽所提供的音訊片段，並從下列選項中選出說話者所使用的語言。你的任務就是選出你認為與這段語音相符的語言。(a) 西班牙語 (b) 韓語 (c) 日語 (d) 中文,(c) 日語,以下哪些料理來自音訊主要語言所屬的國家？(a) 玉米餅 (b) 拌飯 (c) 拉麵 (d) 餃子,(c) 拉麵
+ja_test_0_common_voice_ja_39077427.wav,Japanese,請聆聽所提供的音訊片段，並判斷說話者所使用的語言。請從下列選項中選出最符合您對語音理解的語言。下列哪一種語言是說話者在所提供音訊片段中所使用的語言？ (a) 西班牙語 (b) 義大利語 (c) 法語 (d) 日語,(d) 日語,根據音訊中所說的語言，下列哪一個詞語是「courage」在這種語言中的正確翻譯？ (a) timidez (b) おくびょう (c) valentía (d) ゆうき,(d) ゆうき
+ko_test_0_common_voice_ko_36314559.wav,Korean,聆聽這段語音，並選擇說話者所使用的語言。 (a) 韓語 (b) 中文 (c) 西班牙語 (d) 法語,(a) 韓語,根據所列選項，哪一個是用於識別此語音語言正確的 ISO 代碼？ (a) ko (b) zh (c) es (d) fr,(a) ko
+ko_test_0_common_voice_ko_36314695.wav,Korean,從提供的音訊中，說的是哪種語言？(a) 韓語 (b) 義大利語 (c) 日語 (d) 西班牙語,(a) 韓語,以下哪些國家官方使用音訊中所說的語言？(a) 北韓 (b) 義大利 (c) 日本 (d) 秘魯,(a) 北韓
+ko_test_0_common_voice_ko_39037996.wav,Korean,判斷所提供語音的語言是什麼？(a) 韓語 (b) 西班牙語 (c) 中文 (d) 英語,(a) 韓語,在以下選項中，哪一個城市最有可能位於語音所用語言為官方語言的國家？(a) 首爾 (b) 波哥大 (c) 深圳 (d) 開普敦,(a) 首爾
+ko_test_0_common_voice_ko_36331017.wav,Korean,請聆聽提供的音頻。下列哪一個語言最符合錄音中所說的語言？(a) 義大利語 (b) 德語 (c) 韓語 (d) 中文,(c) 韓語,下列哪一位歷史人物最有可能來自正式承認該語言的國家？(a) Leonardo da Vinci (b) Ludwig van Beethoven (c) 李舜臣 (d) 老子,(c) 李舜臣
+ko_test_0_common_voice_ko_36314702.wav,Korean,請仔細聆聽提供的語音片段，並評估該人所使用的語言。請選擇最能代表音頻中所使用語言的答案。 (a) 中文 (b) 英文 (c) 義大利文 (d) 韓文,(d) 韓文,以下哪一項標準化考試評估音訊中所聽到的語言？ (a) HSK (b) PTE Academic (c) CILS (d) KLAT,(d) KLAT
+ko_test_0_common_voice_ko_36314677.wav,Korean,音訊中包含一段以特定語言所發表的簡短演講片段。你的任務是分析該音訊，並判斷說話者所使用的語言是以下哪一種？(a) 西班牙語 (b) 英語 (c) 法語 (d) 韓語,(d) 韓語,音訊中的語言屬於哪一個語系？(a) 日琉語系 (b) 印歐語系 (c) 漢藏語系 (d) 韓語系,(d) 韓語系
+ko_test_0_common_voice_ko_39082224.wav,Korean,請仔細聆聽音訊，特別注意演講內容。根據你的分析，從以下選項中選出講者所使用的語言：(a) 義大利語 (b) 中文 (c) 韓語 (d) 日語,(c) 韓語,下列哪一本書原本是以這段音訊中的語言撰寫？(a) The Garden of the Finzi-Continis (b) Dream of the Red Chamber (c) The Vegetarian (d) Thousand Cranes,(c) The Vegetarian
+ko_test_0_common_voice_ko_36314570.wav,Korean,請聆聽提供的音訊片段，並從下列選項中選出說話者所使用的語言。您的任務僅需選擇您認為與語音相符的語言。(a) 西班牙語 (b) 韓語 (c) 法語 (d) 中文,(b) 韓語,在以下選項中，哪一道料理起源於該段音訊所主導語言的國家？(a) 西班牙海鮮燉飯 (b) 石鍋拌飯 (c) 普羅旺斯燉菜 (d) 麻婆豆腐,(b) 石鍋拌飯
+ko_test_0_common_voice_ko_36314613.wav,Korean,請聆聽所提供的音檔，並辨識講話者所使用的語言。請從下列選項中選出你認為最符合聽到語音的語言。講者在這段音檔中使用的是哪一種語言？(a) 德語 (b) 韓語 (c) 義大利語 (d) 中文,(b) 韓語,在下列選項中，哪一個詞語在該語言中最能對應到「智慧」這個意思？(a) 어리석음 (b) 지혜 (c) saggezza (d) stoltezza,(b) 지혜
+ko_test_0_common_voice_ko_39082311.wav,Korean,請聆聽該段演說，並選出該名講者所使用的語言。 (a) 韓語 (b) 中文 (c) 德語 (d) 法語,(a) 韓語,在下列選項中，哪一個 ISO 語言代碼最適合分類該音訊中所講的語言？ (a) ko (b) zh (c) de (d) fr,(a) ko
+ko_test_0_common_voice_ko_36314693.wav,Korean,根據提供的音檔，所說的是哪一種語言？(a) 日語 (b) 西班牙語 (c) 韓語 (d) 英語,(c) 韓語,哪一個國家將音檔中所說的語言作為其官方語言之一？(a) 日本 (b) 西班牙 (c) 北韓 (d) 印度,(c) 北韓
+ko_test_0_common_voice_ko_36314629.wav,Korean,判斷所提供語音的語言為何？ (a) 德語 (b) 韓語 (c) 西班牙語 (d) 英語,(b) 韓語,下列哪一個城市屬於語音中語言為官方語言的國家？ (a) 茵斯布魯克 (b) 平壤 (c) 波哥大 (d) 愛丁堡,(b) 平壤
+ko_test_0_common_voice_ko_39476345.wav,Korean,請聆聽提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 西班牙語 (b) 中文 (c) 韓語 (d) 義大利語,(c) 韓語,從下列人物中，誰來自其國家將該音訊語言作為官方語言？(a) Simón Bolívar (b) 孔子 (c) Kim Dae-jung (d) Galileo Galilei,(c) Kim Dae-jung
+ko_test_0_common_voice_ko_36331016.wav,Korean,請仔細聆聽所提供的語音片段，並判斷講話者所使用的語言。請選出最能代表音訊中所用語言的答案。(a) 中文 (b) 韓文 (c) 法文 (d) 西班牙文,(b) 韓文,以下哪一種測驗專注於評量該語音片段所用語言的能力？(a) HSK (b) KLAT (c) TCF (d) DELE,(b) KLAT
+ko_test_0_common_voice_ko_36314701.wav,Korean,音訊中包含一段以特定語言所說的短篇演講。你的任務是分析這段音訊，並判斷說話者所使用的是下列哪一種語言？(a) 英語 (b) 中文 (c) 韓語 (d) 義大利語,(c) 韓語,在這些語系中，哪一個語系對應到音訊中聽到的語言？(a) 漢藏語系 (b) 印歐語系 (c) 韓語語系 (d) 日語語系,(c) 韓語語系
+ko_test_0_common_voice_ko_36314561.wav,Korean,請仔細聆聽音頻內容，專注於聽辨語音。根據你的分析，從以下選項中選出說話者所使用的語言：(a) 韓語 (b) 西班牙語 (c) 中文 (d) 義大利語,(a) 韓語,請從以下選項中選出哪一部文學名著最早是用音頻中所用的語言創作的？(a) 春香傳 (b) 如巧克力般的水 (c) 儒林外史 (d) 費尼茲-孔蒂尼花園,(a) 春香傳
+ko_test_0_common_voice_ko_36314560.wav,Korean,"請聆聽提供的音訊片段，並從下列選項中選出講者所使用的語言。你的任務是選擇你認為與語音相符的語言。
+(a) 英語 (b) 法語 (c) 德語 (d) 韓語",(d) 韓語,"下列哪一道料理最明顯與該音訊主要語言國家相關？
+(a) 炸魚薯條 (b) 洛林鹹派 (c) 炸豬排 (d) 韓式拌飯",(d) 韓式拌飯
+ko_test_0_common_voice_ko_39476353.wav,Korean,請聆聽所提供的音檔片段，並辨識該名人士所使用的語言。請從下列選項中選出你認為最符合音檔語音的語言。下列何者是這段音檔中說話者所使用的語言？(a) 英語 (b) 義大利語 (c) 韓語 (d) 中文,(c) 韓語,在檢視所提供的選項後，下列哪一個是音檔中那種語言裡『勇氣』的正確翻譯？(a) duda (b) valentía (c) 용기 (d) 망설임,(c) 용기
+ko_test_0_common_voice_ko_38998784.wav,Korean,"請聆聽這段演講片段，然後選擇講者所使用的語言。
+(a) 日語 (b) 韓語 (c) 法語 (d) 西班牙語",(b) 韓語,"在考慮此音檔中所說的語言時，下列哪一個 ISO 語言代碼最適合用來準確識別講者所使用的語言？
+(a) ja (b) ko (c) fr (d) es",(b) ko
+ko_test_0_common_voice_ko_39476318.wav,Korean,從所提供的音訊中，所講的是哪一種語言？(a) 日語 (b) 韓語 (c) 法語 (d) 英語,(b) 韓語,考慮到此音訊錄音中所講的語言，下列哪一個國家將這個語言列為官方認可語言之一？(a) 日本 (b) 北韓 (c) 海地 (d) 南非,(b) 北韓
+ko_test_0_common_voice_ko_38998743.wav,Korean,判斷所提供語音的語言為何？(a) 英文 (b) 韓文 (c) 義大利文 (d) 日文,(b) 韓文,考慮錄音中的語言，下列哪一個城市最有可能位於該語言被認為是官方語言之一的國家？(a) 開普敦 (b) 首爾 (c) 佛羅倫斯 (d) 廣島,(b) 首爾
+ko_test_0_common_voice_ko_39476327.wav,Korean,請聆聽所提供的音檔。下列哪一個語言最符合錄音中所說的語言？(a) 法語 (b) 日語 (c) 義大利語 (d) 韓語,(d) 韓語,考慮音檔所使用的語言，以下哪一位歷史人物最有可能來自這種語言被正式認可為官方語言的國家？(a) Jean-Bédel Bokassa (b) Oda Nobunaga (c) Galileo Galilei (d) Yi Sun-sin,(d) Yi Sun-sin
+ko_test_0_common_voice_ko_39082018.wav,Korean,請仔細聆聽所提供的語音片段，並判斷講者所使用的語言。請選擇最能代表音檔中語言的答案。（a）韓語 （b）英語 （c）日語 （d）西班牙語,（a）韓語,如果你需要評估你在這段音檔所用語言的能力，下列哪一項標準化測驗最適合用來測量你的語言能力？（a）BKT （b）IELTS （c）EJU （d）SIELE,（a）BKT
+ko_test_0_common_voice_ko_36314612.wav,Korean,音訊中包含了一小段以特定語言所說的演講片段。你的任務是分析音訊，判斷說話者使用的是下列哪一種語言？(a) 法語 (b) 韓語 (c) 日語 (d) 英語,(b) 韓語,考慮到此音訊中所使用的語言，根據語言學的分類，該語言最正確地屬於下列哪一個語系？(a) 日琉語系 (b) 韓語語系 (c) 印歐語系 (d) 漢藏語系,(b) 韓語語系
+ko_test_0_common_voice_ko_39038071.wav,Korean,請仔細聆聽音訊，專注於語音內容。根據你的分析，從下列選項中選出說話者所使用的語言：(a) 日語 (b) 韓語 (c) 英語 (d) 中文,(b) 韓語,考慮到此音訊中所說的語言，下列哪一部文學作品最初是用這種語言創作的？(a) 細雪 (b) 我們扭曲的英雄 (c) 傲慢與偏見 (d) 圍城,(b) 我們扭曲的英雄
+ko_test_0_common_voice_ko_36314686.wav,Korean,請聆聽提供的音頻片段，並從下列選項中選擇講者所說的語言。你的任務就是選出你認為與音軌內容相符的語言。（a）韓語 （b）西班牙語 （c）中文 （d）法語,（a）韓語,考慮到該音頻中所講的語言，以下哪一道菜最有可能起源於以這種語言為主要語言的國家？（a）三層肉（Samgyeopsal） （b）西班牙海鮮燉飯（Paella） （c）餃子（Dumplings） （d）普羅旺斯燉菜（Ratatouille）,（a）三層肉（Samgyeopsal）
+ko_test_0_common_voice_ko_36314699.wav,Korean,請聆聽所提供的音訊片段，並辨識該名人士所使用的語言。請從以下選項中選擇最符合你對該語音認知的語言。此音訊片段中，說話者使用的是下列哪一種語言？(a) 韓語 (b) 日語 (c) 西班牙語 (d) 法語,(a) 韓語,考量到本音訊中所使用的語言，下列哪一句最能代表該語言中『kindness』（善良／親切）的說法？(a) 친절 (b) 優しさ (c) 이기심 (d) 我がまま,(a) 친절
+ko_test_0_common_voice_ko_36314601.wav,Korean,請聆聽這段語音，並選出說話者所使用的語言。 (a) 韓語 (b) 日語 (c) 義大利語 (d) 中文,(a) 韓語,根據所提供的音頻錄音，下列選項中哪一個 ISO 語言代碼最適合用來準確識別錄音中所講的語言？(a) ko (b) ja (c) it (d) zh,(a) ko
+ko_test_0_common_voice_ko_39082021.wav,Korean,根據所提供的音訊，說的是哪一種語言？(a) 中文 (b) 英文 (c) 韓文 (d) 西班牙文,(c) 韓文,在所列的國家選項中，哪一個國家將音訊中所說的語言列為官方語言？(a) 中國 (b) 愛爾蘭 (c) 南韓 (d) 墨西哥,(c) 南韓
+ko_test_0_common_voice_ko_39476326.wav,Korean,判斷所提供語音的語言為何？(a) 日語 (b) 義大利語 (c) 西班牙語 (d) 韓語,(d) 韓語,在分析音檔中所說的語言後，下列哪一個城市最有可能位於該語言作為其官方語言的國家內？(a) 京都 (b) 佛羅倫斯 (c) 波哥大 (d) 釜山,(d) 釜山
+ko_test_0_common_voice_ko_37211958.wav,Korean,請聆聽提供的音訊。下列哪一種語言最符合錄音中所使用的語言？(a) 中文 (b) 韓文 (c) 英文 (d) 義大利文,(b) 韓文,考慮音訊中所使用的語言，下列哪位歷史人物最有可能來自以此語言為官方語言的國家？(a) Confucius (b) Yi Sun-sin (c) Nelson Mandela (d) Dante Alighieri,(b) Yi Sun-sin
+ko_test_0_common_voice_ko_37212000.wav,Korean,請仔細聆聽所提供的語音片段，並評估該人所說的語言。請選擇最能代表音檔所用語言的答案。（a）德語 （b）法語 （c）韓語 （d）英語,（c）韓語,如果你計劃申請需精通該音檔語言的課程或職位，下列哪一項測驗最適合評估你的能力？（a）Goethe-Zertifikat （b）DELF （c）KLAT （d）PTE Academic,（c）KLAT
+ko_test_0_common_voice_ko_36890295.wav,Korean,該音訊包含一段由特定語言所說的簡短演講片段。你的任務是分析這段音訊，判斷講者所使用的是以下哪一種語言？ (a) Japanese (b) English (c) Spanish (d) Korean,(d) Korean,考慮這段音訊所使用的語言，在語言學分類中，該語言屬於下列哪一個語系？ (a) Japonic (b) Sino-Tibetan (c) Indo-European (d) Koreanic,(d) Koreanic
+ko_test_0_common_voice_ko_36655273.wav,Korean,請仔細聆聽音訊，專注於語音內容。根據你的分析，從下列選項中選出說話者所使用的語言：(a) 韓語 (b) 義大利語 (c) 西班牙語 (d) 德語,(a) 韓語,考慮到此音訊中所說的語言，下列哪一部文學作品最初是以這種語言創作的？(a) 82年生的金智英 (b) 訂婚者 (c) 霍亂時期的愛情 (d) 西線無戰事,(a) 82年生的金智英
+ko_test_0_common_voice_ko_36800754.wav,Korean,請聆聽所提供的音訊片段，並從下列選項中選出講者所使用的語言。你的任務只需選擇你認為與音檔相符的語言。(a) 日語 (b) 法語 (c) 韓語 (d) 中文,(c) 韓語,在考慮音訊中所聽到的語言後，下列哪一道菜最能代表主要使用該語言國家的料理？(a) 壽司 (b) 馬賽魚湯 (c) 五花肉燒烤 (d) 月餅,(c) 五花肉燒烤
+ko_test_0_common_voice_ko_36800748.wav,Korean,請聆聽提供的音頻片段，並辨識說話者所使用的語言。請從以下選項中選出最符合您聽感的語言。說話者在音頻片段中使用的是哪一種語言？(a) 日語 (b) 韓語 (c) 中文 (d) 義大利語,(b) 韓語,考慮到這段音頻中所說的語言，以下哪一個詞是該語言中「masterpiece」的正確翻譯？(a) 예술 작품 (b) 걸작 (c) Meisterwerk (d) Kunstwerk,(b) 걸작
+ko_test_0_common_voice_ko_37159821.wav,Korean,請聆聽這段演講，並選擇講者所使用的語言。 (a) 法語 (b) 西班牙語 (c) 中文 (d) 韓語,(d) 韓語,根據你所聽到的音訊範例，從下列 ISO 語言代碼中選出最適合用於描述錄音中語言的代碼。 (a) fr (b) es (c) zh (d) ko,(d) ko
+ko_test_0_common_voice_ko_37159818.wav,Korean,從所提供的音訊中，所說的是哪一種語言？(a) 法語 (b) 義大利語 (c) 英語 (d) 韓語,(d) 韓語,考慮到音訊中所說的語言，以下選項中的哪些國家將此語言作為其官方語言之一？(a) 塞內加爾 (b) 聖馬利諾 (c) 愛爾蘭 (d) 南韓,(d) 南韓
+ko_test_0_common_voice_ko_35972100.wav,Korean,判斷所提供語音的語言是什麼。 (a) 西班牙語 (b) 日語 (c) 韓語 (d) 義大利語,(c) 韓語,從下列城市中，哪一個最有可能位於将所聽到語言作為官方語言之一的國家？(a) 奇瓦瓦 (b) 東京 (c) 平壤 (d) 佛羅倫斯,(c) 平壤
+ko_test_0_common_voice_ko_37195197.wav,Korean,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 日語 (b) 韓語 (c) 英語 (d) 義大利語,(b) 韓語,根據音訊中所說的語言，下列哪一位歷史人物最有可能來自這種語言為官方語言的國家？(a) Oda Nobunaga (b) Kim Dae-jung (c) Winston Churchill (d) Dante Alighieri,(b) Kim Dae-jung
+ko_test_0_common_voice_ko_35905264.wav,Korean,請仔細聆聽所提供的語音片段，並評估該人士所說的語言。請選出最能代表音檔中所使用語言的答案。(a) 韓語 (b) 法語 (c) 西班牙語 (d) 德語,(a) 韓語,根據此音檔片段中所說的語言，在以下選項中，哪一個標準化測驗最適合想要證明該語言能力的人？(a) TOPIK (b) TCF (c) DELE (d) Goethe-Zertifikat,(a) TOPIK
+ko_test_0_common_voice_ko_37159817.wav,Korean,音訊中包含一段以特定語言講述的短篇演說。請分析此音訊並判斷講者所使用的是下列哪一種語言？ (a) 英語 (b) 德語 (c) 西班牙語 (d) 韓語,(d) 韓語,考慮到音訊中該語言的起源、結構以及語言特徵，請問它屬於哪一個語系？ (a) 日琉語系 (b) 漢藏語系 (c) 印歐語系 (d) 韓語語系,(d) 韓語語系
+ko_test_0_common_voice_ko_36800752.wav,Korean,請仔細聆聽音檔內容，專注於講話部分。根據你的分析，請從下列選項中選出說話者所使用的語言：(a) 法語 (b) 日語 (c) 英語 (d) 韓語,(d) 韓語,根據此音檔所說的語言，以下哪一本文學經典原著即為此種語言所撰寫？(a) 瘟疫 (b) 挪威的森林 (c) 蠅王 (d) 82年生的金智英,(d) 82年生的金智英
+ko_test_0_common_voice_ko_37159812.wav,Korean,請聆聽所提供的音訊片段，並從下面的選項中選擇說話者所說的語言。你的任務就是選出你認為跟音訊內容相符的語言。(a) 法語 (b) 義大利語 (c) 韓語 (d) 中文,(c) 韓語,考慮到音訊中所使用的語言，下列哪一道菜餚是起源於這個語言為主要交流方式的國家？(a) 馬賽魚湯 (b) 燉飯 (c) 石鍋拌飯 (d) 月餅,(c) 石鍋拌飯
+ko_test_0_common_voice_ko_35904871.wav,Korean,請聆聽所提供的音檔，判斷該段錄音中說話者所使用的語言。請從下列語言中選出最符合你對該語音感受的選項。以下哪一種語言是音檔中說話者所使用的？(a) English (b) Spanish (c) German (d) Korean,(d) Korean,將「wisdom」翻譯成這段錄音中所說的語言時，下列哪一個詞彙最準確地與之對應？(a) Dummheit (b) Weisheit (c) 어리석음 (d) 지혜,(d) 지혜
+ko_test_0_common_voice_ko_37597013.wav,Korean,請聆聽該段演講，並選出講者所說的語言是什麼。（a）德語 （b）韓語 （c）英語 （d）義大利語,（b）韓語,根據所提供的音檔以及判斷正確語言代碼的任務，以下列表中的哪一個 ISO 語言代碼最能準確對應該錄音中的語言？（a）de （b）ko （c）en （d）it,（b）ko
+ko_test_0_common_voice_ko_36438714.wav,Korean,根據所提供的音訊，所講的是哪一種語言？ (a) 中文 (b) 韓文 (c) 日文 (d) 法文,(b) 韓文,根據所提供的音訊樣本，下列哪一個國家將該語言列為官方語言？ (a) 中國 (b) 南韓 (c) 日本 (d) 海地,(b) 南韓
+ko_test_0_common_voice_ko_37159833.wav,Korean,判斷所提供語音的語言為何。 (a) Korean (b) English (c) Chinese (d) Italian,(a) Korean,根據錄音內容及語言，以下哪些城市最有可能位於將此語言作為官方語言之一的國家？ (a) Incheon (b) Manchester (c) Shenzhen (d) Naples,(a) Incheon
+ko_test_0_common_voice_ko_37195156.wav,Korean,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 中文 (b) 西班牙語 (c) 英語 (d) 韓語,(d) 韓語,在所提供的歷史人物中，誰最有可能來自於一個正式承認音訊中語言作為官方語言的國家？(a) 蔡倫 (b) Miguel de Cervantes (c) Winston Churchill (d) 金九,(d) 金九
+ko_test_0_common_voice_ko_37211926.wav,Korean,請仔細聆聽所提供的語音片段，並評估該人所使用的語言。請選擇最能代表音檔中使用語言的答案。(a) 英語 (b) 日語 (c) 韓語 (d) 法語,(c) 韓語,如果計劃到該音訊中所使用語言的國家留學或工作，下列哪一種語言測驗最適合用來證明您的語言能力？(a) PTE Academic (b) BJT (c) TOPIK (d) DELF,(c) TOPIK
+ko_test_0_common_voice_ko_37211945.wav,Korean,音訊中包含了一段以特定語言所說的短演講。你的任務是分析這段音訊並判斷說話者所使用的是下列哪一種語言？(a) Japanese (b) English (c) Korean (d) Spanish,(c) Korean,根據這段音訊所講的語言，以下哪一種語系包含了這種語言？(a) Indo-European (b) Sino-Tibetan (c) Koreanic (d) Japonic,(c) Koreanic
+ko_test_0_common_voice_ko_35971953.wav,Korean,請仔細聆聽音訊，專注於語音。根據你的分析，請從以下選項中選擇說話者所使用的語言：（a）韓語 （b）西班牙語 （c）中文 （d）英語,（a）韓語,考慮音訊所使用的語言，以下哪一本書的原著是用該語言撰寫的？（a）我們扭曲的英雄 （b）一樁事先張揚的凶殺案 （c）駱駝祥子 （d）傲慢與偏見,（a）我們扭曲的英雄
+ko_test_0_common_voice_ko_38383607.wav,Korean,請聆聽提供的音訊片段，並從下列選項中選出講者所說的語言。你的任務僅是選擇你認為與該語音相符的語言。(a) 西班牙語 (b) 義大利語 (c) 中文 (d) 韓語,(d) 韓語,根據音訊中所聽到的語言，以下哪一道菜餚最能代表該語言作為官方語言之國家的飲食文化？(a) 阿雷帕餅 (b) 義大利千層麵 (c) 北京烤鴨 (d) 石鍋拌飯,(d) 石鍋拌飯
+ko_test_0_common_voice_ko_36455842.wav,Korean,請聆聽所提供的音檔，並辨認說話者所使用的語言。請從下列選項中選擇最符合該語言的答案。下列哪一種語言是音檔中的說話者正在使用的？（a）韓語（b）日語（c）西班牙語（d）義大利語,（a）韓語,從所提供的翻譯列表中，哪一個選項是在該音檔語言中代表「傑作」的詞語？（a）걸작（b）杰作（c）艺术品（d）예술 작품,（a）걸작
+ko_test_0_common_voice_ko_36438716.wav,Korean,請聆聽這段演講，並選擇講者所說的語言是哪一種？(a) 英語 (b) 韓語 (c) 中文 (d) 義大利語,(b) 韓語,從所提供的 ISO 語言代碼列表中，哪一個最適合且最準確地代表音訊錄音中的語言？(a) en (b) ko (c) zh (d) it,(b) ko
+ko_test_0_common_voice_ko_36800753.wav,Korean,根據所提供的音訊，請問所說的是哪一種語言？（a）英語（b）韓語（c）日語（d）德語,（b）韓語,根據所提供的音訊，下列選項中的哪一個國家承認該語言為其官方語言之一？（a）愛爾蘭（b）北韓（c）日本（d）列支敦士登,（b）北韓
+ko_test_0_common_voice_ko_35905905.wav,Korean,判斷所提供語音的語言為何？ (a) 日語 (b) 法語 (c) 韓語 (d) 西班牙語,(c) 韓語,根據在音訊樣本中聽到的語言，以下哪一個選項中的城市位於該語言被認可為官方語言的國家？ (a) 廣島 (b) 科爾馬 (c) 釜山 (d) 巴塞隆納,(c) 釜山
+ko_test_0_common_voice_ko_36890766.wav,Korean,請聆聽所提供的音檔。以下哪一種語言最符合錄音中所使用的語言？(a) 韓語 (b) 西班牙語 (c) 英語 (d) 義大利語,(a) 韓語,在檢視音檔中的語言後，下列哪一位歷史人物最有可能來自以此語言為官方語言的國家？(a) Yi Sun-sin (b) Miguel de Cervantes (c) Edmund Hillary (d) Michelangelo Buonarroti,(a) Yi Sun-sin
+ko_test_0_common_voice_ko_36438717.wav,Korean,請仔細聆聽所提供的語音片段，並評估該人士所使用的語言。請選擇最能代表音檔中所用語言的答案。(a) 日語 (b) 中文 (c) 義大利語 (d) 韓語,(d) 韓語,根據此音訊的語境及所使用的語言，下列哪一項測驗是最廣泛用來測量該語言能力的考試？(a) BJT (b) HSK (c) PLIDA (d) KLAT,(d) KLAT
+ko_test_0_common_voice_ko_35905908.wav,Korean,音訊中包含了一段以特定語言所說的短講。請分析音訊並判斷講者所使用的是下列哪一種語言？(a) 法語 (b) 韓語 (c) 日語 (d) 英語,(b) 韓語,根據本音訊所聽到語言的語言特徵及起源，以下哪一個語言家族最能準確描述這個語言？(a) 漢藏語系 (b) 朝鮮語系 (c) 日琉語系 (d) 印歐語系,(b) 朝鮮語系
+ko_test_0_common_voice_ko_35972097.wav,Korean,請仔細聆聽錄音，專注於語音內容。根據你的分析，請從以下選項中選出講者所使用的語言：（a）韓語 （b）英語 （c）法語 （d）德語,（a）韓語,根據所提供的選項，哪一本書的原著是用本音訊中所聽到的語言創作的？（a）請照顧媽媽 （b）了不起的蓋茲比 （c）追憶似水年華 （d）西線無戰事,（a）請照顧媽媽
+zh-CN_test_0_common_voice_zh-CN_21852004.wav,Chinese,請聆聽提供的音訊片段，並從以下選項中選出說話者所使用的語言。您的任務是簡單地選擇您認為與語音相符的語言。(a) 英語 (b) 中文 (c) 義大利語 (d) 德語,(b) 中文,根據音訊內容，下列哪一道料理最有可能和說話者所用語言廣泛使用的國家，有著文化與美食上的聯繫？(a) 康瓦爾餡餅 (b) 月餅 (c) 燉飯 (d) 施佩茲勒,(b) 月餅
+zh-CN_test_0_common_voice_zh-CN_21309817.wav,Chinese,請聆聽所提供的音頻片段，並判斷該人使用的是哪一種語言。請從下列選項中選擇你認為最符合該語音的語言。下列哪一種語言是音頻片段中的說話者所使用的？(a) 中文 (b) 英文 (c) 法文 (d) 西班牙文,(a) 中文,在音頻中所使用的語言裡，下列哪一個選項正確翻譯了 'kindness'？(a) 善良 (b) amabilidad (c) 殘忍 (d) crueldad,(a) 善良
+zh-CN_test_0_common_voice_zh-CN_22074020.wav,Chinese,請聆聽這段演講，並選擇講者所說的語言。 (a) 韓語 (b) 英語 (c) 中文 (d) 日語,(c) 中文,下列哪一個 ISO 語言代碼對應此音訊錄音中所說的語言？ (a) ko (b) en (c) zh (d) ja,(c) zh
+zh-CN_test_0_common_voice_zh-CN_22111686.wav,Chinese,根據所提供的音檔，請問所講的是哪一種語言？ (a) 法語 (b) 中文 (c) 德語 (d) 日語,(b) 中文,在以下選項中，哪一個國家將音檔中所使用的語言列為官方語言？ (a) 法國 (b) 中國 (c) 奧地利 (d) 日本,(b) 中國
+zh-CN_test_0_common_voice_zh-CN_22110601.wav,Chinese,判斷所提供的語音是屬於哪一種語言？ (a) English (b) French (c) Spanish (d) Chinese,(d) Chinese,下列哪一個城市最有可能位於該語音語言為官方語言的國家？(a) Liverpool (b) Paris (c) Barcelona (d) Beijing,(d) Beijing
+zh-CN_test_0_common_voice_zh-CN_33441332.wav,Chinese,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所講的語言？(a) 德語 (b) 英語 (c) 中文 (d) 西班牙語,(c) 中文,下列哪位歷史人物最可能來自錄音所用語言為官方語言的國家？(a) Johann Wolfgang von Goethe (b) Winston Churchill (c) Confucius (d) Miguel de Cervantes,(c) Confucius
+zh-CN_test_0_common_voice_zh-CN_22145032.wav,Chinese,"請仔細聆聽提供的語音片段，並評估該名人士所使用的語言。請選擇最能代表語音中所用語言的答案。
+(a) 中文 (b) 日文 (c) 德文 (d) 義大利文",(a) 中文,"哪一個標準化測驗用來評估此語音片段中所說語言的熟練度？
+(a) HSK (b) JLPT (c) 歌德證書 (d) PLIDA",(a) HSK
+zh-CN_test_0_common_voice_zh-CN_22061338.wav,Chinese,音訊中包含一段用特定語言所說的簡短演講內容。你的任務是分析音訊並判斷說話者所使用的是以下哪一種語言。(a) 英語 (b) 法語 (c) 中文 (d) 德語,(c) 中文,音訊中的語言屬於哪一個語系？(a) 韓語語系 (b) 印歐語系 (c) 漢藏語系 (d) 日語語系,(c) 漢藏語系
+zh-CN_test_0_common_voice_zh-CN_21309814.wav,Chinese,請仔細聆聽音訊，專注於語音。根據你的分析，請從以下選項中選出說話者所使用的語言：(a) 英語 (b) 中文 (c) 日語 (d) 韓語,(b) 中文,以下哪一部文學經典原本是以音訊中所說語言創作的？(a) The Great Gatsby (b) 聊齋志異 (c) 櫻子姊妹 (d) 春香傳,(b) 聊齋志異
+zh-CN_test_0_common_voice_zh-CN_22119424.wav,Chinese,請聆聽提供的音訊片段，並從以下選項中選出講者所說的語言。你的任務就是選擇你認為與語音相符的語言。(a) 義大利語 (b) 德語 (c) 中文 (d) 英語,(c) 中文,以下哪一道菜最有可能起源於音訊所使用語言為主要語言的國家？(a) 千層麵 (b) 炸肉排 (c) 麻婆豆腐 (d) 哈吉斯,(c) 麻婆豆腐
+zh-CN_test_0_common_voice_zh-CN_22110899.wav,Chinese,請聆聽所提供的音訊片段，並辨識該人所說的語言。請從下列語言中選擇最符合您對該段語音感受的選項。下列哪一種語言是音訊片段中的說話者所使用的語言？(a) 日語 (b) 韓語 (c) 中文 (d) 義大利語,(c) 中文,考慮到音訊中的語言，下列哪一個詞最能準確地將「adventure」翻譯為該語言，並正確傳達其涵義？(a) aventure (b) habitude (c) 冒險 (d) 無聊,(c) 冒險
+zh-CN_test_0_common_voice_zh-CN_22108819.wav,Chinese,請聆聽該段演講，並選出說話者所使用的語言為何？（a）德語 （b）中文 （c）法語 （d）日語,（b）中文,在所提供的 ISO 語言代碼中，哪一個最能準確代表音訊樣本的語言？（a）de （b）zh （c）fr （d）ja,（b）zh
+zh-CN_test_0_common_voice_zh-CN_22103885.wav,Chinese,從所提供的音訊中，請問是使用哪一種語言？(a) 英語 (b) 中文 (c) 義大利語 (d) 韓語,(b) 中文,在下列國家中，哪一個的官方語言為音訊中所使用的語言？(a) 南非 (b) 中國 (c) 聖馬力諾 (d) 南韓,(b) 中國
+zh-CN_test_0_common_voice_zh-CN_19004605.wav,Chinese,判斷所提供語音的語言為何。(a) 中文 (b) 德文 (c) 英文 (d) 西班牙文,(a) 中文,在所提供的城市中，哪一個最有可能位於以該語音語言為官方語言的國家？(a) 台北 (b) 因斯布魯克 (c) 倫敦 (d) 奇瓦瓦市,(a) 台北
+zh-CN_test_0_common_voice_zh-CN_22154724.wav,Chinese,請聆聽提供的音訊。下列哪一種語言最符合錄音中所說的語言？(a) 西班牙語 (b) 中文 (c) 英文 (d) 日文,(b) 中文,在所提供的人物當中，誰最有可能來自一個官方承認該音訊語言的國家？(a) Miguel de Cervantes (b) 杜甫 (c) Winston Churchill (d) 豐臣秀吉,(b) 杜甫
+zh-CN_test_0_common_voice_zh-CN_22145037.wav,Chinese,請仔細聆聽所提供的語音片段，並評估該個體所使用的語言。請選擇最能代表語音中所用語言的答案。（a）德語（b）中文（c）韓語（d）法語,（b）中文,若要證明你具備該語音所用語言的能力，應參加哪一項測驗？（a）Goethe-Zertifikat（b）HSK（c）BKT（d）DELF,（b）HSK
+zh-CN_test_0_common_voice_zh-CN_22185786.wav,Chinese,此音訊包含一段以特定語言所說的簡短演講片段。你的任務是分析此音訊，並判斷說話者使用的是下列哪一種語言？(a) 韓語 (b) 英語 (c) 中文 (d) 德語,(c) 中文,在以下選項中，哪一個語系涵蓋了此音訊的語言？(a) 韓語語系 (b) 日語語系 (c) 漢藏語系 (d) 印歐語系,(c) 漢藏語系
+zh-CN_test_0_common_voice_zh-CN_18996472.wav,Chinese,請仔細聆聽音訊，並注重語音。根據你的分析，從以下選項中選出講者所使用的語言：（a）德語（b）韓語（c）中文（d）英語,(c) 中文,在下面的選項中，哪一本書的原始版本是以此音訊中所聽到的語言創作的？（a）The Magic Mountain（b）The Tale of Chunhyang（c）The Scholars（d）The Catcher in the Rye,(c) The Scholars
+zh-CN_test_0_common_voice_zh-CN_18992590.wav,Chinese,請聆聽提供的音訊片段，並從下列選項中選擇講者所說的語言。你的任務就是選擇你認為與語音相符的語言。 (a) 中文 (b) 韓文 (c) 西班牙文 (d) 日文,(a) 中文,在以下列出的菜餚中，哪一道與音訊所用語言的國家有關聯？(a) 餃子 (b) 泡菜 (c) 墨西哥捲餅 (d) 壽司,(a) 餃子
+zh-CN_test_0_common_voice_zh-CN_22105325.wav,Chinese,聆聽所提供的音訊片段，並辨識該位講話者所使用的語言。請從下方選項中選出你認為與該語音最相符的語言。以下哪一種語言是講者在音訊片段中所使用的？ (a) 法語 (b) 中文 (c) 德語 (d) 英語,(b) 中文,從下列選項中，哪一個對應於在音訊中聽到的語言裡『gratitude』的意思？ (a) 感謝の気持ち (b) 感激 (c) 冷漠 (d) 無関心,(b) 感激
+zh-CN_test_0_common_voice_zh-CN_22117086.wav,Chinese,聆聽這段演講片段，並選出講者所使用的語言是什麼？(a) 西班牙語 (b) 中文 (c) 日語 (d) 德語,(b) 中文,根據以下提供的 ISO 語言代碼，哪一個正確代表本音檔中所使用的語言？(a) es (b) zh (c) ja (d) de,(b) zh
+zh-CN_test_0_common_voice_zh-CN_22054810.wav,Chinese,根據提供的音訊，所說的語言是？ (a) 中文 (b) 英文 (c) 法文 (d) 德文,(a) 中文,在下列選項中，哪個國家將音訊中所說的語言列為官方語言之一？ (a) 中國 (b) 南非 (c) 法國 (d) 列支敦士登,(a) 中國
+zh-CN_test_0_common_voice_zh-CN_19004592.wav,Chinese,判斷所提供語音的語言是什麼？(a) 英語 (b) 日語 (c) 中文 (d) 法語,(c) 中文,在所提供的城市中，哪一個位於官方語言為音訊語言的國家？(a) 曼徹斯特 (b) 廣島 (c) 台北 (d) 科爾馬,(c) 台北
+zh-CN_test_0_common_voice_zh-CN_22053539.wav,Chinese,請聆聽所提供的音頻。以下哪一種語言最符合錄音中所講的語言？(a) 中文 (b) 英文 (c) 義大利文 (d) 西班牙文,(a) 中文,在以下選擇中的哪一位歷史人物來自一個以音頻所說語言為官方語言的國家？(a) 杜甫 (b) Winston Churchill (c) Giuseppe Verdi (d) Miguel de Cervantes,(a) 杜甫
+zh-CN_test_0_common_voice_zh-CN_22055858.wav,Chinese,請仔細聆聽提供的語音片段，並評估該人士所說的語言。請選出最能代表音檔中使用語言的答案。(a) French (b) German (c) Chinese (d) English,(c) Chinese,如果你計畫出國留學，以下哪一個測驗是用來測量這段音檔所聽到語言的考試？(a) DELF (b) DSH (c) TOCFL (d) IELTS,(c) TOCFL
+zh-CN_test_0_common_voice_zh-CN_22053551.wav,Chinese,音檔中包含了一段特定語言的簡短演講。請分析此音檔，判斷說話者所使用的語言是以下哪一種？(a) 中文 (b) 法文 (c) 韓文 (d) 德文,(a) 中文,音檔中所聽到的語言屬於下列哪一種語系？(a) 漢藏語系 (b) 印歐語系 (c) 日語語系 (d) 韓語語系,(a) 漢藏語系
+zh-CN_test_0_common_voice_zh-CN_20173805.wav,Chinese,請仔細聆聽音頻，專注於講者的語音。根據你的分析，從下列選項中選出講者所使用的語言：(a) 日語 (b) 英語 (c) 中文 (d) 義大利語,(c) 中文,下列哪一部文學經典最初是以音頻中所聽到的語言寫成的？(a) 千隻鶴 (b) 1984 (c) 紅樓夢 (d) 澤諾的良知,(c) 紅樓夢
+zh-CN_test_0_common_voice_zh-CN_18990885.wav,Chinese,請聆聽所提供的音訊片段，並從以下選項中選出說話者所使用的語言。你的任務僅是選擇你認為與語音相符的語言。(a) 中文 (b) 韓文 (c) 法文 (d) 日文,(a) 中文,以下哪一道料理來自音訊中主要語言所屬的國家？(a) 餃子 (b) 烤五花肉 (c) 馬賽魚湯 (d) 章魚燒,(a) 餃子
+zh-CN_test_0_common_voice_zh-CN_22145101.wav,Chinese,請聆聽所提供的音訊片段，並辨認該位人士所說的語言。請從以下選項，選出最符合你對該語音認知的語言。這段音訊中，說話者所使用的語言是下列哪一種？(a) 日語 (b) 法語 (c) 韓語 (d) 中文,(d) 中文,下列哪一個單字是音訊中語言裡「kindness」的正確翻譯？(a) 自私 (b) egoísmo (c) amabilidad (d) 善良,(d) 善良
+zh-CN_test_0_common_voice_zh-CN_23608833.wav,Chinese,請聆聽這段演講內容，並選擇講者所使用的語言。（a）中文 （b）日文 （c）英文 （d）西班牙文,（a）中文,依照所列選項，哪一個 ISO 代碼正確標示出本音檔所使用的語言？（a）zh （b）ja （c）en （d）es,（a）zh
+zh-CN_test_0_common_voice_zh-CN_22145416.wav,Chinese,從所提供的音訊中，所使用的是哪一種語言？(a) 英語 (b) 中文 (c) 義大利語 (d) 韓語,(b) 中文,下列哪一個國家正式使用音訊中所說的語言？(a) 愛爾蘭 (b) 中國 (c) 梵蒂岡 (d) 南韓,(b) 中國
+zh-CN_test_0_common_voice_zh-CN_22109330.wav,Chinese,判斷所提供語音的語言是什麼？(a) 法語 (b) 義大利語 (c) 德語 (d) 中文,(d) 中文,從以下選項中，哪一個城市最有可能位於將該語音語言作為官方語言的國家？(a) 達喀爾 (b) 羅馬 (c) 維也納 (d) 上海,(d) 上海
+zh-CN_test_0_common_voice_zh-CN_22118442.wav,Chinese,請聆聽所提供的音訊。下列哪一種語言最符合錄音中所說的語言？ (a) 英文 (b) 中文 (c) 義大利文 (d) 西班牙文,(b) 中文,下列哪一位歷史人物較可能來自一個官方承認錄音中所說語言的國家？ (a) Winston Churchill (b) 蔡倫 (c) Leonardo da Vinci (d) Simón Bolívar,(b) 蔡倫
+zh-CN_test_0_common_voice_zh-CN_22629791.wav,Chinese,請仔細聆聽提供的語音片段，並評估該人士所使用的語言。請選擇最能代表音檔中所使用語言的答案。(a) 韓語 (b) 德語 (c) 中文 (d) 義大利語,(c) 中文,在這些選項中，哪一個標準化考試是評量音檔中所聽到語言的？(a) BKT (b) TestDaF (c) TOCFL (d) CILS,(c) TOCFL
+zh-CN_test_0_common_voice_zh-CN_22077262.wav,Chinese,音訊中包含一段用特定語言所說的簡短演講片段。你的任務是分析這段音訊，判斷說話者使用的是以下哪一種語言？(a) Italian (b) Chinese (c) Spanish (d) German,(b) Chinese,音訊中的語言屬於哪一個語系？(a) Koreanic (b) Sino-Tibetan (c) Japonic (d) Indo-European,(b) Sino-Tibetan
+zh-CN_test_0_common_voice_zh-CN_22109328.wav,Chinese,請仔細聆聽音檔內容，專注於語音。根據你的分析，請從以下選項中選出講者所使用的語言：(a) 英文 (b) 法文 (c) 義大利文 (d) 中文。,(d) 中文,在清單中的哪一本書最初是以本音檔中所聽到的語言創作的？(a) 蠅王 (b) 阻礙 (c) 福柯擺 (d) 稻秧之歌,(d) 稻秧之歌
+zh-CN_test_0_common_voice_zh-CN_22219290.wav,Chinese,請聆聽提供的音訊片段，並從下列選項中選出講者所說的語言。您的任務就是選擇您認為與音訊相符的語言。(a) 中文 (b) 英文 (c) 西班牙文 (d) 韓文,(a) 中文,在以下選項中，哪一道料理源自於這段音訊所使用語言為主流語言的國家？(a) 北京烤鴨 (b) 牧羊人派 (c) 冷湯 (d) 辣炒年糕,(a) 北京烤鴨
+zh-CN_test_0_common_voice_zh-CN_22059480.wav,Chinese,請聆聽所提供的音檔片段，辨識該人士所使用的語言。請從下列語言中選出最符合你對該語音的判斷。以下哪一種語言是該音檔片段中說話者所使用的語言？(a) English (b) Chinese (c) French (d) Spanish,(b) Chinese,在這段語音所使用的語言中，以下哪一個翻譯最正確表示「gratitude」這個詞？(a) 분노 (b) 感激 (c) 怨恨 (d) 감사,(b) 感激
+zh-CN_test_0_common_voice_zh-CN_18598176.wav,Chinese,聆聽該段演說，選擇講者所使用的語言。(a) 法語 (b) 中文 (c) 日語 (d) 韓語,(b) 中文,從以下選項中，哪一個 ISO 語言代碼最適合分類該音檔中所說的語言？(a) fr (b) zh (c) ja (d) ko,(b) zh
+zh-CN_test_0_common_voice_zh-CN_19011272.wav,Chinese,請根據提供的音訊判斷，所說的語言是什麼？(a) 法語 (b) 西班牙語 (c) 英語 (d) 中文,(d) 中文,哪一個國家將音訊中所說的語言列為官方語言之一？(a) 海地 (b) 祕魯 (c) 印度 (d) 中國,(d) 中國
+zh-CN_test_0_common_voice_zh-CN_20453532.wav,Chinese,請判斷所提供語音的語言是什麼？(a) 日語 (b) 英語 (c) 中文 (d) 法語,(c) 中文,下列哪一個城市位於語音所屬語言為官方語言的國家？(a) 京都 (b) 倫敦 (c) 上海 (d) 阿比讓,(c) 上海
+zh-CN_test_0_common_voice_zh-CN_19641070.wav,Chinese,請聆聽提供的音訊。以下哪一個語言最符合錄音中所說的語言？(a) 中文 (b) 英文 (c) 義大利文 (d) 德文,(a) 中文,在所給的人物中，誰來自以該音訊語言為官方語言的國家？(a) 老子 (b) 溫斯頓·邱吉爾 (c) 但丁·阿利吉耶里 (d) 約翰·沃爾夫岡·馮·歌德,(a) 老子
+zh-CN_test_0_common_voice_zh-CN_18983483.wav,Chinese,請仔細聆聽所提供的語音片段，並評估該個人所使用的語言。選出最能代表語音中所用語言的答案。(a) 西班牙語 (b) 中文 (c) 英文 (d) 韓文,(b) 中文,哪一項測驗專注於評量此語音片段中所說語言的能力？(a) SIELE (b) TOCFL (c) TOEFL (d) BKT,(b) TOCFL
+zh-CN_test_0_common_voice_zh-CN_18662477.wav,Chinese,音檔中包含一段使用特定語言所說的短講。你的任務是分析音檔並判斷說話者所使用的語言是哪一種？(a) 中文 (b) 西班牙文 (c) 德文 (d) 法文,(a) 中文,以下哪一個語系屬於音檔中聽到的語言？(a) 漢藏語系 (b) 日琉語系 (c) 印歐語系 (d) 韓語系,(a) 漢藏語系
+zh-CN_test_0_common_voice_zh-CN_18598179.wav,Chinese,請仔細聆聽音訊內容，專注於語音表達。根據你的分析，請從以下選項中選擇講者所使用的語言：(a) 義大利語 (b) 中文 (c) 日語 (d) 韓語,(b) 中文,從提供的選項中，哪一部文學巨作最早以音訊語言創作？(a) 神曲 (b) 聊齋誌異 (c) 雪國 (d) 素食者,(b) 聊齋誌異
+zh-CN_test_0_common_voice_zh-CN_18979331.wav,Chinese,請聆聽提供的音訊片段，並從下列選項中選擇說話者所使用的語言。你的任務是選擇你認為與語音最相符的語言。 (a) 韓語 (b) 中文 (c) 法語 (d) 英語,(b) 中文,以下哪一道菜與該音訊所用語言所在國家有最強烈的連結？(a) 五花肉 (b) 餃子 (c) 馬賽魚湯 (d) 炸魚薯條,(b) 餃子
+zh-CN_test_0_common_voice_zh-CN_19530042.wav,Chinese,請聆聽所提供的音訊片段，並辨認講話者所使用的語言。請從下列選項中選擇最符合你對語音理解的語言。下列哪一種語言是這段音訊中講話者正在使用的語言？(a) 中文 (b) 英文 (c) 義大利文 (d) 韓文,(a) 中文,在這段音訊片中，哪一個選項代表「感激」這個意思？(a) 感激 (b) remerciement (c) indifférence (d) 冷漠,(a) 感激
+zh-CN_test_0_common_voice_zh-CN_18968782.wav,Chinese,請聆聽這段演講，並選擇講者所使用的語言。 (a) 西班牙語 (b) 日語 (c) 中文 (d) 韓語,(c) 中文,考慮這段音訊範例中的口語語言，以下哪一個 ISO 語言代碼最能正確標識講者所使用的語言？ (a) es (b) ja (c) zh (d) ko,(c) zh
+zh-CN_test_0_common_voice_zh-CN_18979594.wav,Chinese,根據所提供的音訊，所講的語言是什麼？(a) 中文 (b) 英文 (c) 韓文 (d) 法文,(a) 中文,在考慮這段音訊所講的語言時，下列哪個國家將這種語言列為官方認可語言之一？(a) 中國 (b) 愛爾蘭 (c) 北韓 (d) 塞內加爾,(a) 中國
+zh-CN_test_0_common_voice_zh-CN_18997179.wav,Chinese,判斷所提供語音的語言是什麼？(a) 日語 (b) 德語 (c) 法語 (d) 中文,(d) 中文,考慮錄音中所講的語言，下列哪一個城市最有可能位於這種語言被認為是官方語言之一的國家？(a) 廣島 (b) 柏林 (c) 巴黎 (d) 台北,(d) 台北
+zh-CN_test_0_common_voice_zh-CN_22210647.wav,Chinese,請聆聽提供的音訊。下列哪一種語言最符合錄音中的語言？ (a) 中文 (b) 德文 (c) 日文 (d) 韓文,(a) 中文,考慮音訊中所說的語言，下列哪一位歷史人物最有可能來自將此語言作為官方語言之一的國家？ (a) Laozi (b) Ludwig van Beethoven (c) Oda Nobunaga (d) Kim Gu,(a) Laozi
+zh-CN_test_0_common_voice_zh-CN_22152913.wav,Chinese,請仔細聆聽所提供的語音片段，並評估該個人所說的語言。請選出最能代表音訊中所用語言的答案。(a) 日語 (b) 英語 (c) 中文 (d) 義大利語,(c) 中文,如果你需要評估你在此音訊所講語言的能力，下列哪一項標準化測驗最適合用於測量你的語言能力？(a) JLPT (b) PTE Academic (c) HSK (d) PLIDA,(c) HSK
+zh-CN_test_0_common_voice_zh-CN_19578743.wav,Chinese,此音訊中包含一段以特定語言所說的短講。請你分析此音訊，判斷說話者所使用的是下列哪一種語言？(a) 日語 (b) 英語 (c) 中文 (d) 法語,(c) 中文,根據語言學分類，考慮這段音訊中所說的語言，它最正確地屬於下列哪一種語系？(a) 韓語語系 (b) 印歐語系 (c) 漢藏語系 (d) 日語語系,(c) 漢藏語系
+zh-CN_test_0_common_voice_zh-CN_18983118.wav,Chinese,請仔細聆聽音頻，專注於講話內容。根據你的分析，從以下選項中選擇講話者所使用的語言：(a) 西班牙語 (b) 英語 (c) 韓語 (d) 中文,(d) 中文,考慮到該音頻所使用的語言，下列哪一部文學作品最初是用這種語言創作的？(a) 阿特米奧·克魯斯之死 (b) 大亨小傳 (c) 素食者 (d) 水滸傳,(d) 水滸傳
+zh-CN_test_0_common_voice_zh-CN_18661529.wav,Chinese,請聆聽所提供的音訊片段，並從下列選項中選出講者所說的語言。你的任務是選擇你認為與語音相符的語言。(a) 法語 (b) 英語 (c) 德語 (d) 中文,(d) 中文,考慮音訊中所使用的語言，下列哪一道料理最有可能起源於該語言作為主要語言的國家？(a) 普羅旺斯燉菜 (b) 蛤蜊巧達濃湯 (c) 麵疙瘩 (d) 月餅,(d) 月餅
+zh-CN_test_0_common_voice_zh-CN_18584015.wav,Chinese,請聆聽所提供的音訊片段，並辨認講話者所使用的語言。請從下列選項中選出最符合您對該語音判斷的語言。下列哪一種語言是講話者在此音訊片段中所使用的？（a）德語 （b）法語 （c）中文 （d）英文,（c）中文,在下列選項中，哪一個選項在本音訊所用語言中正確對應「wisdom」的意思？（a）stoltezza （b）saggezza （c）智慧 （d）愚蠢,（c）智慧
+zh-CN_test_0_common_voice_zh-CN_18979308.wav,Chinese,請聽這段語音，並選出說話者所使用的語言是以下哪一種？(a) 中文 (b) 法文 (c) 日文 (d) 英文,(a) 中文,根據所提供的音訊錄音，以下選項中的哪一個 ISO 語言代碼最適合用來正確識別全程錄音所使用的語言？(a) zh (b) fr (c) ja (d) en,(a) zh
+zh-CN_test_0_common_voice_zh-CN_18595321.wav,Chinese,從所提供的音檔中，所講的是哪一種語言？(a) 日語 (b) 中文 (c) 義大利語 (d) 法語,(b) 中文,在選項中所列的國家中，哪一個國家正式將音檔中所講的語言作為官方語言？(a) 日本 (b) 中國 (c) 義大利 (d) 象牙海岸,(b) 中國
+zh-CN_test_0_common_voice_zh-CN_18983115.wav,Chinese,判斷所提供的語音所使用的語言是什麼？(a) 中文 (b) 法文 (c) 英文 (d) 德文,(a) 中文,在分析音訊中的語言時，下列哪一個城市最有可能位於該語言作為官方語言的國家？(a) 北京 (b) 太子港 (c) 開普敦 (d) 法蘭克福,(a) 北京
+zh-CN_test_0_common_voice_zh-CN_20234073.wav,Chinese,請聆聽所提供的音檔。下列哪一種語言最符合錄音中所說的語言？(a) 中文 (b) 日文 (c) 德文 (d) 法文,(a) 中文,考慮到錄音所使用的語言，下列哪一位歷史人物最有可能來自以此語言作為官方語言的國家？(a) 王羲之 (b) Hokusai (c) Sigmund Freud (d) Jean-Bédel Bokassa,(a) 王羲之
+zh-CN_test_0_common_voice_zh-CN_22059320.wav,Chinese,請仔細聆聽所提供的語音片段，並評估說話者所使用的語言。請選擇最能代表語音中所用語言的答案。（a）德語（b）法語（c）義大利語（d）中文,（d）中文,如果你計劃申請一個要求精通此語音中語言的課程或職位，以下哪一個測驗最適合評估你的語言能力？（a）TestDaF（b）DALF（c）PLIDA（d）HSK,（d）HSK

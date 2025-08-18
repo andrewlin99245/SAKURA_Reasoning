@@ -1,0 +1,511 @@
+file,attribute_label,single_instruction,single_answer,multi_instruction,multi_answer
+en_test_0_common_voice_en_22335218.wav,female,請判斷說話者的性別是什麼？ (a) 女性 (b) 男性,(a) 女性,下列哪一個稱謂最適合用來稱呼與這位說話者性別相同的人？ (a) Ms. (b) Mr.,(a) Ms.
+en_test_0_common_voice_en_37976442.wav,female,這段音訊中講話者的性別是什麼？（a）女性 （b）男性,（a）女性,考慮到講話者的性別，以下哪個稱謂最符合通常對與音訊中講話者同性別的人所使用的稱呼？（a）先生 （b）女士,（b）女士
+en_test_0_common_voice_en_31266588.wav,female,請將講者的聲音歸類為以下哪一種性別類別？ (a) 女性 (b) 男性,(a) 女性,對於與講者同一性別的人，哪一個標籤最合適？ (a) 母親 (b) 父親,(a) 母親
+en_test_0_common_voice_en_36016278.wav,female,請判斷說話者的性別。 (a) 女性 (b) 男性,(a) 女性,對於與說話者同性別的人，哪一個稱謂最為正確？(a) 叔叔 (b) 阿姨,(b) 阿姨
+en_test_0_common_voice_en_19954794.wav,female,從提供的音訊錄音中，辨識說話者的性別。(a) 女性 (b) 男性,(a) 女性,對於與說話者同性別的人，哪一個稱呼最合適？(a) 阿姨 (b) 叔叔,(a) 阿姨
+en_test_0_common_voice_en_18395139.wav,female,請仔細聆聽所提供的音檔並判斷說話者的性別。請根據您的判斷選擇最能代表說話者性別的選項。 (a) 女性 (b) 男性,(a) 女性,對於與說話者性別相同的人，以下哪一個稱謂最為正確？(a) 兄弟 (b) 姊妹,(b) 姊妹
+en_test_0_common_voice_en_39645706.wav,female,請判斷此音訊錄音中的講者性別。請注意有助於將講者分類為下列兩種選項之一的聲音特徵。請從以下選項中選擇你的答案：(a) 女性 (b) 男性,(a) 女性,請根據講者性別回答下列問題：下列哪一個稱謂或稱呼最適合同一性別的個體？(a) 母親 (b) 父親,(a) 母親
+en_test_0_common_voice_en_19489627.wav,female,以下任務要求你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為正確的選項。（a）女性 （b）男性,（a）女性,根據說話者的性別，下列哪一個稱謂最符合音訊中同性別者通常會被稱呼的方式？（a）先生 （b）女士,（b）女士
+en_test_0_common_voice_en_19704669.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請識別說話者的性別，並選擇你認為最正確的選項。（a）女性（b）男性,（a）女性,考慮到說話者的性別，下列哪一個稱謂最符合音訊中與說話者同性別的人通常會被稱呼的方式？（a）女士（b）先生,（a）女士
+en_test_0_common_voice_en_18854899.wav,female,在此任務中，你將聆聽一段簡短的音訊片段，並判斷說話者的性別。請選擇最符合你看法的選項。（a）女性 （b）男性,（a）女性,對於與說話者同性別的人而言，下列哪個稱謂最為正確？（a）先生 （b）女士,（b）女士
+en_test_0_common_voice_en_36016276.wav,female,請判斷說話者的性別。 (a) 女性 (b) 男性,(a) 女性,請根據說話者的性別回答下列問題：以下哪一個稱謂最適合用來稱呼與說話者同一性別的人？ (a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_106966.wav,female,這段音訊中說話者的性別是什麼？(a) 女性 (b) 男性,(a) 女性,請專注於說話者的性別。針對與說話者同性別的人士，下列哪一種稱謂最為正確？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_19935427.wav,female,請將說話者的聲音分類為下列哪一種性別類別？(a) 女性 (b) 男性,(a) 女性,對於與說話者性別相同的人，以下哪一個稱謂最為準確？(a) 姐妹 (b) 兄弟,(a) 姐妹
+en_test_0_common_voice_en_19935040.wav,female,請判斷說話者的性別。(a) 女性 (b) 男性,(a) 女性,對於與說話者同性別的人，以下哪一稱呼最為準確？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_627541.wav,female,請根據提供的音頻錄音，辨認說話者的性別。(a) 女性 (b) 男性,(a) 女性,請注意說話者的性別。對於與說話者同一性別的人，下列哪一稱呼最為準確？(a) 姊妹 (b) 兄弟,(a) 姊妹
+en_test_0_common_voice_en_17473365.wav,female,請仔細聆聽所提供的音檔，判斷說話者的性別。請根據你的判斷選擇最符合說話者性別的選項。（a）女性（b）男性,（a）女性,對於與說話者同性別的人，以下哪一種稱呼最為準確？（a）先生（b）女士,（b）女士
+en_test_0_common_voice_en_39990821.wav,female,請判斷這段音訊中的說話者性別。請注意聲音特徵，以協助將說話者歸類為下列兩種選項之一。請從以下選項中選擇你的答案。 (a) 女性 (b) 男性,(a) 女性,以下哪一種稱呼最適合用於與這位說話者相同性別的人？(a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_38849850.wav,female,下列任務要求你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇最符合你判斷的選項。（a）女性 （b）男性,（a）女性,以下哪一個選項最適合作為與說話者同性別的人，所使用的稱謂？（a）父親 （b）母親,（b）母親
+en_test_0_common_voice_en_25619619.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。 (a) 女性  (b) 男性,(a) 女性,下列哪一個稱呼最適合用來稱呼與說話者同性別的人？ (a) 姊妹  (b) 兄弟,(a) 姊妹
+en_test_0_common_voice_en_19696555.wav,female,在這個任務中，你將聆聽一段短音訊並辨認說話者的性別。請選擇最符合你判斷的選項。（a）女性 （b）男性,（a）女性,下列哪一個稱謂最適合用來稱呼與說話者同一性別的人？（a）先生 （b）女士,（b）女士
+en_test_0_common_voice_en_17960994.wav,female,請判斷說話者的性別。 (a) 女性 (b) 男性,(a) 女性,下列哪一種稱謂適用於與說話者同性別的人？(a) 姐妹 (b) 兄弟,(a) 姐妹
+en_test_0_common_voice_en_31671570.wav,female,這段音訊中說話者的性別是什麼？(a) 女性 (b) 男性,(a) 女性,對於與說話者同一性別的人來說，以下哪一個稱謂最為準確？(a) 父親 (b) 母親,(b) 母親
+en_test_0_common_voice_en_19524811.wav,female,請將說話者的聲音歸類為下列哪一種性別類別？ (a) 女性 (b) 男性,(a) 女性,請根據說話者的性別回答下列問題：以下哪一種稱謂最適合用來稱呼與說話者同性別的人？ (a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_31693756.wav,female,請判斷說話者的性別。(a) 女性 (b) 男性,(a) 女性,下列哪一種稱謂適合用來稱呼與說話者同性別的人？(a) Brother (b) Sister,(b) Sister
+en_test_0_common_voice_en_18979306.wav,female,根據提供的音頻錄音，辨識說話者的性別。(a) 女性 (b) 男性,(a) 女性,考慮到說話者的性別，以下哪一個稱謂最符合音頻中與說話者同性別的人們通常被稱呼的方式？(a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_19735675.wav,female,請仔細聆聽所提供的音訊片段，並判斷該說話者的性別。請根據你的判斷選擇最能代表說話者性別的選項。(a) 女性 (b) 男性,(a) 女性,下列哪一個稱謂最適合用來稱呼與該說話者同一性別的人？(a) 叔叔 (b) 阿姨,(b) 阿姨
+en_test_0_common_voice_en_21730660.wav,female,請判斷此音訊錄音中說話者的性別。請注意聲音特徵，以協助將說話者歸類為下列兩種選項之一。請從以下選項中選擇你的答案。(a) 女性 (b) 男性,(a) 女性,請專注於說話者的性別。對於與說話者相同性別的人，以下哪一種稱謂最為準確？(a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_17840464.wav,female,以下任務要求你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選出你認為最符合的選項。（a）女性 （b）男性,（a）女性,請根據說話者的性別回答以下問題：下列哪一個稱謂最適合用來稱呼與說話者同性別的人？（a）叔叔 （b）阿姨,（b）阿姨
+en_test_0_common_voice_en_35437451.wav,female,您的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇您認為最準確的選項。(a) 女性 (b) 男性,(a) 女性,請聚焦於說話者的性別來回答下列問題：在下列稱謂或指稱中，哪一個最適合用來稱呼與該說話者同一性別的人？(a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_39747514.wav,female,在這個任務中，你將會聆聽一段短音頻，並辨識說話者的性別。請選擇最符合你看法的選項。 (a) 女性 (b) 男性,(a) 女性,以下哪一個稱呼最適合用來指稱與說話者同性別的人？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_19984720.wav,female,請判斷說話者的性別。(a) 女性 (b) 男性,(a) 女性,下列哪一個稱謂最適合用來稱呼與說話者同性別的人？(a) 女士 (Ms.) (b) 先生 (Mr.),(a) 女士 (Ms.)
+en_test_0_common_voice_en_39022785.wav,female,這段音頻中說話者的性別是什麼？(a) 女性 (b) 男性,(a) 女性,對於與說話者相同性別的個體，哪一個稱謂最為準確？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_19937271.wav,female,請將說話者的聲音歸類到以下的性別類別之一。（a）女性（b）男性,（a）女性,請根據說話者的性別作答：以下哪一稱謂或稱呼最適合用於與說話者同性別的人？（a）母親（b）父親,（a）母親
+en_test_0_common_voice_en_17426004.wav,female,請判斷說話者的性別。(a) 女性 (b) 男性,(a) 女性,下列哪一個稱謂最適合用來稱呼與說話者同一性別的人？(a) 父親 (b) 母親,(b) 母親
+en_test_0_common_voice_en_20586173.wav,female,從所提供的音訊錄音中，辨識說話者的性別。(a) 女性 (b) 男性,(a) 女性,考慮到說話者的性別，下列哪一個稱謂最符合在音訊中與說話者同性別的人通常被稱呼的方式？(a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_31770143.wav,female,請仔細聆聽所提供的音訊片段，並辨識說話者的性別。請根據你的判斷選出最能代表說話者性別的選項。(a) 女性 (b) 男性,(a) 女性,請專注於說話者的性別。對於與說話者同性別的人，以下哪一稱謂最為準確？(a) 叔叔 (b) 阿姨,(b) 阿姨
+en_test_0_common_voice_en_18707945.wav,female,請判斷此音訊錄音中說話者的性別。請注意說話者的聲音特徵，以協助將其分類為以下兩種選項之一。請從以下選項中選擇你的答案。(a) 女性 (b) 男性,(a) 女性,下列哪一種稱謂適用於與說話者同性別的人？(a) 姐妹 (b) 兄弟,(a) 姐妹
+en_test_0_common_voice_en_37585170.wav,female,以下任務要求你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇與你判斷相符的選項。（a）女性 （b）男性,（a）女性,下列哪一種稱謂適合用來稱呼與說話者同性別的人？（a）先生 （b）女士,（b）女士
+en_test_0_common_voice_en_19937101.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請識別說話者的性別，並選擇你認為最準確的選項。(a) 女性 (b) 男性,(a) 女性,以下哪一個稱謂最適合用來稱呼與這位說話者同性別的人？(a) 阿姨 (b) 叔叔,(a) 阿姨
+en_test_0_common_voice_en_31769647.wav,female,在這項任務中，您將聆聽一段簡短的音訊，並判斷說話者的性別。請選擇最符合您判斷的選項。(a) 女性 (b) 男性,(a) 女性,以下哪一個稱謂最適合用來稱呼和這位說話者性別相同的人？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_19854772.wav,female,請判斷說話者的性別是什麼？（a）女性 （b）男性,（a）女性,根據說話者的性別，請回答下列問題：以下哪一個稱呼最適合用來稱呼與說話者性別相同的人？（a）女士（Ms.） （b）先生（Mr.）,（a）女士（Ms.）
+en_test_0_common_voice_en_17396116.wav,female,這段音訊中講話者的性別是什麼？（a）女性 （b）男性,（a）女性,以下哪一個稱呼最適合用來對與這位講話者同性別的人？（a）先生 （b）女士,（b）女士
+en_test_0_common_voice_en_17902082.wav,female,請將說話者的聲音歸類為以下性別類別之一。(a) 女性 (b) 男性,(a) 女性,請著重於說話者的性別。對於與說話者相同性別的人，哪一個稱謂最為準確？(a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_17350425.wav,female,判斷說話者的性別。 (a) 女性 (b) 男性,(a) 女性,請根據說話者的性別回答下列問題：以下哪一個稱謂或稱呼最適合用於與說話者同一性別的人？ (a) Brother（兄弟） (b) Sister（姐妹）,(b) Sister（姐妹）
+en_test_0_common_voice_en_31684476.wav,female,請根據提供的錄音檔判斷說話者的性別。(a) 女性 (b) 男性,(a) 女性,下列哪個稱謂最適合用於和說話者同性別的人？(a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_39750688.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。根據您的判斷，選擇最能代表說話者性別的選項。(a) 女性 (b) 男性,(a) 女性,考慮到音訊中說話者的性別，下列哪一個稱謂最符合與說話者同性別者通常被稱呼的方式？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_35400503.wav,female,請判斷此音訊錄音中說話者的性別。請注意能幫助你判斷其性別的聲音特徵，並從以下選項中選擇一個。 (a) 女性 (b) 男性,(a) 女性,下列哪一種稱謂最適合用來稱呼與此說話者為同一性別的人？(a) 母親 (b) 父親,(a) 母親
+en_test_0_common_voice_en_21481329.wav,female,以下任務要求你根據所提供的音訊片段判斷說話者的性別。請分析說話者的聲音特徵，並選擇你認為正確的選項。（a）女性 （b）男性,（a）女性,請根據說話者的性別，判斷對於同一性別的人，應該使用下列哪一種稱謂才最為準確？（a）先生 （b）女士,（b）女士
+en_test_0_common_voice_en_37344367.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。（a）女性  （b）男性,（a）女性,下列哪個標籤最適合用於與說話者同一性別的人？（a）阿姨 （b）叔叔,（a）阿姨
+en_test_0_common_voice_en_31534152.wav,female,在此任務中，您將聆聽一段簡短的音訊，並辨識說話者的性別。請選出最符合您看法的選項。 (a) 女性 (b) 男性,(a) 女性,下列哪一個稱呼適用於與說話者同性別的人？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_17895168.wav,female,請判斷說話者的性別是？（a）女性 （b）男性,（a）女性,對於與說話者同性別的人，哪個稱呼最合適？（a）姊妹 （b）兄弟,（a）姊妹
+en_test_0_common_voice_en_37318569.wav,female,這段音頻中說話者的性別是什麼？(a) 女性 (b) 男性,(a) 女性,對於與說話者同性別的人，下列哪個稱謂最合適？(a) 叔叔 (b) 阿姨,(b) 阿姨
+en_test_0_common_voice_en_498245.wav,female,請將說話者的聲音歸類為以下哪一種性別類別？(a) 女性 (b) 男性,(a) 女性,對於與說話者同性別的人，以下哪一個稱呼最合適？(a) 姊妹 (b) 兄弟,(a) 姊妹
+en_test_0_common_voice_en_31734340.wav,female,請判斷說話者的性別。（a）女性 （b）男性,（a）女性,下列哪一稱謂適合用來稱呼與說話者同性別的人？（a）父親 （b）母親,（b）母親
+en_test_0_common_voice_en_37976915.wav,female,根據提供的錄音，請辨認說話者的性別。(a) 女性 (b) 男性,(a) 女性,以下哪一個選項最適合用來稱呼與說話者性別相同的人？(a) Ms. (b) Mr.,(a) Ms.
+en_test_0_common_voice_en_19412457.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據你的感受，選擇最能代表說話者性別的選項。(a) 女性 (b) 男性,(a) 女性,請專注於說話者的性別。對於與說話者同性別的人，以下哪一個稱謂最準確？(a) 先生 (b) 小姐,(b) 小姐
+en_test_0_common_voice_en_18211602.wav,female,請判斷這段音訊記錄中講話者的性別，注意能幫助你判斷講話者所屬性別的聲音特徵。請從以下選項中選擇你的答案。 (a) 女性 (b) 男性,(a) 女性,請根據講話者的性別來回答這個問題：以下哪一個稱呼最適合用於與講話者同性別的人？(a) 姊妹 (b) 兄弟,(a) 姊妹
+en_test_0_common_voice_en_17935705.wav,female,以下任務要求你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇符合你判斷的選項。 (a) 女性 (b) 男性,(a) 女性,下列哪一個稱謂適合用於與說話者同性別的人？ (a) 父親 (b) 母親,(b) 母親
+en_test_0_common_voice_en_21367754.wav,female,你的任務是判斷提供之音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最正確的選項。 (a) 女性 (b) 男性,(a) 女性,請著重於說話者的性別。以下哪一稱謂最適合用來稱呼與說話者同性別的人？(a) 阿姨 (b) 叔叔,(a) 阿姨
+en_test_0_common_voice_en_19596930.wav,female,在這項任務中，您將會聽到一段簡短的音訊片段，請判斷說話者的性別。請選擇最符合您判斷的選項。(a) 女性 (b) 男性,(a) 女性,在以下選項中，哪一個稱謂最適合用來稱呼與說話者性別相同的人？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_19941683.wav,female,請判斷說話者的性別。（a）女性 （b）男性,（a）女性,根據說話者的性別，回答下列問題：以下哪一個稱呼最適合用於與說話者同性別的人？（a）女士 （b）先生,（a）女士
+en_test_0_common_voice_en_19708695.wav,female,這段音訊中的說話者性別是什麼？(a) 女性 (b) 男性,(a) 女性,考慮到說話者的性別，下列哪一個稱謂最符合現實生活中對與音訊說話者同性的人的一般稱呼方式？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_17912300.wav,female,請將說話者的聲音歸類為以下哪一種性別類別？(a) 女性 (b) 男性,(a) 女性,考慮到說話者的性別，以下哪一個稱謂最符合音檔中與說話者同性別的人通常會被稱呼的方式？(a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_17391184.wav,female,請判斷說話者的性別。(a) 女性 (b) 男性,(a) 女性,對於與說話者同性別的人，以下哪一個稱呼最為準確？(a) 兄弟 (b) 姊妹,(b) 姊妹
+en_test_0_common_voice_en_39734854.wav,female,根據所提供的音訊錄音，辨識出說話者的性別。 (a) 女性 (b) 男性,(a) 女性,考慮到說話者的性別，下列哪個稱呼最符合通常對與音訊中同性別人士的稱呼方式？ (a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_31770144.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請選出最符合您對說話者性別認知的選項。(a) 女性 (b) 男性,(a) 女性,哪一個稱謂最適合用來稱呼與說話者性別相同的人？(a) 父親 (b) 母親,(b) 母親
+en_test_0_common_voice_en_17266327.wav,female,請判斷這段音訊錄音中說話者的性別。請注意說話者的聲音特徵，以協助將說話者歸類為以下兩種選項之一。請從以下選項中選擇你的答案。(a) 女性 (b) 男性,(a) 女性,以下哪個稱謂適用於與說話者同性別的人？(a) 姐妹 (b) 兄弟,(a) 姐妹
+en_test_0_common_voice_en_31822774.wav,female,"以下任務要求你根據提供的音訊片段，判斷說話者的性別。請分析說話者的聲音特徵，並選擇你認為正確的選項。
+(a) 女性  (b) 男性",(a) 女性,"以下哪一個稱呼最適合用來稱呼與此說話者同性別的人？
+(a) 先生  (b) 女士",(b) 女士
+en_test_0_common_voice_en_37429748.wav,female,你的任務是判斷所提供音訊片段中講話者的性別。請辨識講話者的性別，並選擇你認為最準確的選項。(a) 女性 (b) 男性,(a) 女性,下列哪一個標籤最適合與講話者同一性別的人？(a) 母親 (b) 父親,(a) 母親
+en_test_0_common_voice_en_31667123.wav,female,在這個任務中，你將會聽到一段簡短的音訊，並辨識說話者的性別。請選擇最符合你判斷的選項。(a) 女性 (b) 男性,(a) 女性,以下哪一個稱謂最適合用來稱呼和這位說話者性別相同的人？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_17859625.wav,female,請判斷說話者的性別。 (a) 女性 (b) 男性,(a) 女性,考慮到說話者的性別，下列哪一個稱謂最符合通常對與音頻中說話者同性別的人稱呼的方式？(a) 姐妹 (b) 兄弟,(a) 姐妹
+en_test_0_common_voice_en_22338655.wav,female,這段音頻中說話者的性別是什麼？(a) 女性 (b) 男性,(a) 女性,對於與說話者同性別的個體，下列哪個稱謂最為準確？(a) 叔叔 (b) 阿姨,(b) 阿姨
+en_test_0_common_voice_en_25722369.wav,female,請將說話者的聲音歸類為以下哪一種性別類別？（a）女性 （b）男性,（a）女性,以下哪一種稱謂最適合用來稱呼和這位說話者相同性別的人士？（a）阿姨 （b）叔叔,（a）阿姨
+en_test_0_common_voice_en_18309496.wav,female,請判別說話者的性別。(a) 女性 (b) 男性,(a) 女性,下列哪一個稱呼最適合用來稱呼與說話者相同性別的人？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_19706318.wav,female,"請根據提供的音頻錄音，辨識說話者的性別。
+(a) 女性 (b) 男性",(a) 女性,"以下哪一種稱謂最適合用來稱呼與這位說話者性別相同的人？
+(a) 女士 (Ms.) (b) 先生 (Mr.)",(a) 女士 (Ms.)
+en_test_0_common_voice_en_21372560.wav,female,請仔細聆聽提供的音訊片段，並判斷說話者的性別。請根據你的判斷選擇最能代表說話者性別的選項。 (a) 女性 (b) 男性,(a) 女性,請根據說話者的性別，回答下列問題：以下哪一個稱呼或稱謂最適合用於和說話者同性別的人？ (a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_31638031.wav,female,請判斷此音檔中說話者的性別。請注意聲音的特徵，以協助將說話者歸類為以下兩種選項之一。請從以下選項中選擇你的答案。(a) 女性 (b) 男性,(a) 女性,下列哪一個稱謂最適合用於稱呼與說話者同性別的人？(a) 阿姨 (b) 叔叔,(a) 阿姨
+en_test_0_common_voice_en_39663913.wav,female,下列任務要求你判斷提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇與你的判斷相符的選項。（a）女性 （b）男性,（a）女性,以下哪一個稱呼最適合用來稱呼和說話者性別相同的人？（a）叔叔 （b）阿姨,（b）阿姨
+en_test_0_common_voice_en_25884084.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請辨認說話者的性別，並選擇你認為最正確的選項。(a) 女性 (b) 男性,(a) 女性,請專注於說話者的性別。對於與說話者性別相同的人，以下哪一種稱謂最為準確？(a) 阿姨 (b) 叔叔,(a) 阿姨
+en_test_0_common_voice_en_20688736.wav,female,在這個任務中，你將聆聽一段簡短的音訊片段並辨識說話者的性別。請選擇最符合你判斷的選項。(a) 女性 (b) 男性,(a) 女性,下列哪一個稱謂最適合用來稱呼與說話者同性別的人？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_35854111.wav,female,請判斷說話者的性別是什麼？（a）女性 （b）男性,（a）女性,以下哪一個稱謂最適合用來稱呼和這位說話者同性別的人？（a）母親 （b）父親,（a）母親
+en_test_0_common_voice_en_39990785.wav,female,這段音訊中，說話者的性別是什麼？(a) 女性 (b) 男性,(a) 女性,下列哪一個稱呼比較適合與說話者同性別的人？(a) 父親 (b) 母親,(b) 母親
+en_test_0_common_voice_en_38713736.wav,female,請將說話者的聲音歸類為以下哪一種性別類別？（a）女性（b）男性,（a）女性,請專注於說話者的性別。對於與說話者同性別的個體，以下哪個稱呼最為準確？（a）母親（b）父親,（a）母親
+en_test_0_common_voice_en_17979998.wav,female,判斷說話者的性別。(a) 女性 (b) 男性,(a) 女性,請根據說話者的性別，回答下列問題：以下哪一個稱謂或稱呼最適合用於與說話者同性別的人？(a) Mr. (b) Ms.,(b) Ms.
+en_test_0_common_voice_en_19951114.wav,female,根據提供的音訊錄音，辨識說話者的性別。 (a) 女性 (b) 男性,(a) 女性,對於與說話者同性別的人，哪一個標籤最合適？(a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_38243824.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據你的判斷選擇最能代表說話者性別的選項。（a）女性 （b）男性,（a）女性,請專注於說話者的性別，並回答以下問題：以下哪一個稱謂或稱呼最適合用來稱呼與說話者同性別的人？（a）兄弟 （b）姐妹,（b）姐妹
+en_test_0_common_voice_en_17391190.wav,female,請判斷此音訊錄音中說話者的性別。請注意有助於將說話者分類為以下其中一種性別的聲音特徵。請從以下選項選擇你的答案。(a) 女性 (b) 男性,(a) 女性,請專注於說話者的性別。對於與說話者同性別的人，下列哪一個稱呼最為正確？(a) 母親 (b) 父親,(a) 母親
+en_test_0_common_voice_en_28872024.wav,female,以下任務需要你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為符合判斷的選項。（a）女性（b）男性,（a）女性,請專注於說話者的性別。對於與說話者同性別的人，以下哪一種稱謂最為準確？（a）Mr.（b）Ms.,（b）Ms.
+en_test_0_common_voice_en_27654279.wav,female,您的任務是判斷所提供音訊片段中說話者的性別。請識別說話者的性別，並選擇您認為最準確的選項。(a) 女性 (b) 男性,(a) 女性,對於和說話者性別相同的人，以下哪個稱謂最合適？(a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_19485661.wav,female,在這個任務中，您將聆聽一段短音頻，並判斷說話者的性別。請選擇最符合您判斷的選項。(a) 女性 (b) 男性,(a) 女性,以下哪一個稱謂最適合用來稱呼與說話者同性別的人？(a) 先生 (b) 女士,(b) 女士
+en_test_0_common_voice_en_38427570.wav,female,請判斷說話者的性別是什麼？(a) 女性 (b) 男性,(a) 女性,下列哪一種稱謂適用於與說話者同性別的人？(a) 母親 (b) 父親,(a) 母親
+en_test_0_common_voice_en_19708700.wav,female,這段音訊中的說話者性別為何？（a）女性（b）男性,（a）女性,下列哪一個稱謂最適合用於與說話者相同性別的人？（a）先生（b）女士,（b）女士
+en_test_0_common_voice_en_26523110.wav,female,請將說話者的聲音歸類為以下哪一種性別類別？(a) 女性 (b) 男性,(a) 女性,對於與說話者同性別的人，以下哪一種稱謂最為正確？ (a) 阿姨 (b) 叔叔,(a) 阿姨
+en_test_0_common_voice_en_26790804.wav,female,請判斷說話者的性別。(a) 女性 (b) 男性,(a) 女性,考慮到說話者的性別，以下哪個稱謂最符合與錄音中說話者同性別的人通常會被稱呼的方式？(a) 父親 (b) 母親,(b) 母親
+en_test_0_common_voice_en_37698584.wav,female,從所提供的音訊錄音中，辨識說話者的性別。（a）女性（b）男性,（a）女性,對於與說話者同性別的人，以下哪一個稱呼最為準確？（a）女士（b）先生,（a）女士
+en_test_0_common_voice_en_36305046.wav,female,請仔細聆聽所提供的音訊片段，並辨識說話者的性別。請根據您的判斷選擇最能代表說話者性別的選項。(a) 女性 (b) 男性,(a) 女性,以下哪一個選項最適合作為與說話者同性別的人稱呼方式？(a) 兄弟 (b) 姊妹,(b) 姊妹
+en_test_0_common_voice_en_19941476.wav,female,請判斷此音訊錄音中說話者的性別。請注意可能有助於將說話者歸類為下列其中一個選項的聲音特徵。請從以下選項中選擇你的答案。 (a) 女性 (b) 男性,(a) 女性,對於與說話者性別相同的人，以下哪一個稱謂最為準確？(a) 女士 (b) 先生,(a) 女士
+en_test_0_common_voice_en_18303530.wav,female,以下任務需要你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為正確的選項。（a）女性 （b）男性,（a）女性,下列哪一稱呼最適合用於與這位說話者同性別的人？（a）先生 （b）女士,（b）女士
+en_test_0_common_voice_en_33290227.wav,female,你的任務是判斷所提供音檔中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。(a) 女性 (b) 男性,(a) 女性,以下哪個稱謂適用於與說話者同性別的人？(a) 阿姨 (b) 叔叔,(a) 阿姨
+en_test_0_common_voice_en_5688714.wav,female,在這項任務中，你將聆聽一段簡短的音訊片段，並判斷說話者的性別。請選擇最符合你判斷的選項。(a) 女性 (b) 男性,(a) 女性,考慮到音訊說話者的性別，以下哪個稱謂最符合同樣性別的人一般會被如何稱呼？(a) 兄弟 (b) 姐妹,(b) 姐妹
+en_test_0_common_voice_en_17503256.wav,female,請判斷說話者的性別是什麼？(a) 女性 (b) 男性,(a) 女性,下列哪一位歷史人物與說話者性別相同？(a) Indira Gandhi (b) Ernest Hemingway,(a) Indira Gandhi
+en_test_0_common_voice_en_30951482.wav,female,這段音訊中的說話者性別是什麼？(a) 女性 (b) 男性,(a) 女性,請仔細聆聽所提供的音訊錄音，判斷以下哪一位歷史人物最有可能與說話者為同一性別？(a) Mahatma Gandhi (b) Frida Kahlo,(b) Frida Kahlo
+en_test_0_common_voice_en_25716466.wav,female,請將說話者的聲音歸類於以下哪一種性別類別？(a) 女性 (b) 男性,(a) 女性,哪一位歷史人物與說話者有相同的性別？(a) Ada Lovelace (b) Napoleon Bonaparte,(a) Ada Lovelace
+en_test_0_common_voice_en_514622.wav,female,請判斷說話者的性別。(a) 女性 (b) 男性,(a) 女性,哪一位歷史人物與說話者有相同的性別？(a) 拿破崙·波拿巴 (b) 海倫·凱勒,(b) 海倫·凱勒
+en_test_0_common_voice_en_125399.wav,female,從提供的音頻錄音中，辨識說話者的性別。 (a) 女性 (b) 男性,(a) 女性,哪一位歷史人物與說話者性別相同？(a) Billie Jean King (b) Leonardo da Vinci,(a) Billie Jean King
+en_test_0_common_voice_en_17980000.wav,female,請仔細聆聽提供的音訊片段，並辨識說話者的性別。請根據您的判斷，選擇最符合說話者性別的選項。（a）女性 （b）男性,（a）女性,以下哪一位歷史人物與說話者性別相同？（a）拿破崙·波拿巴 （b）克麗奧佩脫拉,（b）克麗奧佩脫拉
+en_test_0_common_voice_en_30406494.wav,female,請判斷此音訊錄音中的說話者性別。請注意說話者的聲音特徵，這些特徵可能有助於將說話者分類為以下兩個選項之一。請從下列選項中選擇：(a) 女性 (b) 男性,(a) 女性,在仔細聆聽所提供的音訊檔案後，請問你認為以下哪一位歷史人物與說話者屬於相同性別？(a) Joan of Arc (b) Alan Turing,(a) Joan of Arc
+en_test_0_common_voice_en_20586174.wav,female,以下任務要求你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為正確的選項。 (a) 女性 (b) 男性,(a) 女性,請仔細聆聽所提供的錄音，判斷下列哪一位歷史人物最有可能與說話者性別相同。 (a) Mahatma Gandhi (b) Marie Curie,(b) Marie Curie
+en_test_0_common_voice_en_39015262.wav,female,請判斷所提供音訊片段中說話者的性別。請辨認說話者的性別，並選擇你認為最準確的選項。（a）女性 （b）男性,（a）女性,請仔細聆聽所提供的音訊錄音，判斷以下哪一位歷史人物最有可能與說話者屬於同一性別。（a）Harriet Tubman （b）Albert Einstein,（a）Harriet Tubman
+en_test_0_common_voice_en_21321829.wav,female,在這個任務中，您將聆聽一段簡短的音訊片段，並判斷說話者的性別。請選擇最符合您判斷的選項。(a) 女性 (b) 男性,(a) 女性,哪一位歷史人物與說話者的性別相同？(a) Ernest Hemingway (b) Harriet Tubman,(b) Harriet Tubman
+en_test_0_common_voice_en_20296863.wav,female,請判斷說話者的性別是什麼？(a) 女性 (b) 男性,(a) 女性,在仔細聆聽所提供的音檔後，下列哪一位歷史人物與說話者的性別相同？(a) Rosa Parks (b) William Shakespeare,(a) Rosa Parks
+en_test_0_common_voice_en_38123782.wav,female,這段音訊中說話者的性別是什麼？（a）女性（b）男性,（a）女性,請仔細聆聽所提供的音訊檔案中的聲音。以下哪一位歷史人物最有可能與說話者屬於相同性別？（a）Winston Churchill（b）Cleopatra,（b）Cleopatra
+en_test_0_common_voice_en_39548774.wav,female,請將說話者的聲音歸類為以下哪一種性別類別：(a) 女性 (b) 男性,(a) 女性,哪一位歷史人物與說話者屬於相同性別？(a) Rosa Parks (b) Ludwig van Beethoven,(a) Rosa Parks
+en_test_0_common_voice_en_623389.wav,female,請判斷說話者的性別。（a）女性 （b）男性,（a）女性,哪位歷史人物與說話者性別相同？（a）Leonardo da Vinci （b）Amelia Earhart,（b）Amelia Earhart
+en_test_0_common_voice_en_38213328.wav,female,請根據提供的音訊錄音，判斷說話者的性別。(a) 女性 (b) 男性,(a) 女性,請仔細聆聽所提供的音訊檔案。以下哪一位歷史人物最有可能與說話者有相同的性別？(a) Indira Gandhi (b) Albert Einstein,(a) Indira Gandhi
+en_test_0_common_voice_en_18979305.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。根據你的判斷，選擇最能代表說話者性別的選項。 (a) 女性 (b) 男性,(a) 女性,哪一位歷史人物和說話者屬於相同性別？(a) Alexander the Great (b) Harriet Tubman,(b) Harriet Tubman
+en_test_0_common_voice_en_21374777.wav,female,請判斷此音訊錄音中說話者的性別。請注意可能有助於將說話者歸類為以下兩種選項之一的聲音特徵。請從下列選項中選擇你認為正確的答案。(a) 女性 (b) 男性,(a) 女性,下列哪一位歷史人物與說話者為相同性別？(a) Rosa Parks (b) Napoleon Bonaparte,(a) Rosa Parks
+en_test_0_common_voice_en_17285889.wav,female,以下任務要求你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇與你判斷結果相符的選項。（a）女性 （b）男性,（a）女性,在仔細分析了提供的音訊檔案中的說話者聲音後，下列哪位歷史人物最有可能與該說話者擁有相同性別？（a）Alan Turing （b）Virginia Woolf,（b）Virginia Woolf
+en_test_0_common_voice_en_551373.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請識別說話者的性別並選擇你認為最準確的選項。（a）女性 （b）男性,（a）女性,在仔細分析所提供音訊檔案中說話者的聲音後，下列哪位歷史人物最有可能和說話者屬於同一性別？（a）Joan of Arc（聖女貞德） （b）William Shakespeare（威廉·莎士比亞）,（a）Joan of Arc（聖女貞德）
+en_test_0_common_voice_en_265829.wav,female,在這項任務中，你將聆聽一段簡短的音訊，並辨識說話者的性別。請選擇最符合你判斷的選項。(a) 女性 (b) 男性,(a) 女性,在仔細分析提供的音訊檔中說話者的聲音後，哪一位歷史人物最有可能與說話者擁有相同的性別？(a) Abraham Lincoln (b) Billie Jean King,(b) Billie Jean King
+en_test_0_common_voice_en_38518231.wav,female,請判斷說話者的性別。(a) 女性 (b) 男性,(a) 女性,下列哪一位歷史人物與說話者屬於相同性別？(a) Marie Curie (b) Winston Churchill,(a) Marie Curie
+en_test_0_common_voice_en_38785822.wav,female,這段音訊中說話者的性別是什麼？（a）女性 （b）男性,（a）女性,哪一位歷史人物與說話者有相同的性別？（a）Albert Einstein （b）Ada Lovelace,（b）Ada Lovelace
+en_test_0_common_voice_en_23863783.wav,female,請將說話者的聲音歸類至以下性別選項之一：(a) 女性 (b) 男性,(a) 女性,在仔細聆聽所提供的音檔後，您認為以下哪一位歷史人物與說話者屬於同一性別？(a) Harriet Tubman (b) Neil Armstrong,(a) Harriet Tubman
+en_test_0_common_voice_en_37016755.wav,female,辨識說話者的性別。(a) 女性 (b) 男性,(a) 女性,下列哪一位歷史人物與說話者具有相同的性別？(a) Alexander the Great (b) Marie Curie,(b) Marie Curie
+en_test_0_common_voice_en_18758347.wav,female,請根據提供的音訊辨識說話者的性別。(a) 女性 (b) 男性,(a) 女性,請仔細聆聽提供的音訊，判斷下列哪一位歷史人物與說話者最有可能是相同性別。(a) Rosa Parks (b) Alan Turing,(a) Rosa Parks
+en_test_0_common_voice_en_19766383.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據您的判斷，選擇最能代表說話者性別的選項。（a）男性（b）女性,（b）女性,以下哪一位歷史人物與說話者的性別相同？（a）William Shakespeare（b）Cleopatra,（b）Cleopatra
+en_test_0_common_voice_en_19708707.wav,female,請判斷此音訊錄音的說話者性別。請注意聲音特徵，以協助將說話者歸類為下列兩個選項之一，並從以下選項中選擇你的答案。（a）男性 （b）女性,（b）女性,請仔細聆聽所提供音檔的聲音。下列哪一位歷史人物最有可能與說話者為相同性別？（a）Joan of Arc（b）Leonardo da Vinci,（a）Joan of Arc
+en_test_0_common_voice_en_28458841.wav,female,以下任務要求你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為正確的選項。（a）男性（b）女性,（b）女性,在仔細聆聽提供的音訊檔案後，你認為下列哪一位歷史人物與說話者擁有相同的性別？（a）Alan Turing（b）Amelia Earhart,（b）Amelia Earhart
+en_test_0_common_voice_en_31679243.wav,female,你的任務是判斷提供的音訊片段中講話者的性別。請辨識講話者的性別，並選擇你認為最準確的選項。（a）男性 （b）女性,（b）女性,在仔細聆聽所提供的音訊檔之後，下列哪一位歷史人物和講話者擁有相同的性別？（a）Virginia Woolf （b）Napoleon Bonaparte,（a）Virginia Woolf
+en_test_0_common_voice_en_19936967.wav,female,在此任務中，您將聆聽一段簡短的音訊，並判斷說話者的性別。請選出最符合您看法的選項。(a) 男性 (b) 女性,(b) 女性,哪一位歷史人物和這位說話者的性別相同？(a) Abraham Lincoln (b) Rosa Parks,(b) Rosa Parks
+en_test_0_common_voice_en_31649071.wav,female,請辨識說話者的性別。(a) 男性 (b) 女性,(b) 女性,哪一位歷史人物與說話者具有相同性別？(a) Ada Lovelace (b) Neil Armstrong,(a) Ada Lovelace
+en_test_0_common_voice_en_36937896.wav,female,這段音訊中說話者的性別是什麼？(a) 男性 (b) 女性,(b) 女性,哪一位歷史人物和說話者擁有相同的性別？(a) Pablo Picasso (b) Cleopatra,(b) Cleopatra
+en_test_0_common_voice_en_17271034.wav,female,請將說話者的聲音歸類為下列哪一個性別類別？（a）男性（b）女性,（b）女性,在仔細聆聽所提供的音訊檔案後，你認為下列哪一位歷史人物與說話者屬於相同性別？（a）Frida Kahlo（b）Ludwig van Beethoven,（a）Frida Kahlo
+en_test_0_common_voice_en_19984718.wav,female,請判斷說話者的性別。(a) 男性 (b) 女性,(b) 女性,在仔細分析所提供的音訊檔案中說話者的聲音後，下列哪一位歷史人物最有可能與說話者屬於相同性別？(a) Napoleon Bonaparte (b) Frida Kahlo,(b) Frida Kahlo
+en_test_0_common_voice_en_534327.wav,female,從提供的音頻錄音中，辨識說話者的性別。(a) 男性 (b) 女性,(b) 女性,請仔細聆聽提供的音頻錄音，判斷下列哪一位歷史人物最有可能與說話者為同一性別。(a) Mother Teresa (b) William Shakespeare,(a) Mother Teresa
+en_test_0_common_voice_en_28197048.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據您的判斷選擇最能代表說話者性別的選項。(a) 男性 (b) 女性,(b) 女性,請仔細注意所提供音訊檔案中的聲音。以下哪一位歷史人物最有可能與說話者屬於相同性別？(a) Neil Armstrong (b) Joan of Arc,(b) Joan of Arc
+en_test_0_common_voice_en_17746709.wav,female,判斷這段音訊錄音中的說話者性別。請注意聲音的特徵，幫助你將說話者歸類為下列兩個選項之一。請從以下選項中選擇你的答案。 (a) 男性 (b) 女性,(b) 女性,以下哪一位歷史人物與說話者的性別相同？(a) Cleopatra (b) Ernest Hemingway,(a) Cleopatra
+en_test_0_common_voice_en_21349470.wav,female,以下任務要求你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為正確的選項。（a）男性 （b）女性,（b）女性,以下哪一位歷史人物與該說話者屬於相同性別？（a）亞歷山大大帝 （b）德蘭修女,（b）德蘭修女
+en_test_0_common_voice_en_32123928.wav,female,請根據提供的音訊片段判斷說話者的性別。請辨認說話者的性別，並選擇你認為最準確的選項。(a) 男性 (b) 女性,(b) 女性,下列哪一位歷史人物與說話者的性別相同？(a) Harriet Tubman (b) Leonardo da Vinci,(a) Harriet Tubman
+en_test_0_common_voice_en_18317544.wav,female,在此任務中，你將聆聽一段簡短的音頻片段，並判斷說話者的性別。請選擇最符合你判斷的選項。（a）男性 （b）女性,（b）女性,以下哪位歷史人物與說話者性別相同？（a）Albert Einstein （b）Ada Lovelace,（b）Ada Lovelace
+en_test_0_common_voice_en_19715449.wav,female,請判斷說話者的性別。（a）男性 （b）女性,（b）女性,在仔細聆聽所提供的語音檔後，以下哪一位歷史人物與說話者的性別相同？（a）Marie Curie （b）Alexander the Great,（a）Marie Curie
+en_test_0_common_voice_en_39965220.wav,female,這段音訊中說話者的性別是什麼？(a) 男性 (b) 女性,(b) 女性,下列哪一位歷史人物和說話者是相同性別？(a) Winston Churchill (b) Billie Jean King,(b) Billie Jean King
+en_test_0_common_voice_en_37536210.wav,female,請將說話者的聲音歸類為以下哪一種性別類別：(a) 男性 (b) 女性,(b) 女性,請仔細聆聽提供的音訊檔案。下列哪一位歷史人物最有可能和說話者屬於相同性別？(a) Rosa Parks (b) Abraham Lincoln,(a) Rosa Parks
+en_test_0_common_voice_en_29434734.wav,female,請判斷說話者的性別。(a) 男性 (b) 女性,(b) 女性,在仔細聆聽所提供的音檔後，下列哪一位歷史人物與說話者擁有相同性別？(a) Napoleon Bonaparte (b) Frida Kahlo,(b) Frida Kahlo
+en_test_0_common_voice_en_39043506.wav,female,請根據提供的音頻錄音，辨識說話者的性別。(a) 男性 (b) 女性,(b) 女性,哪一位歷史人物與說話者的性別相同？(a) Billie Jean King (b) Winston Churchill,(a) Billie Jean King
+en_test_0_common_voice_en_37728197.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據你的判斷選擇最符合說話者性別的選項。（a）男性 （b）女性,（b）女性,請認真聆聽所提供的音訊錄音，並判斷以下哪一位歷史人物最有可能與說話者性別相同。（a）Neil Armstrong （b）Billie Jean King,（b）Billie Jean King
+en_test_0_common_voice_en_20172863.wav,female,請判斷此音訊錄音中說話者的性別。請注意聲音特徵，協助您將說話者歸類為以下兩種選項之一。請從下列選項中選擇：(a) 男性 (b) 女性,(b) 女性,下列哪一位歷史人物與說話者的性別相同？(a) Cleopatra (b) Abraham Lincoln,(a) Cleopatra
+en_test_0_common_voice_en_18392203.wav,female,以下任務要求你判斷音檔中說話者的性別。請分析說話者的聲音特徵，並選擇你認為符合判斷的選項。(a) 男性 (b) 女性,(b) 女性,請仔細聆聽提供的音訊檔案。哪一位歷史人物最有可能與說話者擁有相同的性別？(a) Abraham Lincoln (b) Frida Kahlo,(b) Frida Kahlo
+en_test_0_common_voice_en_37732910.wav,female,你的任務是判斷所提供音頻片段中說話者的性別。請識別說話者的性別，並選擇你認為最準確的選項。 (a) 男性 (b) 女性,(b) 女性,哪一位歷史人物與說話者性別相同？(a) Marie Curie (b) Winston Churchill,(a) Marie Curie
+en_test_0_common_voice_en_20848164.wav,female,在這項任務中，您將會聽一段簡短的音訊，並判斷說話者的性別。請選擇最符合您看法的選項。 (a) 男性 (b) 女性,(b) 女性,下列哪一位歷史人物與說話者性別相同？(a) Neil Armstrong (b) Frida Kahlo,(b) Frida Kahlo
+en_test_0_common_voice_en_35473863.wav,female,請判斷說話者的性別。(a) 男 (b) 女,(b) 女,下列哪一位歷史人物與說話者具有相同性別？(a) Amelia Earhart (b) Ernest Hemingway,(a) Amelia Earhart
+en_test_0_common_voice_en_39999866.wav,female,此音檔中說話者的性別是什麼？(a) 男 (b) 女,(b) 女,下列哪一位歷史人物與說話者的性別相同？(a) Abraham Lincoln (b) Ada Lovelace,(b) Ada Lovelace
+en_test_0_common_voice_en_18733382.wav,female,請將說話者的聲音分類為下列性別類別之一。(a) 男性 (b) 女性,(b) 女性,哪一位歷史人物與說話者性別相同？(a) Helen Keller (b) Leonardo da Vinci,(a) Helen Keller
+en_test_0_common_voice_en_37318570.wav,female,請判斷說話者的性別。 (a) 男性 (b) 女性,(b) 女性,下列哪一位歷史人物和說話者性別相同？ (a) Alexander the Great (b) Helen Keller,(b) Helen Keller
+en_test_0_common_voice_en_20289.wav,female,根據提供的音訊錄音，辨識說話者的性別。 (a) 男性 (b) 女性,(b) 女性,在仔細分析提供的音訊檔中說話者的聲音後，下列哪一位歷史人物最有可能與說話者屬於相同性別？ (a) Cleopatra (b) Alexander the Great,(a) Cleopatra
+en_test_0_common_voice_en_28458839.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據你的判斷選擇最符合的選項：(a) 男性 (b) 女性,(b) 女性,請仔細聆聽所提供音訊檔案中的聲音。下列哪一位歷史人物最有可能與此說話者擁有相同性別？(a) Mahatma Gandhi (b) Virginia Woolf,(b) Virginia Woolf
+en_test_0_common_voice_en_19625477.wav,female,請判斷本音檔講話者的性別。請注意聲音特徵，以協助將講話者歸類至以下兩個選項之一。請從以下選擇您的答案。(a) 男性 (b) 女性,(b) 女性,在仔細聆聽所提供的音檔後，您認為下列哪一位歷史人物與講話者同為相同性別？(a) Indira Gandhi (b) Alan Turing,(a) Indira Gandhi
+en_test_0_common_voice_en_37585175.wav,female,以下任務要求你判斷提供的音訊片段中講者的性別。請分析講者的聲音特徵，並選擇你認為正確的選項。 (a) 男性 (b) 女性,(b) 女性,以下哪一位歷史人物與講者的性別相同？ (a) Ernest Hemingway (b) 德蘭修女,(b) 德蘭修女
+en_test_0_common_voice_en_36326712.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最正確的選項。 (a) 男性 (b) 女性,(b) 女性,請仔細聆聽所提供音訊檔案中的聲音。以下哪一位歷史人物最有可能與說話者屬於同一性別？ (a) Cleopatra (b) Ernest Hemingway,(a) Cleopatra
+en_test_0_common_voice_en_18425394.wav,female,在這個任務中，你將聆聽一段簡短的音訊片段並判斷說話者的性別。請選擇你認為最合適的選項。(a) 男性 (b) 女性,(b) 女性,在仔細分析提供的音訊檔案中說話者的聲音後，以下哪位歷史人物最有可能與說話者屬於相同性別？(a) Winston Churchill (b) Amelia Earhart,(b) Amelia Earhart
+en_test_0_common_voice_en_19685105.wav,female,請判斷說話者的性別是什麼？(a) 男性 (b) 女性,(b) 女性,在仔細聆聽所提供的音訊檔後，您認為下列哪一位歷史人物與說話者擁有相同性別？(a) Ada Lovelace (b) Ludwig van Beethoven,(a) Ada Lovelace
+en_test_0_common_voice_en_18758345.wav,female,這段音訊中說話者的性別是什麼？(a) 男性 (b) 女性,(b) 女性,請仔細聆聽所提供的音訊錄音，判斷下列哪位歷史人物最有可能與說話者屬於相同性別？(a) William Shakespeare (b) Rosa Parks,(b) Rosa Parks
+en_test_0_common_voice_en_37797910.wav,female,請將說話者的聲音歸類到以下哪一個性別類別？(a) 男性 (b) 女性,(b) 女性,請仔細聆聽所提供的音訊錄音，判斷以下哪一位歷史人物最有可能與說話者的性別相同？(a) Harriet Tubman (b) Pablo Picasso,(a) Harriet Tubman
+en_test_0_common_voice_en_19948140.wav,female,請判斷說話者的性別。(a) 男性 (b) 女性,(b) 女性,哪一位歷史人物與說話者的性別相同？(a) Leonardo da Vinci (b) Frida Kahlo,(b) Frida Kahlo
+en_test_0_common_voice_en_31070493.wav,female,根據所提供的錄音，請辨識說話者的性別。（a）男 （b）女,（b）女,請仔細聆聽所提供的錄音，判斷下列哪位歷史人物與說話者的性別最有可能相同。（a）Ada Lovelace （b）William Shakespeare,（a）Ada Lovelace
+en_test_0_common_voice_en_31667122.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據您的感知選擇最能代表說話者性別的選項。（a）男性 （b）女性,（b）女性,下列哪一位歷史人物與該說話者性別相同？（a）William Shakespeare （b）Virginia Woolf,（b）Virginia Woolf
+en_test_0_common_voice_en_17562717.wav,female,請判斷這段音訊錄音中說話者的性別。請注意可能有助於將說話者歸類至以下兩種性別之一的聲音特徵。請從下列選項中選擇你的答案。(a) 男性 (b) 女性,(b) 女性,下列哪一位歷史人物與說話者屬於相同性別？(a) Amelia Earhart (b) William Shakespeare,(a) Amelia Earhart
+en_test_0_common_voice_en_17839501.wav,female,以下任務要求你判斷所提供音訊片段中講話者的性別。請分析講話者的聲音特徵，並選出最符合你判斷的選項。 (a) 男性 (b) 女性,(b) 女性,下列哪一位歷史人物和講話者性別相同？ (a) Winston Churchill (b) Virginia Woolf,(b) Virginia Woolf
+en_test_0_common_voice_en_17895301.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。(a) 男性 (b) 女性,(b) 女性,哪一位歷史人物和說話者有相同性別？(a) Harriet Tubman (b) Mahatma Gandhi,(a) Harriet Tubman
+en_test_0_common_voice_en_38427553.wav,female,在這個任務中，你將會聆聽一段簡短的音訊，並判斷說話者的性別。請選擇最符合你判斷的選項。(a) 男性 (b) 女性,(b) 女性,以下哪一位歷史人物與這位說話者屬於相同性別？(a) Winston Churchill (b) Mother Teresa,(b) Mother Teresa
+en_test_0_common_voice_en_19635121.wav,female,請判斷說話者的性別。(a) 男性 (b) 女性,(b) 女性,請仔細聆聽提供的錄音，判斷下列哪一位歷史人物最有可能與說話者性別相同。(a) Indira Gandhi (b) Pablo Picasso,(a) Indira Gandhi
+en_test_0_common_voice_en_37536220.wav,female,這段音頻中說話者的性別是什麼？(a) 男性 (b) 女性,(b) 女性,哪位歷史人物與說話者的性別相同？(a) Abraham Lincoln (b) Mother Teresa,(b) Mother Teresa
+en_test_0_common_voice_en_561897.wav,female,請將說話者的聲音歸類為下列性別之一：（a）男性 （b）女性,（b）女性,下列哪一位歷史人物與說話者性別相同？（a）Frida Kahlo （b）Neil Armstrong,（a）Frida Kahlo
+en_test_0_common_voice_en_31696187.wav,female,請判斷說話者的性別。 (a) 男性 (b) 女性,(b) 女性,在仔細分析提供的音檔中說話者的聲音後，下列哪一位歷史人物最有可能與說話者擁有相同的性別？(a) Abraham Lincoln (b) Helen Keller,(b) Helen Keller
+en_test_0_common_voice_en_32941672.wav,female,從提供的音訊錄音中，辨識說話者的性別。(a) 男性 (b) 女性,(b) 女性,以下哪一位歷史人物與說話者性別相同？(a) Billie Jean King (b) Ludwig van Beethoven,(a) Billie Jean King
+en_test_0_common_voice_en_25076998.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據您的判斷選擇最符合的選項。（a）男性 （b）女性,（b）女性,在仔細聆聽所提供的音訊檔後，下列哪一位歷史人物的性別與說話者相同？（a）Albert Einstein （b）Amelia Earhart,（b）Amelia Earhart
+en_test_0_common_voice_en_20936410.wav,female,請判斷此音訊錄音中說話者的性別。請注意聲音的特徵，以協助將說話者歸類於以下兩個選項之一。請從以下選項中選擇你的答案。(a) 男性 (b) 女性,(b) 女性,在仔細分析提供的音訊檔案中說話者的聲音後，下列哪一位歷史人物最有可能和說話者屬於相同性別？(a) Indira Gandhi (b) Pablo Picasso,(a) Indira Gandhi
+en_test_0_common_voice_en_18304023.wav,female,以下任務要求你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為最符合的選項。(a) 男性 (b) 女性,(b) 女性,在仔細分析所提供音訊檔案中說話者的聲音後，哪位歷史人物最有可能與該說話者有相同的性別？(a) Pablo Picasso (b) Billie Jean King,(b) Billie Jean King
+en_test_0_common_voice_en_18257271.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請識別說話者的性別，並選擇你認為最正確的選項。（a）男性（b）女性,（b）女性,請仔細聆聽所提供音訊檔案中的聲音。下列哪一位歷史人物最有可能與說話者擁有相同的性別？（a）Indira Gandhi（b）Ernest Hemingway,（a）Indira Gandhi
+en_test_0_common_voice_en_25722368.wav,female,在這個任務中，你將會聆聽一段簡短的音訊片段，並辨識說話者的性別。請選擇最符合你意見的選項。（a）男性 （b）女性,（b）女性,在仔細分析所提供音訊檔中的說話者聲音之後，哪一位歷史人物最有可能與說話者屬於相同性別？（a）Ludwig van Beethoven（b）Amelia Earhart,（b）Amelia Earhart
+en_test_0_common_voice_en_20282120.wav,female,請判斷說話者的性別是什麼？ (a) 男性 (b) 女性,(b) 女性,下列哪一位歷史人物與說話者擁有相同性別？ (a) Helen Keller (b) Leonardo da Vinci,(a) Helen Keller
+en_test_0_common_voice_en_38707113.wav,female,這段音訊中的說話者性別是什麼？(a) 男性 (b) 女性,(b) 女性,下列哪一位歷史人物與說話者的性別相同？(a) Mahatma Gandhi (b) Billie Jean King,(b) Billie Jean King
+en_test_0_common_voice_en_39018431.wav,female,請將說話者的聲音分類為以下性別類別之一： (a) 男性 (b) 女性,(b) 女性,請仔細聆聽所提供的音訊檔案。下列哪一位歷史人物最有可能與說話者擁有相同性別？ (a) Ada Lovelace (b) Alexander the Great,(a) Ada Lovelace
+en_test_0_common_voice_en_37486763.wav,female,請判斷說話者的性別。（a）男性 （b）女性,（b）女性,在仔細聆聽所提供的音檔後，下列哪一位歷史人物與說話者的性別相同？（a）Albert Einstein （b）Amelia Earhart,（b）Amelia Earhart
+en_test_0_common_voice_en_26408640.wav,female,請根據提供的錄音辨識說話者的性別。(a) 男 (b) 女,(b) 女,下列哪位歷史人物和說話者性別相同？(a) Joan of Arc (b) Neil Armstrong,(a) Joan of Arc
+en_test_0_common_voice_en_38077625.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據您的判斷選擇最符合說話者性別的選項。(a) 男性 (b) 女性,(b) 女性,在仔細聆聽所提供的音訊檔案後，您認為下列哪一位歷史人物與說話者的性別相同？(a) Ernest Hemingway (b) Virginia Woolf,(b) Virginia Woolf
+en_test_0_common_voice_en_32377446.wav,female,請判斷此音訊錄音中說話者的性別。請注意聲音的特徵，以協助將說話者歸類為下列兩種選項之一。請從以下選項選擇你的答案。(a) 男性 (b) 女性,(b) 女性,請仔細聆聽所提供的音檔中的聲音。下列哪一位歷史人物最有可能與說話者為相同性別？(a) Joan of Arc (b) Alan Turing,(a) Joan of Arc
+en_test_0_common_voice_en_18165461.wav,female,以下任務要求你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為最符合的選項。(a) 男性 (b) 女性,(b) 女性,請仔細聆聽所提供的音訊檔案。下列哪一位歷史人物最有可能與說話者屬於相同性別？(a) Ludwig van Beethoven (b) Marie Curie,(b) Marie Curie
+en_test_0_common_voice_en_18758926.wav,female,請根據所提供的音訊片段，判斷說話者的性別。請選出您認為最準確的選項。（a）男性（b）女性,（b）女性,哪一位歷史人物與說話者的性別相同？（a）Joan of Arc（b）Napoleon Bonaparte,（a）Joan of Arc
+en_test_0_common_voice_en_17285930.wav,female,在這個任務中，你將聆聽一段簡短的音訊片段並判斷說話者的性別。請選擇最符合你看法的選項。(a) 男性 (b) 女性,(b) 女性,在仔細分析音訊檔案中說話者的聲音後，下列哪一位歷史人物最有可能與說話者屬於相同性別？(a) Neil Armstrong (b) Mother Teresa,(b) Mother Teresa
+en_test_0_common_voice_en_36520201.wav,female,請判斷說話者的性別是什麼？(a) 男 (b) 女,(b) 女,下列哪一位歷史人物與說話者具有相同性別？(a) Helen Keller (b) Pablo Picasso,(a) Helen Keller
+en_test_0_common_voice_en_19609644.wav,female,在這段音訊中，說話者的性別是什麼？(a) 男性 (b) 女性,(b) 女性,哪一位歷史人物與這位說話者的性別相同？(a) 愛因斯坦 (b) 德蕾莎修女,(b) 德蕾莎修女
+en_test_0_common_voice_en_18151607.wav,female,請將說話者的聲音歸類為下列哪一種性別類別？(a) 男性 (b) 女性,(b) 女性,以下哪位歷史人物與說話者的性別相同？(a) Helen Keller (b) Pablo Picasso,(a) Helen Keller
+en_test_0_common_voice_en_19985202.wav,female,請判斷說話者的性別。(a) 男性 (b) 女性,(b) 女性,請仔細聆聽所提供的語音錄音，並判斷下列哪一位歷史人物最有可能與說話者擁有相同的性別。(a) Mahatma Gandhi (b) Joan of Arc,(b) Joan of Arc
+en_test_0_common_voice_en_19412461.wav,female,請根據提供的音訊錄音，辨識說話者的性別。 (a) 男性 (b) 女性,(b) 女性,哪一位歷史人物與說話者有相同的性別？(a) Virginia Woolf (b) Ludwig van Beethoven,(a) Virginia Woolf
+en_test_0_common_voice_en_36765761.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據您的感知選擇最符合說話者性別的選項。(a) 男性 (b) 女性,(b) 女性,在仔細分析所提供音訊檔案中說話者的聲音後，下列哪位歷史人物最有可能與說話者屬於同一性別？(a) Alan Turing (b) Rosa Parks,(b) Rosa Parks
+en_test_0_common_voice_en_19532961.wav,female,請判斷此音訊錄音中說話者的性別。請注意說話者的聲音特徵，以協助將說話者歸類為以下兩個選項之一。請從以下選項中選擇你的答案。（a）男性 （b）女性,（b）女性,哪一位歷史人物與說話者具有相同的性別？（a）瑪麗·居禮 （b）巴勃羅·畢卡索,（a）瑪麗·居禮
+en_test_0_common_voice_en_23896967.wav,female,以下任務請你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇最符合你判斷的選項。(a) 男性 (b) 女性,(b) 女性,下列哪一位歷史人物與說話者性別相同？(a) Alexander the Great (b) Marie Curie,(b) Marie Curie
+en_test_0_common_voice_en_37486765.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。（a）男（b）女,（b）女,下列哪一位歷史人物與說話者性別相同？（a）Indira Gandhi（b）Mahatma Gandhi,（a）Indira Gandhi
+en_test_0_common_voice_en_17813315.wav,female,在這項任務中，您將收聽一段簡短的音訊片段並判斷說話者的性別。請選擇最符合您看法的選項。(a) 男性 (b) 女性,(b) 女性,請仔細聆聽所提供的錄音，並判斷以下哪些歷史人物最有可能與說話者屬於同一性別。(a) Alan Turing (b) Helen Keller,(b) Helen Keller
+en_test_0_common_voice_en_37318416.wav,female,請判斷說話者的性別。（a）男性 （b）女性,（b）女性,哪一種音域最符合說話者的性別？（a）女高音 （b）男中音,（a）女高音
+en_test_0_common_voice_en_18122652.wav,female,這段音訊中說話者的性別是什麼？(a) 男性 (b) 女性,(b) 女性,在評估音訊中聽到的音域時，哪一個選項較有可能與與說話者相同性別的人相關？(a) 低音 (b) 女低音,(b) 女低音
+en_test_0_common_voice_en_36544758.wav,female,將說話者的聲音分類為以下哪一種性別類別？ (a) 男性 (b) 女性,(b) 女性,以下哪一種音域與音訊中說話者的性別相符？ (a) 花腔女高音 (b) 男假聲高音,(a) 花腔女高音
+en_test_0_common_voice_en_19627215.wav,female,請判斷說話者的性別。(a) 男性 (b) 女性,(b) 女性,根據音訊，哪一種聲部範圍符合說話者的性別？(a) 男高音 (b) 力量女高音,(b) 力量女高音
+en_test_0_common_voice_en_19736952.wav,female,請根據提供的音訊錄音判斷說話者的性別。 (a) 男性 (b) 女性,(b) 女性,下列哪一個聲部屬於音訊中說話者的性別？(a) 花腔女高音 (b) 男中音,(a) 花腔女高音
+en_test_0_common_voice_en_19480238.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據您的判斷選擇最能代表說話者性別的選項。(a) 男性 (b) 女性,(b) 女性,根據音訊內容，下列哪一種聲部範圍與說話者的性別最為相符？(a) 抒情男高音 (b) 女中音,(b) 女中音
+en_test_0_common_voice_en_19625460.wav,female,請判斷此音訊錄音中的說話者性別。請注意有助於分類說話者的聲音特徵，並從以下兩個選項中選擇你的答案。(a) 男性 (b) 女性,(b) 女性,在仔細聆聽所提供的音訊後，下列哪一種聲部最有可能與與說話者同性別的人相關？(a) 女低音 (b) 英雄男高音,(a) 女低音
+en_test_0_common_voice_en_20800498.wav,female,以下任務要求你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇符合你判斷的選項。(a) 男性 (b) 女性,(b) 女性,在評估音訊中聽到的音域時，下列哪一個選項較可能與該說話者相同性別的人相關？(a) 高男聲 (b) 抒情女高音,(b) 抒情女高音
+en_test_0_common_voice_en_39915957.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請辨認說話者的性別，並選擇你認為最正確的選項。(a) 男性 (b) 女性,(b) 女性,在評估音訊中聽到的音域時，以下哪個選項較常與和說話者同一性別的人相關？(a) 戲劇女高音 (b) 男中音,(a) 戲劇女高音
+en_test_0_common_voice_en_38707391.wav,female,在這個任務中，您將聆聽一段簡短的音訊片段並判斷講者的性別。請選擇最符合您看法的選項。(a) 男性 (b) 女性,(b) 女性,根據音訊，哪一種聲音範圍與講者的性別最為相符？(a) Spinto tenor (b) Dramatic soprano,(b) Dramatic soprano
+en_test_0_common_voice_en_35400504.wav,female,請判斷說話者的性別。(a) 男 (b) 女,(b) 女,在仔細聆聽所提供的音頻後，下列哪一種聲音音域最有可能與與說話者相同性別的人相關？(a) 次女高音 (b) 男中低音,(a) 次女高音
+en_test_0_common_voice_en_25659718.wav,female,這段音訊中說話者的性別是什麼？(a) 男性 (b) 女性,(b) 女性,在仔細分析該音訊中說話者的聲音後，下列哪一種聲部最有可能與說話者同性別的個體相關？(a) Spinto 男高音 (b) Spinto 女高音,(b) Spinto 女高音
+en_test_0_common_voice_en_31716424.wav,female,請將說話者的聲音歸類為以下其中一種性別類別。(a) 男性 (b) 女性,(b) 女性,根據語音，哪一種聲部範圍最符合說話者的性別？(a) 戲劇女高音 (b) 抒情男高音,(a) 戲劇女高音
+en_test_0_common_voice_en_22469604.wav,female,請判斷說話者的性別。(a) 男性 (b) 女性,(b) 女性,根據音頻，哪一種音域符合說話者的性別？(a) 低男中音 (b) 女高音,(b) 女高音
+en_test_0_common_voice_en_19715450.wav,female,請根據所提供的音檔，判斷說話者的性別。(a) 男性 (b) 女性,(b) 女性,在仔細分析此音檔中說話者的聲音後，以下哪一種聲部最有可能與與說話者同性別的人相關？(a) 花腔女高音 (b) 男高音,(a) 花腔女高音
+en_test_0_common_voice_en_20296862.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據您的判斷選擇最符合說話者性別的選項。(a) 男性 (b) 女性,(b) 女性,根據音訊，哪一種聲部範疇符合說話者的性別？(a) 低音 (b) 戲劇女高音,(b) 戲劇女高音
+en_test_0_common_voice_en_18093355.wav,female,請判斷此音訊錄音中說話者的性別。請注意能幫助判斷說話者性別的聲音特徵，並從以下選項中選擇你的答案。（a）男性（b）女性,（b）女性,哪一種聲部音域最符合這位說話者的性別？（a）抒情女高音（b）低音,（a）抒情女高音
+en_test_0_common_voice_en_39016117.wav,female,以下任務要求你根據所提供的音訊片段，判斷說話者的性別。請分析說話者的聲音特徵，選擇最符合你判斷的選項。（a）男性（b）女性,（b）女性,根據音訊中聽到的聲音特徵，下列哪一種音域更有可能與與說話者同性別的人相關？（a）男高音（b）次女高音,（b）次女高音
+en_test_0_common_voice_en_20972098.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請識別說話者的性別，並選擇你認為最正確的選項。 (a) 男性 (b) 女性,(b) 女性,根據音訊中的聲音特徵，下列哪一種音域更有可能與此說話者的性別相關？(a) 花腔女高音 (b) 英雄男高音,(a) 花腔女高音
+en_test_0_common_voice_en_623388.wav,female,在此任務中，您將聆聽一段簡短的音訊剪輯，並判斷說話者的性別。請選擇最符合您看法的選項。 (a) 男性 (b) 女性,(b) 女性,根據您在音訊中聽到的聲音特徵，下列哪一種音域更有可能與說話者相同性別的人相關？ (a) 劇烈男高音 (b) 女高音,(b) 女高音
+en_test_0_common_voice_en_39764879.wav,female,請辨識說話者的性別。(a) 男性 (b) 女性,(b) 女性,哪一種聲部範圍最有可能與說話者的性別相關？(a) 抒情女高音 (b) 英雄男高音,(a) 抒情女高音
+en_test_0_common_voice_en_66713.wav,female,這段音訊中的說話者性別是什麼？ (a) 男性 (b) 女性,(b) 女性,根據音訊內容，哪一種聲部範圍符合說話者的性別？ (a) 低男中音 (b) 戲劇女高音,(b) 戲劇女高音
+en_test_0_common_voice_en_18395045.wav,female,請將說話者的聲音歸類為以下哪一種性別類別。（a）男性 （b）女性,（b）女性,在仔細聆聽所提供的音檔後，下列哪一個聲部範圍最有可能與與說話者相同性別的人相關？（a）戲劇女高音 （b）男中音,（a）戲劇女高音
+en_test_0_common_voice_en_31611581.wav,female,請辨識說話者的性別。(a) 男性 (b) 女性,(b) 女性,哪一種聲部最有可能與說話者的性別相關？(a) 英雄男高音 (b) 力量女高音,(b) 力量女高音
+en_test_0_common_voice_en_38420003.wav,female,根據提供的音訊錄音，辨識說話者的性別。 (a) 男性 (b) 女性,(b) 女性,在評估錄音中聽到的音域時，下列哪一個選項較有可能與與說話者同性別的人相關？ (a) 女低音 (b) 反男高音,(a) 女低音
+en_test_0_common_voice_en_28872022.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請依據你的判斷選出最能代表說話者性別的選項。(a) 男性 (b) 女性,(b) 女性,哪一種聲部最符合說話者的性別？(a) 低男中音 (b) 劇烈女高音,(b) 劇烈女高音
+en_test_0_common_voice_en_1035565.wav,female,請判斷此音訊錄音中講話者的性別。請注意聲音特徵，協助將講話者歸類為下列兩種之一。請從以下選項中選擇你的答案。(a) 男性 (b) 女性,(b) 女性,在仔細分析講話者的聲音後，以下哪一種音域最有可能與與講話者同樣性別的人相關？(a) 女高音 (b) 男低音－男中音,(a) 女高音
+en_test_0_common_voice_en_37185966.wav,female,以下任務要求你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為合適的選項。(a) 男 (b) 女,(b) 女,在仔細聆聽所提供的音訊後，下列哪一種聲部最有可能與說話者同性別者相關？(a) 男高音 (b) 次女高音,(b) 次女高音
+en_test_0_common_voice_en_550726.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別並選擇你認為最準確的選項。（a）男性 （b）女性,（b）女性,在仔細聆聽所提供的音訊後，下列哪一種聲部最有可能與說話者相同性別的人相關？（a）花腔女高音（b）英雄男高音,（a）花腔女高音
+en_test_0_common_voice_en_19988809.wav,female,在此任務中，您將聆聽一段簡短的音訊並判斷說話者的性別。請選擇您認為最符合的選項。（a）男性（b）女性,（b）女性,下列哪一種聲部範圍與音訊中說話者的性別最相符？（a）英雄男高音（b）戲劇女高音,（b）戲劇女高音
+en_test_0_common_voice_en_18758956.wav,female,請判斷說話者的性別。(a) 男 (b) 女,(b) 女,以下哪一種聲部屬於音檔中說話者的性別？(a) 花腔女高音 (b) 男高音,(a) 花腔女高音
+en_test_0_common_voice_en_19635120.wav,female,這段音頻中說話者的性別是什麼？ (a) 男性 (b) 女性,(b) 女性,根據音頻，哪一種聲部範圍符合說話者的性別？ (a) 高男聲 (Countertenor) (b) 抒情女高音 (Spinto soprano),(b) 抒情女高音 (Spinto soprano)
+en_test_0_common_voice_en_25021926.wav,female,請將說話者的聲音歸類為以下哪一種性別類別？ (a) 男性 (b) 女性,(b) 女性,在仔細聆聽所提供的音檔後，下列哪一種聲部最有可能與說話者相同性別的人相關？ (a) 次女高音 (b) 男高音,(a) 次女高音
+en_test_0_common_voice_en_641105.wav,female,請判斷說話者的性別。 (a) 男性 (b) 女性,(b) 女性,根據音頻中聽到的聲音特徵，下列哪一種聲部範圍較可能與與說話者同性別的人相關？ (a) 男中音 (b) 女高音,(b) 女高音
+en_test_0_common_voice_en_21367755.wav,female,請從提供的音訊中辨識說話者的性別。(a) 男性 (b) 女性,(b) 女性,在評估音訊中聽到的聲音音域時，下列哪一選項較有可能與說話者同性別的人相關？(a) 戲劇女高音 (b) 英雄男高音,(a) 戲劇女高音
+en_test_0_common_voice_en_39015721.wav,female,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據你的感受選擇最符合說話者性別的選項。（a）男性 （b）女性,（b）女性,在細心分析說話者於音檔中的聲音後，下列哪一種聲部最有可能與與說話者同性別的個體相關聯？（a）男高音 （b）花腔女高音,（b）花腔女高音
+en_test_0_common_voice_en_20644765.wav,female,請判斷此音頻錄音中說話者的性別。請注意說話者的聲音特徵，藉此協助將說話者歸類於下列兩種選項之一。請從下列選項中選擇你的答案。(a) 男性 (b) 女性,(b) 女性,哪一種聲部最可能與說話者的性別相關？(a) 花腔女高音 (b) 男中音,(a) 花腔女高音
+en_test_0_common_voice_en_37428938.wav,female,以下任務需要你判斷所提供音訊片段中講者的性別。請分析講者的聲音特徵，並選擇你判斷合適的選項。（a）男性 （b）女性,（b）女性,下列哪一種聲音音域最有可能與該講者的性別相關？（a）男高音（Countertenor） （b）花腔女高音（Coloratura soprano）,（b）花腔女高音（Coloratura soprano）
+en_test_0_common_voice_en_19941211.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。 (a) 男性 (b) 女性,(b) 女性,下列哪一種聲部最符合該說話者的性別？(a) 戲劇女高音 (b) 低音男中音,(a) 戲劇女高音
+en_test_0_common_voice_en_39094658.wav,female,在這個任務中，你將會聽一段簡短的音訊，並判斷說話者的性別。請選擇最符合你看法的選項。 (a) 男性 (b) 女性,(b) 女性,哪一種聲音範圍最符合說話者的性別？ (a) 男高音 (b) 女低音,(b) 女低音
+en_test_0_common_voice_en_19480240.wav,female,請判斷說話者的性別。 (a) 男性 (b) 女性,(b) 女性,仔細聆聽所提供的音檔後，下列哪一種聲部範圍最有可能與與說話者同性別的人相關？ (a) 次女高音 (b) 男中音,(a) 次女高音
+en_test_0_common_voice_en_21730661.wav,female,這段音頻中說話者的性別是什麼？(a) 男 (b) 女,(b) 女,哪一種聲部範圍最符合說話者的性別？(a) Basso profundo (b) Coloratura soprano,(b) Coloratura soprano
+en_test_0_common_voice_en_36435650.wav,female,請將說話者的聲音歸類於以下哪一種性別類別？（a）男性（b）女性,（b）女性,在仔細分析錄音中說話者的聲音後，下列哪一種聲音範圍最有可能與與該說話者相同性別的人相關？（a）女低音（b）男低音,（a）女低音
+en_test_0_common_voice_en_514623.wav,female,請判斷說話者的性別。(a) 男性 (b) 女性,(b) 女性,仔細聆聽所提供的音訊後，下列哪一個聲部最有可能與與說話者同性別的人相關？(a) 低音 (b) 女低音,(b) 女低音
+en_test_0_common_voice_en_19988815.wav,female,根據提供的音頻錄音，請辨識說話者的性別。(a) 男性 (b) 女性,(b) 女性,下列哪一種聲部範圍與音頻中說話者的性別相符？(a) 戲劇女高音 (b) 男中音,(a) 戲劇女高音
+en_test_0_common_voice_en_31716416.wav,female,請仔細聆聽所提供的音訊片段，並辨識說話者的性別。根據你的判斷，選出最能代表說話者性別的選項。(a) 男性 (b) 女性,(b) 女性,在評估音檔中聽到的聲部範圍時，下列哪一個選項更可能與說話者相同性別的人有關？(a) 抒情男高音 (b) 女低音,(b) 女低音
+en_test_0_common_voice_en_38189490.wav,female,請判斷此音檔錄音中說話者的性別。請注意聲音的特徵，協助將說話者歸類為以下其中一種性別。請從以下選項中選出你的答案。(a) 男性 (b) 女性,(b) 女性,哪一種音域最符合該說話者的性別？(a) Spinto 女高音 (b) 男中音,(a) Spinto 女高音
+en_test_0_common_voice_en_19058131.wav,female,以下任務要求你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇與你的判斷相符的選項。 (a) 男性 (b) 女性,(b) 女性,在仔細分析音訊中說話者的聲音後，以下哪一種聲部最有可能與與說話者同性別的人相關？(a) 低音 (b) 女高音,(b) 女高音
+en_test_0_common_voice_en_39082174.wav,female,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別並選擇你認為最正確的選項。（a）男（b）女,(b) 女,下列哪一種聲部範圍對應於音訊中說話者的性別？（a）花腔女高音（b）男低音,(a) 花腔女高音
+en_test_0_common_voice_en_21568053.wav,female,在此任務中，您將聆聽一段短音訊，並判斷說話者的性別。請選擇最符合您判斷的選項。 (a) 男性 (b) 女性,(b) 女性,哪一種音域最有可能與該說話者的性別相關？(a) 低男中音 (b) 女高音,(b) 女高音
+en_test_0_common_voice_en_18375213.wav,male,請判斷說話者的性別。 (a) 男性 (b) 女性,(a) 男性,下列哪一個聲部範圍符合該錄音中說話者的性別？(a) Countertenor (b) Dramatic soprano,(a) Countertenor
+en_test_0_common_voice_en_34481119.wav,male,這段音訊中說話者的性別為何？(a) 男性 (b) 女性,(a) 男性,下列哪一種聲部範圍與這段音訊中說話者的性別相符？(a) 女低音 (b) 男高音,(b) 男高音
+en_test_0_common_voice_en_25126314.wav,male,請將說話者的聲音歸類到以下其中一種性別類別：(a) 男性 (b) 女性,(a) 男性,下列哪一種聲音範圍對應到音檔中說話者的性別？(a) 低音男中音 (b) 次女高音,(a) 低音男中音
+en_test_0_common_voice_en_18556.wav,male,請判斷說話者的性別。（a）男性 （b）女性,（a）男性,哪一種聲部最有可能與說話者的性別相關？（a）女高音（b）英雄男高音,（b）英雄男高音
+en_test_0_common_voice_en_17864432.wav,male,從提供的音頻錄音中，辨認說話者的性別。 (a) 男性 (b) 女性,(a) 男性,根據在音頻中聽到的聲音特徵，下列哪一種音域更有可能與說話者相同性別的人相關？ (a) 低男中音 (b) 女高音,(a) 低男中音
+en_test_0_common_voice_en_25898322.wav,male,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據你的判斷選擇最能代表說話者性別的選項。（a）男性 （b）女性,（a）男性,在仔細分析說話者在音訊中的聲音後，下列哪一種音域最有可能是與該說話者同性別的人所具有的？（a）女高音 （b）抒情男高音,（b）抒情男高音
+en_test_0_common_voice_en_24472733.wav,male,判斷這段音訊中的說話者性別。請注意聲音特徵，以協助將說話者歸類為以下兩個選項之一。請從以下選項中選擇你的答案：(a) 男性 (b) 女性,(a) 男性,在仔細聆聽提供的音訊後，下列哪一種聲音音域最有可能與說話者相同性別的人相關？(a) 抒情男高音 (Spinto tenor) (b) 女低音 (Contralto),(a) 抒情男高音 (Spinto tenor)
+en_test_0_common_voice_en_19938518.wav,male,以下任務要求你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇最符合你判斷的選項。 (a) 男性 (b) 女性,(a) 男性,哪一種聲樂音域最有可能與說話者的性別相關？(a) 花腔女高音 (b) 男低音,(b) 男低音
+en_test_0_common_voice_en_19729843.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最正確的選項。(a) 男性 (b) 女性,(a) 男性,在仔細分析說話者聲音後，以下哪一種音域最有可能與與說話者相同性別的人相關？(a) 低男低音 (b) 抒情女高音,(a) 低男低音
+en_test_0_common_voice_en_39908937.wav,male,在這項任務中，您將聆聽一段短音訊，並判斷說話者的性別。請選擇最符合您判斷的選項。（a）男性 （b）女性,（a）男性,根據音訊中聽到的聲音特徵，下列哪一種聲部範圍較可能與該性別的人相關？（a）女中音 （b）抒情男高音,（b）抒情男高音
+en_test_0_common_voice_en_18361080.wav,male,請判斷說話者的性別。(a) 男性 (b) 女性,(a) 男性,仔細聆聽所提供的音檔後，下列哪一種音域最有可能與與說話者相同性別的人相關？(a) 低男中音 (b) 女中音,(a) 低男中音
+en_test_0_common_voice_en_33366310.wav,male,這段音頻中說話者的性別是什麼？（a）男性（b）女性,（a）男性,在評估音頻中聽到的聲音音域時，下列哪一個選項較可能與說話者同一性別的人相關？（a）戲劇女高音（b）英雄男高音,（b）英雄男高音
+en_test_0_common_voice_en_19562559.wav,male,請將說話者的聲音分類為以下性別類別之一。（a）男性（b）女性,（a）男性,在評估音訊中聽到的聲域時，下列哪一個選項較有可能與與說話者同性別的人相關？（a）男中低音（b）女高音,（a）男中低音
+en_test_0_common_voice_en_17823851.wav,male,辨識說話者的性別。 (a) 男性 (b) 女性,(a) 男性,根據音訊判斷，下列哪一種音域最符合說話者的性別？(a) 女中音 (b) 抒情戲劇男高音,(b) 抒情戲劇男高音
+en_test_0_common_voice_en_35905111.wav,male,根據提供的音訊錄音，請判斷說話者的性別是？(a) 男性 (b) 女性,(a) 男性,在評估錄音中聽到的聲音音域時，下列哪一個選項較有可能與說話者相同性別的人相關？(a) 男高音 (b) 抒情女高音,(a) 男高音
+en_test_0_common_voice_en_20343661.wav,male,請仔細聆聽所提供的音頻片段，並判斷說話者的性別。請根據您的判斷選擇最適合代表說話者性別的選項。(a) 男性 (b) 女性,(a) 男性,下列哪一個聲部最有可能與說話者的性別相關？(a) 花腔女高音 (b) 男中音,(b) 男中音
+en_test_0_common_voice_en_34082125.wav,male,請判斷這段音頻錄音中說話者的性別。請注意能幫助你將說話者歸類於以下兩個選項之一的聲音特徵。請從以下選項中選擇你的答案。(a) 男性 (b) 女性,(a) 男性,哪一種聲部最有可能與該說話者的性別相關？(a) 抒情男高音 (b) 抒情女高音,(a) 抒情男高音
+en_test_0_common_voice_en_38348269.wav,male,以下任務需要你根據提供的音訊片段判斷說話者的性別。請分析說話者的聲音特徵，並選擇你認為合適的選項。(a) 男性 (b) 女性,(a) 男性,哪一種聲部範圍最符合說話者的性別？(a) 女高音 (b) 男低音-男中音,(b) 男低音-男中音
+en_test_0_common_voice_en_19808301.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨認說話者的性別，並選擇你認為最正確的選項。 (a) 男 (b) 女,(a) 男,以下哪一種音域與音訊中的說話者性別相符？(a) 男高音 (b) 戲劇女高音,(a) 男高音
+en_test_0_common_voice_en_23817815.wav,male,在這項任務中，你將會聆聽一段簡短的音訊，並辨識說話者的性別。請選擇最符合你判斷的選項。（a）男性 （b）女性,（a）男性,哪一種聲部最符合該說話者的性別？（a）高音花腔女高音 （b）低音,（b）低音
+en_test_0_common_voice_en_26209043.wav,male,請判斷說話者的性別。(a) 男 (b) 女,(a) 男,在評估音檔中聽到的聲音範圍時，下列哪一選項更有可能與該性別的人相關？(a) 男高音 (b) 次女高音,(a) 男高音
+en_test_0_common_voice_en_31893853.wav,male,這段音頻中說話者的性別是什麼？ (a) 男性 (b) 女性,(a) 男性,根據音頻，哪一種聲部範圍與說話者的性別相符？ (a) 戲劇女高音 (b) 男低音,(b) 男低音
+en_test_0_common_voice_en_18267223.wav,male,請將說話者的聲音歸類到以下性別類別之一。（a）男性 （b）女性,（a）男性,哪一個聲部最符合說話者的性別？（a）男低音-男中音 （b）女低音,（a）男低音-男中音
+en_test_0_common_voice_en_17880588.wav,male,請判斷說話者的性別。（a）男性 （b）女性,（a）男性,根據音檔中所聽到的聲音特徵，下列哪一種聲部範圍比較有可能與說話者同樣性別的人相關？（a）Spinto 女高音（b）男中音,（b）男中音
+en_test_0_common_voice_en_23846478.wav,male,請根據所提供的音訊錄音，辨認說話者的性別。 (a) 男性 (b) 女性,(a) 男性,哪一種聲部最符合說話者的性別？(a) 低男中音 (Basso profundo) (b) 女低音 (Contralto),(a) 低男中音 (Basso profundo)
+en_test_0_common_voice_en_39979187.wav,male,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據您的判斷，選擇最能代表說話者性別的選項。 (a) 男性 (b) 女性,(a) 男性,在仔細聆聽所提供的音訊後，下列哪一種音域最有可能與說話者相同性別的人相關？ (a) 強抒情女高音 (b) 男中低音,(b) 男中低音
+en_test_0_common_voice_en_32222394.wav,male,請判斷此音訊錄音中說話者的性別。請注意能夠協助你將說話者歸類為以下兩種性別之一的聲音特徵。請從下列選項中選擇你的答案。（a）男性 （b）女性,（a）男性,根據你在音訊中聽到的聲音特徵，下列哪一種聲部範圍較有可能與具有相同性別的人相關？（a）男中音 （b）華彩女高音,（a）男中音
+en_test_0_common_voice_en_17435140.wav,male,以下任務要求你根據提供的音訊片段判斷說話者的性別。請分析說話者的聲音特徵，並選擇你認為相符的選項。 (a) 男性 (b) 女性,(a) 男性,根據音訊中聽到的聲音特徵，下列哪一種音域更有可能與說話者的性別相關聯？(a) 花腔女高音 (b) 男中低音,(b) 男中低音
+en_test_0_common_voice_en_18216835.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請識別說話者的性別，並選擇你認為最準確的選項。（a）男性（b）女性,（a）男性,在仔細分析說話者的聲音後，下列哪一種聲部最有可能與與說話者同性別的人相關？（a）男低音（b）抒情女高音,（a）男低音
+en_test_0_common_voice_en_18236093.wav,male,在此任務中，你將會聆聽一段短音訊，並判斷說話者的性別。請選擇最符合你認為的選項。 (a) 男性 (b) 女性,(a) 男性,根據你在音訊中聽到的聲音特徵，下列哪一種聲部範圍較有可能與該說話者性別相符？(a) 女高音 (b) 男中低音,(b) 男中低音
+en_test_0_common_voice_en_18848277.wav,male,請判斷說話者的性別是什麼？(a) 男性 (b) 女性,(a) 男性,哪一種聲部最符合說話者的性別？(a) 低音 (b) 女高音,(a) 低音
+en_test_0_common_voice_en_21883920.wav,male,這段音訊中的說話者性別是什麼？(a) 男 (b) 女,(a) 男,哪一種聲部範圍最有可能與說話者的性別相關？(a) 女高音 (b) 男高音,(b) 男高音
+en_test_0_common_voice_en_23935849.wav,male,請將說話者的聲音歸類為以下哪一種性別類別？（a）男性 （b）女性,（a）男性,在仔細分析錄音中說話者的聲音後，下列哪一種聲音音域最有可能與與說話者同性別的人有關？（a）高男聲（Countertenor） （b）女高音（Soprano）,（a）高男聲（Countertenor）
+en_test_0_common_voice_en_17492946.wav,male,請判斷說話者的性別為何。(a) 男性 (b) 女性,(a) 男性,仔細聆聽所提供的音訊之後，下列哪一種聲部最有可能與與說話者同性別的人相關？(a) 花腔女高音 (b) 男中音,(b) 男中音
+en_test_0_common_voice_en_37250088.wav,male,根據提供的音訊錄音，請辨識說話者的性別。(a) 男 (b) 女,(a) 男,以下哪一種聲部範圍符合音訊中說話者的性別？(a) 低男中音 (b) 次女高音,(a) 低男中音
+en_test_0_common_voice_en_23817814.wav,male,請仔細聆聽所提供的音頻片段，並判斷說話者的性別。請根據你的判斷選擇最符合說話者性別的選項。(a) 男性 (b) 女性,(a) 男性,在仔細聆聽所提供的音頻後，下列哪一種聲部最有可能與與說話者同性別的人相關？(a) 女低音 (b) 男最低音,(b) 男最低音
+en_test_0_common_voice_en_18383407.wav,male,請判斷這段音訊錄音中說話者的性別。請注意能幫助你將說話者歸類到以下兩個選項之一的聲音特徵。請從下列選項中選擇你的答案。(a) 男性 (b) 女性,(a) 男性,在仔細分析說話者在音訊中的聲音後，下列哪一個聲部最有可能與與說話者同性別的人相關？(a) Heldentenor (b) Mezzo-soprano,(a) Heldentenor
+en_test_0_common_voice_en_31705666.wav,male,以下任務要求你判斷音檔中說話者的性別。請分析說話者的聲音特徵，並選擇你判斷最符合的選項。(a) 男性 (b) 女性,(a) 男性,在仔細分析說話者的聲音後，下列哪一種聲部最有可能與此說話者同性別的人相關？(a) 女低音 (b) 劇情男高音,(b) 劇情男高音
+en_test_0_common_voice_en_18177045.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。 (a) 男性 (b) 女性,(a) 男性,下列哪一種聲音音域對應到音訊中說話者的性別？(a) 男高音 (b) 戲劇女高音,(a) 男高音
+en_test_0_common_voice_en_17561641.wav,male,在此任務中，你將聆聽一段簡短的音頻，並判斷說話者的性別。請選擇你認為最合適的選項。（a）男性（b）女性,（a）男性,根據你在音頻中聽到的聲音特徵，下列哪一種聲部範圍更有可能與說話者的性別相符？（a）女低音（b）英雄男高音,（b）英雄男高音
+en_test_0_common_voice_en_37360775.wav,male,請判斷說話者的性別。 (a) 男性 (b) 女性,(a) 男性,哪一種聲部最有可能與說話者的性別相關？ (a) 低男中音 (b) 女低音,(a) 低男中音
+en_test_0_common_voice_en_31513437.wav,male,這段音訊中說話者的性別是什麼？(a) 男 (b) 女,(a) 男,以下哪一種聲部範圍對應到音訊中說話者的性別？(a) Spinto女高音 (b) 低男中音,(b) 低男中音
+en_test_0_common_voice_en_23686301.wav,male,請將說話者的聲音分類為以下其中一個性別類別：(a) 男性 (b) 女性,(a) 男性,根據音訊，哪一種聲部範圍符合說話者的性別？(a) 男高音 (b) 次女高音,(a) 男高音
+en_test_0_common_voice_en_19451953.wav,male,請判斷說話者的性別。(a) 男性 (b) 女性,(a) 男性,在評估音檔中聽到的音域時，以下哪一選項更有可能與說話者相同性別的人相關？(a) Spinto soprano (b) Tenor,(b) Tenor
+en_test_0_common_voice_en_19940196.wav,male,根據所提供的錄音，辨識說話者的性別。（a）男性 （b）女性,（a）男性,根據錄音，哪一種聲音範圍與說話者的性別相符？（a）男中音（Baritone） （b）女中音（Mezzo-soprano）,（a）男中音（Baritone）
+en_test_0_common_voice_en_17865779.wav,male,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據您的感受選擇最能代表說話者性別的選項。(a) 男性 (b) 女性,(a) 男性,根據音訊中所聽到的聲音特徵，下列哪一種音域更有可能與說話者的性別相關？(a) 女低音 (Contralto) (b) 抒情男高音 (Spinto tenor),(b) 抒情男高音 (Spinto tenor)
+en_test_0_common_voice_en_37547581.wav,male,請判斷這段音訊錄音中說話者的性別。請注意聲音特徵，以協助將說話者歸類為以下兩個選項之一。請從以下選項選擇你的答案。(a) 男 (b) 女,(a) 男,根據這段音訊，哪一種聲部範圍最符合說話者的性別？(a) 男高音 (b) 女高音,(a) 男高音
+en_test_0_common_voice_en_19941145.wav,male,以下任務要求你根據提供的音訊片段判斷說話者的性別。請分析說話者的聲音特徵，選擇與你判斷相符的選項。（a）男性（b）女性,（a）男性,哪一種聲部最符合說話者的性別？（a）戲劇女高音（b）男高音,（b）男高音
+en_test_0_common_voice_en_520490.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最正確的選項。(a) 男性 (b) 女性,(a) 男性,哪一種聲部範圍最有可能與說話者的性別相關？(a) 低音 (b) 中音女高音,(a) 低音
+en_test_0_common_voice_en_19213280.wav,male,在這個任務中，你將聆聽一段簡短的音訊，並判斷說話者的性別。請選擇最符合你看法的選項。（a）男性（b）女性,（a）男性,在評估音檔中聽到的聲音音域時，下列哪一個選項較可能與說話者相同性別的個體相關？（a）女中音（b）假聲男高音,（b）假聲男高音
+en_test_0_common_voice_en_18372287.wav,male,請判斷說話者的性別。 (a) 男性 (b) 女性,(a) 男性,根據文化背景，哪一項傳統服飾最符合說話者的性別？(a) Fustanella (b) Gele,(a) Fustanella
+en_test_0_common_voice_en_20911760.wav,male,這段音訊中說話者的性別是什麼？(a) 男 (b) 女,(a) 男,回顧傳統服飾，下列哪一項服飾最有可能與音訊中說話者的性別相關？(a) Gele (b) Barong Tagalog,(b) Barong Tagalog
+en_test_0_common_voice_en_18983327.wav,male,請將說話者的聲音分類為以下性別類別之一。(a) 男性 (b) 女性,(a) 男性,在特定文化中，哪一種傳統服飾與說話者的性別相符？(a) Dashiki (b) Huipil,(a) Dashiki
+en_test_0_common_voice_en_22758330.wav,male,請判斷說話者的性別。(a) 男性 (b) 女性,(a) 男性,在文化背景中，以下哪一項傳統服飾最有可能與說話者的性別相關？(a) Abaya (b) Chapan,(b) Chapan
+en_test_0_common_voice_en_37069473.wav,male,請根據提供的錄音辨識說話者的性別。(a) 男性 (b) 女性,(a) 男性,在特定文化中，哪一種傳統服飾與說話者的性別相符？(a) Fustanella (b) Sari,(a) Fustanella
+en_test_0_common_voice_en_20937833.wav,male,請仔細聆聽所提供的音訊片段，並辨識說話者的性別。請根據您的判斷選擇最能代表說話者性別的選項。（a）男性 （b）女性,（a）男性,在傳統服飾中，下列哪一項最有可能與說話者的性別在文化語境下相關？（a）Huipil（b）Sherwani,（b）Sherwani
+en_test_0_common_voice_en_64837.wav,male,請判斷此音訊錄音中說話者的性別。請注意可能有助於將說話者歸類為以下兩個選項之一的聲音特徵。請從以下選項中選擇你的答案。(a) 男性 (b) 女性,(a) 男性,在仔細聆聽所提供的音訊後，根據特定文化背景，以下哪一項傳統服飾最有可能與說話者的性別相關？(a) Keffiyeh (b) Gele,(a) Keffiyeh
+en_test_0_common_voice_en_18948012.wav,male,以下題目要求你判斷音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇符合你判斷的選項。(a) 男 (b) 女,(a) 男,回顧傳統服飾，下列哪一項服裝最有可能和音訊中說話者的性別有關？(a) Baju Kurung (b) Fustanella,(b) Fustanella
+en_test_0_common_voice_en_37478968.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。（a）男性 （b）女性,（a）男性,關於傳統服飾，下列哪一項服飾最有可能與該音訊中說話者的性別相關？（a）Keffiyeh（a）頭巾（b）Huipil（b）惠皮爾女裝,（a）Keffiyeh（頭巾）
+en_test_0_common_voice_en_20451079.wav,male,在這個任務中，您將聆聽一段簡短的音頻片段，並辨識說話者的性別。請選擇最符合您判斷的選項。(a) 男性 (b) 女性,(a) 男性,在文化背景下，下列哪一項傳統服飾最有可能與該說話者的性別相關？(a) 沙瓦爾長褲套裝 (b) 費斯塔涅拉裙,(b) 費斯塔涅拉裙
+en_test_0_common_voice_en_18198513.wav,male,請判斷說話者的性別。(a) 男性 (b) 女性,(a) 男性,在仔細聆聽所提供的音訊後，根據特定文化背景，以下哪一項傳統服飾最有可能與說話者的性別相關？(a) Chapan (b) Hijab,(a) Chapan
+en_test_0_common_voice_en_37471267.wav,male,請問這段音訊中的講者性別是什麼？(a) 男性 (b) 女性,(a) 男性,根據這段錄音，以下哪一種傳統服飾在某些文化背景中最符合講者的性別？(a) Kebaya (b) Kilt,(b) Kilt
+en_test_0_common_voice_en_32701722.wav,male,請將說話者的聲音分類到以下性別類別之一。（a）男性 （b）女性,（a）男性,在文化背景下，下列哪些傳統服飾最有可能與說話者的性別相關聯？（a）Baju Melayu （b）Gele,（a）Baju Melayu
+en_test_0_common_voice_en_70723.wav,male,請判斷說話者的性別。(a) 男性 (b) 女性,(a) 男性,在文化情境下，下列哪一項傳統服飾最有可能與說話者的性別相關？(a) 沙勒卡米茲 (b) Barong Tagalog,(b) Barong Tagalog
+en_test_0_common_voice_en_28889779.wav,male,根據所提供的音訊錄音，請辨識說話者的性別。 (a) 男 (b) 女,(a) 男,根據音訊錄音，在特定文化環境下，以下哪一項傳統服飾最貼近說話者的性別？(a) 杜提 (Dhoti) (b) 裙襖 (Ghagra Choli),(a) 杜提 (Dhoti)
+en_test_0_common_voice_en_19531689.wav,male,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據你的判斷選擇最能代表說話者性別的選項。(a) 男性 (b) 女性,(a) 男性,在文化背景中，以下哪些傳統服飾最有可能與說話者的性別相關？(a) 沙麗 (b) 查袍,(b) 查袍
+en_test_0_common_voice_en_17902330.wav,male,請判斷此音訊錄音中說話者的性別。請注意可能有助於將說話者歸類為下列兩個選項之一的聲音特徵。請從以下選項中選擇你的答案。(a) 男性 (b) 女性,(a) 男性,根據文化背景，哪一項傳統服飾最符合說話者的性別？(a) 蘇格蘭裙 (b) 卡巴雅,(a) 蘇格蘭裙
+en_test_0_common_voice_en_17269872.wav,male,以下任務要求你判斷提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你判斷最合適的選項。（a）男性（b）女性,（a）男性,請仔細聆聽所提供的音訊檔案，根據傳統服飾風格，哪一個選項最符合特定文化背景下說話者的性別？（a）峇峇娘惹服（Kebaya）（b）印度長禮服（Sherwani）,（b）印度長禮服（Sherwani）
+en_test_0_common_voice_en_39604073.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最正確的選項。（a）男性 （b）女性,（a）男性,請仔細聆聽所提供的音訊檔。根據傳統服飾風格，在特定文化背景下，哪一項選擇最符合說話者的性別？（a）巴龍塔加洛（Barong Tagalog） （b）旗袍（Qipao）,（a）巴龍塔加洛（Barong Tagalog）
+en_test_0_common_voice_en_39765220.wav,male,在這個任務中，你將會聆聽一段簡短的音訊，並判斷說話者的性別。請選擇最符合你看法的選項。（a）男性 （b）女性,（a）男性,請仔細聆聽所提供的音訊檔。以傳統服飾風格來看，哪一個選項最符合說話者在特定文化背景中的性別？（a）Ghagra Choli （b）Fustanella,（b）Fustanella
+en_test_0_common_voice_en_596853.wav,male,請判斷說話者的性別。 (a) 男性 (b) 女性,(a) 男性,就傳統服飾而言，哪一項服裝與說話者的性別相符？ (a) Baju Melayu (b) Paranja,(a) Baju Melayu
+en_test_0_common_voice_en_21401014.wav,male,這段音訊中說話者的性別是什麼？(a) 男性 (b) 女性,(a) 男性,在文化背景下，以下哪一種傳統服飾最有可能與說話者的性別有關？(a) Baju Kurung (b) Keffiyeh,(b) Keffiyeh
+en_test_0_common_voice_en_22717228.wav,male,請將說話者的聲音歸類於以下其中一個性別類別。（a）男性（b）女性,（a）男性,在仔細聆聽所提供的音頻後，根據特定文化背景，下列哪一項傳統服飾最有可能與說話者的性別相關？（a）馬來服（Baju Melayu）（b）頭巾（Hijab）,（a）馬來服（Baju Melayu）
+en_test_0_common_voice_en_184547.wav,male,請辨識說話者的性別。（a）男性 （b）女性,（a）男性,在傳統服飾方面，哪一項服裝與說話者的性別相符？（a）Kebaya （b）Chapan,（b）Chapan
+en_test_0_common_voice_en_20047839.wav,male,請根據所提供的音訊記錄，辨認說話者的性別。(a) 男性 (b) 女性,(a) 男性,回顧傳統服飾，下列哪一項服裝最有可能與音訊中說話者的性別相關聯？(a) Barong Tagalog (b) Huipil,(a) Barong Tagalog
+en_test_0_common_voice_en_23408793.wav,male,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。根據你的判斷，選擇最能代表說話者性別的選項。(a) 男性 (b) 女性,(a) 男性,根據文化背景，哪一項傳統服飾最符合說話者的性別？(a) Baju Kurung (b) Dhoti,(b) Dhoti
+en_test_0_common_voice_en_39018435.wav,male,請判斷這段音頻錄音中說話者的性別。請注意聲音特徵，以協助將說話者分類到以下兩個選項之一。請從以下選項中選擇你的答案：（a）男性 （b）女性,（a）男性,根據這段音頻錄音，在特定文化背景下，以下哪一項傳統服飾最符合說話者的性別？（a）Dashiki （b）Abaya,（a）Dashiki
+en_test_0_common_voice_en_27070191.wav,male,以下任務需要你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇符合你判斷的選項。（a）男性（b）女性,（a）男性,在仔細聆聽所提供的音訊後，根據特定文化背景，下列哪一項傳統服飾最有可能與說話者的性別相關？（a）Dirndl（b）Fustanella,（b）Fustanella
+en_test_0_common_voice_en_19748962.wav,male,"請判斷提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇您認為最正確的選項。
+(a) 男性 (b) 女性",(a) 男性,"請仔細聆聽提供的音訊，以下哪一種傳統服飾最有可能與該說話者在特定文化脈絡下的性別相關？
+(a) Barong Tagalog (b) Paranja",(a) Barong Tagalog
+en_test_0_common_voice_en_20688746.wav,male,在這項任務中，你將會聆聽一段短音頻，並判斷說話者的性別。請選擇最符合你看法的選項。（a）男性 （b）女性,（a）男性,在特定文化中，哪一項傳統服飾符合說話者的性別？（a）Dirndl （b）Dashiki,（b）Dashiki
+en_test_0_common_voice_en_21265383.wav,male,請判斷說話者的性別。(a) 男性 (b) 女性,(a) 男性,哪一項傳統服飾符合說話者在特定文化中的性別？(a) Fustanella (b) Hijab,(a) Fustanella
+en_test_0_common_voice_en_20907101.wav,male,這段音訊中說話者的性別是什麼？ (a) 男性 (b) 女性,(a) 男性,在文化背景下，以下哪一種傳統服飾最有可能與說話者的性別相關？ (a) Sari (b) Chapan,(b) Chapan
+en_test_0_common_voice_en_18277778.wav,male,請將說話者的聲音分為以下性別類別之一：(a) 男性 (b) 女性,(a) 男性,在仔細聆聽所提供的音訊後，根據特定文化背景，以下哪一種傳統服飾最有可能與說話者的性別相關？(a) Dashiki (b) Baju Kurung,(a) Dashiki
+en_test_0_common_voice_en_17911377.wav,male,請判斷說話者的性別。(a) 男性 (b) 女性,(a) 男性,請仔細聆聽所提供的音訊檔案。根據傳統服飾風格，在特定文化背景下，哪一個選項最符合說話者的性別？(a) Dirndl (b) Kilt,(b) Kilt
+en_test_0_common_voice_en_16030401.wav,male,根據提供的音訊錄音，辨識說話者的性別。(a) 男性 (b) 女性,(a) 男性,根據傳統服飾，下列哪一項服裝最可能與音訊中說話者的性別相關？(a) 卡菲亞頭巾 (b) 卡巴雅,(a) 卡菲亞頭巾
+en_test_0_common_voice_en_27485511.wav,male,請仔細聆聽所提供的音訊片段，並辨認說話者的性別。請根據您的判斷，選出最能代表說話者性別的選項。(a) 男性 (b) 女性,(a) 男性,根據音訊錄音，在特定文化背景下，下列哪一項傳統服飾最符合說話者的性別？(a) 沙爾瓦爾長襖 (b) 查袍,(b) 查袍
+en_test_0_common_voice_en_18340487.wav,male,請判斷此音檔中說話者的性別。請注意聲音的特徵，以協助將說話者分類為以下兩個選項之一。請從以下選項中選擇你的答案。(a) 男性 (b) 女性,(a) 男性,就文化服飾而言，哪一項服裝與說話者的性別相符？(a) Baju Melayu (b) Ghagra Choli,(a) Baju Melayu
+en_test_0_common_voice_en_18343224.wav,male,以下任務要求你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你判斷的選項。(a) 男性 (b) 女性,(a) 男性,在傳統文化服飾方面，哪一種服裝項目與說話者的性別較為相符？(a) Huipil (b) Baju Melayu,(b) Baju Melayu
+en_test_0_common_voice_en_17902458.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請識別說話者的性別，並選擇你認為最準確的選項。(a) 男性 (b) 女性,(a) 男性,根據文化背景，哪一項傳統服飾最符合說話者的性別？(a) 洞尼 (b) 旗袍,(a) 洞尼
+en_test_0_common_voice_en_26966176.wav,male,在此任務中，你將聆聽一段簡短的音訊，並判斷說話者的性別。請選擇最符合你判斷的選項。(a) 男性 (b) 女性,(a) 男性,根據文化背景，哪一項傳統服飾最符合說話者的性別？(a) 紗麗 (b) 巴隆他加祿上衣,(b) 巴隆他加祿上衣
+en_test_0_common_voice_en_40020391.wav,male,請判斷說話者的性別是什麼？（a）男性 （b）女性,（a）男性,仔細聆聽所提供的音訊後，下列哪一項傳統服飾最有可能與說話者在特定文化背景下的性別相關？（a）Kilt（蘇格蘭裙） （b）Ghagra Choli（高哈拉裙與襯衫）,（a）Kilt（蘇格蘭裙）
+en_test_0_common_voice_en_150709.wav,male,這段音訊中說話者的性別是什麼？(a) 男性 (b) 女性,(a) 男性,根據文化背景，哪一項傳統服飾最符合說話者的性別？(a) Hijab (b) Dhoti,(b) Dhoti
+en_test_0_common_voice_en_18085008.wav,male,請將說話者的聲音歸類為以下性別類別之一。(a) 男性 (b) 女性,(a) 男性,根據音頻錄音，在特定文化背景下，以下哪一種傳統服飾最符合說話者的性別？(a) 蘇格蘭裙 (b) 希賈布,(a) 蘇格蘭裙
+en_test_0_common_voice_en_18228659.wav,male,請判斷說話者的性別。 (a) 男性 (b) 女性,(a) 男性,在仔細聆聽所提供的音檔後，下列哪一項傳統服飾最有可能與說話者在特定文化背景中的性別相關？ (a) Huipil (b) Lederhosen,(b) Lederhosen
+en_test_0_common_voice_en_39946995.wav,male,請根據提供的錄音辨識說話者的性別。(a) 男性 (b) 女性,(a) 男性,在該特定文化中，哪一種傳統服裝與說話者的性別相符？(a) Sherwani (b) Sari,(a) Sherwani
+en_test_0_common_voice_en_17747097.wav,male,請仔細聆聽所提供的音訊片段，並辨認說話者的性別。請根據您的判斷，選擇最能代表說話者性別的選項。（a）男性 （b）女性,（a）男性,回顧傳統服飾，以下哪一項服裝最有可能與音訊中說話者的性別有關？（a）Dirndl（b）Kilt,（b）Kilt
+en_test_0_common_voice_en_38576099.wav,male,請判斷本音檔中說話者的性別。請注意聲音的特徵，以協助將說話者歸類為下列兩種選項之一。請從以下選項中選擇您的答案。(a) 男性 (b) 女性,(a) 男性,根據文化背景，哪一項傳統服飾最符合說話者的性別？(a) Sherwani (b) Salwar kameez,(a) Sherwani
+en_test_0_common_voice_en_17787575.wav,male,以下任務要求你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇最符合你判斷的選項。 (a) 男性 (b) 女性,(a) 男性,根據錄音內容，下列哪一種傳統服裝最符合該文化背景下說話者的性別？(a) 旗袍 (b) 長袍,(b) 長袍
+en_test_0_common_voice_en_39942522.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。(a) 男性 (b) 女性,(a) 男性,在特定文化中，哪一種傳統服飾與說話者的性別相符？(a) Sherwani (b) Huipil,(a) Sherwani
+en_test_0_common_voice_en_18198327.wav,male,在這個任務中，您將會聆聽一段短音訊，並判斷說話者的性別。請選擇最符合您判斷的選項。（a）男性（b）女性,（a）男性,就文化服飾而言，哪一件服飾最符合說話者的性別？（a）Kebaya（b）Lederhosen,（b）Lederhosen
+en_test_0_common_voice_en_20678930.wav,male,請辨識說話者的性別。 (a) 男性 (b) 女性,(a) 男性,在該特定文化中，哪一種傳統服飾與說話者的性別相符？ (a) Dhoti (b) Paranja,(a) Dhoti
+en_test_0_common_voice_en_19031181.wav,male,這段音訊中講者的性別是什麼？（a）男性 （b）女性,（a）男性,在該特定文化中，哪一項傳統服飾符合講者的性別？（a）Baju Kurung （b）Keffiyeh,（b）Keffiyeh
+en_test_0_common_voice_en_36354767.wav,male,請將說話者的聲音歸類為下列性別之一：(a) 男性 (b) 女性,(a) 男性,在該特定文化中，哪一種傳統服飾與說話者的性別相符？(a) Dashiki (b) Huipil,(a) Dashiki
+en_test_0_common_voice_en_22435265.wav,male,請判斷說話者的性別是什麼？(a) 男性 (b) 女性,(a) 男性,在傳統服飾方面，哪一種服裝與說話者的性別相符？(a) 帕蘭賈 (b) 達提,(b) 達提
+en_test_0_common_voice_en_22615640.wav,male,從提供的音訊錄音中，辨識說話者的性別。(a) 男性 (b) 女性,(a) 男性,請仔細聆聽提供的音訊檔案。根據傳統服裝風格，以下哪一選項最能符合說話者在特定文化背景下的性別？(a) Sherwani (b) Huipil,(a) Sherwani
+en_test_0_common_voice_en_17801699.wav,male,請仔細聆聽所提供的音頻片段，並判斷說話者的性別。請根據你的判斷，選擇最符合說話者性別的選項。（a）男性 （b）女性,（a）男性,根據這段音頻記錄，在特定文化背景下，以下哪一項傳統服飾最符合說話者的性別？（a）阿拜亞 （b）多提,（b）多提
+en_test_0_common_voice_en_20258571.wav,male,請判斷此音訊錄音中說話者的性別。請注意聲音特徵，以協助將說話者歸類為以下兩個選項之一。請從以下選項中選擇你的答案。(a) 男性 (b) 女性,(a) 男性,在仔細聆聽所提供的音訊後，根據特定文化背景，以下哪一項傳統服飾最有可能與該說話者的性別相關？(a) Baju Melayu (b) Baju Kurung,(a) Baju Melayu
+en_test_0_common_voice_en_19611933.wav,male,以下任務需要你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇符合你判斷的選項。(a) 男性 (b) 女性,(a) 男性,就文化服飾而言，哪一項服飾與說話者的性別較為符合？(a) 莎麗 (b) 查潘,(b) 查潘
+en_test_0_common_voice_en_39827261.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨認說話者的性別，並選擇你認為最正確的選項。(a) 男性 (b) 女性,(a) 男性,根據錄音內容，下列哪一項傳統服飾最符合說話者在特定文化背景下的性別？(a) 男性巴龍襯衫 (Barong Tagalog) (b) 阿拜亞長袍 (Abaya),(a) 男性巴龍襯衫 (Barong Tagalog)
+en_test_0_common_voice_en_27385248.wav,male,在此任務中，您將聆聽一段短音訊，並辨識說話者的性別。請選擇最符合您判斷的選項。 (a) 男性 (b) 女性,(a) 男性,請仔細聆聽所提供的音訊檔。考慮傳統服飾風格，在特定文化背景下，哪個選項最符合說話者的性別？(a) 頭巾 (b) 傳統喜服（Sherwani）,(b) 傳統喜服（Sherwani）
+en_test_0_common_voice_en_508297.wav,male,請判斷說話者的性別是什麼？(a) 男 (b) 女,(a) 男,在仔細聆聽提供的音檔後，以下哪一項傳統服飾最有可能與說話者在特定文化背景下的性別相關？(a) Keffiyeh (b) 旗袍,(a) Keffiyeh
+en_test_0_common_voice_en_24230076.wav,male,在這段音訊中，說話者的性別是什麼？(a) 男性 (b) 女性,(a) 男性,回顧傳統服飾，下列哪一個服飾最有可能與音訊中說話者的性別有所關聯？(a) 莎麗 (b) 馬來服,(b) 馬來服
+en_test_0_common_voice_en_670563.wav,male,請將說話者的聲音歸類為下列哪一種性別類別？(a) 男性 (b) 女性,(a) 男性,回顧傳統服飾，下列哪一項服裝最有可能與音檔中說話者的性別相關？(a) Baju Melayu (b) Gele,(a) Baju Melayu
+en_test_0_common_voice_en_19666442.wav,male,請判斷講者的性別是什麼？(a) 男性 (b) 女性,(a) 男性,在文化背景下，下列哪一項傳統服飾最有可能與講者的性別相關？(a) Abaya (b) Kilt,(b) Kilt
+en_test_0_common_voice_en_19686599.wav,male,請根據提供的音檔辨識說話者的性別。(a) 男性 (b) 女性,(a) 男性,考慮到傳統服飾，以下哪一項服裝最有可能與音檔中說話者的性別相關？(a) Baju Melayu (b) Dirndl,(a) Baju Melayu
+en_test_0_common_voice_en_20976961.wav,male,請仔細聆聽提供的音訊片段，判斷說話者的性別。請根據您的感知，選擇最能代表說話者性別的選項。(a) 男性 (b) 女性,(a) 男性,在傳統服飾方面，下列哪一項服飾與說話者的性別相符？(a) Ghagra Choli (b) Chapan,(b) Chapan
+en_test_0_common_voice_en_22346515.wav,male,請判斷此音訊錄音中說話者的性別。請注意聲音特徵，以協助將說話者歸類為以下兩個選項之一。請從以下選項中選擇你的答案。(a) 男性 (b) 女性,(a) 男性,就文化服飾而言，哪一項服裝與此說話者的性別相符？(a) Lederhosen (b) Abaya,(a) Lederhosen
+en_test_0_common_voice_en_17795814.wav,male,以下任務要求你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為正確的選項。(a) 男性 (b) 女性,(a) 男性,根據文化背景，哪一項傳統服飾最符合說話者的性別？(a) Abaya (b) Dhoti,(b) Dhoti
+en_test_0_common_voice_en_23628350.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。（a）男性 （b）女性,（a）男性,在該特定文化中，哪一項傳統服飾與說話者的性別相符？（a）Dhoti （b）沙爾瓦爾裙裝,（a）Dhoti
+en_test_0_common_voice_en_18377579.wav,male,在這個任務中，您將聆聽一段簡短的音頻片段並辨識說話者的性別。請選擇最符合您判斷的選項。（a）男性 （b）女性,（a）男性,根據文化背景，哪一項傳統服飾最符合說話者的性別？（a）旗袍 （b）皮短褲（Lederhosen）,（b）皮短褲（Lederhosen）
+en_test_0_common_voice_en_39807154.wav,male,請判斷說話者的性別是什麼？（a）男性 （b）女性,（a）男性,回顧傳統服飾，下列哪項衣物最有可能與音檔中說話者的性別相關？（a）Dashiki（大希基）（b）Gele（蓋樂頭巾）,（a）Dashiki（大希基）
+en_test_0_common_voice_en_17685610.wav,male,這段音訊中說話者的性別是什麼？(a) 男性 (b) 女性,(a) 男性,在文化背景下，下列哪一項傳統服飾最有可能與說話者的性別相關？(a) 旗袍 (b) Kilt,(b) Kilt
+en_test_0_common_voice_en_38321996.wav,male,請將說話者的聲音歸類為以下哪一種性別類別：(a) 男性 (b) 女性,(a) 男性,根據文化背景，以下哪一項傳統服飾最符合說話者的性別？(a) Dashiki (b) Dirndl,(a) Dashiki
+en_test_0_common_voice_en_19935618.wav,male,請判斷說話者的性別。 (a) 男性 (b) 女性,(a) 男性,請仔細聆聽提供的音訊檔案。根據傳統服飾風格，在特定文化背景下，以下哪一個選項最符合說話者的性別？ (a) 沙爾瓦爾卡米茲 (b) 查潘,(b) 查潘
+en_test_0_common_voice_en_31720201.wav,male,根據所提供的錄音，請辨識講者的性別。(a) 男性 (b) 女性,(a) 男性,依據文化背景，哪一項傳統服飾最符合該講者的性別？(a) Sherwani (b) Ghagra Choli,(a) Sherwani
+en_test_0_common_voice_en_17666102.wav,male,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據你的感受選出最符合說話者性別的選項。(a) 女性 (b) 男性,(b) 男性,在仔細聆聽所提供的音訊後，下列哪一項傳統服飾最有可能在特定文化背景中與說話者的性別相關？(a) 頭巾 (b) 方巾,(b) 方巾
+en_test_0_common_voice_en_17298946.wav,male,判斷這段音訊錄音中說話者的性別。請注意能協助將說話者歸類為以下兩種性別選項的聲音特徵。請從下列選項中選擇你的答案。(a) 女性 (b) 男性,(b) 男性,請仔細聆聽提供的音訊檔案。考慮傳統服裝樣式，在特定文化背景下，哪一個選項最符合說話者的性別？(a) Baju Melayu (b) Ghagra Choli,(a) Baju Melayu
+en_test_0_common_voice_en_23964610.wav,male,以下任務要求你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為正確的選項。 (a) 女性 (b) 男性,(b) 男性,請仔細聆聽所提供的音訊檔案。根據傳統服飾風格，在特定文化背景下，哪一個選項最能代表說話者的性別？(a) Kebaya (b) Dashiki,(b) Dashiki
+en_test_0_common_voice_en_37176567.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。(a) 女性 (b) 男性,(b) 男性,根據錄音判斷，在特定文化背景下，下列哪一項傳統服飾最符合說話者的性別？(a) Lederhosen (b) Paranja,(a) Lederhosen
+en_test_0_common_voice_en_19382249.wav,male,在這項任務中，您將聆聽一段簡短的音訊片段，並辨認說話者的性別。請選擇最符合您判斷的選項。（a）女性 （b）男性,（b）男性,請仔細聆聽所提供的音訊檔。根據傳統服飾風格，哪一個選項最符合說話者在特定文化背景下的性別？（a）紗麗 （b）菲律賓國服Barong Tagalog,（b）菲律賓國服Barong Tagalog
+en_test_0_common_voice_en_20987285.wav,male,請判斷說話者的性別。(a) 女性 (b) 男性,(b) 男性,根據文化背景，哪一種傳統服飾最符合說話者的性別？(a) Dashiki (b) Paranja,(a) Dashiki
+en_test_0_common_voice_en_18370465.wav,male,這段音訊中，說話者的性別是什麼？ (a) 女性 (b) 男性,(b) 男性,就文化服飾而言，下列哪一項服裝與說話者的性別相符？ (a) 阿拜亞 (b) 凱菲耶,(b) 凱菲耶
+en_test_0_common_voice_en_18064977.wav,male,請將說話者的聲音歸類為以下性別選項之一。(a) 女性 (b) 男性,(b) 男性,根據音訊錄音，在特定文化背景下，下列哪一種傳統服飾最符合說話者的性別？(a) Fustanella (b) Paranja,(a) Fustanella
+en_test_0_common_voice_en_25707899.wav,male,請判斷說話者的性別。（a）女性 （b）男性,（b）男性,仔細聆聽提供的音訊後，下列哪一種傳統服飾最有可能與說話者在特定文化背景中的性別相關？（a）Ghagra Choli （b）Dashiki,（b）Dashiki
+en_test_0_common_voice_en_23835356.wav,male,請根據提供的音頻錄音辨識說話者的性別。 (a) 女性 (b) 男性,(b) 男性,在特定文化中，哪一種傳統服飾與說話者的性別相符？ (a) Sherwani (b) Dirndl,(a) Sherwani
+en_test_0_common_voice_en_39578635.wav,male,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據你的感知，選出最符合說話者性別的選項。 (a) 女性 (b) 男性,(b) 男性,仔細聆聽所提供的音訊後，以下哪一項傳統服飾最有可能與說話者的性別在特定文化背景下相關？(a) 卡巴雅 (Kebaya) (b) 格菲亞 (Keffiyeh),(b) 格菲亞 (Keffiyeh)
+en_test_0_common_voice_en_20466244.wav,male,請判斷此音頻錄音中說話者的性別。請注意可能有助於將說話者歸類至其中一個選項的聲音特徵。請從以下選項中選擇你的答案。（a）女性 （b）男性,（b）男性,根據此音頻錄音，以下哪一項傳統服飾最符合該說話者在特定文化情境下的性別？（a）Fustanella （b）Salwar kameez,（a）Fustanella
+en_test_0_common_voice_en_27709921.wav,male,以下任務要求你判斷音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇符合你判斷的選項。 (a) 女性 (b) 男性,(b) 男性,根據這段錄音，以下哪一項傳統服飾最符合該說話者在特定文化背景中的性別？ (a) 沙瓦爾長襖（Salwar kameez） (b) 蘇格蘭裙（Kilt）,(b) 蘇格蘭裙（Kilt）
+en_test_0_common_voice_en_17315099.wav,male,請判斷所提供音檔中說話者的性別。請識別說話者的性別，並選擇你認為最正確的選項。(a) 女性 (b) 男性,(b) 男性,在特定文化中，以下哪一種傳統服飾與該說話者的性別相符？(a) Fustanella (b) Kebaya,(a) Fustanella
+en_test_0_common_voice_en_18062241.wav,male,在這個任務中，你將會聆聽一段簡短的音訊片段，並判斷說話者的性別。請選擇最符合你看法的選項。(a) 女性　(b) 男性,(b) 男性,請仔細聆聽所提供的音訊檔案。考慮到傳統服飾風格，哪一個選項最能符合說話者在特定文化背景下的性別？(a) 頭巾　(b) 菲律賓男士國服,(b) 菲律賓男士國服
+en_test_0_common_voice_en_18661022.wav,male,請判斷說話者的性別。 (a) 女性 (b) 男性,(b) 男性,就文化服飾而言，哪一項服飾符合說話者的性別？ (a) Lederhosen (b) Sari,(a) Lederhosen
+en_test_0_common_voice_en_24014466.wav,male,這段音訊中說話者的性別是什麼？(a) 女性 (b) 男性,(b) 男性,在這個特定文化中，哪一項傳統服飾與說話者的性別相符？(a) Gele (b) Kilt,(b) Kilt
+en_test_0_common_voice_en_21307080.wav,male,請將說話者的聲音歸類為以下哪一種性別類別？(a) 女性 (b) 男性,(b) 男性,在文化語境中，下列哪一種傳統服飾最有可能與說話者的性別相關聯？(a) Sherwani (b) Gele,(a) Sherwani
+en_test_0_common_voice_en_37875407.wav,male,請判斷說話者的性別。 (a) 女性 (b) 男性,(b) 男性,回顧傳統服飾，以下哪一項服裝最有可能與音檔中說話者的性別相關？ (a) 旗袍 (b) Lederhosen,(b) Lederhosen
+en_test_0_common_voice_en_39062500.wav,male,根據所提供的音頻錄音，辨識說話者的性別。 (a) 女性 (b) 男性,(b) 男性,在文化背景下，下列哪一項傳統服飾最有可能與說話者的性別相關？ (a) Barong Tagalog (b) 旗袍,(a) Barong Tagalog
+en_test_0_common_voice_en_21069613.wav,male,請仔細聆聽所提供的音訊片段，判斷說話者的性別。請根據您的感受，選擇最能代表說話者性別的選項。(a) 女 (b) 男,(b) 男,請仔細聆聽所提供的音訊檔案。考慮傳統服裝風格，在特定文化背景下，哪個選項最符合說話者的性別？(a) Ghagra Choli (b) Lederhosen,(b) Lederhosen
+en_test_0_common_voice_en_17782101.wav,male,請判斷此音訊錄音中說話者的性別。請留意聲音特徵，這些特徵有助於將說話者歸類為以下兩個選項之一。請從下列選項中選擇你的答案。(a) 女性 (b) 男性,(b) 男性,在文化背景下，下列哪一項傳統服飾最有可能與該說話者的性別相關？(a) Keffiyeh (b) Baju Kurung,(a) Keffiyeh
+en_test_0_common_voice_en_21567727.wav,male,以下任務要求你判斷提供之音訊片段中講話者的性別。請分析講話者的聲音特徵，並選擇符合你判斷的選項。(a) 女性 (b) 男性,(b) 男性,根據文化背景，哪一項傳統服飾最符合講話者的性別？(a) Baju Kurung (b) Lederhosen,(b) Lederhosen
+en_test_0_common_voice_en_37232168.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最正確的選項。（a）女性（b）男性,（b）男性,在文化服飾方面，下列哪一項服裝較符合說話者的性別？（a）Dhoti（b）Dirndl,（a）Dhoti
+en_test_0_common_voice_en_170661.wav,male,在這個任務中，你將聆聽一段簡短的音訊，並辨別說話者的性別。請選擇最符合你看法的選項。 (a) 女性 (b) 男性,(b) 男性,回想傳統服飾，下列哪一項服裝最有可能和音訊中說話者的性別有關？(a) 帕蘭賈 (b) 德國皮褲,(b) 德國皮褲
+en_test_0_common_voice_en_20890437.wav,male,請判斷說話者的性別。(a) 女性 (b) 男性,(b) 男性,根據音訊，以下哪一位名人和說話者性別相同？(a) Akira Kurosawa (b) Beyoncé,(a) Akira Kurosawa
+en_test_0_common_voice_en_31876544.wav,male,這段音訊中說話者的性別是什麼？(a) 女性 (b) 男性,(b) 男性,根據音訊中的聲音，以下哪一位名人最有可能與說話者屬於相同性別？(a) Alice Waters (b) Cristiano Ronaldo,(b) Cristiano Ronaldo
+en_test_0_common_voice_en_38267254.wav,male,請將說話者的聲音歸類為下列哪一種性別類別。（a）女性 （b）男性,（b）男性,在選項中，你認為誰和音訊中的說話者性別相同？（a）Mark Zuckerberg （b）Michael Learned,（a）Mark Zuckerberg
+en_test_0_common_voice_en_23424398.wav,male,請判斷說話者的性別。（a）女性 （b）男性,（b）男性,聆聽音檔後，下列哪一位名人的性別最有可能與說話者相同？（a）Meryl Streep （b）張大千,（b）張大千
+en_test_0_common_voice_en_39640101.wav,male,請根據提供的音頻錄音辨識說話者的性別。(a) 女性 (b) 男性,(b) 男性,在下列選項中，你認為哪一位與音頻中的說話者性別相同？(a) Dwayne Johnson (b) Gong Li,(a) Dwayne Johnson
+en_test_0_common_voice_en_18935482.wav,male,請仔細聆聽所提供的音訊片段，並判斷說話者的性別。請根據你的判斷選擇最符合說話者性別的選項。(a) 女性 (b) 男性,(b) 男性,根據音訊內容，以下哪一位名人的性別最有可能與說話者相同？(a) Maya Ying Lin (b) Yo-Yo Ma,(b) Yo-Yo Ma
+en_test_0_common_voice_en_18234239.wav,male,請判斷此音檔中說話者的性別。請注意可能有助於將說話者歸類為以下兩種選項之一的聲音特徵。請從下列選項中選擇你的答案。(a) 女性 (b) 男性,(b) 男性,在仔細聆聽所提供的音檔後，下列哪一位名人在性別上最有可能與說話者相同？(a) Robert Downey Jr. (b) Taylor Swift,(a) Robert Downey Jr.
+en_test_0_common_voice_en_18852391.wav,male,以下任務需要你根據所提供的音訊片段，判斷說話者的性別。請分析說話者的聲音特徵，並選擇與你判斷相符的選項。 (a) 女性 (b) 男性,(b) 男性,依據音訊中聽到的聲音，以下選項中哪一位名人最有可能與說話者屬於相同性別？ (a) Oprah Winfrey (b) George Clooney,(b) George Clooney
+en_test_0_common_voice_en_38053248.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。 (a) 女性 (b) 男性,(b) 男性,根據你在音訊中聽到的聲音，以下哪位名人最有可能與該說話者屬於相同性別？(a) Leonardo DiCaprio (b) Beyoncé,(a) Leonardo DiCaprio
+en_test_0_common_voice_en_195779.wav,male,在這個任務中，你將會聆聽一段簡短的音訊片段並辨識說話者的性別。請選擇最符合你判斷的選項。 (a) 女性 (b) 男性,(b) 男性,根據音訊內容，以下哪一位名人最有可能與說話者的性別相同？(a) Vera Wang (b) Cristiano Ronaldo,(b) Cristiano Ronaldo
+en_test_0_common_voice_en_678749.wav,male,請判斷說話者的性別是什麼？(a) 女性 (b) 男性,(b) 男性,仔細聆聽提供的音訊後，下列哪一位名人最有可能和說話者為相同性別？(a) Jamie Oliver (b) Adele,(a) Jamie Oliver
+en_test_0_common_voice_en_19212949.wav,male,這段音訊中說話者的性別是什麼？(a) 女性 (b) 男性,(b) 男性,在聽完提供的音訊之後，下列哪一位名人最有可能被認為和說話者是同一性別？(a) Emma Watson (b) Jamie Oliver,(b) Jamie Oliver
+en_test_0_common_voice_en_33211536.wav,male,請將說話者的聲音歸類為下列哪一性別類別？(a) 女性 (b) 男性,(b) 男性,聆聽錄音後，以下哪一位名人的性別最有可能與說話者相同？(a) Tom Cruise (b) Emma Watson,(a) Tom Cruise
+en_test_0_common_voice_en_18485414.wav,male,請判斷說話者的性別。(a) 女性 (b) 男性,(b) 男性,根據音訊，以下哪位名人的性別最有可能與說話者相同？(a) Scarlett Johansson (b) Alexander McQueen,(b) Alexander McQueen
+en_test_0_common_voice_en_31582705.wav,male,請根據提供的音訊錄音，辨識說話者的性別。(a) 女性 (b) 男性,(b) 男性,聆聽完提供的音訊後，下列哪一位名人最有可能與說話者為同一性別？(a) Usain Bolt (b) Pan Yuliang,(a) Usain Bolt
+en_test_0_common_voice_en_31699299.wav,male,仔細聆聽提供的音訊片段，判斷說話者的性別。請根據你的感受，選擇最能代表說話者性別的選項。(a) 女性 (b) 男性,(b) 男性,聆聽音訊後，以下哪一位名人的性別最有可能與說話者相同？(a) Coco Chanel (b) Ryan Gosling,(b) Ryan Gosling
+en_test_0_common_voice_en_19941502.wav,male,請判斷此音訊錄音中說話者的性別。請注意可能有助於將說話者分類為以下兩個選項之一的聲音特徵。請從以下選項中選擇你的答案。（a）女性（b）男性,（b）男性,根據這段音訊，下列哪位名人和說話者屬於相同性別？（a）Wolfgang Puck （b）Scarlett Johansson,（a）Wolfgang Puck
+en_test_0_common_voice_en_17910343.wav,male,以下任務請你判斷音檔中講話者的性別。請分析講話者的聲音特徵，並選擇符合你判斷的選項。 (a) 女性 (b) 男性,(b) 男性,請仔細聆聽音檔中講話者的聲音。以下名單中，哪一位名人的性別與講話者相同？ (a) Yayoi Kusama (b) Leonardo DiCaprio,(b) Leonardo DiCaprio
+en_test_0_common_voice_en_34693.wav,male,你的任務是判斷所提供的音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最正確的選項。（a）女性 （b）男性,（b）男性,請仔細聆聽說話者的聲音。在下列名單中，你會認為哪一位名人的性別與說話者相同？（a）Brad Pitt （b）Michelle Obama,（a）Brad Pitt
+en_test_0_common_voice_en_17879821.wav,male,在這個任務中，您將聆聽一段簡短的音訊片段，並判斷說話者的性別。請選擇最符合您判斷的選項。(a) 女性 (b) 男性,(b) 男性,請仔細聆聽音訊中說話者的聲音。下列名人中，哪一位與說話者性別相同？(a) Katherine Johnson (b) Alexander McQueen,(b) Alexander McQueen
+en_test_0_common_voice_en_19707483.wav,male,請判斷說話者的性別是什麼？(a) 女性 (b) 男性,(b) 男性,你認為以下哪位名人與說話者有相同的性別？(a) George Clooney (b) Marta Vieira da Silva,(a) George Clooney
+en_test_0_common_voice_en_60682.wav,male,這段音訊中，說話者的性別是什麼？(a) 女性 (b) 男性,(b) 男性,聆聽這段音訊，以下哪位名人的性別最有可能與說話者相同？(a) Gong Li (b) Alexander McQueen,(b) Alexander McQueen
+en_test_0_common_voice_en_19213279.wav,male,請將說話者的聲音歸類為以下哪一個性別類別？(a) 女性 (b) 男性,(b) 男性,在仔細聆聽所提供的音訊後，下列哪一位名人的性別最有可能與說話者相同？(a) Leonardo DiCaprio (b) Oprah Winfrey,(a) Leonardo DiCaprio
+en_test_0_common_voice_en_187059.wav,male,請判斷說話者的性別。(a) 女性 (b) 男性,(b) 男性,在以下這些名人中，你認為誰和說話者的性別相同？(a) Alice Waters (b) Benedict Cumberbatch,(b) Benedict Cumberbatch
+en_test_0_common_voice_en_18221655.wav,male,請根據提供的音訊辨識說話者的性別。(a) 女性 (b) 男性,(b) 男性,根據音訊中聽到的聲音，下列哪一位名人較有可能與說話者為同一性別？(a) David Beckham (b) Serena Williams,(a) David Beckham
+en_test_0_common_voice_en_23583679.wav,male,請仔細聆聽提供的音訊片段，並判斷講話者的性別。請根據您的感受選出最能代表講話者性別的選項。（a）女性 （b）男性,（b）男性,根據音訊，以下哪一位名人和講話者的性別相同？（a）Adele （b）Jamie Oliver,（b）Jamie Oliver
+en_test_0_common_voice_en_31536559.wav,male,請判斷此音頻錄音中說話者的性別。請注意聲音特徵，以協助將說話者歸類為下列兩個選項之一。請從以下選項中選擇：(a) 女性 (b) 男性,(b) 男性,聆聽提供的音頻後，下列哪一位名人最有可能被視為與說話者相同性別？(a) Rene Redzepi (b) Coco Chanel,(a) Rene Redzepi
+en_test_0_common_voice_en_18669344.wav,male,以下任務要求你判斷提供的音頻片段中說話者的性別。請分析說話者的聲音特徵，並選擇與你判斷相符的選項。（a）女性（b）男性,（b）男性,在仔細聆聽所提供的音頻後，下列哪一位名人最有可能與說話者擁有相同的性別？（a）Adele（b）Lionel Messi,（b）Lionel Messi
+en_test_0_common_voice_en_37804275.wav,male,你的任務是判斷所提供音訊片段中講話者的性別。請辨認講話者的性別，並選擇你認為最正確的選項。（a）女性 （b）男性,（b）男性,在你仔細聆聽所提供的音訊後，下列哪一位名人的性別最有可能與講話者相同？（a）Jacques Pépin （b）Serena Williams,（a）Jacques Pépin
+en_test_0_common_voice_en_17405244.wav,male,在這個任務中，你將會聆聽一段簡短的音訊，並判斷說話者的性別。請選擇最符合你認為的選項。(a) 女性 (b) 男性,(b) 男性,在以下選項中，你認為誰與音訊中的說話者具有相同性別？(a) Michelle Obama (b) Dwayne Johnson,(b) Dwayne Johnson
+en_test_0_common_voice_en_19112583.wav,male,請辨識說話者的性別。 (a) 女性 (b) 男性,(b) 男性,在選項中，你認為誰和音檔中的說話者性別相同？ (a) Jacques Pépin (b) Gong Li,(a) Jacques Pépin
+en_test_0_common_voice_en_31433767.wav,male,這段語音中的說話者性別是什麼？(a) 女性 (b) 男性,(b) 男性,聽了這段語音後，以下哪一位名人的性別最有可能與說話者相同？(a) Michael Learned (b) Akira Kurosawa,(b) Akira Kurosawa
+en_test_0_common_voice_en_37436422.wav,male,請將說話者的聲音歸類到以下哪一個性別類別？(a) 女性 (b) 男性,(b) 男性,在仔細聆聽所提供的音檔後，下列哪一位名人的性別最有可能與說話者相同？(a) 張大千 (b) Indra Nooyi,(a) 張大千
+en_test_0_common_voice_en_20262304.wav,male,請判斷說話者的性別。（a）女性 （b）男性,（b）男性,請仔細聆聽音檔中說話者的聲音。在名單中的名人中，哪一位與說話者性別相同？（a）Coco Chanel （b）Robert Downey Jr.,（b）Robert Downey Jr.
+en_test_0_common_voice_en_18730818.wav,male,請根據所提供的音頻錄音，辨識說話者的性別。（a）女性（b）男性,（b）男性,根據音頻中聽到的聲音，以下哪一位名人最有可能與說話者屬於相同性別？（a）Cristiano Ronaldo（b）Gong Li,（a）Cristiano Ronaldo
+en_test_0_common_voice_en_21230886.wav,male,請仔細聆聽提供的音訊片段，並判斷說話者的性別。根據你的判斷，選出最能代表說話者性別的選項。(a) 女性 (b) 男性,(b) 男性,在聽完提供的音訊後，下列哪一位名人最有可能與說話者屬於相同性別？(a) Donatella Versace (b) Akira Kurosawa,(b) Akira Kurosawa
+en_test_0_common_voice_en_20304586.wav,male,判斷這段音訊錄音中說話者的性別。請注意聲音特徵，以協助將說話者歸類為以下兩個選項之一。請從下列選項中選擇你的判斷。(a) 女性 (b) 男性,(b) 男性,在以下這些名人之中，你認為誰和說話者擁有相同的性別？(a) Benedict Cumberbatch (b) Beyoncé,(a) Benedict Cumberbatch
+en_test_0_common_voice_en_21261870.wav,male,以下任務要求你根據提供的音訊片段判斷說話者的性別。請分析說話者的聲音特徵，並選擇符合你判斷的選項。 (a) 女性 (b) 男性,(b) 男性,在這些名人當中，你認為誰和這位說話者的性別相同？ (a) Meryl Streep (b) Mark Zuckerberg,(b) Mark Zuckerberg
+en_test_0_common_voice_en_17326646.wav,male,"你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最正確的選項。
+(a) 女性 (b) 男性",(b) 男性,"根據音訊，以下哪些名人與說話者的性別相同？
+(a) Rene Redzepi (b) Michael Learned",(a) Rene Redzepi
+en_test_0_common_voice_en_19547898.wav,male,在這個任務中，你將聆聽一段簡短的音訊片段，並判斷說話者的性別。請選擇最符合你判斷的選項。(a) 女性 (b) 男性,(b) 男性,根據這段音訊，以下哪一位名人和說話者的性別相同？(a) 潘玉良 (b) Virgil Abloh,(b) Virgil Abloh
+en_test_0_common_voice_en_24740861.wav,male,請判斷說話者的性別是什麼？(a) 女性 (b) 男性,(b) 男性,仔細聆聽提供的音訊後，下列哪一位名人最有可能與說話者屬於相同性別？(a) Hideki Yukawa (b) Oprah Winfrey,(a) Hideki Yukawa
+en_test_0_common_voice_en_22730454.wav,male,此音訊中的說話者是什麼性別？ (a) 女性 (b) 男性,(b) 男性,根據音訊，以下哪位名人的性別與說話者相同？ (a) Indra Nooyi (b) Jamie Oliver,(b) Jamie Oliver
+en_test_0_common_voice_en_21568217.wav,male,請將說話者的聲音歸類為以下哪一個性別類別？ (a) 女性 (b) 男性,(b) 男性,在聆聽提供的音檔後，下列哪一位名人最有可能與說話者屬於相同性別？ (a) 湯川秀樹 (b) Marta Vieira da Silva,(a) 湯川秀樹
+en_test_0_common_voice_en_18593746.wav,male,請判斷說話者的性別。(a) 女性 (b) 男性,(b) 男性,在仔細聆聽所提供的音檔後，下列哪一位名人最有可能與說話者屬於相同性別？(a) Yayoi Kusama (b) Tom Cruise,(b) Tom Cruise
+en_test_0_common_voice_en_672261.wav,male,從提供的音訊錄音中，辨識說話者的性別。 (a) 女性 (b) 男性,(b) 男性,在選項中，誰與音訊中的說話者屬於相同性別？(a) 湯川秀樹 (b) Angelina Jolie,(a) 湯川秀樹
+en_test_0_common_voice_en_18188256.wav,male,請仔細聆聽所提供的音訊片段，並辨識說話者的性別。請根據您的判斷選擇最能代表說話者性別的選項。(a) 女性 (b) 男性,(b) 男性,根據您在音訊中聽到的聲音，以下哪位名人最有可能與說話者屬於同一性別？(a) Angelina Jolie (b) Jacques Pépin,(b) Jacques Pépin
+en_test_0_common_voice_en_37670157.wav,male,請判斷此音檔中說話者的性別。請注意並分析聲音特徵，協助將說話者分類至以下兩個選項之一。請從下列選項中選擇你的答案。(a) 女性 (b) 男性,(b) 男性,根據此音檔，以下哪一位名人與說話者為同一性別？(a) Ryan Gosling (b) Meryl Streep,(a) Ryan Gosling
+en_test_0_common_voice_en_18710312.wav,male,以下任務需要你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為最符合的選項。（a）女性（b）男性,（b）男性,在聆聽所提供的音訊後，以下哪一位名人最有可能與說話者為同一性別？（a）Vera Wang（b）David Beckham,（b）David Beckham
+en_test_0_common_voice_en_20405322.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨認說話者的性別，並選擇你認為最準確的選項。（a）女性（b）男性,（b）男性,在以下選項中，你認為誰和音訊中的說話者性別相同？（a）Tom Cruise（b）Alice Waters,（a）Tom Cruise
+en_test_0_common_voice_en_39582224.wav,male,在此任務中，您將聆聽一段簡短的音頻片段並判斷說話者的性別。請選擇最符合您看法的選項。(a) 女性 (b) 男性,(b) 男性,在這些名人中，您認為誰和說話者的性別相同？(a) Julia Child (b) Rene Redzepi,(b) Rene Redzepi
+en_test_0_common_voice_en_24261278.wav,male,請判斷說話者的性別為何。 (a) 女性 (b) 男性,(b) 男性,在以下選項中，你認為誰和音檔中的說話者性別相同？ (a) Benedict Cumberbatch (b) Taylor Swift,(a) Benedict Cumberbatch
+en_test_0_common_voice_en_25585756.wav,male,這段音訊中說話者的性別是什麼？（a）女性 （b）男性,（b）男性,在以下選項中，你認為誰和音訊中的說話者性別相同？（a）Marta Vieira da Silva （b）David Beckham,（b）David Beckham
+en_test_0_common_voice_en_39588352.wav,male,將說話者的聲音歸類為以下哪一個性別類別？(a) 女性 (b) 男性,(b) 男性,在選項中，你認為誰跟音檔中的說話者屬於相同性別？(a) Robert Downey Jr. (b) Julia Child,(a) Robert Downey Jr.
+en_test_0_common_voice_en_20262803.wav,male,請判斷說話者的性別。(a) 女性 (b) 男性,(b) 男性,在這些名人當中，你認為誰和說話者屬於同一性別？(a) Ellen DeGeneres (b) Dana White,(b) Dana White
+en_test_0_common_voice_en_23853901.wav,male,請根據提供的音頻錄音，辨認說話者的性別。(a) 女 (b) 男,(b) 男,請仔細聆聽音頻中說話者的聲音。下列名人中，哪一位與說話者的性別相同？(a) Virgil Abloh (b) Emma Watson,(a) Virgil Abloh
+en_test_0_common_voice_en_39828605.wav,male,請仔細聆聽所提供的音訊片段，並辨識說話者的性別。請根據你的判斷選擇最符合說話者性別的選項。（a）女性 （b）男性,（b）男性,在聆聽完所提供的音訊後，下列哪一位名人最有可能和說話者為相同性別？（a）Donatella Versace （b）張大千,（b）張大千
+en_test_0_common_voice_en_934751.wav,male,請判斷本音檔中說話者的性別。請注意對方的聲音特徵，以便將說話者歸類為以下兩個選項之一。請從以下選項中選擇你的答案：(a) 女性 (b) 男性,(b) 男性,在仔細聆聽所提供的音檔後，以下哪位名人的性別最有可能與說話者相同？(a) Jacques Pépin (b) Ellen DeGeneres,(a) Jacques Pépin
+en_test_0_common_voice_en_17353713.wav,male,以下任務要求你判斷提供的音頻片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為正確的選項。（a）女性（b）男性,（b）男性,你認為以下哪位名人與說話者性別相同？（a）Michelle Obama（b）Brad Pitt,（b）Brad Pitt
+en_test_0_common_voice_en_19935865.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請識別說話者的性別，並選擇你認為最正確的選項。 (a) 女性 (b) 男性,(b) 男性,聽完所提供的音訊後，下列哪一位名人最可能與說話者屬於相同性別？ (a) Ryan Gosling (b) Vera Wang,(a) Ryan Gosling
+en_test_0_common_voice_en_39562047.wav,male,在此任務中，您需要聆聽一段短音訊，並辨識說話者的性別。請選擇最符合您判斷的選項。(a) 女性 (b) 男性,(b) 男性,請仔細聆聽音訊中說話者的聲音。下列哪位名人，您認為與說話者的性別相同？(a) Katherine Johnson (b) George Clooney,(b) George Clooney
+en_test_0_common_voice_en_18127884.wav,male,請判斷說話者的性別是什麼？(a) 女性 (b) 男性,(b) 男性,在仔細聆聽所提供的音檔後，下列哪一位名人的性別最有可能與說話者相同？(a) Leonardo DiCaprio (b) Coco Chanel,(a) Leonardo DiCaprio
+en_test_0_common_voice_en_31694143.wav,male,這段音訊中說話者的性別是什麼？ (a) 女性 (b) 男性,(b) 男性,根據音訊中的聲音，以下哪一位名人最有可能與說話者屬於相同性別？ (a) Adele (b) Dwayne Johnson,(b) Dwayne Johnson
+en_test_0_common_voice_en_38161833.wav,male,請將說話者的聲音分類為以下哪一個性別類別。(a) 女性 (b) 男性,(b) 男性,考慮到音檔中聽到的聲音，以下選項中哪一位名人最有可能與說話者的性別相同？(a) Gordon Ramsay (b) Katherine Johnson,(a) Gordon Ramsay
+en_test_0_common_voice_en_18489187.wav,male,請判斷說話者的性別。（a）女性 （b）男性,（b）男性,聆聽音訊後，下列哪一位名人的性別最有可能與說話者相同？（a）Jennifer Aniston （b）George Clooney,（b）George Clooney
+en_test_0_common_voice_en_28001452.wav,male,請根據提供的錄音辨識說話者的性別。 (a) 女性 (b) 男性,(b) 男性,根據錄音中的聲音，以下選項中哪位名人最有可能與說話者屬於相同性別？ (a) Yo-Yo Ma (b) Pan Yuliang,(a) Yo-Yo Ma
+en_test_0_common_voice_en_17864433.wav,male,請仔細聆聽所提供的音訊片段，並辨識說話者的性別。請根據您的判斷，選擇最能代表說話者性別的選項。(a) 女性 (b) 男性,(b) 男性,在以下這些名人中，您認為哪一位和說話者屬於相同性別？(a) Taylor Swift (b) Cristiano Ronaldo,(b) Cristiano Ronaldo
+en_test_0_common_voice_en_39490494.wav,male,請判斷這段音訊錄音中說話者的性別。請留意聲音的特徵，這些可能有助於將說話者歸類為以下兩種選項之一。請從以下選項中選出你的答案。（a）女性 （b）男性,（b）男性,在以下這些名人中，你認為誰和這位說話者的性別相同？（a）Lionel Messi （b）Julia Child,（a）Lionel Messi
+en_test_0_common_voice_en_17839579.wav,male,以下任務要求你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選出你認為的答案。(a) 女性 (b) 男性,(b) 男性,根據音訊內容，下列哪位名人的性別與說話者相同？(a) Angelina Jolie (b) Dwayne Johnson,(b) Dwayne Johnson
+en_test_0_common_voice_en_19939176.wav,male,請根據所提供的音訊片段判斷說話者的性別。請判斷說話者的性別，並選擇你認為最正確的選項。(a) 女性 (b) 男性,(b) 男性,在下列選項中，誰和音訊中的說話者性別相同？(a) Alexander McQueen (b) Julia Child,(a) Alexander McQueen
+en_test_0_common_voice_en_37478967.wav,male,在這個任務中，您將聆聽一段簡短的音訊，並判斷說話者的性別。請選擇最符合您判斷的選項。（a）女性 （b）男性,（b）男性,根據這段音訊，下列哪位名人的性別與說話者相同？（a）Angelina Jolie （b）Dana White,（b）Dana White
+en_test_0_common_voice_en_38412238.wav,male,請判斷說話者的性別。(a) 女性 (b) 男性,(b) 男性,考慮音檔中聽到的聲音，以下哪一位名人最有可能與說話者為同一性別？(a) Wolfgang Puck (b) Serena Williams,(a) Wolfgang Puck
+en_test_0_common_voice_en_19692388.wav,male,這段音訊中，說話者的性別是什麼？(a) 女性 (b) 男性,(b) 男性,根據該音訊，下列哪些名人最有可能與說話者性別相同？(a) Donatella Versace (b) Hideki Yukawa,(b) Hideki Yukawa
+en_test_0_common_voice_en_137653.wav,male,請將講者的聲音分類為下列哪一種性別類別。(a) 女性 (b) 男性,(b) 男性,根據該音檔，以下哪一位名人的性別與講者相同？(a) Mark Zuckerberg (b) Jennifer Aniston,(a) Mark Zuckerberg
+en_test_0_common_voice_en_37870005.wav,male,請判斷說話者的性別。 (a) 女性 (b) 男性,(b) 男性,請仔細聆聽音檔中說話者的聲音。以下名單中，哪一位名人與說話者性別相同？ (a) Emma Watson (b) Wolfgang Puck,(b) Wolfgang Puck
+en_test_0_common_voice_en_17845943.wav,male,請根據提供的音頻錄音，辨識說話者的性別。(a) 女性 (b) 男性,(b) 男性,根據音頻內容，下列哪位名人的性別與說話者相同？(a) Wolfgang Puck (b) Marta Vieira da Silva,(a) Wolfgang Puck
+en_test_0_common_voice_en_205394.wav,male,請仔細聆聽提供的音訊片段，並判斷說話者的性別。請選擇你認為最符合說話者性別的選項。（a）女性 （b）男性,（b）男性,在仔細聆聽音訊後，下列哪一位名人最有可能與說話者屬於同一性別？（a）Taylor Swift （b）Gordon Ramsay,（b）Gordon Ramsay
+en_test_0_common_voice_en_17452908.wav,male,請判斷此音訊錄音中說話者的性別。請留意聲音的特徵，以協助將說話者歸類為以下兩種選項之一。請從以下選項中選擇你的答案。(a) 女性 (b) 男性,(b) 男性,請仔細聆聽音訊中的說話者聲音。下列表單中，哪一位名人與此說話者的性別相同？(a) Rene Redzepi (b) Yayoi Kusama,(a) Rene Redzepi
+en_test_0_common_voice_en_17315098.wav,male,以下任務需要你判斷提供的音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為正確的選項。（a）女性 （b）男性,（b）男性,請仔細聆聽音訊中說話者的聲音。下列哪一位名人和說話者的性別相同？（a）Donatella Versace （b）Brad Pitt,（b）Brad Pitt
+en_test_0_common_voice_en_22575527.wav,male,你的任務是判斷所提供音頻中說話者的性別。請辨識說話者的性別，並選擇你認為最準確的選項。(a) 女性 (b) 男性,(b) 男性,在聆聽完所提供的音頻後，下列哪一位名人最有可能與說話者屬於相同性別？(a) Robert Downey Jr. (b) Oprah Winfrey,(a) Robert Downey Jr.
+en_test_0_common_voice_en_20027504.wav,male,在此任務中，請聆聽一段簡短的音訊，並判斷說話者的性別。請選擇最符合您判斷的選項。(a) 女性 (b) 男性,(b) 男性,請仔細聆聽音訊中說話者的聲音。以下名單中，哪位名人與說話者的性別相同？(a) Ellen DeGeneres (b) Usain Bolt,(b) Usain Bolt
+en_test_0_common_voice_en_18058237.wav,male,請判斷說話者的性別。（a）女性 （b）男性,（b）男性,根據音頻內容，下列哪位名人和說話者性別相同？（a）張大千 （b）Katherine Johnson,（a）張大千
+en_test_0_common_voice_en_17882305.wav,male,在這段音訊中，講話者的性別是什麼？(a) 女性 (b) 男性,(b) 男性,你認為以下哪一位名人的性別與講話者相同？(a) Scarlett Johansson (b) David Beckham,(b) David Beckham
+en_test_0_common_voice_en_23956394.wav,male,請將說話者的聲音分類為以下哪一種性別類別？ (a) 女性 (b) 男性,(b) 男性,聆聽所提供的音訊後，下列哪一位名人最有可能被認為與說話者屬於相同性別？ (a) Tom Cruise (b) Indra Nooyi,(a) Tom Cruise
+en_test_0_common_voice_en_31433769.wav,male,請辨識說話者的性別。(a) 女性 (b) 男性,(b) 男性,仔細聆聽所提供的音檔後，下列哪位名人最有可能與說話者屬於相同性別？(a) Maya Ying Lin (b) Lionel Messi,(b) Lionel Messi
+en_test_0_common_voice_en_19539213.wav,male,請根據提供的音頻錄音，辨識說話者的性別。(a) 女性 (b) 男性,(b) 男性,在選項中，誰與音頻中的說話者性別相同？(a) Akira Kurosawa (b) Michael Learned,(a) Akira Kurosawa
+en_test_0_common_voice_en_207025.wav,male,請仔細聆聽提供的音訊片段，並判斷說話者的性別。請依你的感受選出最能代表說話者性別的選項。(a) 女性 (b) 男性,(b) 男性,在仔細聆聽提供的音訊後，下列哪一位名人最有可能與說話者屬於同一性別？(a) Beyoncé (b) Benedict Cumberbatch,(b) Benedict Cumberbatch
+en_test_0_common_voice_en_37527521.wav,male,"請判斷這段音訊中的說話者性別。請注意其聲音特徵，並從以下兩個選項中進行分類與選擇。
+(a) 女性 (b) 男性",(b) 男性,"在聆聽所提供的音訊後，以下哪一位名人最有可能與說話者為相同性別？
+(a) Usain Bolt (b) Alice Waters",(a) Usain Bolt
+en_test_0_common_voice_en_18390994.wav,male,以下任務要求你判斷所提供音訊片段中說話者的性別。請分析說話者的聲音特徵，並選擇你認為符合的選項。 (a) 女性 (b) 男性,(b) 男性,在聆聽完所提供的音訊後，下列哪一位名人最有可能與說話者屬於相同性別？ (a) Jennifer Aniston (b) Dana White,(b) Dana White
+en_test_0_common_voice_en_31609927.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請辨識說話者的性別，並選擇你認為最正確的選項。(a) 女性 (b) 男性,(b) 男性,在以下選項中，你認為誰與該音訊說話者的性別相同？(a) Gordon Ramsay (b) Meryl Streep,(a) Gordon Ramsay
+en_test_0_common_voice_en_27535749.wav,male,在此任務中，你將聆聽一段簡短的音訊，並辨識說話者的性別。請選擇最符合你判斷的選項。（a）女性（b）男性,（b）男性,請仔細聆聽音訊中說話者的聲音。下列哪一位名人的性別與說話者相同？（a）Ellen DeGeneres（b）Virgil Abloh,（b）Virgil Abloh
+en_test_0_common_voice_en_24205067.wav,male,請判斷說話者的性別是什麼？（a）女性（b）男性,（b）男性,在這些名人中，你認為誰與說話者性別相同？（a）Yo-Yo Ma（b）Indra Nooyi,（a）Yo-Yo Ma
+en_test_0_common_voice_en_22709017.wav,male,這段音訊中，說話者的性別是什麼？（a）女性 （b）男性,（b）男性,在下列選項中，誰和音訊中的說話者有相同的性別？（a）Maya Ying Lin （b）Mark Zuckerberg,（b）Mark Zuckerberg
+en_test_0_common_voice_en_37255991.wav,male,請將說話者的聲音分類為下列哪一種性別？(a) 女性 (b) 男性,(b) 男性,聽完錄音後，下列哪一位名人的性別最有可能與說話者相同？(a) Dana White (b) Yayoi Kusama,(a) Dana White
+en_test_0_common_voice_en_17852657.wav,male,請判斷說話者的性別。(a) 女性 (b) 男性,(b) 男性,根據音檔中聽到的聲音，以下哪一位名人最有可能與說話者屬於相同性別？(a) Scarlett Johansson (b) Ryan Gosling,(b) Ryan Gosling
+en_test_0_common_voice_en_19015151.wav,male,請根據提供的音訊錄音辨識說話者的性別。(a) 女性 (b) 男性,(b) 男性,根據音訊內容，下列哪位名人最有可能與說話者為相同性別？(a) Virgil Abloh (b) Jennifer Aniston,(a) Virgil Abloh
+en_test_0_common_voice_en_19676008.wav,male,請仔細聆聽所提供的音頻片段，判斷說話者的性別。請根據你的判斷選出最符合說話者性別的選項。(a) 女性 (b) 男性,(b) 男性,請仔細聆聽音頻中說話者的聲音。在下列名人中，你認為哪一位具有與說話者相同性別？(a) Serena Williams (b) Yo-Yo Ma,(b) Yo-Yo Ma
+en_test_0_common_voice_en_39760639.wav,male,請判斷此音訊錄音中說話者的性別。請注意可以幫助您將說話者歸類為下列兩個選項之一的聲音特徵。請從以下選項中選擇您的答案。(a) 女性 (b) 男性,(b) 男性,根據您聆聽的音訊，下列哪一位名人的性別最有可能與說話者相同？(a) Usain Bolt (b) 潘玉良,(a) Usain Bolt
+en_test_0_common_voice_en_25941300.wav,male,以下任務需要你判斷提供之音檔中的說話者性別。請分析說話者的聲音特徵，並選擇你認為合適的選項。(a) 女性 (b) 男性,(b) 男性,根據音檔，以下哪一位名人與說話者為相同性別？(a) Michelle Obama (b) Gordon Ramsay,(b) Gordon Ramsay
+en_test_0_common_voice_en_18342344.wav,male,你的任務是判斷所提供音訊片段中說話者的性別。請識別說話者的性別，並選擇你認為最正確的選項。（a）女性（b）男性,（b）男性,在這些名人中，你認為哪位與說話者屬於相同性別？（a）Lionel Messi（b）Vera Wang,（a）Lionel Messi
+en_test_0_common_voice_en_39765214.wav,male,在這個任務中，你將聆聽一段簡短的音訊片段，並判斷說話者的性別。請選擇最符合你意見的選項。(a) 女性 (b) 男性,(b) 男性,根據音訊中聽到的聲音，以下選項中，哪位名人最有可能與說話者屬於相同性別？(a) Maya Ying Lin (b) Brad Pitt,(b) Brad Pitt
