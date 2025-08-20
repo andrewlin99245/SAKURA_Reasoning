@@ -1018,11 +1018,11 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_name", type=str, help="Hugging face dataset name.", default="kuanhuggingface/AudioHallucination_AudioCaps-Random-v2")
     parser.add_argument("--dataset_file", type=str, help="Path to local dataset TSV file (alternative to --dataset_name)", default="./understanding_sound_data/metadata/balanced_merged_test_2871.txt")
     parser.add_argument("--audio_root_dir", type=str, help="Audio root directory", default="./understanding_sound_data/audio")
-    parser.add_argument("--output_path", type=str, help="Output path of csv file.", default="./first_eng_cosine_correlation_evaluation_result.csv")
+    parser.add_argument("--output_path", type=str, help="Output path of csv file.", default="./no_steer_first_eng_cosine_correlation_evaluation_result.csv")
     parser.add_argument("--verbose", "-v", action="store_true", help="Enable verbose progress output for individual inference steps")
     
     # Vector steering options
-    parser.add_argument("--vsv_lambda", type=float, default=0.05, help="Vector steering strength (lambda). Higher values = stronger steering. Default: 0.05")
+    parser.add_argument("--vsv_lambda", type=float, default=0.0, help="Vector steering strength (lambda). Higher values = stronger steering. Default: 0.05")
     
     # Testing options
     parser.add_argument("--max_samples", type=int, default=None, help="Maximum number of samples to process (for testing)")
