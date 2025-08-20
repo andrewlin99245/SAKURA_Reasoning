@@ -1,0 +1,16 @@
+{
+    "attribute": "Animal",
+    "type": "single",
+    "model_config": {
+        "gamma": 0.25,
+        "w": 4,
+        "lam": 0.0
+    },
+    "results": {
+        "dog28.wav": {
+            "instruction": "From the options provided, which animal do you believe is the source of the sound in the recording? (a) dog (b) crow (c) cow (d) rooster",
+            "response": "Based on the sound description provided, I would choose option (c) cow. The sound seems to be a low pitched mooing noise, which is commonly associated with cows.",
+            "label": "dog"
+        }
+    }
+}

@@ -1,0 +1,2511 @@
+{
+    "attribute": "Emotion",
+    "type": "single",
+    "model_config": {
+        "gamma": 1,
+        "w": 1,
+        "lam": 0.05
+    },
+    "results": {
+        "1078_IEO_ANG_HI.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) fear (c) sad (d) angry",
+            "response": "(d) angry",
+            "label": "angry"
+        },
+        "1004_IEO_ANG_HI.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) angry (c) fear (d) sad",
+            "response": "(b) angry",
+            "label": "angry"
+        },
+        "1023_ITS_ANG_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) happy (b) sad (c) fear (d) angry",
+            "response": "(d) angry",
+            "label": "angry"
+        },
+        "1077_WSI_ANG_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) sad (c) fear (d) angry",
+            "response": "(d) angry",
+            "label": "angry"
+        },
+        "1006_TAI_ANG_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) fear (c) angry (d) happy",
+            "response": "Given the sentence 'The airplane is almost full.' and taking into account only the emotion conveyed by the speaker's tone, I would interpret the emotion as 'disgusted'.",
+            "label": "angry"
+        },
+        "1066_IWL_ANG_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) fear (b) sad (c) happy (d) angry",
+            "response": "(d) angry",
+            "label": "angry"
+        },
+        "1031_MTI_ANG_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) sad (c) angry (d) happy",
+            "response": "Based on their vocal cues, the speaker conveys a cold feeling.",
+            "label": "angry"
+        },
+        "1013_IWL_ANG_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) disgust (c) angry (d) fear",
+            "response": "The emotion conveyed by the speaker is (c) anger.",
+            "label": "angry"
+        },
+        "1017_IOM_ANG_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) fear (b) happy (c) angry (d) disgust",
+            "response": "The speaker is expressing an angry mood.",
+            "label": "angry"
+        },
+        "1056_TSI_ANG_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) angry (c) disgust (d) fear",
+            "response": "(b) angry",
+            "label": "angry"
+        },
+        "1055_WSI_ANG_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) sad (b) angry (c) disgust (d) fear",
+            "response": "(b) angry",
+            "label": "angry"
+        },
+        "1044_IEO_ANG_HI.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) angry (c) fear (d) sad",
+            "response": "The speaker is expressing anger. (b)",
+            "label": "angry"
+        },
+        "1056_ITH_ANG_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) sad (c) fear (d) angry",
+            "response": "(d) angry",
+            "label": "angry"
+        },
+        "1073_IOM_ANG_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) sad (c) angry (d) fear",
+            "response": "(c) angry",
+            "label": "angry"
+        },
+        "1044_TAI_ANG_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) happy (c) sad (d) angry",
+            "response": "(d) angry",
+            "label": "angry"
+        },
+        "1087_IOM_ANG_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) angry (c) disgust (d) happy",
+            "response": "I'm on my way to the meeting.",
+            "label": "angry"
+        },
+        "1008_IWW_ANG_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) sad (c) happy (d) fear",
+            "response": "Angry",
+            "label": "angry"
+        },
+        "1066_DFA_ANG_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) angry (c) fear (d) disgust",
+            "response": "The speaker's emotion is angry.",
+            "label": "angry"
+        },
+        "1085_DFA_ANG_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) sad (c) disgust (d) angry",
+            "response": "(d) angry",
+            "label": "angry"
+        },
+        "1035_DFA_ANG_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) disgust (c) happy (d) angry",
+            "response": "(d) angry",
+            "label": "angry"
+        },
+        "1070_TSI_ANG_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) angry (b) sad (c) happy (d) disgust",
+            "response": "(a) angry",
+            "label": "angry"
+        },
+        "1021_MTI_ANG_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) fear (c) angry (d) happy",
+            "response": "The speaker's emotional tone is cold.",
+            "label": "angry"
+        },
+        "1053_MTI_ANG_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) sad (b) fear (c) angry (d) happy",
+            "response": "The speaker is expressing an 'angry' mood.",
+            "label": "angry"
+        },
+        "1080_MTI_ANG_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) fear (b) disgust (c) angry (d) sad",
+            "response": "The speaker feels cold.",
+            "label": "angry"
+        },
+        "1075_IWL_ANG_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) disgust (c) angry (d) sad",
+            "response": "(c) angry",
+            "label": "angry"
+        },
+        "1068_IWW_ANG_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) disgust (c) fear (d) angry",
+            "response": "Angry",
+            "label": "angry"
+        },
+        "1080_IOM_ANG_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) sad (b) disgust (c) fear (d) angry",
+            "response": "(d) angry",
+            "label": "angry"
+        },
+        "1059_WSI_ANG_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) disgust (b) happy (c) angry (d) sad",
+            "response": "The speaker feels angry.",
+            "label": "angry"
+        },
+        "1006_TSI_ANG_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) disgust (b) happy (c) angry (d) sad",
+            "response": "The speaker is expressing disgust.",
+            "label": "angry"
+        },
+        "1009_IWL_ANG_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) sad (c) angry (d) fear",
+            "response": "The speaker is expressing an angry emotion.",
+            "label": "angry"
+        },
+        "1004_ITH_ANG_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) sad (b) disgust (c) angry (d) happy",
+            "response": "Based on the vocal expressions and tone, the speaker's emotion should be classified as (c) angry.",
+            "label": "angry"
+        },
+        "1025_TAI_ANG_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) angry (c) fear (d) happy",
+            "response": "(a) disgust",
+            "label": "angry"
+        },
+        "1072_IEO_ANG_HI.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) happy (c) disgust (d) angry",
+            "response": "D: angry",
+            "label": "angry"
+        },
+        "1090_TIE_ANG_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) sad (c) fear (d) happy",
+            "response": "Angry",
+            "label": "angry"
+        },
+        "1013_DFA_ANG_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) disgust (c) angry (d) sad",
+            "response": "The speaker's emotional state is c) angry.",
+            "label": "angry"
+        },
+        "1066_IWW_ANG_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) angry (b) disgust (c) sad (d) happy",
+            "response": "The speaker sounds angry.",
+            "label": "angry"
+        },
+        "1010_MTI_ANG_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) angry (c) disgust (d) fear",
+            "response": "(b) angry",
+            "label": "angry"
+        },
+        "1022_IOM_ANG_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) disgust (c) angry (d) sad",
+            "response": "(c) angry",
+            "label": "angry"
+        },
+        "1054_ITH_ANG_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) sad (c) angry (d) fear",
+            "response": "(c) angry",
+            "label": "angry"
+        },
+        "1069_ITS_ANG_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) fear (c) angry (d) sad",
+            "response": "The speaker conveys an 'angry' mood through their vocal cues.",
+            "label": "angry"
+        },
+        "1057_TAI_ANG_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) sad (c) happy (d) angry",
+            "response": "The emotional tone of the speaker is (d) angry",
+            "label": "angry"
+        },
+        "1073_ITH_ANG_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) happy (b) angry (c) sad (d) fear",
+            "response": "(b) angry",
+            "label": "angry"
+        },
+        "1086_WSI_ANG_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) sad (b) angry (c) fear (d) disgust",
+            "response": "(b) angry.",
+            "label": "angry"
+        },
+        "1061_IWL_ANG_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) sad (b) disgust (c) fear (d) angry",
+            "response": "(e) disapproval/dissatisfied",
+            "label": "angry"
+        },
+        "1002_DFA_ANG_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) angry (b) disgust (c) happy (d) fear",
+            "response": "(a) angry",
+            "label": "angry"
+        },
+        "1082_ITS_ANG_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) fear (b) angry (c) happy (d) disgust",
+            "response": "Angry",
+            "label": "angry"
+        },
+        "1010_IEO_ANG_MD.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) sad (c) angry (d) happy",
+            "response": "(c) angry",
+            "label": "angry"
+        },
+        "1012_ITH_ANG_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) disgust (c) happy (d) sad",
+            "response": "(a) angry mood.",
+            "label": "angry"
+        },
+        "1049_MTI_ANG_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) angry (c) sad (d) fear",
+            "response": "Angry",
+            "label": "angry"
+        },
+        "1035_MTI_ANG_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) disgust (c) angry (d) happy",
+            "response": "Angry",
+            "label": "angry"
+        },
+        "1002_ITS_ANG_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) disgust (c) angry (d) happy",
+            "response": "Disgusted",
+            "label": "angry"
+        },
+        "1057_WSI_ANG_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) disgust (b) angry (c) sad (d) happy",
+            "response": "B) angry",
+            "label": "angry"
+        },
+        "1025_TIE_ANG_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) angry (c) disgust (d) sad",
+            "response": "The speaker is expressing anger.",
+            "label": "angry"
+        },
+        "1060_IEO_ANG_HI.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) angry (c) fear (d) happy",
+            "response": "(b) angry",
+            "label": "angry"
+        },
+        "1046_MTI_ANG_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) disgust (c) angry (d) fear",
+            "response": "(c) angry",
+            "label": "angry"
+        },
+        "1065_MTI_ANG_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) fear (c) disgust (d) sad",
+            "response": "Angry",
+            "label": "angry"
+        },
+        "1013_ITS_ANG_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) disgust (c) fear (d) happy",
+            "response": "(a) angry",
+            "label": "angry"
+        },
+        "1027_IEO_ANG_MD.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) disgust (c) angry (d) sad",
+            "response": "The speaker is expressing an angry mood.",
+            "label": "angry"
+        },
+        "1055_IWL_ANG_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) fear (c) angry (d) happy",
+            "response": "The emotional tone of the speaker is (c) angry.",
+            "label": "angry"
+        },
+        "1079_IEO_ANG_MD.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) disgust (b) angry (c) sad (d) happy",
+            "response": "(b) angry",
+            "label": "angry"
+        },
+        "1007_IWW_SAD_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) disgust (c) sad (d) happy",
+            "response": "The speaker's underlying emotion is best classified as 'sad'.",
+            "label": "sad"
+        },
+        "1020_IWL_SAD_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) fear (c) disgust (d) sad",
+            "response": "The emotional tone conveyed by the speaker is sadness.",
+            "label": "sad"
+        },
+        "1036_TAI_SAD_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) fear (b) disgust (c) angry (d) sad",
+            "response": "The speaker feels disgusted.",
+            "label": "sad"
+        },
+        "1061_DFA_SAD_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) disgust (b) happy (c) fear (d) sad",
+            "response": "(d) sad mood.",
+            "label": "sad"
+        },
+        "1045_IWL_SAD_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) sad (b) disgust (c) angry (d) happy",
+            "response": "(a) sad",
+            "label": "sad"
+        },
+        "1066_DFA_SAD_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) fear (b) disgust (c) happy (d) sad",
+            "response": "(d) sad.",
+            "label": "sad"
+        },
+        "1076_TAI_SAD_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) fear (b) sad (c) happy (d) disgust",
+            "response": "Based on the tone and intonation of the voice, I would interpret the emotion in the speaker's voice as one of sadness.",
+            "label": "sad"
+        },
+        "1084_IEO_SAD_HI.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) angry (c) sad (d) fear",
+            "response": "The speaker conveys a sad mood through their vocal cues.",
+            "label": "sad"
+        },
+        "1025_IWW_SAD_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) happy (b) disgust (c) sad (d) angry",
+            "response": "The speaker is expressing sadness.",
+            "label": "sad"
+        },
+        "1019_ITS_SAD_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) happy (c) disgust (d) angry",
+            "response": "The speaker's emotional tone is sad.",
+            "label": "sad"
+        },
+        "1059_IWL_SAD_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) sad (c) disgust (d) happy",
+            "response": "The speaker's emotional tone is (c) disgusted.",
+            "label": "sad"
+        },
+        "1039_IWW_SAD_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) sad (b) fear (c) disgust (d) happy",
+            "response": "Sad",
+            "label": "sad"
+        },
+        "1030_ITH_SAD_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) happy (c) sad (d) angry",
+            "response": "The speaker's emotional tone is sad. (c)",
+            "label": "sad"
+        },
+        "1036_ITH_SAD_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) angry (c) sad (d) happy",
+            "response": "The speaker conveys a sad mood through their vocal cues.",
+            "label": "sad"
+        },
+        "1010_IOM_SAD_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) sad (b) happy (c) angry (d) disgust",
+            "response": "The speaker feels sad.",
+            "label": "sad"
+        },
+        "1024_ITH_SAD_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) fear (b) sad (c) happy (d) angry",
+            "response": "(b) sad mood",
+            "label": "sad"
+        },
+        "1088_TSI_SAD_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) disgust (c) sad (d) angry",
+            "response": "Sad",
+            "label": "sad"
+        },
+        "1079_TAI_SAD_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) fear (b) happy (c) sad (d) disgust",
+            "response": "The speaker is expressing sadness.",
+            "label": "sad"
+        },
+        "1033_IWL_SAD_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) happy (c) sad (d) fear",
+            "response": "Sad",
+            "label": "sad"
+        },
+        "1064_TIE_SAD_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) sad (c) angry (d) fear",
+            "response": "Sad",
+            "label": "sad"
+        },
+        "1063_TAI_SAD_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) happy (b) angry (c) sad (d) fear",
+            "response": "(c) sad",
+            "label": "sad"
+        },
+        "1048_DFA_SAD_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) angry (c) fear (d) disgust",
+            "response": "The emotional tone of the speaker is neutral.",
+            "label": "sad"
+        },
+        "1050_WSI_SAD_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) sad (b) angry (c) disgust (d) fear",
+            "response": "sad (a)",
+            "label": "sad"
+        },
+        "1062_IEO_SAD_MD.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) angry (b) disgust (c) sad (d) happy",
+            "response": "Sad",
+            "label": "sad"
+        },
+        "1067_DFA_SAD_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) sad (b) angry (c) happy (d) disgust",
+            "response": "The speaker's emotion is sad.",
+            "label": "sad"
+        },
+        "1050_MTI_SAD_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) happy (c) angry (d) sad",
+            "response": "The speaker is expressing sadness.",
+            "label": "sad"
+        },
+        "1057_TIE_SAD_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) sad (b) fear (c) happy (d) angry",
+            "response": "Sad",
+            "label": "sad"
+        },
+        "1012_IWW_SAD_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) angry (c) disgust (d) sad",
+            "response": "The emotional tone of the speaker is sadness.",
+            "label": "sad"
+        },
+        "1056_IEO_SAD_MD.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) sad (c) happy (d) angry",
+            "response": "Sleepy",
+            "label": "sad"
+        },
+        "1002_DFA_SAD_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) sad (b) disgust (c) angry (d) happy",
+            "response": "The speaker is expressing sadness. (a)",
+            "label": "sad"
+        },
+        "1043_DFA_SAD_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) happy (c) disgust (d) sad",
+            "response": "The emotion conveyed by the speaker is (d) sad.",
+            "label": "sad"
+        },
+        "1082_TIE_SAD_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) sad (c) disgust (d) happy",
+            "response": "Based on the provided English speech, the speaker's underlying emotion would be classified as (b) sad.",
+            "label": "sad"
+        },
+        "1035_IOM_SAD_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) fear (c) disgust (d) sad",
+            "response": "(d) sad mood.",
+            "label": "sad"
+        },
+        "1019_DFA_SAD_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) fear (c) angry (d) sad",
+            "response": "(d) sad mood.",
+            "label": "sad"
+        },
+        "1042_DFA_SAD_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) sad (c) disgust (d) fear",
+            "response": "The speaker's tone is neutral, therefore neither angry, sad, nor disgusted mood is conveyed. However, there is a hint of fear in the voice.",
+            "label": "sad"
+        },
+        "1068_MTI_SAD_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) sad (c) happy (d) disgust",
+            "response": "The emotional tone of the speaker is cold.",
+            "label": "sad"
+        },
+        "1053_IWW_SAD_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) fear (b) sad (c) disgust (d) happy",
+            "response": "Sad",
+            "label": "sad"
+        },
+        "1039_TIE_SAD_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) sad (b) disgust (c) fear (d) happy",
+            "response": "The speaker feels sad.",
+            "label": "sad"
+        },
+        "1010_IEO_SAD_MD.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) disgust (b) angry (c) sad (d) happy",
+            "response": "The speaker feels sad.",
+            "label": "sad"
+        },
+        "1070_WSI_SAD_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) angry (c) fear (d) sad",
+            "response": "(a) disgust (b) angry (c) fear (d) sad (e) neutral",
+            "label": "sad"
+        },
+        "1058_TAI_SAD_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) disgust (c) angry (d) sad",
+            "response": "(d) sad",
+            "label": "sad"
+        },
+        "1042_IOM_SAD_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) angry (b) sad (c) disgust (d) fear",
+            "response": "The speaker feels neutral.",
+            "label": "sad"
+        },
+        "1069_IOM_SAD_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) fear (c) sad (d) angry",
+            "response": "Fearful",
+            "label": "sad"
+        },
+        "1058_ITS_SAD_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) sad (c) happy (d) angry",
+            "response": "(b) sad mood.",
+            "label": "sad"
+        },
+        "1011_IEO_SAD_MD.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) fear (b) happy (c) sad (d) disgust",
+            "response": "The speaker is expressing sadness.",
+            "label": "sad"
+        },
+        "1019_TSI_SAD_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) angry (c) sad (d) fear",
+            "response": "Sad",
+            "label": "sad"
+        },
+        "1033_WSI_SAD_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) disgust (c) fear (d) angry",
+            "response": "Sad",
+            "label": "sad"
+        },
+        "1005_WSI_SAD_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) happy (c) sad (d) angry",
+            "response": "The speaker is expressing sadness.",
+            "label": "sad"
+        },
+        "1063_WSI_SAD_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) fear (b) angry (c) disgust (d) sad",
+            "response": "The speaker feels sad.",
+            "label": "sad"
+        },
+        "1012_ITH_SAD_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) sad (c) disgust (d) happy",
+            "response": "b) sad\n\nThe speaker's voice carries a sad emotion.",
+            "label": "sad"
+        },
+        "1059_TIE_SAD_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) sad (c) angry (d) happy",
+            "response": "disgusted",
+            "label": "sad"
+        },
+        "1015_IEO_SAD_HI.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) happy (c) disgust (d) sad",
+            "response": "Sad",
+            "label": "sad"
+        },
+        "1001_ITH_SAD_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) sad (b) fear (c) happy (d) disgust",
+            "response": "(a) sad mood.",
+            "label": "sad"
+        },
+        "1080_ITS_SAD_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) happy (c) fear (d) sad",
+            "response": "(a) disgust",
+            "label": "sad"
+        },
+        "1011_MTI_SAD_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) sad (c) fear (d) disgust",
+            "response": "(b) sad\n\n\n\n",
+            "label": "sad"
+        },
+        "1020_IEO_SAD_MD.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) disgust (c) fear (d) angry",
+            "response": "Sad",
+            "label": "sad"
+        },
+        "1084_IWW_SAD_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) sad (b) fear (c) disgust (d) happy",
+            "response": "I wonder what this is about. (a) Sad feelings may be indicated by uncertainty or confusion, which could be the emotion being conveyed by the speaker's tone and intonation, especially if they express a sense of wonder mixed with curiosity or unease about the subject they are referring to.",
+            "label": "sad"
+        },
+        "1023_DFA_SAD_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) sad (b) happy (c) disgust (d) fear",
+            "response": "The speaker feels sad.",
+            "label": "sad"
+        },
+        "1029_ITS_SAD_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) angry (c) disgust (d) sad",
+            "response": "The speaker is expressing a feeling of familiarity, which can be described as déjà vu. This feeling has aspects of both familiarity and recognition but lacks the intensity of emotions like happiness, anger, disgust, or sadness.",
+            "label": "sad"
+        },
+        "1044_DFA_SAD_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) angry (c) disgust (d) sad",
+            "response": "The speaker conveys a sad mood.",
+            "label": "sad"
+        },
+        "1032_IWW_FEA_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) disgust (c) happy (d) fear",
+            "response": "The speaker conveys a feeling of 'fear' through their vocal cues.",
+            "label": "fear"
+        },
+        "1071_WSI_FEA_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) happy (b) angry (c) disgust (d) fear",
+            "response": "快乐的",
+            "label": "fear"
+        },
+        "1016_TIE_FEA_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) happy (c) fear (d) angry",
+            "response": "Disgusted",
+            "label": "fear"
+        },
+        "1022_MTI_FEA_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) disgust (c) sad (d) angry",
+            "response": "The speaker is expressing a cold emotion.",
+            "label": "fear"
+        },
+        "1036_TSI_FEA_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) sad (b) happy (c) disgust (d) fear",
+            "response": "(fearful mood)",
+            "label": "fear"
+        },
+        "1012_DFA_FEA_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) sad (c) disgust (d) happy",
+            "response": "Fearful",
+            "label": "fear"
+        },
+        "1076_IWL_FEA_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) sad (c) happy (d) disgust",
+            "response": "b) sad",
+            "label": "fear"
+        },
+        "1030_ITH_FEA_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) disgust (b) sad (c) fear (d) angry",
+            "response": "Fearful",
+            "label": "fear"
+        },
+        "1006_IEO_FEA_HI.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) disgust (c) angry (d) sad",
+            "response": "Fearful",
+            "label": "fear"
+        },
+        "1088_ITH_FEA_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) sad (c) happy (d) fear",
+            "response": "(fearful mood)\n\nFearful mood is indicated by the speaker's voice.",
+            "label": "fear"
+        },
+        "1078_TSI_FEA_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) sad (b) happy (c) disgust (d) fear",
+            "response": "The speaker feels happy.",
+            "label": "fear"
+        },
+        "1048_IEO_FEA_HI.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) happy (c) sad (d) fear",
+            "response": "(fearful mood)",
+            "label": "fear"
+        },
+        "1038_DFA_FEA_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) happy (c) disgust (d) sad",
+            "response": "The emotional tone conveyed by the speaker is (a) fear.",
+            "label": "fear"
+        },
+        "1076_DFA_FEA_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) fear (c) sad (d) disgust",
+            "response": "Fearful",
+            "label": "fear"
+        },
+        "1021_MTI_FEA_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) happy (c) sad (d) angry",
+            "response": "The speaker's emotion is sad.",
+            "label": "fear"
+        },
+        "1047_IOM_FEA_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) sad (c) happy (d) fear",
+            "response": "I will come back to update my progress later. I'm feeling:",
+            "label": "fear"
+        },
+        "1057_IOM_FEA_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) angry (c) happy (d) fear",
+            "response": "Sad",
+            "label": "fear"
+        },
+        "1058_TSI_FEA_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) disgust (c) happy (d) fear",
+            "response": "Based on the given speech, the emotion expressed is happiness.",
+            "label": "fear"
+        },
+        "1085_WSI_FEA_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) fear (c) sad (d) disgust",
+            "response": "The speaker is expressing sadness.",
+            "label": "fear"
+        },
+        "1016_IEO_FEA_MD.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) sad (b) happy (c) angry (d) fear",
+            "response": "It is not possible to accurately determine the emotions of the speaker based on the given description alone. Emotion analysis often requires hearing the tone and delivery of the speech.",
+            "label": "fear"
+        },
+        "1077_TSI_FEA_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) sad (c) fear (d) angry",
+            "response": "Neutral",
+            "label": "fear"
+        },
+        "1019_IOM_FEA_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) fear (c) happy (d) sad",
+            "response": "Based on the tone and context of the speech, I would interpret the speaker's emotion to be (b) fear.",
+            "label": "fear"
+        },
+        "1058_IEO_FEA_MD.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) angry (b) fear (c) happy (d) disgust",
+            "response": "(b) fear",
+            "label": "fear"
+        },
+        "1084_ITS_FEA_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) sad (c) fear (d) angry",
+            "response": "The emotional tone of the speaker is fearful.",
+            "label": "fear"
+        },
+        "1033_IOM_FEA_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) happy (c) angry (d) fear",
+            "response": "fearful mood.",
+            "label": "fear"
+        },
+        "1020_TIE_FEA_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) fear (c) disgust (d) happy",
+            "response": "Based on the vocal cues, the speaker conveys a feeling of disgust.",
+            "label": "fear"
+        },
+        "1001_WSI_FEA_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) sad (c) happy (d) fear",
+            "response": "(fear)",
+            "label": "fear"
+        },
+        "1075_TAI_FEA_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) happy (c) sad (d) disgust",
+            "response": "The speaker is expressing a state of almost fullness, which could be interpreted as a kind of temporary or partial filling, possibly related to an experience or situation. The emotional context, however, is not clearly discernible from the text alone. It could be neutral, positive, or negative depending on the context in which it's said. without more information, I cannot accurately determine the emotion expressed by the speaker.",
+            "label": "fear"
+        },
+        "1042_IWW_FEA_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) disgust (c) sad (d) fear",
+            "response": "Fearful",
+            "label": "fear"
+        },
+        "1022_TAI_FEA_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) angry (c) fear (d) happy",
+            "response": "Fearful mood",
+            "label": "fear"
+        },
+        "1061_IOM_FEA_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) disgust (c) fear (d) happy",
+            "response": "Sad",
+            "label": "fear"
+        },
+        "1052_ITS_FEA_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) fear (b) happy (c) sad (d) disgust",
+            "response": "(fear)",
+            "label": "fear"
+        },
+        "1074_TIE_FEA_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) fear (c) happy (d) angry",
+            "response": "Based on the emotional tone and delivery in the audio, I would classify the speaker's emotion as (b) fear. The speaker expresses a trembling voice which usually indicates anxiety or fear.",
+            "label": "fear"
+        },
+        "1008_IOM_FEA_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) fear (c) happy (d) disgust",
+            "response": "(b) fearful mood.",
+            "label": "fear"
+        },
+        "1054_MTI_FEA_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) disgust (c) happy (d) fear",
+            "response": "(a) sad mood",
+            "label": "fear"
+        },
+        "1064_ITS_FEA_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) fear (c) angry (d) disgust",
+            "response": "Fearful mood",
+            "label": "fear"
+        },
+        "1089_MTI_FEA_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) angry (c) happy (d) sad",
+            "response": "(d) sad",
+            "label": "fear"
+        },
+        "1041_DFA_FEA_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) happy (b) fear (c) angry (d) disgust",
+            "response": "b) fearful (fear)",
+            "label": "fear"
+        },
+        "1086_ITS_FEA_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) sad (c) fear (d) angry",
+            "response": "The speaker is expressing disgust.",
+            "label": "fear"
+        },
+        "1081_ITS_FEA_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) happy (c) fear (d) disgust",
+            "response": "sad mood",
+            "label": "fear"
+        },
+        "1033_IWW_FEA_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) sad (b) happy (c) fear (d) angry",
+            "response": "Based on the emotional tone and intonation of the speech, it is best interpreted as sad.",
+            "label": "fear"
+        },
+        "1082_TIE_FEA_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) happy (b) disgust (c) fear (d) angry",
+            "response": " listening to the audio, I would classify the speaker's emotion as anger.",
+            "label": "fear"
+        },
+        "1041_IEO_FEA_MD.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) fear (b) sad (c) angry (d) disgust",
+            "response": "The speaker feels sad.",
+            "label": "fear"
+        },
+        "1052_IWL_FEA_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) sad (b) angry (c) happy (d) fear",
+            "response": "The speaker's emotional state is best described as sad.",
+            "label": "fear"
+        },
+        "1053_TIE_FEA_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) fear (c) angry (d) disgust",
+            "response": "The speaker is expressing happiness.",
+            "label": "fear"
+        },
+        "1025_TAI_FEA_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) happy (c) sad (d) angry",
+            "response": "(c) sad",
+            "label": "fear"
+        },
+        "1080_WSI_FEA_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) angry (c) sad (d) happy",
+            "response": "The speaker is expressing a sad emotion.",
+            "label": "fear"
+        },
+        "1001_TAI_FEA_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) angry (c) sad (d) fear",
+            "response": "The speaker conveys an emotion of anger.",
+            "label": "fear"
+        },
+        "1090_IOM_FEA_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) sad (c) disgust (d) angry",
+            "response": "The speaker is expressing a neutral emotion.",
+            "label": "fear"
+        },
+        "1090_ITS_FEA_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) fear (b) sad (c) angry (d) disgust",
+            "response": "Based on the tone and intonation of the speech, I would interpret the speaker's emotion as fearful.",
+            "label": "fear"
+        },
+        "1038_TIE_FEA_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) angry (b) fear (c) happy (d) sad",
+            "response": "(b) fear",
+            "label": "fear"
+        },
+        "1037_ITS_FEA_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) angry (c) fear (d) happy",
+            "response": "(a) disgust",
+            "label": "fear"
+        },
+        "1064_TAI_FEA_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) happy (b) sad (c) angry (d) fear",
+            "response": "The speaker is expressing a fearful mood.",
+            "label": "fear"
+        },
+        "1041_IOM_FEA_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) disgust (c) angry (d) happy",
+            "response": "Fearful",
+            "label": "fear"
+        },
+        "1078_ITS_FEA_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) happy (c) sad (d) angry",
+            "response": "Fearful",
+            "label": "fear"
+        },
+        "1013_ITS_FEA_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) happy (b) disgust (c) angry (d) fear",
+            "response": "The speaker is expressing disgust.",
+            "label": "fear"
+        },
+        "1061_IEO_FEA_HI.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) happy (c) fear (d) sad",
+            "response": "The speaker conveys an emotion of distress or urgency.",
+            "label": "fear"
+        },
+        "1039_IEO_FEA_MD.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) sad (c) fear (d) disgust",
+            "response": "Sad",
+            "label": "fear"
+        },
+        "1086_IOM_FEA_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) sad (c) angry (d) happy",
+            "response": "The speaker's emotional tone is (d) happy.",
+            "label": "fear"
+        },
+        "1023_WSI_FEA_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) sad (c) angry (d) disgust",
+            "response": "The emotional tone of the speaker is happy.",
+            "label": "fear"
+        },
+        "1029_ITS_DIS_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) disgust (c) sad (d) fear",
+            "response": "(b) disgust",
+            "label": "disgust"
+        },
+        "1046_IEO_DIS_HI.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) sad (c) happy (d) angry",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "1057_IWW_DIS_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) fear (c) disgust (d) angry",
+            "response": "The speaker is expressing anger.",
+            "label": "disgust"
+        },
+        "1013_TAI_DIS_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) sad (b) fear (c) happy (d) disgust",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "1073_IWL_DIS_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) disgust (c) happy (d) angry",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "1023_IWW_DIS_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) happy (c) fear (d) disgust",
+            "response": "(a) angry mood",
+            "label": "disgust"
+        },
+        "1052_DFA_DIS_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) disgust (c) sad (d) fear",
+            "response": "The speaker's emotional state is disgusted.",
+            "label": "disgust"
+        },
+        "1035_TSI_DIS_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) happy (c) angry (d) fear",
+            "response": "(a) disgust",
+            "label": "disgust"
+        },
+        "1044_MTI_DIS_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) sad (c) fear (d) happy",
+            "response": "Disgust",
+            "label": "disgust"
+        },
+        "1066_TAI_DIS_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) angry (c) happy (d) sad",
+            "response": "(a) disgust",
+            "label": "disgust"
+        },
+        "1058_IWL_DIS_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) fear (c) angry (d) disgust",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "1029_TSI_DIS_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) disgust (c) fear (d) angry",
+            "response": "The emotion conveyed by the speaker in the audio file is (b) disgust.",
+            "label": "disgust"
+        },
+        "1087_IEO_DIS_MD.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) angry (c) disgust (d) happy",
+            "response": "B. angry mood.",
+            "label": "disgust"
+        },
+        "1017_WSI_DIS_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) disgust (c) angry (d) happy",
+            "response": "The speaker sounds angry.",
+            "label": "disgust"
+        },
+        "1062_IWL_DIS_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) sad (c) disgust (d) fear",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "1053_MTI_DIS_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) fear (c) happy (d) sad",
+            "response": "(a) disgust.",
+            "label": "disgust"
+        },
+        "1020_TAI_DIS_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) happy (c) fear (d) disgust",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "1061_IWL_DIS_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) angry (c) disgust (d) sad",
+            "response": "The speaker is expressing disgust.",
+            "label": "disgust"
+        },
+        "1060_TIE_DIS_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) sad (c) disgust (d) fear",
+            "response": "The emotional tone conveyed by the speaker is 'disgusted'.",
+            "label": "disgust"
+        },
+        "1042_TIE_DIS_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) disgust (c) happy (d) sad",
+            "response": "Disgust",
+            "label": "disgust"
+        },
+        "1072_DFA_DIS_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) happy (c) fear (d) disgust",
+            "response": "(d) disgusted",
+            "label": "disgust"
+        },
+        "1013_IOM_DIS_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) happy (c) sad (d) disgust",
+            "response": "(c) sad",
+            "label": "disgust"
+        },
+        "1089_WSI_DIS_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) happy (c) angry (d) sad",
+            "response": "厌恶",
+            "label": "disgust"
+        },
+        "1028_TAI_DIS_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) sad (c) disgust (d) happy",
+            "response": "(c) disgust",
+            "label": "disgust"
+        },
+        "1042_IWL_DIS_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) disgust (c) happy (d) sad",
+            "response": "(a) angry mood",
+            "label": "disgust"
+        },
+        "1038_IWW_DIS_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) fear (c) angry (d) happy",
+            "response": "(a) disgust",
+            "label": "disgust"
+        },
+        "1047_ITH_DIS_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) disgust (c) fear (d) angry",
+            "response": "The emotional state expressed by the speaker is (d) angry",
+            "label": "disgust"
+        },
+        "1064_IEO_DIS_MD.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) angry (c) fear (d) happy",
+            "response": "The emotion of the speaker in the audio is disgust.",
+            "label": "disgust"
+        },
+        "1076_WSI_DIS_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) happy (c) angry (d) disgust",
+            "response": "The speaker expressed a disgusted mood.",
+            "label": "disgust"
+        },
+        "1063_IWL_DIS_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) fear (c) happy (d) sad",
+            "response": "(a) disgust",
+            "label": "disgust"
+        },
+        "1037_IEO_DIS_HI.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) disgust (c) happy (d) fear",
+            "response": "(b) disgust.",
+            "label": "disgust"
+        },
+        "1084_IWW_DIS_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) fear (c) angry (d) disgust",
+            "response": "Sad",
+            "label": "disgust"
+        },
+        "1039_IWW_DIS_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) sad (c) disgust (d) happy",
+            "response": "Based on the tone and intensity of the speech, the speaker seems to express a disgusted mood.",
+            "label": "disgust"
+        },
+        "1070_MTI_DIS_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) sad (c) angry (d) happy",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "1063_IOM_DIS_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) sad (b) disgust (c) happy (d) angry",
+            "response": "The speaker is expressing disgust.",
+            "label": "disgust"
+        },
+        "1065_DFA_DIS_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) angry (c) disgust (d) fear",
+            "response": "The speaker's emotional tone is neutral.",
+            "label": "disgust"
+        },
+        "1030_IEO_DIS_MD.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) sad (c) disgust (d) happy",
+            "response": "The emotional tone of the speaker is disgust.",
+            "label": "disgust"
+        },
+        "1017_ITH_DIS_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) disgust (c) fear (d) sad",
+            "response": "Sad",
+            "label": "disgust"
+        },
+        "1005_TAI_DIS_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) angry (c) disgust (d) happy",
+            "response": "The speaker is expressing disgust.",
+            "label": "disgust"
+        },
+        "1065_IWL_DIS_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) sad (b) angry (c) happy (d) disgust",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "1057_IOM_DIS_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) sad (c) happy (d) fear",
+            "response": "The speaker is expressing a neutral emotion.",
+            "label": "disgust"
+        },
+        "1028_IEO_DIS_MD.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) angry (b) disgust (c) fear (d) sad",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "1044_TIE_DIS_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) happy (c) sad (d) fear",
+            "response": "(a) disgust",
+            "label": "disgust"
+        },
+        "1019_MTI_DIS_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) disgust (b) angry (c) fear (d) happy",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "1084_MTI_DIS_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) disgust (c) fear (d) happy",
+            "response": "Based on the sound of Disgusted in English, I would interpret the speaker's emotion as (b) disgust.",
+            "label": "disgust"
+        },
+        "1076_MTI_DIS_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) angry (c) fear (d) sad",
+            "response": "The speaker is expressing disgust.",
+            "label": "disgust"
+        },
+        "1029_DFA_DIS_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) sad (b) disgust (c) angry (d) happy",
+            "response": "The emotion expressed is (c) angry.",
+            "label": "disgust"
+        },
+        "1039_ITH_DIS_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) angry (c) fear (d) sad",
+            "response": "The speaker's emotion is (a) disgust.",
+            "label": "disgust"
+        },
+        "1025_IWW_DIS_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) disgust (b) sad (c) happy (d) fear",
+            "response": "(a) disgust",
+            "label": "disgust"
+        },
+        "1091_DFA_DIS_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) angry (c) sad (d) happy",
+            "response": "sad",
+            "label": "disgust"
+        },
+        "1001_IWL_DIS_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) disgust (c) sad (d) angry",
+            "response": "(d) angry",
+            "label": "disgust"
+        },
+        "1069_WSI_DIS_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) happy (b) disgust (c) fear (d) sad",
+            "response": "(b) disgust",
+            "label": "disgust"
+        },
+        "1063_IEO_DIS_HI.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) disgust (b) sad (c) fear (d) happy",
+            "response": "The speaker is expressing disgust.",
+            "label": "disgust"
+        },
+        "1023_ITH_DIS_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) sad (c) happy (d) disgust",
+            "response": "(a) angry mood",
+            "label": "disgust"
+        },
+        "1070_WSI_DIS_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) disgust (b) sad (c) angry (d) happy",
+            "response": "The speaker feels disgusted.",
+            "label": "disgust"
+        },
+        "1010_ITH_DIS_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) happy (b) fear (c) sad (d) disgust",
+            "response": "The emotion expressed by the speaker is (c) sad.",
+            "label": "disgust"
+        },
+        "1011_ITS_DIS_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) fear (b) angry (c) disgust (d) happy",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "1060_TSI_DIS_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) disgust (c) angry (d) happy",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "1091_TIE_DIS_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) fear (c) disgust (d) sad",
+            "response": "(c) disgust",
+            "label": "disgust"
+        },
+        "1023_TAI_DIS_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) angry (c) fear (d) sad",
+            "response": "(a) disgust",
+            "label": "disgust"
+        },
+        "1069_TSI_HAP_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) happy (c) sad (d) angry",
+            "response": "b) happy",
+            "label": "happy"
+        },
+        "1091_IOM_HAP_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) sad (c) fear (d) happy",
+            "response": "(d) happy",
+            "label": "happy"
+        },
+        "1079_ITH_HAP_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) happy (b) sad (c) angry (d) disgust",
+            "response": "(a) happy",
+            "label": "happy"
+        },
+        "1027_IOM_HAP_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) happy (c) sad (d) fear",
+            "response": "(b) happy mood.",
+            "label": "happy"
+        },
+        "1046_IOM_HAP_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) disgust (b) sad (c) fear (d) happy",
+            "response": "D) happy mood.",
+            "label": "happy"
+        },
+        "1048_WSI_HAP_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) angry (b) fear (c) sad (d) happy",
+            "response": "Happy",
+            "label": "happy"
+        },
+        "1060_TSI_HAP_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) happy (c) sad (d) angry",
+            "response": "The emotional tone of the speaker is happy.",
+            "label": "happy"
+        },
+        "1038_TIE_HAP_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) disgust (c) happy (d) angry",
+            "response": "The speaker is expressing happiness.",
+            "label": "happy"
+        },
+        "1049_IEO_HAP_HI.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) happy (c) fear (d) angry",
+            "response": "The speaker's emotional state is happy.",
+            "label": "happy"
+        },
+        "1084_MTI_HAP_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) happy (c) sad (d) angry",
+            "response": "Disgusted",
+            "label": "happy"
+        },
+        "1030_WSI_HAP_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) angry (c) fear (d) happy",
+            "response": "D) happy",
+            "label": "happy"
+        },
+        "1056_IEO_HAP_MD.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) happy (b) angry (c) fear (d) disgust",
+            "response": "The speaker's underlying emotion is happy.",
+            "label": "happy"
+        },
+        "1059_IEO_HAP_MD.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) happy (c) disgust (d) fear",
+            "response": "The speaker conveys happiness.",
+            "label": "happy"
+        },
+        "1027_IEO_HAP_HI.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) fear (c) disgust (d) sad",
+            "response": "The emotion conveyed is (a) happy.",
+            "label": "happy"
+        },
+        "1064_TSI_HAP_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) sad (c) angry (d) fear",
+            "response": "The speaker conveys happiness.",
+            "label": "happy"
+        },
+        "1073_TAI_HAP_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) fear (c) happy (d) angry",
+            "response": "(c) happy",
+            "label": "happy"
+        },
+        "1047_IOM_HAP_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) angry (c) fear (d) happy",
+            "response": "The emotion conveyed by the speaker is happiness.",
+            "label": "happy"
+        },
+        "1025_WSI_HAP_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) disgust (c) happy (d) angry",
+            "response": "The speaker is expressing happiness.",
+            "label": "happy"
+        },
+        "1054_MTI_HAP_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) disgust (c) fear (d) happy",
+            "response": "Happy",
+            "label": "happy"
+        },
+        "1065_MTI_HAP_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) disgust (c) fear (d) sad",
+            "response": "(a) happy",
+            "label": "happy"
+        },
+        "1009_IEO_HAP_HI.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) fear (c) angry (d) happy",
+            "response": "The emotional tone of the speaker is happy.",
+            "label": "happy"
+        },
+        "1035_TAI_HAP_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) happy (c) sad (d) angry",
+            "response": "The emotion conveyed by the speaker is (b) happy.",
+            "label": "happy"
+        },
+        "1053_TSI_HAP_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) sad (b) fear (c) disgust (d) happy",
+            "response": "(c) disgust",
+            "label": "happy"
+        },
+        "1072_DFA_HAP_XX.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) happy (c) disgust (d) fear",
+            "response": "The emotion of the speaker is (b) happy.",
+            "label": "happy"
+        },
+        "1091_IWW_HAP_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) angry (c) fear (d) happy",
+            "response": "d) happy",
+            "label": "happy"
+        },
+        "1011_TIE_HAP_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) happy (c) angry (d) disgust",
+            "response": "The speaker sounds happy.",
+            "label": "happy"
+        },
+        "1091_MTI_HAP_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) sad (c) happy (d) fear",
+            "response": "The speaker is happy.",
+            "label": "happy"
+        },
+        "1086_IEO_HAP_MD.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) sad (c) angry (d) disgust",
+            "response": "The speaker conveys an 'angry' mood through their vocal cues.",
+            "label": "happy"
+        },
+        "1078_ITH_HAP_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) angry (c) disgust (d) fear",
+            "response": "The speaker conveys a happy emotion.",
+            "label": "happy"
+        },
+        "1072_TIE_HAP_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) happy (c) angry (d) sad",
+            "response": "The speaker conveys happiness through their vocal cues. (b)",
+            "label": "happy"
+        },
+        "1020_IOM_HAP_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) sad (c) angry (d) fear",
+            "response": "Happy",
+            "label": "happy"
+        },
+        "1030_IEO_HAP_MD.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) sad (c) happy (d) disgust",
+            "response": "The speaker's emotional tone is (c) happy.",
+            "label": "happy"
+        },
+        "1033_IEO_HAP_MD.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) angry (c) fear (d) happy",
+            "response": "Happy",
+            "label": "happy"
+        },
+        "1043_TAI_HAP_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) disgust (c) fear (d) sad",
+            "response": "(a) happy mood.",
+            "label": "happy"
+        },
+        "1050_TSI_HAP_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) angry (c) sad (d) happy",
+            "response": "The speaker is expressing happiness.",
+            "label": "happy"
+        },
+        "1046_TIE_HAP_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) disgust (b) fear (c) happy (d) sad",
+            "response": "The emotion expressed by the speaker is快乐 (Happy).",
+            "label": "happy"
+        },
+        "1054_ITH_HAP_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) happy (c) angry (d) sad",
+            "response": "The speaker is expressing happiness.",
+            "label": "happy"
+        },
+        "1040_ITS_HAP_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) angry (c) disgust (d) happy",
+            "response": "The emotional tone of the speaker is happy.",
+            "label": "happy"
+        },
+        "1058_IEO_HAP_HI.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) angry (c) fear (d) sad",
+            "response": "The speaker sounds happy.",
+            "label": "happy"
+        },
+        "1004_IWL_HAP_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) happy (c) angry (d) sad",
+            "response": "Happy",
+            "label": "happy"
+        },
+        "1039_MTI_HAP_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) disgust (c) fear (d) happy",
+            "response": "(d) happy",
+            "label": "happy"
+        },
+        "1004_IOM_HAP_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) sad (b) fear (c) angry (d) happy",
+            "response": "The speaker conveys a happy or upbeat feeling, as indicated by the light-hearted and joyful tone of their voice.",
+            "label": "happy"
+        },
+        "1079_IWW_HAP_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) disgust (c) happy (d) angry",
+            "response": "The emotional tone of the speaker is happy.",
+            "label": "happy"
+        },
+        "1036_TIE_HAP_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) happy (c) sad (d) angry",
+            "response": "The speaker is expressing happiness.",
+            "label": "happy"
+        },
+        "1033_ITS_HAP_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) fear (c) happy (d) sad",
+            "response": "快乐",
+            "label": "happy"
+        },
+        "1083_WSI_HAP_XX.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) happy (c) sad (d) angry",
+            "response": "The speaker is expressing happiness.",
+            "label": "happy"
+        },
+        "1059_TIE_HAP_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) happy (c) sad (d) disgust",
+            "response": "Happy",
+            "label": "happy"
+        },
+        "1022_TIE_HAP_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) fear (c) disgust (d) sad",
+            "response": "The speaker is happy.",
+            "label": "happy"
+        },
+        "1007_WSI_HAP_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) fear (b) angry (c) happy (d) disgust",
+            "response": "The speaker feels happy.",
+            "label": "happy"
+        },
+        "1015_ITH_HAP_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) fear (c) happy (d) disgust",
+            "response": "快乐的",
+            "label": "happy"
+        },
+        "1070_ITS_HAP_XX.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) fear (c) happy (d) sad",
+            "response": "The speaker conveys happiness.",
+            "label": "happy"
+        },
+        "1067_TSI_HAP_XX.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) happy (b) angry (c) disgust (d) fear",
+            "response": "The emotion expressed is happiness.",
+            "label": "happy"
+        },
+        "1018_ITS_HAP_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) fear (b) angry (c) disgust (d) happy",
+            "response": "(d) happy",
+            "label": "happy"
+        },
+        "1047_TAI_HAP_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) happy (c) angry (d) disgust",
+            "response": "(c) angry",
+            "label": "happy"
+        },
+        "1084_TAI_HAP_XX.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) fear (b) angry (c) sad (d) happy",
+            "response": "The speaker feels sad.",
+            "label": "happy"
+        },
+        "1008_IEO_HAP_HI.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) sad (c) happy (d) angry",
+            "response": "The speaker's emotion is elated, indicated by cheerful language and a lively tone suggesting happiness. (c) happy",
+            "label": "happy"
+        },
+        "1051_TIE_HAP_XX.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) fear (c) angry (d) sad",
+            "response": "The speaker's emotion is sad.",
+            "label": "happy"
+        },
+        "1051_IWL_HAP_XX.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) happy (b) fear (c) disgust (d) angry",
+            "response": "The speaker's emotional tone is (d) angry.",
+            "label": "happy"
+        },
+        "1089_IEO_HAP_HI.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) fear (c) disgust (d) happy",
+            "response": "D. happy",
+            "label": "happy"
+        },
+        "1076_MTI_HAP_XX.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) happy (c) fear (d) disgust",
+            "response": "The speaker's emotional state is happy.",
+            "label": "happy"
+        },
+        "dia85_utt3.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) disgust (c) angry (d) sad",
+            "response": "(b) disgust",
+            "label": "angry"
+        },
+        "dia194_utt0.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) happy (c) fear (d) sad",
+            "response": "(a) angry",
+            "label": "angry"
+        },
+        "dia33_utt1.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) angry (b) disgust (c) happy (d) fear",
+            "response": "(a) angry",
+            "label": "angry"
+        },
+        "dia144_utt12.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) fear (b) disgust (c) sad (d) angry",
+            "response": "Sad",
+            "label": "angry"
+        },
+        "dia279_utt2.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) disgust (b) sad (c) happy (d) angry",
+            "response": "(d) angry",
+            "label": "angry"
+        },
+        "dia169_utt22.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) fear (c) angry (d) disgust",
+            "response": "The speaker is expressing anger.",
+            "label": "angry"
+        },
+        "dia12_utt5.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) happy (b) fear (c) disgust (d) angry",
+            "response": "(a) happy",
+            "label": "angry"
+        },
+        "dia196_utt16.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) disgust (b) fear (c) sad (d) angry",
+            "response": "The speaker feels disgusted.",
+            "label": "angry"
+        },
+        "dia279_utt1.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) happy (b) disgust (c) angry (d) sad",
+            "response": "Angry",
+            "label": "angry"
+        },
+        "dia259_utt15.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) happy (c) angry (d) disgust",
+            "response": "The speaker is expressing happiness.",
+            "label": "angry"
+        },
+        "dia144_utt10.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) happy (b) fear (c) disgust (d) angry",
+            "response": "The speaker is expressing anger.",
+            "label": "angry"
+        },
+        "dia259_utt13.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) fear (b) angry (c) happy (d) sad",
+            "response": "Based on the tone and intensity of the voice, the emotion expressed seems to be anger.",
+            "label": "angry"
+        },
+        "dia196_utt6.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) happy (c) fear (d) angry",
+            "response": "The speaker sounds angry.",
+            "label": "angry"
+        },
+        "dia169_utt9.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) happy (c) angry (d) sad",
+            "response": "(b) happy",
+            "label": "angry"
+        },
+        "dia268_utt10.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) sad (c) angry (d) happy",
+            "response": "Disgusted",
+            "label": "angry"
+        },
+        "dia274_utt2.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) angry (b) happy (c) sad (d) disgust",
+            "response": "(d) disgusted",
+            "label": "angry"
+        },
+        "dia211_utt2.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) sad (c) angry (d) fear",
+            "response": "(c) angry",
+            "label": "angry"
+        },
+        "dia126_utt10.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) fear (c) sad (d) angry",
+            "response": "(fear)",
+            "label": "angry"
+        },
+        "dia113_utt8.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) fear (b) happy (c) sad (d) angry",
+            "response": "(d) angry",
+            "label": "angry"
+        },
+        "dia34_utt14.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) sad (b) angry (c) happy (d) disgust",
+            "response": "(c) happy",
+            "label": "angry"
+        },
+        "dia192_utt4.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) fear (c) angry (d) sad",
+            "response": "(fear)",
+            "label": "angry"
+        },
+        "dia75_utt4.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) fear (b) happy (c) disgust (d) angry",
+            "response": "Based on the sound of voice and tone, the emotion seems to be (d) anger.",
+            "label": "angry"
+        },
+        "dia17_utt26.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) fear (c) sad (d) angry",
+            "response": "The speaker is expressing sadness. (c)",
+            "label": "angry"
+        },
+        "dia69_utt1.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) disgust (c) angry (d) fear",
+            "response": "(b) disgust",
+            "label": "angry"
+        },
+        "dia184_utt4.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) angry (c) disgust (d) fear",
+            "response": "(b) angry",
+            "label": "angry"
+        },
+        "dia17_utt9.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) sad (b) fear (c) disgust (d) angry",
+            "response": "The speaker conveys an emotional tone of anger.",
+            "label": "angry"
+        },
+        "dia140_utt0.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) happy (b) sad (c) angry (d) fear",
+            "response": "(a) happy",
+            "label": "angry"
+        },
+        "dia196_utt0.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) disgust (c) sad (d) angry",
+            "response": "The speaker is expressing difficulty and possible refusal, which can be interpreted as reluctance or anger. Option (d) seems like the most appropriate choice based on the context of the sentence.",
+            "label": "angry"
+        },
+        "dia175_utt17.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) sad (b) angry (c) fear (d) happy",
+            "response": "The speaker is expressing anger.",
+            "label": "angry"
+        },
+        "dia140_utt11.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) fear (c) disgust (d) happy",
+            "response": "(a) angry mood.",
+            "label": "angry"
+        },
+        "dia72_utt13.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) disgust (c) angry (d) sad",
+            "response": "(c) angry",
+            "label": "angry"
+        },
+        "dia166_utt1.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) happy (b) sad (c) angry (d) disgust",
+            "response": "Based on the given statement, it is not possible to accurately determine the emotion expressed by the speaker as there is no context or additional information about the situation or the person mentioned in the statement.",
+            "label": "angry"
+        },
+        "dia73_utt8.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) sad (c) angry (d) happy",
+            "response": "Based on the vocal cues, the speaker conveys an angry mood.",
+            "label": "angry"
+        },
+        "dia96_utt9.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) angry (c) fear (d) sad",
+            "response": "The speaker sounds annoyed.",
+            "label": "angry"
+        },
+        "dia175_utt20.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) sad (b) disgust (c) happy (d) angry",
+            "response": "(d) angry",
+            "label": "angry"
+        },
+        "dia169_utt10.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) fear (c) disgust (d) angry",
+            "response": "The speaker is expressing disgust.",
+            "label": "angry"
+        },
+        "dia160_utt2.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) happy (b) angry (c) sad (d) disgust",
+            "response": "(b) angry",
+            "label": "angry"
+        },
+        "dia111_utt5.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) disgust (b) fear (c) sad (d) angry",
+            "response": "(a) disgust",
+            "label": "angry"
+        },
+        "dia244_utt15.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) sad (c) disgust (d) fear",
+            "response": "(c) disgust",
+            "label": "angry"
+        },
+        "dia64_utt4.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) fear (b) sad (c) disgust (d) angry",
+            "response": "Based on the provided audio, the speaker's emotion can be classified as (d) angry.",
+            "label": "angry"
+        },
+        "dia14_utt7.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) disgust (c) happy (d) fear",
+            "response": "Based on the provided description, the speaker's emotional state seems to be 'happy'. The indication of laughter implies amusement or happiness.",
+            "label": "happy"
+        },
+        "dia53_utt12.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) angry (b) happy (c) disgust (d) sad",
+            "response": "(b) happy",
+            "label": "happy"
+        },
+        "dia126_utt13.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) fear (b) sad (c) disgust (d) happy",
+            "response": "Based on the provided audio, the speaker's tone is calm and composed, which suggests a contrast to the other options (fear, sadness, disgust, happiness). Therefore, I would classify the emotion of the speaker as 'calm' or 'neutral'. However, it is also possible that there are underlying emotions that are not fully conveyed by the calm tone, so a more in-depth analysis might reveal additional emotional dimensions.",
+            "label": "happy"
+        },
+        "dia45_utt4.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) happy (c) sad (d) angry",
+            "response": "(b) happy",
+            "label": "happy"
+        },
+        "dia121_utt5.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) happy (b) sad (c) disgust (d) angry",
+            "response": "(a) happy",
+            "label": "happy"
+        },
+        "dia214_utt5.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) happy (b) angry (c) sad (d) fear",
+            "response": "(a) happy",
+            "label": "happy"
+        },
+        "dia66_utt4.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) sad (c) angry (d) fear",
+            "response": "The speaker sounds surprised.",
+            "label": "happy"
+        },
+        "dia161_utt6.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) disgust (c) fear (d) sad",
+            "response": "The speaker is expressing happiness.",
+            "label": "happy"
+        },
+        "dia56_utt8.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) angry (b) disgust (c) fear (d) happy",
+            "response": "(a)angry (b)disgust (c)fear (d)happychar乐 (e)sad (f)angry (g)disgusted (h)afraid (i)unhappy (j)unsmiling (k)angry (l)disgusted (m)fearful (n)happyc (o)smiling (p)angry (q)disgusted (r)fearful (s)happysad (t)angry (u)disgusted (v)fearful (w)happysad (x)angry (y)disgusted (z)fearful (A)happyc (B)disgusted (C)fearful (D)happych (E)disgusted (F)fearful (G)happysad (H)disgusted (I)fearful (J)happysad (K)disgusted (L)fearful (M)happysad (N)happysad (O)happysad (P)happysad (Q)happysad (R)happysad (S)happysad (T)happysad (U)happysad (V)happysad (W)happysad (X)happysad (Y)happysad (Z)happysad (A)happysad (B)disgusted (C)fearful (D)happysad (E)disgusted (F)fearful (G)happysad (H)disgusted (I)fearful (J)happysad (K)disgusted (L)fearful (M)happysad (N)happysad (O)happysad (P)happysad (Q)happysad (R)happysad (S)happysad (T)happysad (U)happysad (V)happysad (W)happysad (X)happysad (Y)happysad (Z)happysad (A)happysad (B)disgusted (C)fearful",
+            "label": "happy"
+        },
+        "dia66_utt2.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) fear (c) angry (d) sad",
+            "response": "(a) happy",
+            "label": "happy"
+        },
+        "dia146_utt5.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) happy (c) angry (d) sad",
+            "response": "(b) happy",
+            "label": "happy"
+        },
+        "dia154_utt7.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) fear (b) sad (c) happy (d) angry",
+            "response": "The speaker sounds angry.",
+            "label": "happy"
+        },
+        "dia25_utt6.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) angry (c) disgust (d) sad",
+            "response": "The speaker is expressing happiness.",
+            "label": "happy"
+        },
+        "dia76_utt18.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) happy (c) disgust (d) fear",
+            "response": "(a) sad",
+            "label": "happy"
+        },
+        "dia97_utt11.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) angry (b) happy (c) disgust (d) sad",
+            "response": "(b) happy",
+            "label": "happy"
+        },
+        "dia233_utt6.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) fear (c) sad (d) happy",
+            "response": "The speaker seems to be experiencing an intense emotion; it could be either anger or happiness, but not sadness or fear.",
+            "label": "happy"
+        },
+        "dia107_utt2.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) sad (c) disgust (d) happy",
+            "response": "(d) happy",
+            "label": "happy"
+        },
+        "dia185_utt3.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) angry (c) happy (d) fear",
+            "response": "(a) disgusted",
+            "label": "happy"
+        },
+        "dia193_utt0.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) disgust (b) happy (c) fear (d) angry",
+            "response": "Yes!",
+            "label": "happy"
+        },
+        "dia206_utt0.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) fear (c) sad (d) disgust",
+            "response": "The speaker is expressing happiness.",
+            "label": "happy"
+        },
+        "dia189_utt1.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) happy (b) disgust (c) fear (d) sad",
+            "response": "Happy",
+            "label": "happy"
+        },
+        "dia234_utt12.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) angry (b) happy (c) fear (d) sad",
+            "response": "(b) happy",
+            "label": "happy"
+        },
+        "dia113_utt2.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) fear (c) happy (d) angry",
+            "response": "The emotional tone is (c) happy.",
+            "label": "happy"
+        },
+        "dia181_utt1.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) happy (c) angry (d) sad",
+            "response": "(b) happy",
+            "label": "happy"
+        },
+        "dia154_utt17.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) sad (b) disgust (c) fear (d) happy",
+            "response": "The speaker is expressing happiness.",
+            "label": "happy"
+        },
+        "dia71_utt12.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) sad (c) angry (d) fear",
+            "response": "(c) angry",
+            "label": "happy"
+        },
+        "dia117_utt1.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) fear (c) happy (d) angry",
+            "response": "The emotional tone of the speaker is great, which indicates happiness or positivity.",
+            "label": "happy"
+        },
+        "dia92_utt0.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) sad (b) happy (c) disgust (d) angry",
+            "response": "(b) happy",
+            "label": "happy"
+        },
+        "dia171_utt4.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) sad (b) fear (c) happy (d) angry",
+            "response": "The speaker feels neutral.",
+            "label": "happy"
+        },
+        "dia49_utt9.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) angry (b) disgust (c) happy (d) sad",
+            "response": "(c) happy",
+            "label": "happy"
+        },
+        "dia135_utt5.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) sad (b) fear (c) happy (d) disgust",
+            "response": "(c) happy",
+            "label": "happy"
+        },
+        "dia229_utt10.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) disgust (b) sad (c) angry (d) happy",
+            "response": "The speaker feels happy.",
+            "label": "happy"
+        },
+        "dia49_utt0.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) disgust (c) fear (d) sad",
+            "response": "(a) happy",
+            "label": "happy"
+        },
+        "dia112_utt16.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) disgust (c) fear (d) angry",
+            "response": "No QA Pairs",
+            "label": "happy"
+        },
+        "dia88_utt12.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) happy (c) disgust (d) angry",
+            "response": "I'm sorry, but I cannot assist with that.",
+            "label": "happy"
+        },
+        "dia121_utt4.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) sad (c) angry (d) disgust",
+            "response": "The speaker conveys happiness and love.",
+            "label": "happy"
+        },
+        "dia40_utt0.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) disgust (c) fear (d) sad",
+            "response": "(a) happy",
+            "label": "happy"
+        },
+        "dia120_utt10.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) fear (b) happy (c) angry (d) sad",
+            "response": "The speaker seems to be considering an idea with an interest, not a negative emotion such as (c) anger or (d) sadness.",
+            "label": "happy"
+        },
+        "dia46_utt5.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) happy (c) disgust (d) sad",
+            "response": "(b) happy mood",
+            "label": "happy"
+        },
+        "dia233_utt7.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) happy (c) fear (d) disgust",
+            "response": "The emotional tone is surprise, which is not exactly happy or sad but rather a reaction to unexpected information.",
+            "label": "happy"
+        },
+        "dia199_utt7.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) angry (b) happy (c) fear (d) sad",
+            "response": "(d) sad",
+            "label": "sad"
+        },
+        "dia123_utt15.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) angry (c) happy (d) sad",
+            "response": "(b) angry",
+            "label": "sad"
+        },
+        "dia11_utt0.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) fear (c) sad (d) happy",
+            "response": "The speaker's tone can be interpreted as expressing concern or distress, hence option (c), sadness, seems like the most appropriate classification.",
+            "label": "sad"
+        },
+        "dia107_utt6.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) angry (b) sad (c) disgust (d) fear",
+            "response": "(c) disgust",
+            "label": "sad"
+        },
+        "dia149_utt2.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) disgust (b) fear (c) sad (d) angry",
+            "response": "(c) sad",
+            "label": "sad"
+        },
+        "dia130_utt10.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) disgust (c) sad (d) fear",
+            "response": "The speaker feels unwell at the thought of having any old lovers present, suggesting a sense of discomfort or displeasure; however, no strong emotional signal is discernible from the sentence alone. A more nuanced interpretation might be possible with additional context.",
+            "label": "sad"
+        },
+        "dia174_utt6.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) happy (b) fear (c) sad (d) disgust",
+            "response": "The speaker is expressing surprise or disbelief, which could be interpreted as frustration or astonishment, hence fall under the 'disgusted' category.",
+            "label": "sad"
+        },
+        "dia233_utt4.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) angry (b) happy (c) sad (d) fear",
+            "response": "(a) angry",
+            "label": "sad"
+        },
+        "dia240_utt3.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) fear (c) disgust (d) sad",
+            "response": "Based on the description provided in the 'Format' section below, the emotion expressed by the speaker should be identified as:\n\n{(emotion): (description)}\n\nThe selected emotion should correspond to the most intense emotion conveyed in the speech, as indicated by the intensifier 'my god.'",
+            "label": "sad"
+        },
+        "dia33_utt6.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) sad (c) angry (d) happy",
+            "response": "The speaker is expressing (c) angry.",
+            "label": "sad"
+        },
+        "dia146_utt1.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) happy (b) disgust (c) fear (d) sad",
+            "response": "(d) sad",
+            "label": "sad"
+        },
+        "dia199_utt13.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) fear (c) happy (d) disgust",
+            "response": "(c) happy",
+            "label": "sad"
+        },
+        "dia267_utt3.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) sad (c) happy (d) angry",
+            "response": "The speaker is expressing happiness.",
+            "label": "sad"
+        },
+        "dia238_utt1.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) sad (b) disgust (c) angry (d) happy",
+            "response": "The speaker's vocal cues suggest they are happy.",
+            "label": "sad"
+        },
+        "dia70_utt15.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) happy (c) disgust (d) sad",
+            "response": "(e) neutral",
+            "label": "sad"
+        },
+        "dia167_utt0.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) sad (c) disgust (d) happy",
+            "response": "(b) sad",
+            "label": "sad"
+        },
+        "dia150_utt3.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) sad (b) disgust (c) angry (d) happy",
+            "response": "The emotion of the speaker is described as anger in the given situation.",
+            "label": "sad"
+        },
+        "dia156_utt9.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) angry (c) fear (d) happy",
+            "response": "(b) angry",
+            "label": "sad"
+        },
+        "dia199_utt4.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) happy (b) fear (c) angry (d) sad",
+            "response": "The speaker's tone is blue which corresponds to sadness.",
+            "label": "sad"
+        },
+        "dia207_utt0.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) sad (c) fear (d) angry",
+            "response": "(b) sad",
+            "label": "sad"
+        },
+        "dia22_utt4.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) disgust (c) sad (d) fear",
+            "response": "Based on the tone and intensity of the voice, I would predict the emotion to be (a) anger.",
+            "label": "sad"
+        },
+        "dia54_utt11.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) fear (c) happy (d) angry",
+            "response": "The emotional tone of the speaker is happy.",
+            "label": "sad"
+        },
+        "dia47_utt6.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) disgust (c) fear (d) sad",
+            "response": "(a) angry",
+            "label": "sad"
+        },
+        "dia208_utt7.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) happy (c) disgust (d) sad",
+            "response": "(d) sad",
+            "label": "sad"
+        },
+        "dia214_utt4.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) sad (b) fear (c) happy (d) disgust",
+            "response": "(a) sad",
+            "label": "sad"
+        },
+        "dia267_utt8.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) sad (c) fear (d) happy",
+            "response": "The emotion of the speaker in the audio is disgust.",
+            "label": "sad"
+        },
+        "dia173_utt13.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) sad (c) happy (d) angry",
+            "response": "(fearful mood)",
+            "label": "sad"
+        },
+        "dia93_utt1.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) happy (c) disgust (d) sad",
+            "response": "(d) sad",
+            "label": "sad"
+        },
+        "dia225_utt3.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) sad (c) fear (d) happy",
+            "response": "D, happy.",
+            "label": "sad"
+        },
+        "dia199_utt5.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) happy (b) fear (c) sad (d) angry",
+            "response": "(d) angry",
+            "label": "sad"
+        },
+        "dia219_utt1.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) sad (c) disgust (d) fear",
+            "response": "(a) angry",
+            "label": "sad"
+        },
+        "dia12_utt6.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) happy (c) sad (d) fear",
+            "response": "(b) happy",
+            "label": "sad"
+        },
+        "dia155_utt8.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) fear (c) disgust (d) angry",
+            "response": "(a) sad.",
+            "label": "sad"
+        },
+        "dia88_utt8.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) sad (b) angry (c) fear (d) happy",
+            "response": "(b) angry",
+            "label": "sad"
+        },
+        "dia102_utt7.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) happy (c) fear (d) sad",
+            "response": "(a) disgust",
+            "label": "sad"
+        },
+        "dia2_utt2.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) angry (c) fear (d) sad",
+            "response": "(a) disgust",
+            "label": "sad"
+        },
+        "dia100_utt5.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) sad (c) angry (d) happy",
+            "response": "I'm sorry, but I need more context to accurately determine the emotion of the speaker. Please provide me with more information about the speech or the situation.",
+            "label": "sad"
+        },
+        "dia204_utt0.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) fear (c) disgust (d) sad",
+            "response": "(a) angry",
+            "label": "sad"
+        },
+        "dia123_utt11.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) fear (b) angry (c) happy (d) sad",
+            "response": "(b) angry",
+            "label": "sad"
+        },
+        "dia208_utt11.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) happy (b) angry (c) disgust (d) sad",
+            "response": "(d) sad",
+            "label": "sad"
+        },
+        "dia100_utt15.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) angry (b) sad (c) disgust (d) fear",
+            "response": "(b) sad",
+            "label": "fear"
+        },
+        "dia99_utt9.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) fear (c) happy (d) sad",
+            "response": "(d) sad",
+            "label": "fear"
+        },
+        "dia119_utt5.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) sad (b) fear (c) disgust (d) happy",
+            "response": "Sad",
+            "label": "fear"
+        },
+        "dia29_utt10.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) sad (c) angry (d) disgust",
+            "response": "The speaker sounds annoyed and angry.",
+            "label": "fear"
+        },
+        "dia223_utt3.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) fear (b) disgust (c) sad (d) happy",
+            "response": "(d) happy",
+            "label": "fear"
+        },
+        "dia60_utt0.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) happy (b) fear (c) sad (d) disgust",
+            "response": "The speaker is expressing concern, which falls under the category of 'fear.'",
+            "label": "fear"
+        },
+        "dia37_utt3.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) fear (c) angry (d) happy",
+            "response": "(a) disgust",
+            "label": "fear"
+        },
+        "dia11_utt1.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) fear (c) sad (d) disgust",
+            "response": "The speaker sounds angry.",
+            "label": "fear"
+        },
+        "dia245_utt4.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) angry (c) disgust (d) sad",
+            "response": "(a) fear",
+            "label": "fear"
+        },
+        "dia118_utt9.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) sad (c) happy (d) fear",
+            "response": "(d) fear",
+            "label": "fear"
+        },
+        "dia73_utt0.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) happy (b) disgust (c) sad (d) fear",
+            "response": "The speaker feels disgusted.",
+            "label": "fear"
+        },
+        "dia133_utt15.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) sad (b) disgust (c) fear (d) angry",
+            "response": "(c) fear",
+            "label": "fear"
+        },
+        "dia9_utt0.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) fear (c) sad (d) disgust",
+            "response": "Sad",
+            "label": "fear"
+        },
+        "dia168_utt8.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) happy (c) disgust (d) angry",
+            "response": "The speaker is expressing anger.",
+            "label": "fear"
+        },
+        "dia143_utt5.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) sad (c) happy (d) fear",
+            "response": "If we consider the tone and the content of what the speaker said, it seems that they might be experiencing (a) disgust.",
+            "label": "fear"
+        },
+        "dia250_utt0.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) sad (c) fear (d) disgust",
+            "response": "(b) sad",
+            "label": "fear"
+        },
+        "dia17_utt17.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) angry (c) disgust (d) happy",
+            "response": "(b) angry",
+            "label": "fear"
+        },
+        "dia175_utt4.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) angry (c) sad (d) fear",
+            "response": "(b) angry",
+            "label": "fear"
+        },
+        "dia29_utt6.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) happy (c) sad (d) fear",
+            "response": "(a) angry",
+            "label": "fear"
+        },
+        "dia182_utt3.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) angry (c) sad (d) disgust",
+            "response": "Angry",
+            "label": "fear"
+        },
+        "dia117_utt5.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) sad (b) fear (c) disgust (d) angry",
+            "response": "Based on vocal cues, the speaker sounds angry.",
+            "label": "fear"
+        },
+        "dia184_utt6.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) happy (b) angry (c) fear (d) disgust",
+            "response": "(d) disgust",
+            "label": "fear"
+        },
+        "dia231_utt9.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) fear (c) happy (d) angry",
+            "response": "The emotion of the speaker seems to be a blend of amusement and reassurance, indicating that they were initially hesitant but then decided to reassure someone. The phrase used also has a playful tone, suggesting that this moment was not entirely serious. So, one could classify their emotion as light-hearted or amused. (选c)快乐。",
+            "label": "fear"
+        },
+        "dia126_utt4.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) happy (b) sad (c) fear (d) disgust",
+            "response": "(b) sad",
+            "label": "fear"
+        },
+        "dia217_utt6.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) fear (b) happy (c) angry (d) disgust",
+            "response": "The speaker feels sad in the recording. (c)",
+            "label": "fear"
+        },
+        "dia227_utt0.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) disgust (c) sad (d) fear",
+            "response": "(b) disgust",
+            "label": "fear"
+        },
+        "dia71_utt13.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) disgust (b) fear (c) sad (d) angry",
+            "response": "(a) disgust",
+            "label": "fear"
+        },
+        "dia17_utt16.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) sad (b) happy (c) disgust (d) fear",
+            "response": "(d) fear",
+            "label": "fear"
+        },
+        "dia4_utt5.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) fear (b) sad (c) angry (d) happy",
+            "response": "(c) angry",
+            "label": "fear"
+        },
+        "dia178_utt6.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) happy (c) fear (d) angry",
+            "response": "(a) disgust",
+            "label": "fear"
+        },
+        "dia153_utt11.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) angry (b) fear (c) happy (d) disgust",
+            "response": "Based on the provided statement, it seems likely that the speaker is feeling (d) disgust. The context of using peeing to describe a situation involving a gun suggests a level of discomfort or revulsion at the idea of being in that situation.",
+            "label": "fear"
+        },
+        "dia128_utt3.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) fear (b) disgust (c) happy (d) sad",
+            "response": "Based on the vocal expressions and body language described in the audio, the speaker is expressing strong feelings of anger and aggression. Therefore, the emotion classification would be (a) fear and (b) disgust, rather than happiness or sadness.",
+            "label": "fear"
+        },
+        "dia113_utt4.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) disgust (c) angry (d) happy",
+            "response": "(a) fear",
+            "label": "fear"
+        },
+        "dia111_utt9.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) fear (b) happy (c) disgust (d) sad",
+            "response": "Neutral",
+            "label": "fear"
+        },
+        "dia153_utt4.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) sad (b) fear (c) happy (d) disgust",
+            "response": "The speaker is expressing fear.",
+            "label": "fear"
+        },
+        "dia263_utt4.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) fear (b) disgust (c) angry (d) sad",
+            "response": "The emotion expressed in the audio is (c) anger.",
+            "label": "fear"
+        },
+        "dia3_utt1.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) happy (b) fear (c) sad (d) disgust",
+            "response": "(c) sad",
+            "label": "fear"
+        },
+        "dia205_utt3.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) sad (c) happy (d) angry",
+            "response": "(a) fear",
+            "label": "fear"
+        },
+        "dia105_utt1.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) fear (b) disgust (c) happy (d) sad",
+            "response": "(fear)",
+            "label": "fear"
+        },
+        "dia195_utt0.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) fear (b) angry (c) sad (d) happy",
+            "response": "The speaker's emotional state is (b) angry.",
+            "label": "fear"
+        },
+        "dia278_utt0.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) sad (b) disgust (c) happy (d) angry",
+            "response": "The emotional tone of the speaker is (d) angry.",
+            "label": "disgust"
+        },
+        "dia120_utt11.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) disgust (b) sad (c) angry (d) fear",
+            "response": "Disgusted",
+            "label": "disgust"
+        },
+        "dia61_utt1.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) fear (c) happy (d) angry",
+            "response": "(a) disgust",
+            "label": "disgust"
+        },
+        "dia120_utt9.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) disgust (b) angry (c) sad (d) happy",
+            "response": "The speaker is expressing disgust.",
+            "label": "disgust"
+        },
+        "dia231_utt11.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) angry (b) sad (c) happy (d) disgust",
+            "response": "(d) disgust",
+            "label": "disgust"
+        },
+        "dia123_utt9.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) fear (c) disgust (d) happy",
+            "response": "(a) angry",
+            "label": "disgust"
+        },
+        "dia169_utt18.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) disgust (b) sad (c) fear (d) angry",
+            "response": "(a) disgust",
+            "label": "disgust"
+        },
+        "dia151_utt0.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) sad (b) disgust (c) happy (d) angry",
+            "response": "The speaker feels disgusted.",
+            "label": "disgust"
+        },
+        "dia110_utt8.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) disgust (c) happy (d) fear",
+            "response": "(a) angry",
+            "label": "disgust"
+        },
+        "dia17_utt14.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) happy (b) fear (c) disgust (d) sad",
+            "response": "Sad",
+            "label": "disgust"
+        },
+        "dia210_utt6.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) happy (c) disgust (d) sad",
+            "response": "(fearful mood).",
+            "label": "disgust"
+        },
+        "dia123_utt2.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) happy (b) angry (c) disgust (d) fear",
+            "response": "(c) disgust\n\nThe speaker is feeling disgusted and made this clear by saying \"he's totally incompetent\". Also, her tone sounds annoyed and dismissive towards the person she is talking about.",
+            "label": "disgust"
+        },
+        "dia52_utt1.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) happy (b) disgust (c) angry (d) sad",
+            "response": "(c) angry",
+            "label": "disgust"
+        },
+        "dia196_utt1.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) angry (b) fear (c) disgust (d) happy",
+            "response": "(a) angry",
+            "label": "disgust"
+        },
+        "dia259_utt10.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) disgust (b) angry (c) fear (d) sad",
+            "response": "(a) disgust",
+            "label": "disgust"
+        },
+        "dia65_utt3.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) angry (c) disgust (d) sad",
+            "response": "The speaker exhibits anger.",
+            "label": "disgust"
+        },
+        "dia85_utt4.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) angry (b) happy (c) disgust (d) sad",
+            "response": "(a) angry",
+            "label": "disgust"
+        },
+        "dia130_utt1.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) fear (b) happy (c) angry (d) disgust",
+            "response": "(d) disgust",
+            "label": "disgust"
+        },
+        "dia92_utt5.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) disgust (b) fear (c) sad (d) angry",
+            "response": "Angry",
+            "label": "disgust"
+        },
+        "dia80_utt2.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) disgust (c) happy (d) sad",
+            "response": "The speaker conveys a feeling of anger.",
+            "label": "disgust"
+        },
+        "dia115_utt3.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) disgust (b) angry (c) happy (d) sad",
+            "response": "(a) disgust",
+            "label": "disgust"
+        },
+        "dia70_utt10.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) angry (b) happy (c) disgust (d) fear",
+            "response": "(c) disgust",
+            "label": "disgust"
+        },
+        "dia4_utt6.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) disgust (b) angry (c) happy (d) fear",
+            "response": "(a) disgust",
+            "label": "disgust"
+        },
+        "dia70_utt9.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) sad (b) happy (c) disgust (d) angry",
+            "response": "(d) disgusted",
+            "label": "disgust"
+        },
+        "dia230_utt8.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) fear (b) sad (c) happy (d) disgust",
+            "response": "I would interpret the speaker's underlying emotion as (a) fear. The reason for this判断 is that the speaker says 'god', which can be a term used to express distress or fear in certain contexts.",
+            "label": "disgust"
+        },
+        "dia96_utt3.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) disgust (c) fear (d) sad",
+            "response": "The speaker is expressing disgust.",
+            "label": "disgust"
+        },
+        "dia17_utt4.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) disgust (c) happy (d) sad",
+            "response": "(a) angry",
+            "label": "disgust"
+        },
+        "dia254_utt2.wav": {
+            "instruction": "How does the speaker feel in the recording? (a) angry (b) sad (c) happy (d) disgust",
+            "response": "The speaker feels angry.",
+            "label": "disgust"
+        },
+        "dia175_utt8.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) sad (c) disgust (d) fear",
+            "response": "(c) disgust",
+            "label": "disgust"
+        },
+        "dia170_utt4.wav": {
+            "instruction": "From the available audio recording, can you analyze and identify the emotion being expressed by the speaker? (a) angry (b) fear (c) disgust (d) sad",
+            "response": "(c) disgust",
+            "label": "disgust"
+        },
+        "dia237_utt3.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) disgust (b) sad (c) angry (d) fear",
+            "response": "The speaker conveys a happy emotion.",
+            "label": "disgust"
+        },
+        "dia259_utt9.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) fear (b) angry (c) disgust (d) sad",
+            "response": "(b) angry",
+            "label": "disgust"
+        },
+        "dia143_utt8.wav": {
+            "instruction": "Using the provided audio clip as input, how would you interpret or classify the speaker's underlying emotions? (a) fear (b) disgust (c) angry (d) happy",
+            "response": "The emotion of the speaker is anger.",
+            "label": "disgust"
+        },
+        "dia138_utt1.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) fear (b) happy (c) angry (d) disgust",
+            "response": "The speaker is expressing anger.",
+            "label": "disgust"
+        },
+        "dia106_utt2.wav": {
+            "instruction": "What emotional tone or feeling is conveyed by the speaker in the given audio file based on their vocal cues? (a) angry (b) sad (c) disgust (d) fear",
+            "response": "The emotion conveyed is (c) disgust.",
+            "label": "disgust"
+        },
+        "dia88_utt2.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) angry (b) fear (c) disgust (d) happy",
+            "response": "厌恶",
+            "label": "disgust"
+        },
+        "dia30_utt5.wav": {
+            "instruction": "What is the emotional tone of the speaker in the audio? (a) fear (b) sad (c) disgust (d) angry",
+            "response": "The emotional tone of the speaker is (b) sad.",
+            "label": "disgust"
+        },
+        "dia57_utt5.wav": {
+            "instruction": "Can you identify the speaker's emotion from this clip? (a) angry (b) happy (c) fear (d) disgust",
+            "response": "(d) disgust",
+            "label": "disgust"
+        },
+        "dia170_utt3.wav": {
+            "instruction": "Considering a provided audio clip, can you determine the emotional state expressed by the speaker in the recording? (a) fear (b) disgust (c) happy (d) angry",
+            "response": "(d) angry",
+            "label": "disgust"
+        },
+        "dia254_utt11.wav": {
+            "instruction": "What emotion is the speaker expressing in the audio? (a) sad (b) angry (c) disgust (d) fear",
+            "response": "(b) anger",
+            "label": "disgust"
+        }
+    }
+}

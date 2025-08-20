@@ -91,9 +91,9 @@ LAYER_STEERING_CONFIG = {
     14: (0.0, "negative"),    # -0.0010, significant - FLIP
     15: (1.0, "neutral"),      # -0.0000, not significant
     16: (1.0, "neutral"),      # -0.0003, not significant
-    17: (0.0, "negative"),    # -0.0018, significant - FLIP
+    17: (1.0, "negative"),    # -0.0018, significant - FLIP
     18: (1.0, "neutral"),      # +0.0000, not significant
-    19: (0.0, "neutral"),      # -0.0009, not significant
+    19: (1.0, "neutral"),      # -0.0009, not significant
     20: (1.0, "neutral"),      # -0.0010, not significant
     21: (1.0, "positive"),     # +0.0008, not significant
     22: (1.0, "positive"),     # +0.0028, significant
@@ -105,7 +105,7 @@ LAYER_STEERING_CONFIG = {
     28: (1.0, "positive"),     # +0.0019, significant
     29: (1.0, "positive"),     # +0.0009, not significant
     30: (1.0, "negative"),    # -0.0052, significant - FLIP
-    31: (0.0, "negative"),    # -0.0225, highly significant - FLIP
+    31: (1.0, "negative"),    # -0.0225, highly significant - FLIP
 }
 
 def initialize_model():
@@ -192,7 +192,7 @@ def compute_vsv_for_audio(audio_path, prompt):
     soundless_audio = np.zeros_like(audio)
     
     # Use the data_prompt (prompt parameter) for VSV computation
-    vsv_prompt = f"{prompt} Answer just yes or no."
+    vsv_prompt = f"Focus on the given audio and answer the following question. {prompt} Answer just yes or no."
     
     # Build positive and negative inputs for VSV computation using the data_prompt
     messages_pos = build_messages(include_audio=True,  wav_path=audio_path, prompt=vsv_prompt)
@@ -330,7 +330,7 @@ def inference(audio_path, prompt_text):
         
         # Build messages in the expected format
         # Append instruction to answer only yes or no
-        modified_prompt = f"{prompt_text} Answer just yes or no."
+        modified_prompt = f"Focus on the given audio and answer the following question. {prompt_text} Answer just yes or no."
         messages = [
             {"role": "user", "content": [
                 {"type": "audio", "audio_url": audio_path},

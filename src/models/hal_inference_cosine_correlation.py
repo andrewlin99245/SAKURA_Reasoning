@@ -121,8 +121,8 @@ class CosineHookWithSteering:
         per_token_cos_sim = torch.sum(x_normalized * v_normalized, dim=-1)
         
         # Average cosine similarity across tokens: [batch_size]
-        cos_sim = per_token_cos_sim.mean(dim=1)  # [batch_size]
-        
+        #cos_sim = per_token_cos_sim.mean(dim=1)  # [batch_size]
+        cos_sim =per_token_cos_sim[:,0]
         # Store measurement (using first batch item since batch_size=1 during generation)
         layer_mean_cosine = cos_sim[0].item()
         measurement = {
@@ -276,7 +276,7 @@ def compute_vsv_for_audio(audio_path, prompt):
     soundless_audio = np.zeros_like(audio)
     
     # Use the data_prompt (prompt parameter) for VSV computation
-    vsv_prompt = f"{prompt} Answer just yes or no."
+    vsv_prompt = f"Focus on the given audio and answer the following question. {prompt} Answer just yes or no."
     
     # Build positive and negative inputs for VSV computation using the data_prompt
     messages_pos = build_messages(include_audio=True,  wav_path=audio_path, prompt=vsv_prompt)
@@ -340,7 +340,7 @@ def inference_with_cosine_measurement(audio_path, prompt_text, vsv_lambda=0.05):
         
         # Build messages in the expected format
         # Append instruction to answer only yes or no
-        modified_prompt = f"{prompt_text} Answer just yes or no."
+        modified_prompt = f"Focus on the given audio and answer the following question. {prompt_text} Answer just yes or no."
         messages = [
             {"role": "user", "content": [
                 {"type": "audio", "audio_url": audio_path},
@@ -427,6 +427,130 @@ def inference_with_cosine_measurement(audio_path, prompt_text, vsv_lambda=0.05):
             handle.remove()
         if verbose_progress and hooks:
             print("    🔄 Post-steering cosine similarity hooks removed")
+
+def compute_inter_layer_cosine_correlations(evaluation_results):
+    """
+    Compute Pearson correlations between cosine similarities across layers,
+    comparing correct vs incorrect predictions.
+    
+    Args:
+        evaluation_results: List of dictionaries containing:
+            - correct: bool, whether prediction was correct
+            - layer_stats: dict, per-layer cosine similarity statistics
+    
+    Returns:
+        correlation_analysis: Dictionary with correlation matrices and comparisons
+    """
+    if len(evaluation_results) < 2:
+        print("❌ Need at least 2 samples for inter-layer correlation analysis")
+        return {}
+    
+    # Separate results by correctness
+    correct_results = [r for r in evaluation_results if r['correct'] and r.get('layer_stats')]
+    incorrect_results = [r for r in evaluation_results if not r['correct'] and r.get('layer_stats')]
+    
+    if len(correct_results) < 2 or len(incorrect_results) < 2:
+        print("❌ Need at least 2 samples in each category for correlation analysis")
+        return {}
+    
+    def build_layer_cosine_matrix(results):
+        """Build matrix of layer cosine similarities for correlation analysis"""
+        layer_cosine_matrix = {}  # layer_id -> list of mean cosine values
+        
+        for result in results:
+            if result.get('layer_stats'):
+                for layer_id, stats in result['layer_stats'].items():
+                    if layer_id not in layer_cosine_matrix:
+                        layer_cosine_matrix[layer_id] = []
+                    layer_cosine_matrix[layer_id].append(stats['mean'])
+        
+        # Only keep layers that have data for all samples
+        min_samples = min(len(values) for values in layer_cosine_matrix.values()) if layer_cosine_matrix else 0
+        filtered_matrix = {layer_id: values[:min_samples] 
+                          for layer_id, values in layer_cosine_matrix.items() 
+                          if len(values) >= min_samples}
+        
+        return filtered_matrix
+    
+    def compute_correlation_matrix(layer_matrix):
+        """Compute pairwise Pearson correlations between layers"""
+        correlations = {}
+        layer_ids = sorted(layer_matrix.keys())
+        
+        for i, layer1 in enumerate(layer_ids):
+            for j, layer2 in enumerate(layer_ids):
+                if i < j:  # Only compute upper triangle to avoid duplicates
+                    try:
+                        corr, p_val = pearsonr(layer_matrix[layer1], layer_matrix[layer2])
+                        correlations[f"{layer1}-{layer2}"] = {
+                            'correlation': corr,
+                            'p_value': p_val,
+                            'significant': p_val < 0.05,
+                            'layer1': layer1,
+                            'layer2': layer2,
+                            'abs_correlation': abs(corr)
+                        }
+                    except Exception as e:
+                        print(f"⚠️  Could not compute correlation between layers {layer1}-{layer2}: {e}")
+                        
+        return correlations
+    
+    # Build matrices for correct and incorrect predictions
+    correct_matrix = build_layer_cosine_matrix(correct_results)
+    incorrect_matrix = build_layer_cosine_matrix(incorrect_results)
+    
+    if not correct_matrix or not incorrect_matrix:
+        print("❌ Insufficient layer data for correlation analysis")
+        return {}
+    
+    # Compute correlation matrices
+    correct_correlations = compute_correlation_matrix(correct_matrix)
+    incorrect_correlations = compute_correlation_matrix(incorrect_matrix)
+    
+    # Find common layer pairs for comparison
+    common_pairs = set(correct_correlations.keys()) & set(incorrect_correlations.keys())
+    
+    if not common_pairs:
+        print("❌ No common layer pairs between correct and incorrect predictions")
+        return {}
+    
+    # Compare correlations between correct and incorrect predictions
+    correlation_comparison = {}
+    for pair in common_pairs:
+        correct_corr = correct_correlations[pair]['correlation']
+        incorrect_corr = incorrect_correlations[pair]['correlation']
+        
+        correlation_comparison[pair] = {
+            'correct_correlation': correct_corr,
+            'incorrect_correlation': incorrect_corr,
+            'correlation_difference': correct_corr - incorrect_corr,
+            'correct_p_value': correct_correlations[pair]['p_value'],
+            'incorrect_p_value': incorrect_correlations[pair]['p_value'],
+            'correct_significant': correct_correlations[pair]['significant'],
+            'incorrect_significant': incorrect_correlations[pair]['significant'],
+            'layer1': correct_correlations[pair]['layer1'],
+            'layer2': correct_correlations[pair]['layer2']
+        }
+    
+    # Summary statistics
+    correlation_diffs = [comp['correlation_difference'] for comp in correlation_comparison.values()]
+    
+    summary = {
+        'num_layer_pairs': len(correlation_comparison),
+        'num_correct_samples': len(correct_results),
+        'num_incorrect_samples': len(incorrect_results),
+        'mean_correlation_difference': np.mean(correlation_diffs) if correlation_diffs else 0,
+        'std_correlation_difference': np.std(correlation_diffs) if correlation_diffs else 0,
+        'max_correlation_difference': np.max(correlation_diffs) if correlation_diffs else 0,
+        'min_correlation_difference': np.min(correlation_diffs) if correlation_diffs else 0
+    }
+    
+    return {
+        'correlation_comparison': correlation_comparison,
+        'correct_correlations': correct_correlations,
+        'incorrect_correlations': incorrect_correlations,
+        'summary': summary
+    }
 
 def compute_layer_wise_cosine_accuracy_analysis(evaluation_results):
     """
@@ -690,6 +814,10 @@ def main(args):
     print(f"\n📐 Computing layer-wise cosine similarity analysis...")
     layer_analysis = compute_layer_wise_cosine_accuracy_analysis(evaluation_results)
     
+    # Compute inter-layer correlation analysis
+    print(f"\n🔗 Computing inter-layer cosine correlation analysis...")
+    correlation_analysis = compute_inter_layer_cosine_correlations(evaluation_results)
+    
     # Print interpretable layer-wise results
     if layer_analysis:
         print(f"\n📊 Layer-wise Analysis Results:")
@@ -728,6 +856,66 @@ def main(args):
                 print(f"   Layers with medium effect sizes (0.5 ≤ |d| < 0.8): {', '.join(map(str, medium_effect_layers))}")
         else:
             print(f"\n⚠️  No layers show statistically significant differences between correct and incorrect predictions")
+    
+    # Print inter-layer correlation analysis results
+    if correlation_analysis and correlation_analysis.get('correlation_comparison'):
+        print(f"\n🔗 Inter-layer Correlation Analysis Results:")
+        print(f"{'='*110}")
+        print(f"{'Layer Pair':<12} {'Correct Corr':<12} {'Incorrect Corr':<14} {'Difference':<12} {'Correct Sig':<12} {'Incorrect Sig':<14} {'Interpretation':<20}")
+        print(f"{'='*110}")
+        
+        # Sort by absolute correlation difference for most interesting pairs first
+        sorted_pairs = sorted(correlation_analysis['correlation_comparison'].items(), 
+                             key=lambda x: abs(x[1]['correlation_difference']), reverse=True)
+        
+        for pair_name, stats in sorted_pairs:
+            correct_corr = stats['correct_correlation']
+            incorrect_corr = stats['incorrect_correlation']
+            difference = stats['correlation_difference']
+            correct_sig = "Yes" if stats['correct_significant'] else "No"
+            incorrect_sig = "Yes" if stats['incorrect_significant'] else "No"
+            
+            # Interpretation
+            if difference > 0.2:
+                interpretation = "Higher when correct"
+            elif difference < -0.2:
+                interpretation = "Higher when incorrect"
+            elif abs(difference) < 0.1:
+                interpretation = "Similar"
+            else:
+                interpretation = "Moderate difference"
+            
+            print(f"{pair_name:<12} {correct_corr:<12.3f} {incorrect_corr:<14.3f} {difference:<12.3f} {correct_sig:<12} {incorrect_sig:<14} {interpretation:<20}")
+        
+        print(f"{'='*110}")
+        
+        # Summary of correlation analysis
+        summary = correlation_analysis['summary']
+        print(f"\n🎯 Inter-layer Correlation Summary:")
+        print(f"   Layer pairs analyzed: {summary['num_layer_pairs']}")
+        print(f"   Correct prediction samples: {summary['num_correct_samples']}")
+        print(f"   Incorrect prediction samples: {summary['num_incorrect_samples']}")
+        print(f"   Mean correlation difference: {summary['mean_correlation_difference']:.3f}")
+        print(f"   Std correlation difference: {summary['std_correlation_difference']:.3f}")
+        
+        # Find most interesting pairs
+        large_diff_pairs = [pair for pair, stats in correlation_analysis['correlation_comparison'].items() 
+                           if abs(stats['correlation_difference']) > 0.3]
+        if large_diff_pairs:
+            print(f"   Pairs with large differences (|diff| > 0.3): {', '.join(large_diff_pairs)}")
+        
+        # Steering coherence insight
+        mean_diff = summary['mean_correlation_difference']
+        if mean_diff > 0.1:
+            print(f"\n💡 Insight: Inter-layer correlations are generally HIGHER for correct predictions")
+            print(f"   → Suggests steering vectors work more coherently across layers when predictions are accurate")
+        elif mean_diff < -0.1:
+            print(f"\n💡 Insight: Inter-layer correlations are generally HIGHER for incorrect predictions")
+            print(f"   → May indicate over-coordination or getting stuck in wrong patterns")
+        else:
+            print(f"\n💡 Insight: Inter-layer correlations show similar patterns for correct and incorrect predictions")
+    else:
+        print(f"\n⚠️  Could not compute inter-layer correlation analysis (insufficient data)")
     
     # Analyze by sampling method if using local dataset
     if use_local_dataset:
@@ -786,12 +974,15 @@ def main(args):
             'audio_root_dir': args.audio_root_dir
         },
         'layer_wise_analysis': layer_analysis,
+        'inter_layer_correlation_analysis': correlation_analysis,
         'summary': {
             'accuracy': final_accuracy,
             'total_time_minutes': total_time/60,
             'samples_with_cosine_data': len([r for r in evaluation_results if r['mean_cosine'] is not None]),
             'layers_analyzed': len(layer_analysis) if layer_analysis else 0,
-            'significant_layers': len([l for l, s in layer_analysis.items() if s['comparison']['significant']]) if layer_analysis else 0
+            'significant_layers': len([l for l, s in layer_analysis.items() if s['comparison']['significant']]) if layer_analysis else 0,
+            'layer_pairs_analyzed': len(correlation_analysis.get('correlation_comparison', {})) if correlation_analysis else 0,
+            'mean_correlation_difference': correlation_analysis.get('summary', {}).get('mean_correlation_difference', 0) if correlation_analysis else 0
         }
     }
     
@@ -827,7 +1018,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_name", type=str, help="Hugging face dataset name.", default="kuanhuggingface/AudioHallucination_AudioCaps-Random-v2")
     parser.add_argument("--dataset_file", type=str, help="Path to local dataset TSV file (alternative to --dataset_name)", default="./understanding_sound_data/metadata/balanced_merged_test_2871.txt")
     parser.add_argument("--audio_root_dir", type=str, help="Audio root directory", default="./understanding_sound_data/audio")
-    parser.add_argument("--output_path", type=str, help="Output path of csv file.", default="./cosine_correlation_evaluation_result.csv")
+    parser.add_argument("--output_path", type=str, help="Output path of csv file.", default="./first_eng_cosine_correlation_evaluation_result.csv")
     parser.add_argument("--verbose", "-v", action="store_true", help="Enable verbose progress output for individual inference steps")
     
     # Vector steering options

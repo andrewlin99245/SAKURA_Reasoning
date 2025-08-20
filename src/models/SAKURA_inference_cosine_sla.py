@@ -73,7 +73,7 @@ cosine_sla_enabled = False
 cosine_sla_gamma = 0.25
 cosine_sla_w = 4
 # SAKURA dataset configuration
-SAKURA_DATA_DIR = "/home/andrew99245/SAKURA_Reasoning/data"
+SAKURA_DATA_DIR = "/home/andrew99245/SAKURA_Reasoning/sdata"
 MAX_SAMPLE = -1
 
 def initialize_model():
@@ -138,7 +138,7 @@ def build_inputs(messages, audio=None, sr=16000):
     else:
         inputs = processor(
             text=prompt,
-            audios=[audio],
+            audio=[audio],
             sampling_rate=sr,
             return_tensors="pt",
             padding=True,
@@ -156,17 +156,17 @@ def compute_vsv_for_audio(audio_path, prompt):
     
     # Load audio
     audio, sr = librosa.load(audio_path, sr=16000)
-    
-    # Use a descriptive prompt for VSV computation (like in sla_steering.py)
-    vsv_prompt = "Describe the audio in detail."
+    soundless_audio = np.zeros_like(audio)
+    vsv_prompt = prompt
     
     # Build positive and negative inputs for VSV computation
     messages_pos = build_messages(include_audio=True,  wav_path=audio_path, prompt=vsv_prompt)
-    messages_neg = build_messages(include_audio=False, wav_path=audio_path, prompt=vsv_prompt)
+    messages_neg = build_messages(include_audio=True, wav_path=audio_path, prompt=vsv_prompt)
     
     pos_inputs = build_inputs(messages_pos, audio=audio, sr=16000)
-    neg_inputs = build_inputs(messages_neg, audio=None, sr=16000)
+    neg_inputs = build_inputs(messages_neg, audio=soundless_audio, sr=16000)
     
+
     # Compute VSV specific to this input
     with torch.no_grad():
         kwargs_list = [[neg_inputs, pos_inputs]]
@@ -265,7 +265,7 @@ def inference(audio_path, prompt_text):
         if verbose_progress:
             print("    🔧 Preparing model inputs...")
         # Prepare inputs
-        inputs = processor(text=text, audios=audios, sampling_rate=16000, return_tensors="pt", padding=True)
+        inputs = processor(text=text, audio=audios, sampling_rate=16000, return_tensors="pt", padding=True)
         inputs = inputs.to(model.device).to(model.dtype)
 
         if verbose_progress:
@@ -403,7 +403,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="SAKURA dataset evaluation with cosine SLA and vector steering")
     
     # Model and output options
-    parser.add_argument("--model_suffix", type=str, default="sla_vsv", help="Suffix for output filenames")
+    parser.add_argument("--model_suffix", type=str, default="cosine_vsv", help="Suffix for output filenames")
     parser.add_argument("--verbose", "-v", action="store_true", help="Enable verbose progress output")
     
     # Vector steering options
@@ -411,12 +411,11 @@ if __name__ == "__main__":
     parser.add_argument("--vsv_lambda", type=float, default=0.05, help="Vector steering strength (lambda)")
     
     # Cosine SLA options
-    parser.add_argument("--cosine_sla_gamma", type=float, default=0.25, help="Cosine SLA gamma parameter")
-    parser.add_argument("--cosine_sla_w", type=int, default=4, help="Cosine SLA w parameter (number of layers)")
-    
+    parser.add_argument("--cosine_sla_gamma", type=float, default=1, help="Cosine SLA gamma parameter")
+    parser.add_argument("--cosine_sla_w", type=int, default=1, help="Cosine SLA w parameter (number of layers)")
+    parser.add_argument("--cosine_sla_enabled", action="store_true", help="Enable cosine SLA")
     # Testing options
     parser.add_argument("--max_samples", type=int, default=-1, help="Maximum samples per subset (-1 for all)")
-    
     args = parser.parse_args()
     
     # Update global MAX_SAMPLE

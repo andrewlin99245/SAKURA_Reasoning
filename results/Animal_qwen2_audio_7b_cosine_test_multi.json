@@ -1,0 +1,16 @@
+{
+    "attribute": "Animal",
+    "type": "multi",
+    "model_config": {
+        "gamma": 0.25,
+        "w": 4,
+        "lam": 0.0
+    },
+    "results": {
+        "dog28.wav": {
+            "instruction": "What physical feature does the animal in the provided audio segment have? (a) Feathers (b) Scales (c) Claws (d) Horns",
+            "response": "The animal in the provided audio segment has feathers.",
+            "label": "dog"
+        }
+    }
+}

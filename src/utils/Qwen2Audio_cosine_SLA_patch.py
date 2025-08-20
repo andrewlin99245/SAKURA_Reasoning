@@ -256,10 +256,10 @@ class Qwen2AudioCosineSLAForCausalLM(Qwen2AudioForConditionalGeneration):
             # Average across tokens: [B]
             cos_sim = per_token_cos_sim.mean(dim=1)                      # [B]
             #print(cos_sim)
-            
-            # Hard gating: layer activated when cosine similarity > 0.2 OR negative
-            mask_bool = (cos_sim > 0.2)  # [B] bool
-            
+            #print(cos_sim,final_cos_sim)
+            # Dynamic gating: layer activated when cosine similarity > final layer cosine similarity
+            mask_bool = (cos_sim > final_cos_sim)  # [B] bool
+
             # Gate cosine (for weights) - zero out inactive layers
             cosine_gated = cos_sim * mask_bool.float()  # [B]
             cosine_gated_list.append(cosine_gated)
@@ -276,8 +276,15 @@ class Qwen2AudioCosineSLAForCausalLM(Qwen2AudioForConditionalGeneration):
         cos_stack = torch.stack(cosine_gated_list, dim=1)
         logits_stack = torch.stack(layer_last_logits, dim=1)
 
-        # 4) Build weights (allow negative weights); weights automatically sum to 1
-        alpha = (self.sla_gamma * cos_stack)                        # [B, w_eff] - removed clamp_min(0.0)
+        # 4) Build weights - uniform distribution of gamma across activated layers
+        # Count activated layers per batch item
+        activated_mask = (cos_stack > 0)  # [B, w_eff] - non-zero cosine values indicate activated layers
+        num_activated = activated_mask.sum(dim=1, keepdim=True).float()  # [B, 1]
+        print(num_activated)
+        # Uniform weight per activated layer, zero for inactive layers
+        uniform_weight = torch.where(num_activated > 0, self.sla_gamma / num_activated, 0.0)  # [B, 1]
+        alpha = uniform_weight * activated_mask.float()  # [B, w_eff]
+        
         alpha_sum = alpha.sum(dim=1, keepdim=True)                   # [B, 1]
         final_w = (1.0 - alpha_sum)                                 # [B, 1] - directly ensures sum = 1
 
@@ -291,15 +298,16 @@ class Qwen2AudioCosineSLAForCausalLM(Qwen2AudioForConditionalGeneration):
 
         #Debug (optional)
         # if self.sla_debug:
-        #     start_layer = L - 1 - w_eff
+        #start_layer = L - 1 - w_eff
         #     print(f"\\n🎯 Cosine SLA (γ={self.sla_gamma}, w={w_eff}, seq_len={T}, batch={B}):")
-        #     print(f"   Final layer {L-1} cos_sim(b0): {final_cos_sim[0].item():.4f}")
-        #     for i in range(w_eff):
-        #         layer_idx = start_layer + i
-        #         cos_val = cos_stack[0, i].item()  # cosine value for b0
-        #         weight_val = alpha[0, i].item()  # alpha weight for this layer
-        #         print(f"   Layer {layer_idx}: cos_sim(b0)={cos_val:.4f}, weight={weight_val:.4f}")
-        #     print(f"   α_sum(b0)={alpha_sum[0,0].item():.4f}, final_w(b0)={final_w[0,0].item():.4f}")
+        #print(f"   Final layer {L-1} cos_sim(b0): {final_cos_sim[0].item():.4f}")
+        #print(cosine_sim)
+        #for i in range(w_eff):
+        #    layer_idx = start_layer + i
+        #    cos_val = cos_stack[0, i].item()  # cosine value for b0
+        #    weight_val = alpha[0, i].item()  # alpha weight for this layer
+            #print(f"   Layer {layer_idx}: cos_sim(b0)={cos_val:.4f}, weight={weight_val:.4f}")
+        #print(f"α_sum(b0)={alpha_sum[0,0].item():.4f}, final_w(b0)={final_w[0,0].item():.4f}")
         #     print(f"   Logits shape: {blended_logits.shape}\\n")
 
         if not return_dict:

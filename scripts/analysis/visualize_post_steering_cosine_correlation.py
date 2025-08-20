@@ -323,10 +323,10 @@ def print_summary_statistics(df, analysis_data):
 def main():
     parser = argparse.ArgumentParser(description="Visualize post-steering cosine correlation results")
     parser.add_argument("--csv", type=str, 
-                       default="cosine_correlation_evaluation_result_cosine_correlation_lambda0.05.csv",
+                       default="eng_cosine_correlation_evaluation_result_cosine_correlation_lambda0.05.csv",
                        help="Path to CSV results file")
     parser.add_argument("--json", type=str,
-                       default="cosine_correlation_evaluation_result_cosine_correlation_lambda0.05_analysis.json", 
+                       default="eng_cosine_correlation_evaluation_result_cosine_correlation_lambda0.05_analysis.json", 
                        help="Path to JSON analysis file")
     parser.add_argument("--output_dir", type=str, default="./post_steering_analysis/",
                        help="Directory to save plots")

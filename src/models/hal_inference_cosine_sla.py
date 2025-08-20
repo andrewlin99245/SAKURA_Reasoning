@@ -160,7 +160,7 @@ def compute_vsv_for_audio(audio_path, prompt):
     soundless_audio = np.zeros_like(audio)
     
     # Use the data_prompt (prompt parameter) for VSV computation
-    vsv_prompt = f"Focus on the given audio and answer the following question. {prompt}"
+    vsv_prompt = f"Focus on the given audio and answer the following question. {prompt} Answer just yes or no."
     
     # Build positive and negative inputs for VSV computation using the data_prompt
     messages_pos = build_messages(include_audio=True,  wav_path=audio_path, prompt=vsv_prompt)
@@ -239,7 +239,7 @@ def inference(audio_path, prompt_text):
         
         # Build messages in the expected format
         # Append instruction to answer only yes or no
-        modified_prompt = f"Focus on the given audio and answer the following question. {prompt_text}"
+        modified_prompt = f"Focus on the given audio and answer the following question. {prompt_text} Answer just yes or no."
         messages = [
             {"role": "user", "content": [
                 {"type": "audio", "audio_url": audio_path},
@@ -508,7 +508,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_name", type=str, help="Hugging face dataset name.", default="kuanhuggingface/AudioHallucination_AudioCaps-Random-v2")
     parser.add_argument("--dataset_file", type=str, help="Path to local dataset TSV file (alternative to --dataset_name)", default="./understanding_sound_data/metadata/balanced_merged_test_2871.txt")
     parser.add_argument("--audio_root_dir", type=str, help="Audio root directory", default="./understanding_sound_data/audio")
-    parser.add_argument("--output_path", type=str, help="Output path of csv file.", default="./prompt_eng_sla_data_prompt_evaluation_result.csv")
+    parser.add_argument("--output_path", type=str, help="Output path of csv file.", default="./w=2_prompt_eng_sla_data_prompt_evaluation_result.csv")
     parser.add_argument("--verbose", "-v", action="store_true", help="Enable verbose progress output for individual inference steps")
     
     # Vector steering options
