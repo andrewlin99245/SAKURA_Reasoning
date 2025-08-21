@@ -157,7 +157,7 @@ def compute_vsv_for_audio(audio_path, prompt):
     soundless_audio = np.zeros_like(audio)
     # Answer just yes or no.
     # Use the data_prompt (prompt parameter) for VSV computation
-    vsv_prompt = prompt
+    vsv_prompt = f"Focus on the given audio and answer the following question. {prompt} Answer just yes or no."
     #print(vsv_prompt)
     #vsv_prompt = 'Describe the audio content in detail.'
     # Build positive and negative inputs for VSV computation using the data_prompt
@@ -211,8 +211,7 @@ def inference(audio_path, prompt_text):
         
         # Build messages in the expected format
         # Append instruction to answer only yes or no
-        #modified_prompt = f"Focus on the given audio and answer the following question. {prompt_text} Answer just yes or no."
-        modified_prompt = prompt_text
+        modified_prompt = f"Focus on the given audio and answer the following question. {prompt_text} Answer just yes or no."
         messages = [
             {"role": "user", "content": [
                 {"type": "audio", "audio_url": audio_path},

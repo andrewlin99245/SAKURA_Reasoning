@@ -134,7 +134,7 @@ def build_inputs(messages, audio=None, sr=16000):
     else:
         inputs = processor(
             text=prompt,
-            audios=[audio],
+            audio=[audio],
             sampling_rate=sr,
             return_tensors="pt",
             padding=True,
@@ -145,27 +145,32 @@ def build_inputs(messages, audio=None, sr=16000):
 
 def compute_linear_lambdas(num_layers, base_lambda):
     """
-    Compute linear lambda values that increase with layer depth.
-    The first layer gets 0, the last layer gets 2x the base lambda.
+    Compute uniform lambda values for steering layers L-10 to L-3 (skip last two layers L-1, L).
+    All steering layers use the same lambda value (base_lambda).
     
     Args:
-        num_layers: Total number of layers
-        base_lambda: Base lambda value
+        num_layers: Total number of layers (L)
+        base_lambda: Lambda value for all steering layers
     
     Returns:
-        linear_lambdas: Tensor of shape [num_layers] with linearly increasing lambda values
+        linear_lambdas: Tensor of shape [num_layers] with uniform lambda values for steering layers
     """
-    # Create linear interpolation from 0 to 2*base_lambda
-    # Formula: lambda_i = 2 * base_lambda * i/(num_layers-1)
-    # This ensures first layer gets 0, last layer gets 2*base_lambda
+    # Initialize all lambdas to 0
+    linear_lambdas = torch.zeros(num_layers, dtype=torch.float32)
     
-    layer_indices = torch.arange(num_layers, dtype=torch.float32)
-    if num_layers == 1:
-        # Edge case: only one layer, use base_lambda
-        linear_lambdas = torch.tensor([base_lambda])
-    else:
-        # Linear scaling from 0 to 2*base_lambda
-        linear_lambdas = 2.0 * base_lambda * layer_indices / (num_layers - 1)
+    # Define steering range: layers L-10 to L-3 (skip last two layers L-1, L)
+    L = num_layers
+    start_layer = L - 10  # L-10 (0-indexed)
+    end_layer = L - 3     # L-3 (0-indexed) 
+    
+    # Ensure we have valid layer indices
+    start_layer = max(0, start_layer)
+    end_layer = min(num_layers - 1, end_layer)
+    
+    if start_layer <= end_layer:
+        # Apply uniform lambda to all steering layers
+        for l in range(start_layer, end_layer + 1):
+            linear_lambdas[l] = base_lambda
     
     return linear_lambdas
 
@@ -180,7 +185,7 @@ def compute_vsv_for_audio(audio_path, prompt):
     audio, sr = librosa.load(audio_path, sr=16000)
     
     # Append instruction to answer only yes or no
-    modified_prompt = f"{prompt} Answer just yes or no."
+    modified_prompt = f"Focus on the given audio and answer the following question. {prompt} Answer just yes or no."
     
     # Build positive and negative inputs for VSV computation using the modified prompt
     messages_pos = build_messages(include_audio=True,  wav_path=audio_path, prompt=modified_prompt)
@@ -238,7 +243,7 @@ def inference(audio_path, prompt_text):
         
         # Build messages in the expected format
         # Append instruction to answer only yes or no
-        modified_prompt = f"{prompt_text} Answer just yes or no."
+        modified_prompt = f"Focus on the given audio and answer the following question. {prompt_text} Answer just yes or no."
         messages = [
             {"role": "user", "content": [
                 {"type": "audio", "audio_url": audio_path},
@@ -267,7 +272,7 @@ def inference(audio_path, prompt_text):
         if verbose_progress:
             print("    🔧 Preparing model inputs...")
         # Prepare inputs
-        inputs = processor(text=text, audios=audios, sampling_rate=16000, return_tensors="pt", padding=True)
+        inputs = processor(text=text, audio=audios, sampling_rate=16000, return_tensors="pt", padding=True)
         inputs = inputs.to(model.device).to(model.dtype)
 
         if verbose_progress:
@@ -394,14 +399,18 @@ def main(args):
 
     # Print vector steering configuration
     if vsv_enabled:
-        print(f"📈 Linear vector steering ENABLED with base λ={vsv_lambda}")
-        print(f"📊 Lambda scaling: first layer = 0.0000, last layer = {2*vsv_lambda:.4f}")
+        print(f"📈 Uniform vector steering ENABLED with λ={vsv_lambda}")
+        print(f"📊 Steering layers: L-10 to L-3 (skipping last two layers L-1, L)")
         
         # Show example lambda values (assuming typical model with ~32 layers)
         example_num_layers = 32
         example_lambdas = compute_linear_lambdas(example_num_layers, vsv_lambda)
-        print(f"📈 Example linear lambdas ({example_num_layers} layers): {example_lambdas.cpu().numpy()}")
-        print(f"📊 Range: [{example_lambdas.min():.4f}, {example_lambdas.max():.4f}] (avg: {example_lambdas.mean():.4f})")
+        start_layer = max(0, example_num_layers - 10)
+        end_layer = min(example_num_layers - 1, example_num_layers - 3)
+        
+        print(f"📈 Example steering range ({example_num_layers} layers): layers {start_layer}-{end_layer}")
+        print(f"📊 Lambda value: uniform λ={vsv_lambda:.4f} for all steering layers")
+        print(f"📊 Non-zero lambdas: {(example_lambdas > 0).sum().item()}/{example_num_layers} layers")
     else:
         print("🎯 Vector steering DISABLED")
 

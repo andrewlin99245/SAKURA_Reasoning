@@ -74,38 +74,38 @@ vsv_lambda = 1.0
 # Layers with negative differences need negative lambda to flip steering direction
 LAYER_STEERING_CONFIG = {
     # Format: layer_id: (lambda_multiplier, description)
-    0: (0.0, "neutral"),       # -0.0001, not significant
-    1: (0.0, "positive"),      # +0.0010, significant  
-    2: (0.0, "positive"),      # +0.0002, not significant
-    3: (0.0, "positive"),      # +0.0015, significant
-    4: (0.0, "positive"),      # +0.0025, significant
-    5: (0.0, "positive"),      # +0.0020, significant
-    6: (0.0, "positive"),      # +0.0012, not significant
-    7: (0.0, "positive"),      # +0.0009, not significant
-    8: (0.0, "positive"),      # +0.0004, not significant
-    9: (0.0, "positive"),      # +0.0013, significant
-    10: (0.0, "positive"),     # +0.0016, significant
-    11: (0.0, "positive"),     # +0.0014, significant
-    12: (0.0, "positive"),     # +0.0003, not significant
-    13: (0.0, "negative"),    # -0.0009, significant - FLIP
-    14: (0.0, "negative"),    # -0.0010, significant - FLIP
-    15: (1.0, "neutral"),      # -0.0000, not significant
-    16: (1.0, "neutral"),      # -0.0003, not significant
-    17: (1.0, "negative"),    # -0.0018, significant - FLIP
-    18: (1.0, "neutral"),      # +0.0000, not significant
-    19: (1.0, "neutral"),      # -0.0009, not significant
-    20: (1.0, "neutral"),      # -0.0010, not significant
-    21: (1.0, "positive"),     # +0.0008, not significant
-    22: (1.0, "positive"),     # +0.0028, significant
-    23: (1.0, "positive"),     # +0.0036, significant
-    24: (1.0, "positive"),     # +0.0026, significant
-    25: (1.0, "positive"),     # +0.0022, significant
-    26: (1.0, "positive"),     # +0.0012, not significant
-    27: (1.0, "neutral"),      # -0.0000, not significant
-    28: (1.0, "positive"),     # +0.0019, significant
-    29: (1.0, "positive"),     # +0.0009, not significant
-    30: (1.0, "negative"),    # -0.0052, significant - FLIP
-    31: (1.0, "negative"),    # -0.0225, highly significant - FLIP
+    0: (0.5, "neutral"),       # -0.0001, not significant
+    1: (0.5, "positive"),      # +0.0010, significant  
+    2: (0.5, "positive"),      # +0.0002, not significant
+    3: (0.5, "positive"),      # +0.0015, significant
+    4: (0.5, "positive"),      # +0.0025, significant
+    5: (0.5, "positive"),      # +0.0020, significant
+    6: (0.5, "positive"),      # +0.0012, not significant
+    7: (0.5, "positive"),      # +0.0009, not significant
+    8: (0.5, "positive"),      # +0.0004, not significant
+    9: (0.5, "positive"),      # +0.0013, significant
+    10: (0.5, "positive"),     # +0.0016, significant
+    11: (0.5, "positive"),
+    12: (0.5, "positive"),     # +0.0003, not significant
+    13: (0.5, "negative"),    # -0.0009, significant - FLIP
+    14: (0.5, "negative"),    # -0.0010, significant - FLIP
+    15: (0.5, "neutral"),      # -0.0000, not significant
+    16: (0.5, "neutral"),      # -0.0003, not significant
+    17: (0.5, "negative"),    # -0.0018, significant - FLIP
+    18: (0.5, "neutral"),      # +0.0000, not significant
+    19: (0.5, "neutral"),      # -0.0009, not significant
+    20: (0.5, "neutral"),      # -0.0010, not significant
+    21: (0.5, "positive"),     # +0.0008, not significant
+    22: (2.0, "positive"),     # +0.0028, significant
+    23: (2.0, "positive"),     # +0.0036, significant
+    24: (2.0, "positive"),     # +0.0026, significant
+    25: (2.0, "positive"),     # +0.0022, significant
+    26: (2.0, "positive"),     # +0.0012, not significant
+    27: (2.0, "neutral"),      # -0.0000, not significant
+    28: (2.0, "positive"),     # +0.0019, significant
+    29: (2.0, "positive"),     # +0.0009, not significant
+    30: (0.5, "negative"),    # -0.0052, significant - FLIP
+    31: (0.5, "negative"),    # -0.0225, highly significant - FLIP
 }
 
 def initialize_model():
@@ -453,7 +453,7 @@ def main(args):
         
         # Randomly shuffle the dataset
         print("🔀 Randomly shuffling dataset...")
-        #random.shuffle(dataset_samples)
+        random.shuffle(dataset_samples)
         
         # Limit samples if specified
         if hasattr(args, 'max_samples') and args.max_samples and args.max_samples < len(dataset_samples):
