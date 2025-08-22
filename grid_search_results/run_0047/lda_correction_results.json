@@ -1,0 +1,24 @@
+{
+  "original_accuracy": 56.91396725879485,
+  "augmented_accuracy": 58.655520724486244,
+  "improvement": 1.7415534656913962,
+  "total_samples": 2871,
+  "flipped_count": 180,
+  "use_augmented": true,
+  "flip_threshold": 0.5,
+  "betas": [
+    0.1,
+    0.1,
+    0.1
+  ],
+  "gammas": [
+    0.2,
+    0.05,
+    0.1,
+    0.05,
+    0.05,
+    0.1
+  ],
+  "corr_template": "correlation_template_k4.json",
+  "resonant_template": "resonant_template_k4.json"
+}

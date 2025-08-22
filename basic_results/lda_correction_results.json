@@ -1,0 +1,15 @@
+{
+  "original_accuracy": 56.91396725879485,
+  "augmented_accuracy": 54.057819575060954,
+  "improvement": -2.8561476837338944,
+  "total_samples": 2871,
+  "flipped_count": 872,
+  "use_augmented": true,
+  "flip_threshold": 0.5,
+  "betas": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "corr_template": "correlation_template.json"
+}

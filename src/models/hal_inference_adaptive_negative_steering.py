@@ -212,6 +212,13 @@ def compute_vsv_for_audio(audio_path, prompt):
     
     return vsv
 
+def lambda_profile(L):
+    # bell shape across depth
+    x = np.linspace(-1, 1, L)
+    prof = np.exp(- (x/0.6)**2)
+    prof /= prof.max()
+    return torch.tensor(prof, dtype=torch.float32)
+
 def apply_adaptive_vsv_layers(model, vsv, base_lambda, which_stack="decoder"):
     """
     Apply VSV layers with adaptive lambda values based on layer-wise cosine correlation analysis.
@@ -231,6 +238,12 @@ def apply_adaptive_vsv_layers(model, vsv, base_lambda, which_stack="decoder"):
     # Ensure we don't exceed available layers or VSV dimensions
     num_layers = min(len(layers), len(vsv), len(LAYER_STEERING_CONFIG))
     
+    # Generate lambda profile for all layers
+    lambda_weights = lambda_profile(num_layers)
+    
+    # Renormalize lambda such that their sum is base_lambda * L
+    lambda_weights = lambda_weights * (base_lambda * num_layers / lambda_weights.sum())
+    
     handles = []
     positive_layers = []
     negative_layers = []
@@ -245,8 +258,8 @@ def apply_adaptive_vsv_layers(model, vsv, base_lambda, which_stack="decoder"):
         else:
             multiplier, description = (1.0, "default")  # Default to positive
         
-        # Calculate effective lambda for this layer
-        effective_lambda = base_lambda * multiplier
+        # Calculate effective lambda for this layer using bell-shaped profile
+        effective_lambda = lambda_weights[i].item() * (1.0 if multiplier > 0 else -1.0)
         
         # Track which layers get positive vs negative steering
         if multiplier > 0:
@@ -279,8 +292,9 @@ def apply_adaptive_vsv_layers(model, vsv, base_lambda, which_stack="decoder"):
     
     if verbose_progress:
         print(f"    ✅ Adaptive steering applied:")
-        print(f"      Positive steering (λ={base_lambda}): layers {positive_layers}")
-        print(f"      Negative steering (λ={-base_lambda}): layers {negative_layers}")
+        print(f"      Positive steering: layers {positive_layers}")
+        print(f"      Negative steering: layers {negative_layers}")
+        print(f"      Lambda sum: {lambda_weights.sum().item():.6f} (target: {base_lambda * num_layers:.6f})")
         print(f"      Total layers steered: {num_layers}")
     
     return len(positive_layers), len(negative_layers)

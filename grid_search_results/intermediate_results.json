@@ -1,0 +1,2462 @@
+[
+  {
+    "run_id": 0,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.073493556252174,
+      "improvement": 2.159526297457326,
+      "total_samples": 2871,
+      "flipped_count": 338,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.05,
+        0.02,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 1,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.89933820968304,
+      "improvement": 1.9853709508881892,
+      "total_samples": 2871,
+      "flipped_count": 217,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.05,
+        0.02,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 2,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.108324625566006,
+      "improvement": 2.1943573667711576,
+      "total_samples": 2871,
+      "flipped_count": 335,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.05,
+        0.02,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 3,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.89933820968304,
+      "improvement": 1.9853709508881892,
+      "total_samples": 2871,
+      "flipped_count": 217,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.05,
+        0.02,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 4,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.17798676419366,
+      "improvement": 2.2640195053988137,
+      "total_samples": 2871,
+      "flipped_count": 287,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.05,
+        0.05,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 5,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.108324625566006,
+      "improvement": 2.1943573667711576,
+      "total_samples": 2871,
+      "flipped_count": 177,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.05,
+        0.05,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 6,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.24764890282132,
+      "improvement": 2.33368164402647,
+      "total_samples": 2871,
+      "flipped_count": 285,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 7,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.108324625566006,
+      "improvement": 2.1943573667711576,
+      "total_samples": 2871,
+      "flipped_count": 177,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 8,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.14315569487983,
+      "improvement": 2.229188436084982,
+      "total_samples": 2871,
+      "flipped_count": 340,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.1,
+        0.02,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 9,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.86450714036921,
+      "improvement": 1.9505398815743646,
+      "total_samples": 2871,
+      "flipped_count": 218,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.1,
+        0.02,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 10,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.17798676419366,
+      "improvement": 2.2640195053988137,
+      "total_samples": 2871,
+      "flipped_count": 337,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.1,
+        0.02,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 11,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.86450714036921,
+      "improvement": 1.9505398815743646,
+      "total_samples": 2871,
+      "flipped_count": 218,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.1,
+        0.02,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 12,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.24764890282132,
+      "improvement": 2.33368164402647,
+      "total_samples": 2871,
+      "flipped_count": 289,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.1,
+        0.05,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 13,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.108324625566006,
+      "improvement": 2.1943573667711576,
+      "total_samples": 2871,
+      "flipped_count": 179,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.1,
+        0.05,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 14,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.317311041448974,
+      "improvement": 2.403343782654126,
+      "total_samples": 2871,
+      "flipped_count": 287,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.1,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 15,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.108324625566006,
+      "improvement": 2.1943573667711576,
+      "total_samples": 2871,
+      "flipped_count": 179,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.05,
+        0.1,
+        0.05,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 16,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.86450714036921,
+      "improvement": 1.9505398815743646,
+      "total_samples": 2871,
+      "flipped_count": 326,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.05,
+        0.02,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 17,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.7251828631139,
+      "improvement": 1.8112156043190524,
+      "total_samples": 2871,
+      "flipped_count": 208,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.05,
+        0.02,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 18,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.89933820968304,
+      "improvement": 1.9853709508881892,
+      "total_samples": 2871,
+      "flipped_count": 323,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.05,
+        0.02,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 19,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.7251828631139,
+      "improvement": 1.8112156043190524,
+      "total_samples": 2871,
+      "flipped_count": 208,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.05,
+        0.02,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 20,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.073493556252174,
+      "improvement": 2.159526297457326,
+      "total_samples": 2871,
+      "flipped_count": 278,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.05,
+        0.05,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 21,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.96900034831069,
+      "improvement": 2.0550330895158453,
+      "total_samples": 2871,
+      "flipped_count": 171,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.05,
+        0.05,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 22,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.14315569487983,
+      "improvement": 2.229188436084982,
+      "total_samples": 2871,
+      "flipped_count": 276,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 23,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.96900034831069,
+      "improvement": 2.0550330895158453,
+      "total_samples": 2871,
+      "flipped_count": 171,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.05,
+        0.05,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 24,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.93416927899686,
+      "improvement": 2.0202020202020137,
+      "total_samples": 2871,
+      "flipped_count": 328,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.1,
+        0.02,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 25,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.69035179380007,
+      "improvement": 1.7763845350052208,
+      "total_samples": 2871,
+      "flipped_count": 209,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.1,
+        0.02,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 26,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.96900034831069,
+      "improvement": 2.0550330895158453,
+      "total_samples": 2871,
+      "flipped_count": 325,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.1,
+        0.02,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 27,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.69035179380007,
+      "improvement": 1.7763845350052208,
+      "total_samples": 2871,
+      "flipped_count": 209,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.1,
+        0.02,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 28,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.073493556252174,
+      "improvement": 2.159526297457326,
+      "total_samples": 2871,
+      "flipped_count": 278,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.1,
+        0.05,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 29,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.96900034831069,
+      "improvement": 2.0550330895158453,
+      "total_samples": 2871,
+      "flipped_count": 171,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.1,
+        0.05,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 30,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 59.14315569487983,
+      "improvement": 2.229188436084982,
+      "total_samples": 2871,
+      "flipped_count": 276,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.1,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 31,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.1,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.96900034831069,
+      "improvement": 2.0550330895158453,
+      "total_samples": 2871,
+      "flipped_count": 171,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        0.1,
+        0.05,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 32,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.655520724486244,
+      "improvement": 1.7415534656913962,
+      "total_samples": 2871,
+      "flipped_count": 326,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.05,
+        0.02,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 33,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.62068965517241,
+      "improvement": 1.7067223963775646,
+      "total_samples": 2871,
+      "flipped_count": 201,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.05,
+        0.02,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 34,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.655520724486244,
+      "improvement": 1.7415534656913962,
+      "total_samples": 2871,
+      "flipped_count": 326,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.05,
+        0.02,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 35,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.62068965517241,
+      "improvement": 1.7067223963775646,
+      "total_samples": 2871,
+      "flipped_count": 201,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.05,
+        0.02,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 36,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.82967607105538,
+      "improvement": 1.915708812260533,
+      "total_samples": 2871,
+      "flipped_count": 279,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.05,
+        0.05,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 37,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.655520724486244,
+      "improvement": 1.7415534656913962,
+      "total_samples": 2871,
+      "flipped_count": 180,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.05,
+        0.05,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 38,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.82967607105538,
+      "improvement": 1.915708812260533,
+      "total_samples": 2871,
+      "flipped_count": 279,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 39,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.655520724486244,
+      "improvement": 1.7415534656913962,
+      "total_samples": 2871,
+      "flipped_count": 180,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 40,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.69035179380007,
+      "improvement": 1.7763845350052208,
+      "total_samples": 2871,
+      "flipped_count": 329,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.1,
+        0.02,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 41,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.655520724486244,
+      "improvement": 1.7415534656913962,
+      "total_samples": 2871,
+      "flipped_count": 202,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.1,
+        0.02,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 42,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.69035179380007,
+      "improvement": 1.7763845350052208,
+      "total_samples": 2871,
+      "flipped_count": 329,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.1,
+        0.02,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 43,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.655520724486244,
+      "improvement": 1.7415534656913962,
+      "total_samples": 2871,
+      "flipped_count": 202,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.1,
+        0.02,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 44,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.79484500174156,
+      "improvement": 1.8808777429467085,
+      "total_samples": 2871,
+      "flipped_count": 282,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.1,
+        0.05,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 45,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.655520724486244,
+      "improvement": 1.7415534656913962,
+      "total_samples": 2871,
+      "flipped_count": 180,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.1,
+        0.05,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 46,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.79484500174156,
+      "improvement": 1.8808777429467085,
+      "total_samples": 2871,
+      "flipped_count": 282,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.1,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 47,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.05,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.655520724486244,
+      "improvement": 1.7415534656913962,
+      "total_samples": 2871,
+      "flipped_count": 180,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.05,
+        0.1,
+        0.05,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 48,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.411703239289444,
+      "improvement": 1.4977359804945962,
+      "total_samples": 2871,
+      "flipped_count": 313,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.1,
+        0.05,
+        0.02,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 49,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.411703239289444,
+      "improvement": 1.4977359804945962,
+      "total_samples": 2871,
+      "flipped_count": 191,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.1,
+        0.05,
+        0.02,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 50,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.411703239289444,
+      "improvement": 1.4977359804945962,
+      "total_samples": 2871,
+      "flipped_count": 313,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.1,
+        0.05,
+        0.02,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 51,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.411703239289444,
+      "improvement": 1.4977359804945962,
+      "total_samples": 2871,
+      "flipped_count": 191,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.1,
+        0.05,
+        0.02,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 52,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.4813653779171,
+      "improvement": 1.5673981191222524,
+      "total_samples": 2871,
+      "flipped_count": 267,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.1,
+        0.05,
+        0.05,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 53,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.4813653779171,
+      "improvement": 1.5673981191222524,
+      "total_samples": 2871,
+      "flipped_count": 171,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.1,
+        0.05,
+        0.05,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 54,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.4813653779171,
+      "improvement": 1.5673981191222524,
+      "total_samples": 2871,
+      "flipped_count": 267,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.1,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 55,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.05,
+      "gamma_amp": 0.05,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.4813653779171,
+      "improvement": 1.5673981191222524,
+      "total_samples": 2871,
+      "flipped_count": 171,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.1,
+        0.05,
+        0.05,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 56,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.446534308603276,
+      "improvement": 1.5325670498084278,
+      "total_samples": 2871,
+      "flipped_count": 314,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.1,
+        0.1,
+        0.02,
+        0.02,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 57,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.02,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.446534308603276,
+      "improvement": 1.5325670498084278,
+      "total_samples": 2871,
+      "flipped_count": 194,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.1,
+        0.1,
+        0.02,
+        0.02,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 58,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.05,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.446534308603276,
+      "improvement": 1.5325670498084278,
+      "total_samples": 2871,
+      "flipped_count": 314,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.1,
+        0.1,
+        0.02,
+        0.05,
+        0.05
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  },
+  {
+    "run_id": 59,
+    "params": {
+      "template_last_k": 4,
+      "beta1": 0.1,
+      "beta2": 0.1,
+      "beta3": 0.1,
+      "gamma_mf": 0.2,
+      "gamma_Q": 0.1,
+      "gamma_alpha": 0.1,
+      "gamma_amp": 0.02,
+      "gamma_energy": 0.05,
+      "gamma_maha": 0.1,
+      "flip_threshold": 0.5
+    },
+    "results": {
+      "original_accuracy": 56.91396725879485,
+      "augmented_accuracy": 58.446534308603276,
+      "improvement": 1.5325670498084278,
+      "total_samples": 2871,
+      "flipped_count": 194,
+      "use_augmented": true,
+      "flip_threshold": 0.5,
+      "betas": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gammas": [
+        0.2,
+        0.1,
+        0.1,
+        0.02,
+        0.05,
+        0.1
+      ],
+      "corr_template": "correlation_template_k4.json",
+      "resonant_template": "resonant_template_k4.json"
+    },
+    "success": true
+  }
+]
